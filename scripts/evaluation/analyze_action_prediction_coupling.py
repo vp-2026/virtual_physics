@@ -7,6 +7,7 @@ import argparse
 import csv
 import json
 import math
+import re
 from collections import defaultdict
 from pathlib import Path
 from typing import Any, Iterable
@@ -79,6 +80,26 @@ def parse_bool(value: Any) -> bool:
     if normalized in {"false", "0", "no", ""}:
         return False
     raise ValueError(f"Unrecognized boolean value: {value!r}")
+
+
+def normalize_action_row(row: dict[str, Any]) -> dict[str, Any]:
+    """Normalize noncanonical replay and canonical April-solution schemas."""
+    normalized = dict(row)
+    normalized.setdefault("seed", 2026)
+    if not normalized.get("puzzle_key"):
+        normalized["puzzle_key"] = re.sub(
+            r"^canonical_\d+_", "", str(normalized.get("goal_id", ""))
+        )
+    if normalized.get("original_success") in (None, ""):
+        normalized["original_success"] = normalized.get(
+            "goal_succeeded", False
+        )
+    if normalized.get("nearest_solution_distance_px") in (None, ""):
+        normalized["nearest_solution_distance_px"] = normalized.get(
+            "nearest_april_solution_distance_px"
+        )
+    normalized.setdefault("category", "canonical")
+    return normalized
 
 
 def join_rows(
@@ -296,11 +317,14 @@ def main() -> None:
     parser.add_argument("prediction_attempt_rows", type=Path)
     parser.add_argument("--output-dir", type=Path, required=True)
     args = parser.parse_args()
-    coordinate_rows = (
-        read_csv(args.coordinate_action_rows)
-        if args.coordinate_action_rows.suffix.lower() == ".csv"
-        else list(read_jsonl(args.coordinate_action_rows))
-    )
+    coordinate_rows = [
+        normalize_action_row(row)
+        for row in (
+            read_csv(args.coordinate_action_rows)
+            if args.coordinate_action_rows.suffix.lower() == ".csv"
+            else list(read_jsonl(args.coordinate_action_rows))
+        )
+    ]
     prediction_rows = read_csv(args.prediction_attempt_rows)
     joined, report = join_rows(coordinate_rows, prediction_rows)
     correlations = correlation_summary(joined)
