@@ -156,7 +156,15 @@ def collect_attempt_records(
 
 def collect_sidecars(unit_dir: Path) -> list[dict[str, Any]]:
     root = unit_dir / "transfer_sidecars"
-    if not (root / ".incremental_complete").exists():
+    # Incremental main-benchmark workers write an explicit completion marker.
+    # Some provider-specific sidecar runners atomically finalize summary.json
+    # without that marker. Accept either finalization signal; malformed or
+    # concurrently flushed bundles are still rejected by the guarded reads
+    # below.
+    if not (
+        (root / ".incremental_complete").exists()
+        or (root / "summary.json").exists()
+    ):
         return []
     records: list[dict[str, Any]] = []
     try:

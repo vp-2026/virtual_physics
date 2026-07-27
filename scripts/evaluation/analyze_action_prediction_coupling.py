@@ -45,6 +45,42 @@ def mean(values: list[float]) -> float | None:
     return sum(values) / len(values) if values else None
 
 
+def first_numeric(row: dict[str, Any], *fields: str) -> float:
+    for field in fields:
+        value = row.get(field)
+        if value not in (None, ""):
+            return float(value)
+    raise KeyError(f"None of the required fields are present: {fields}")
+
+
+def gaussian_action_quality(row: dict[str, Any], sigma: float) -> float:
+    field = f"aq_sigma{int(sigma)}"
+    original_field = f"original_{field}"
+    for candidate in (original_field, field):
+        value = row.get(candidate)
+        if value not in (None, ""):
+            return float(value)
+    distance = first_numeric(
+        row,
+        "original_nearest_solution_distance_px",
+        "nearest_solution_distance_px",
+    )
+    return math.exp(-(distance**2) / (2.0 * sigma**2))
+
+
+def parse_bool(value: Any) -> bool:
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return bool(value)
+    normalized = str(value).strip().lower()
+    if normalized in {"true", "1", "yes"}:
+        return True
+    if normalized in {"false", "0", "no", ""}:
+        return False
+    raise ValueError(f"Unrecognized boolean value: {value!r}")
+
+
 def join_rows(
     coordinate_rows: Iterable[dict[str, Any]],
     prediction_rows: list[dict[str, str]],
@@ -85,12 +121,14 @@ def join_rows(
                 "base_layout": puzzle_key.rsplit("_", 1)[0],
                 "gravity": str(action["gravity"]),
                 "category": str(action["category"]),
-                "success": int(bool(action["original_success"])),
-                "aq_sigma36": float(action["original_aq_sigma36"]),
-                "aq_sigma72": float(action["original_aq_sigma72"]),
-                "aq_sigma144": float(action["original_aq_sigma144"]),
-                "nearest_solution_distance_px": float(
-                    action["original_nearest_solution_distance_px"]
+                "success": int(parse_bool(action["original_success"])),
+                "aq_sigma36": gaussian_action_quality(action, 36.0),
+                "aq_sigma72": gaussian_action_quality(action, 72.0),
+                "aq_sigma144": gaussian_action_quality(action, 144.0),
+                "nearest_solution_distance_px": first_numeric(
+                    action,
+                    "original_nearest_solution_distance_px",
+                    "nearest_solution_distance_px",
                 ),
                 "pq_sigma75": float(
                     prediction["prediction_quality_sigma75"]
@@ -258,7 +296,11 @@ def main() -> None:
     parser.add_argument("prediction_attempt_rows", type=Path)
     parser.add_argument("--output-dir", type=Path, required=True)
     args = parser.parse_args()
-    coordinate_rows = list(read_jsonl(args.coordinate_action_rows))
+    coordinate_rows = (
+        read_csv(args.coordinate_action_rows)
+        if args.coordinate_action_rows.suffix.lower() == ".csv"
+        else list(read_jsonl(args.coordinate_action_rows))
+    )
     prediction_rows = read_csv(args.prediction_attempt_rows)
     joined, report = join_rows(coordinate_rows, prediction_rows)
     correlations = correlation_summary(joined)

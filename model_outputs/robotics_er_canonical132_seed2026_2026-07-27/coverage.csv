@@ -1,4 +1,2 @@
 model_key,completed_units,expected_units,completion_percent,canonical_units,units_with_transfer_sidecars,full_condition_units,neither_condition_units,trace_status_condition_units,status_only_condition_units
-gemini31pro,1653,1692,97.695,130,125,1653,1653,1653,156
-gpt5,1498,1692,88.534,130,95,1498,1498,1498,143
-qwen36plus,226,1692,13.357,98,18,226,226,226,100
+gemini_robotics_er,132,132,100.0,132,132,132,132,132,0

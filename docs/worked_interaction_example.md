@@ -71,7 +71,25 @@ seeing the rollout:
 }
 ```
 
-The simulator judged the attempt a failure.
+The rollout moved the red ball rightward, but the blue plank remained above
+the green container rather than ending partially inside it. The simulator
+therefore judged the attempt a failure.
+
+The model's predicted and simulator-observed terminal centers were:
+
+| Object | Predicted center | Observed center | Center error |
+| --- | ---: | ---: | ---: |
+| red ball (`Ball`) | `[300, 200]` | `[375.0, 215.0]` | 76.5 px |
+| green container (`Goal`) | `[110, 70]` | `[100.0, 53.4]` | 19.4 px |
+| blue plank (`Support`) | `[170, 180]` | `[217.5, 235.3]` | 72.9 px |
+| orange tool (`PLACED`) | `[140, 120]` | `[328.7, 235.8]` | 221.5 px |
+
+Under the paper's metrics, this placement had action quality **0.879** and
+role-averaged prospective prediction quality **0.774**. Action quality is
+`max(0, 1 - d/D_g)`, where `d` is distance to the closest successful
+placement and `D_g` is the goal-specific normalizer over valid placements.
+Here, `d = 54.1 px`. Prediction quality uses the paper-defined Gaussian
+endpoint score with the 150-pixel primary scale, averaged across object roles.
 
 ## Attempt 2 context and request
 
@@ -119,9 +137,27 @@ Return exactly one JSON object:
 }
 ```
 
-The simulator judged attempt 2 a success, so this status-visible branch
-stopped. In a status-hidden branch, collection would continue to the fixed
-budget even if an earlier attempt happened to satisfy the goal.
+This rollout drove the blue plank left and downward into the green container,
+where it ended touching the orange tool. The red ball moved right and then
+fell to the floor. The simulator-observed terminal centers were:
+
+| Object | Predicted center | Observed center | Center error |
+| --- | ---: | ---: | ---: |
+| red ball (`Ball`) | `[360, 260]` | `[437.2, 16.0]` | 255.9 px |
+| green container (`Goal`) | `[110, 70]` | `[100.5, 53.4]` | 19.1 px |
+| blue plank (`Support`) | `[150, 200]` | `[109.5, 62.3]` | 143.5 px |
+| orange tool (`PLACED`) | `[120, 120]` | `[52.6, 46.8]` | 99.5 px |
+
+The simulator judged attempt 2 a success. Its action quality increased to
+**0.997** (`d = 1.4 px`), while its prospective prediction quality decreased
+to **0.665**. This concrete cycle therefore illustrates the distinction the
+benchmark is designed to measure: feedback produced a substantially better
+action without producing a more accurate prediction of that action's
+consequences.
+
+Because this status-visible branch succeeded, it stopped. In a status-hidden
+branch, collection would continue to the fixed budget even if an earlier
+attempt happened to satisfy the goal.
 
 The corresponding JSON-feedback branch follows the same memory rule but
 replaces the latest 32 images with 32 observable JSON states. Held-out

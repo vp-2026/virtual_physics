@@ -1,5 +1,5 @@
 {
-  "completed_unit_count": 3353,
+  "completed_unit_count": 3377,
   "coverage": [
     {
       "canonical_units": 130,
@@ -15,30 +15,30 @@
     },
     {
       "canonical_units": 130,
-      "completed_units": 1483,
-      "completion_percent": 87.648,
+      "completed_units": 1498,
+      "completion_percent": 88.534,
       "expected_units": 1692,
-      "full_condition_units": 1483,
+      "full_condition_units": 1498,
       "model_key": "gpt5",
-      "neither_condition_units": 1483,
+      "neither_condition_units": 1498,
       "status_only_condition_units": 143,
-      "trace_status_condition_units": 1483,
+      "trace_status_condition_units": 1498,
       "units_with_transfer_sidecars": 95
     },
     {
-      "canonical_units": 97,
-      "completed_units": 217,
-      "completion_percent": 12.825,
+      "canonical_units": 98,
+      "completed_units": 226,
+      "completion_percent": 13.357,
       "expected_units": 1692,
-      "full_condition_units": 217,
+      "full_condition_units": 226,
       "model_key": "qwen36plus",
-      "neither_condition_units": 217,
-      "status_only_condition_units": 99,
-      "trace_status_condition_units": 217,
+      "neither_condition_units": 226,
+      "status_only_condition_units": 100,
+      "trace_status_condition_units": 226,
       "units_with_transfer_sidecars": 18
     }
   ],
-  "created_utc": "2026-07-27T09:41:41.795820+00:00",
+  "created_utc": "2026-07-27T11:46:50.389285+00:00",
   "exclusions": [
     "partial recovery directories without unit_summary.json",
     "rollout PNGs and videos",
@@ -47,7 +47,7 @@
     "provider response identifiers and credentials"
   ],
   "expected_units_per_main_model": 1692,
-  "partial_candidate_directory_count": 114,
+  "partial_candidate_directory_count": 113,
   "schema_version": 1,
   "shards": [
     {
@@ -198,104 +198,104 @@
       "unit_count": 100
     },
     {
-      "bytes": 2678685,
+      "bytes": 2679808,
       "model_key": "gpt5",
       "path": "data/gpt5/units-0004.jsonl.gz",
-      "sha256": "325e6764bf99a027e23dcff8095d59ef6a0b49dec5a1c74a126630cfeb4b5a97",
+      "sha256": "55b3cf79a65da7abeaa27afc537eb8a12d32e6e05dbb0f013dbb3127b995cfa6",
       "unit_count": 100
     },
     {
-      "bytes": 2716857,
+      "bytes": 2725794,
       "model_key": "gpt5",
       "path": "data/gpt5/units-0005.jsonl.gz",
-      "sha256": "4efcf74ab965c5481c9ba381ef2bba1bb684f14fbc95b2eda700234ac6a3d874",
+      "sha256": "71e5eed37ef456655ddb6cdc99d0fa25b77962ba372a4d4742c5d6486d8847d8",
       "unit_count": 100
     },
     {
-      "bytes": 2890750,
+      "bytes": 2884515,
       "model_key": "gpt5",
       "path": "data/gpt5/units-0006.jsonl.gz",
-      "sha256": "e650f71fecb1195aa54d43638affb2c3bb4a75c8df08e730559f2e112efc158e",
+      "sha256": "a2902749175eb2bedda5ac4d6672ee4ad7357c0a83030d3edbb86609937877e2",
       "unit_count": 100
     },
     {
-      "bytes": 3436937,
+      "bytes": 3422072,
       "model_key": "gpt5",
       "path": "data/gpt5/units-0007.jsonl.gz",
-      "sha256": "13f81b394e99fce89edbecc7132816c142009cc31021ca834ff98567bcaa80bd",
+      "sha256": "b0147ac7b1db71e309375a87b85536e39e79b404bea82a0e60e69d4d15393ac4",
       "unit_count": 100
     },
     {
-      "bytes": 2362930,
+      "bytes": 2385486,
       "model_key": "gpt5",
       "path": "data/gpt5/units-0008.jsonl.gz",
-      "sha256": "172a50ca645909dfe71bd7349cecba348e41136a11e729adf20a6bdf122c4f91",
+      "sha256": "a02fa3c09cc6e055ded38d033b002a52a638a236ed649e0281583868a2e9e8f5",
       "unit_count": 100
     },
     {
-      "bytes": 2381864,
+      "bytes": 2290927,
       "model_key": "gpt5",
       "path": "data/gpt5/units-0009.jsonl.gz",
-      "sha256": "58d26b897c2ebf1471372e89bdfcf52c443a3eafb23391581c8e0fc8cacb23fe",
+      "sha256": "290b148de29a404a64e75a667f60858f467d38d4accec18103d3100ee953558f",
       "unit_count": 100
     },
     {
-      "bytes": 3348672,
+      "bytes": 3372295,
       "model_key": "gpt5",
       "path": "data/gpt5/units-0010.jsonl.gz",
-      "sha256": "454dc6fb5ac1824e3604239874bba1654dbea0e2e18e7097bafe3ba719615c2a",
+      "sha256": "99cf5d1c91ffa110215ef26cb1dd65bde929d407284aeca0a2d02fe493bfcd9f",
       "unit_count": 100
     },
     {
-      "bytes": 2448105,
+      "bytes": 2619100,
       "model_key": "gpt5",
       "path": "data/gpt5/units-0011.jsonl.gz",
-      "sha256": "72c2a8c0df1ce5c40e6e8f5a082271837a8fd9b56be8d501be6c825b75e4d89f",
+      "sha256": "ea2c6b3f63ef3e581293ec4960092b60bb8a73f58ba3fdb6f6be2aefe857883c",
       "unit_count": 100
     },
     {
-      "bytes": 1936407,
+      "bytes": 1694103,
       "model_key": "gpt5",
       "path": "data/gpt5/units-0012.jsonl.gz",
-      "sha256": "d279cda652af74157b752c8511b44fd65bed8954c4e6a25bef21008bd755eeff",
+      "sha256": "c6ac3b105952f3b6c1bb5df0493f40ab61c210d88f60358798fc4facafb46d43",
       "unit_count": 100
     },
     {
-      "bytes": 2919686,
+      "bytes": 2766537,
       "model_key": "gpt5",
       "path": "data/gpt5/units-0013.jsonl.gz",
-      "sha256": "f5b570f3afd64c9033c985a9afc86189f99eb3b134ab4dfc5f2afc8f9ba3aaea",
+      "sha256": "81746f1b9dfa3b4424b41144c9a714635ee1089a7a7bb88cf3ef3084dd0b4fcb",
       "unit_count": 100
     },
     {
-      "bytes": 2441551,
+      "bytes": 3054744,
       "model_key": "gpt5",
       "path": "data/gpt5/units-0014.jsonl.gz",
-      "sha256": "ca674c59c3d83461de74686e3acf687a90c90a269da820a353b42ed335691c4b",
-      "unit_count": 83
+      "sha256": "7501a1d284f7306a653a8b3f0085927b43a1510b02aa6820c00a1cae0431b77c",
+      "unit_count": 98
     },
     {
-      "bytes": 2959471,
+      "bytes": 2954479,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0000.jsonl.gz",
-      "sha256": "273047df79cde9641cdcd36e7c8c14595f1eeb8e207daadb0747bd08cb1085a2",
+      "sha256": "49e8a184114c0545bc0e77e72e4557247f89267866aeea6997e3e4a96da85299",
       "unit_count": 100
     },
     {
-      "bytes": 2363247,
+      "bytes": 2552522,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0001.jsonl.gz",
-      "sha256": "1c26f7bb0d5bb3787b1ca7aa4092d1a98c646b54d6b0c161f46efff4850becc8",
+      "sha256": "51c26ad2a7e0ca991f2954158885a1c205baf87263942a7be9e88b83eca2ec86",
       "unit_count": 100
     },
     {
-      "bytes": 242716,
+      "bytes": 389943,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0002.jsonl.gz",
-      "sha256": "af3243f54133c52608ef90c17f93e04ae72854287807d6b5b90e00283bb965fd",
-      "unit_count": 17
+      "sha256": "3c874e6dfc1598e8027d1a562f627bc583ccda303844ba7db1f64712aa29d2aa",
+      "unit_count": 26
     }
   ],
-  "snapshot_id": "seed2026_partial_2026-07-27",
+  "snapshot_id": "seed2026-main-20260727T1125",
   "source": "completed unit_summary.json records only"
 }
