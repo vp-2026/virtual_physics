@@ -1,0 +1,13 @@
+{
+  "environment_id": "095",
+  "environment_sha256": "008a84f295cb0a62f55fa7eeeddf522d1b8e3db81c14e17f38bdab59d0014106",
+  "initial_scene_path": "initial_scene.png",
+  "initial_scene_sha256": "4c9b4865184937f780cb60b31185d05d0ee4efdc27cf9eac7cd4b6947081ea30",
+  "legacy_cell_id": "FallingAlt_8_downward",
+  "legacy_layout_id": "FallingAlt_8",
+  "numbering_basis": "Canonical rows 1561-1692 of full_augmented_manifest_1692.json, in stored order.",
+  "paired_environment_id": "096",
+  "source_family": "FallingAlt",
+  "source_number": 8,
+  "tool_mechanism": "downward"
+}

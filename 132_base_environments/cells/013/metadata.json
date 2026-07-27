@@ -1,0 +1,13 @@
+{
+  "environment_id": "013",
+  "environment_sha256": "b670e8be2568f88bb9b98b69a8e26eb1451d2400485fd38352480bff00e46bb1",
+  "initial_scene_path": "initial_scene.png",
+  "initial_scene_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59",
+  "legacy_cell_id": "BackUp_8_downward",
+  "legacy_layout_id": "BackUp_8",
+  "numbering_basis": "Canonical rows 1561-1692 of full_augmented_manifest_1692.json, in stored order.",
+  "paired_environment_id": "014",
+  "source_family": "BackUp",
+  "source_number": 8,
+  "tool_mechanism": "downward"
+}

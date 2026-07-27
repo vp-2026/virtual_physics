@@ -1,0 +1,23 @@
+{
+  "image_path": "assets/images/Prevention_4.png",
+  "response_schema": {
+    "required_question_ids": [
+      "Prevention_4:red_shape",
+      "Prevention_4:goal_shape",
+      "Prevention_4:blue_count",
+      "Prevention_4:colored_count",
+      "Prevention_4:movable_count",
+      "Prevention_4:horizontal_relation",
+      "Prevention_4:vertical_relation",
+      "Prevention_4:red_quadrant",
+      "Prevention_4:goal_quadrant",
+      "Prevention_4:containment",
+      "Prevention_4:movable_object_relation"
+    ],
+    "type": "object",
+    "values": "one option letter"
+  },
+  "scene_json": null,
+  "system": "You are answering perception questions about one INITIAL STATIC 2D scene. No action has been taken and no physics prediction is requested. Use only the supplied scene representation. Return one JSON object mapping every question_id to exactly one option letter.",
+  "user_text": "The attached clean 600-by-600 image contains the initial scene. Image coordinates use (0,0) at bottom-left; x increases to the right and y increases upward.\nScene conventions: the red target and blue filled objects are movable; black shapes are fixed. The green goal container is fixed.\nAnswer all questions. Do not infer any future motion.\n\nPrevention_4:red_shape: What is the shape of the red target?\n  A. irregular polygon\n  B. rectangle\n  C. circle\n  D. container\nPrevention_4:goal_shape: Which description best matches the green goal?\n  A. solid circle\n  B. solid triangle\n  C. solid rectangle\n  D. open container\nPrevention_4:blue_count: How many blue objects are visible?\n  A. 1\n  B. 0\n  C. 2\n  D. 3\nPrevention_4:colored_count: How many colored objects are visible in total, counting red, green, and blue but not black?\n  A. 5\n  B. 6\n  C. 1\n  D. 3\n  E. 2\n  F. 4\nPrevention_4:movable_count: Using the supplied movability information, how many visible objects are movable?\n  A. 6\n  B. 1\n  C. 3\n  D. 4\n  E. 2\n  F. 5\nPrevention_4:horizontal_relation: Where is the red target ball's center horizontally relative to the green goal container's center?\n  A. right\n  B. approximately aligned\n  C. left\nPrevention_4:vertical_relation: Where is the red target ball's center vertically relative to the green goal container's center?\n  A. above\n  B. below\n  C. approximately aligned\nPrevention_4:red_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the red target ball's center?\n  A. lower-left\n  B. upper-left\n  C. lower-right\n  D. upper-right\nPrevention_4:goal_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the green goal container's center?\n  A. lower-left\n  B. upper-left\n  C. lower-right\n  D. upper-right\nPrevention_4:containment: Is the red target ball's center initially inside the green goal container?\n  A. yes\n  B. no\nPrevention_4:movable_object_relation: Where is the center of the long horizontal blue rectangle horizontally relative to the red target ball's center?\n  A. approximately aligned\n  B. right\n  C. left"
+}

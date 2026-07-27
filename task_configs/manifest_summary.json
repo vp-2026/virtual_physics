@@ -1,0 +1,27 @@
+{
+  "category_counts": {
+    "canonical": 132,
+    "contact": 312,
+    "containment": 312,
+    "movement": 312,
+    "orientation": 312,
+    "position": 312
+  },
+  "goal_counts": {
+    "canonical_added": 132,
+    "paper_saved_noncanonical": 1560,
+    "total": 1692
+  },
+  "gravity_counts": {
+    "downward": 935,
+    "upward": 757
+  },
+  "noncanonical_solution_density": {
+    "easy_goal_exclusion_cutoff": 0.2928932188134524,
+    "maximum": 0.2886866059817945,
+    "minimum": 0.0001503533303262
+  },
+  "selection_seed": 2026,
+  "selection_uses_model_outcomes": false,
+  "source_manifest_sha256": "b567acca7c60ab53890110f09e2ab2820d19d84d53d79decdfd00226e4bd1cd2"
+}

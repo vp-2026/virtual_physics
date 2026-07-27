@@ -1,0 +1,128 @@
+{
+  "canvas": {
+    "coordinate_origin": "bottom-left",
+    "height": 600,
+    "width": 600
+  },
+  "note": "This is the initial static scene. No action or motion has occurred.",
+  "visible_objects": [
+    {
+      "color": "blue",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            331,
+            299
+          ],
+          [
+            331,
+            335
+          ],
+          [
+            367,
+            335
+          ],
+          [
+            367,
+            299
+          ]
+        ]
+      },
+      "label": "blue square",
+      "movable": true
+    },
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            320,
+            280
+          ],
+          [
+            320,
+            300
+          ],
+          [
+            430,
+            300
+          ],
+          [
+            430,
+            280
+          ]
+        ]
+      },
+      "label": "black fixed shape 1",
+      "movable": false
+    },
+    {
+      "color": "green",
+      "geometry": {
+        "points": [
+          [
+            187.5,
+            99.5
+          ],
+          [
+            187.5,
+            4.5
+          ],
+          [
+            382.5,
+            4.5
+          ],
+          [
+            382.5,
+            99.5
+          ]
+        ],
+        "type": "Container",
+        "width": 10
+      },
+      "label": "green goal container",
+      "movable": false
+    },
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            0,
+            400
+          ],
+          [
+            0,
+            460
+          ],
+          [
+            250,
+            410
+          ],
+          [
+            250,
+            400
+          ]
+        ]
+      },
+      "label": "black fixed shape 2",
+      "movable": false
+    },
+    {
+      "color": "red",
+      "geometry": {
+        "position": [
+          30,
+          480
+        ],
+        "radius": 10,
+        "type": "Ball"
+      },
+      "label": "red target ball",
+      "movable": true
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "canvas": {
+    "coordinate_origin": "bottom-left",
+    "height": 600,
+    "width": 600
+  },
+  "note": "This is the initial static scene. No action or motion has occurred.",
+  "visible_objects": [
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            200,
+            0
+          ],
+          [
+            200,
+            200
+          ],
+          [
+            400,
+            200
+          ],
+          [
+            400,
+            0
+          ]
+        ]
+      },
+      "label": "black fixed shape 1",
+      "movable": false
+    },
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            200,
+            200
+          ],
+          [
+            200,
+            230
+          ],
+          [
+            210,
+            230
+          ],
+          [
+            210,
+            200
+          ]
+        ]
+      },
+      "label": "black fixed shape 2",
+      "movable": false
+    },
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            390,
+            200
+          ],
+          [
+            390,
+            230
+          ],
+          [
+            400,
+            230
+          ],
+          [
+            400,
+            200
+          ]
+        ]
+      },
+      "label": "black fixed shape 3",
+      "movable": false
+    },
+    {
+      "color": "green",
+      "geometry": {
+        "points": [
+          [
+            10,
+            100
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            190,
+            5
+          ],
+          [
+            190,
+            100
+          ]
+        ],
+        "type": "Container",
+        "width": 10
+      },
+      "label": "green goal container",
+      "movable": true
+    },
+    {
+      "color": "blue",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            159,
+            371.5
+          ],
+          [
+            159,
+            386.5
+          ],
+          [
+            329,
+            386.5
+          ],
+          [
+            329,
+            371.5
+          ]
+        ]
+      },
+      "label": "long horizontal blue rectangle",
+      "movable": true
+    },
+    {
+      "color": "red",
+      "geometry": {
+        "position": [
+          172,
+          404
+        ],
+        "radius": 15,
+        "type": "Ball"
+      },
+      "label": "red target ball",
+      "movable": true
+    },
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            200,
+            300
+          ],
+          [
+            200,
+            370
+          ],
+          [
+            210,
+            370
+          ],
+          [
+            210,
+            300
+          ]
+        ]
+      },
+      "label": "black fixed shape 4",
+      "movable": false
+    },
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            390,
+            300
+          ],
+          [
+            390,
+            370
+          ],
+          [
+            400,
+            370
+          ],
+          [
+            400,
+            300
+          ]
+        ]
+      },
+      "label": "black fixed shape 5",
+      "movable": false
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "image_path": null,
+  "response_schema": {
+    "required_question_ids": [
+      "Falling_1:red_shape",
+      "Falling_1:goal_shape",
+      "Falling_1:blue_count",
+      "Falling_1:colored_count",
+      "Falling_1:movable_count",
+      "Falling_1:horizontal_relation",
+      "Falling_1:vertical_relation",
+      "Falling_1:red_quadrant",
+      "Falling_1:goal_quadrant",
+      "Falling_1:containment",
+      "Falling_1:movable_object_relation"
+    ],
+    "type": "object",
+    "values": "one option letter"
+  },
+  "scene_json": {
+    "canvas": {
+      "coordinate_origin": "bottom-left",
+      "height": 600,
+      "width": 600
+    },
+    "note": "This is the initial static scene. No action or motion has occurred.",
+    "visible_objects": [
+      {
+        "color": "red",
+        "geometry": {
+          "position": [
+            300,
+            230
+          ],
+          "radius": 15,
+          "type": "Ball"
+        },
+        "label": "red target ball",
+        "movable": true
+      },
+      {
+        "color": "green",
+        "geometry": {
+          "points": [
+            [
+              0,
+              40
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              600,
+              0
+            ],
+            [
+              600,
+              40
+            ]
+          ],
+          "type": "Container",
+          "width": 8
+        },
+        "label": "green goal container",
+        "movable": false
+      },
+      {
+        "color": "blue",
+        "geometry": {
+          "polys": [
+            [
+              [
+                243,
+                199
+              ],
+              [
+                235,
+                183
+              ],
+              [
+                216,
+                253
+              ]
+            ],
+            [
+              [
+                232,
+                253
+              ],
+              [
+                243,
+                199
+              ],
+              [
+                216,
+                253
+              ]
+            ],
+            [
+              [
+                327,
+                199
+              ],
+              [
+                335,
+                183
+              ],
+              [
+                235,
+                183
+              ]
+            ],
+            [
+              [
+                243,
+                199
+              ],
+              [
+                327,
+                199
+              ],
+              [
+                235,
+                183
+              ]
+            ],
+            [
+              [
+                338,
+                253
+              ],
+              [
+                354,
+                253
+              ],
+              [
+                335,
+                183
+              ]
+            ],
+            [
+              [
+                327,
+                199
+              ],
+              [
+                338,
+                253
+              ],
+              [
+                335,
+                183
+              ]
+            ]
+          ],
+          "type": "Compound"
+        },
+        "label": "blue U-shaped cradle",
+        "movable": true
+      }
+    ]
+  },
+  "system": "You are answering perception questions about one INITIAL STATIC 2D scene. No action has been taken and no physics prediction is requested. Use only the supplied scene representation. Return one JSON object mapping every question_id to exactly one option letter.",
+  "user_text": "The attached JSON contains the visible initial scene geometry. Coordinates use (0,0) at bottom-left; x increases to the right and y increases upward.\nScene conventions: the red target and blue filled objects are movable; black shapes are fixed. The green goal container is fixed.\nAnswer all questions. Do not infer any future motion.\n\nFalling_1:red_shape: What is the shape of the red target?\n  A. rectangle\n  B. container\n  C. irregular polygon\n  D. circle\nFalling_1:goal_shape: Which description best matches the green goal?\n  A. open container\n  B. solid circle\n  C. solid triangle\n  D. solid rectangle\nFalling_1:blue_count: How many blue objects are visible?\n  A. 2\n  B. 1\n  C. 3\n  D. 0\nFalling_1:colored_count: How many colored objects are visible in total, counting red, green, and blue but not black?\n  A. 6\n  B. 1\n  C. 2\n  D. 4\n  E. 3\n  F. 5\nFalling_1:movable_count: Using the supplied movability information, how many visible objects are movable?\n  A. 1\n  B. 3\n  C. 4\n  D. 5\n  E. 6\n  F. 2\nFalling_1:horizontal_relation: Where is the red target ball's center horizontally relative to the green goal container's center?\n  A. approximately aligned\n  B. left\n  C. right\nFalling_1:vertical_relation: Where is the red target ball's center vertically relative to the green goal container's center?\n  A. approximately aligned\n  B. above\n  C. below\nFalling_1:red_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the red target ball's center?\n  A. lower-left\n  B. upper-left\n  C. lower-right\n  D. upper-right\nFalling_1:goal_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the green goal container's center?\n  A. upper-left\n  B. upper-right\n  C. lower-left\n  D. lower-right\nFalling_1:containment: Is the red target ball's center initially outside the green goal container?\n  A. yes\n  B. no\nFalling_1:movable_object_relation: Where is the center of the blue U-shaped cradle horizontally relative to the red target ball's center?\n  A. left\n  B. right\n  C. approximately aligned"
+}

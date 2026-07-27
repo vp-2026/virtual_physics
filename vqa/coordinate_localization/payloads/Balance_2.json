@@ -1,0 +1,13 @@
+{
+  "image_path": "assets/images/Balance_2.png",
+  "response_schema": {
+    "required_targets": [
+      "red_ball_center",
+      "green_container_center"
+    ],
+    "type": "coordinate_localization"
+  },
+  "scene_json": null,
+  "system": "You are localizing objects in one INITIAL STATIC 2D scene. No action has occurred and no physics prediction is requested. Return only the requested JSON coordinate object.",
+  "user_text": "The attached image is exactly 600 pixels wide and 600 pixels tall.\n\nCoordinate convention:\n- The bottom-left corner is (0,0).\n- x increases from left to right.\n- y increases from bottom to top.\n- Valid coordinates range from 0 through 599.\n\nEstimate the center-point coordinates of:\n1. the red target ball\n2. the green goal container\n\nFor the green open container, use the center of its overall axis-aligned bounding box, including the empty interior. Reasonable visual estimates are expected; pixel-perfect answers are not required.\n\nReturn exactly:\n{\"red_ball_center\":[x,y],\"green_container_center\":[x,y]}"
+}

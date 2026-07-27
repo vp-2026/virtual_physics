@@ -1,0 +1,27 @@
+{
+  "coordinate_rows": "coordinate_localization_v3_task_assets/runs/seed2026/openrouter/scored_coordinates/coordinate_rows.csv",
+  "coordinate_summary": "coordinate_localization_v3_task_assets/runs/seed2026/openrouter/scored_coordinates/coordinate_summary.csv",
+  "models": {
+    "gemini": {
+      "calls": 66,
+      "format_rate": 1.0,
+      "valid_calls": 66
+    },
+    "gpt": {
+      "calls": 66,
+      "format_rate": 1.0,
+      "valid_calls": 66
+    },
+    "qwen": {
+      "calls": 66,
+      "format_rate": 1.0,
+      "valid_calls": 66
+    }
+  },
+  "notes": [
+    "Threshold accuracy counts invalid or missing coordinates wrong.",
+    "Half-location accuracy is scored only beyond a strict 60-pixel exclusion band.",
+    "Original-versus-y-flipped error diagnoses coordinate-origin misunderstanding."
+  ],
+  "responses": "coordinate_localization_v3_task_assets/runs/seed2026/openrouter/responses.jsonl"
+}

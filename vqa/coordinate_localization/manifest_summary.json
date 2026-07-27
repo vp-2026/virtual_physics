@@ -1,0 +1,20 @@
+{
+  "coordinate_tolerance_px": [
+    60,
+    100,
+    150
+  ],
+  "half_location_exclusion_band_px": 60,
+  "half_location_rule": "strictly more than 60 px from the relevant divider",
+  "layouts": 66,
+  "models": [
+    "gpt",
+    "gemini",
+    "qwen"
+  ],
+  "paid_calls": 198,
+  "targets_per_call": [
+    "red_ball_center",
+    "green_container_center"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "acceleration": {
+    "implementation": "At every velocity update, replace the tool's gravity vector with [0, +abs(scene_gravity_magnitude)].",
+    "model_facing_description": "After placement, the orange tool is released and accelerates upward, while every other movable object accelerates downward."
+  },
+  "color": "orange",
+  "geometry": {
+    "diameter_px": 72.0,
+    "nominal_shape": "circle",
+    "radius_px": 36.0,
+    "simulator_shape": "regular 32-gon approximation"
+  },
+  "mechanism": "upward",
+  "physical_properties": {
+    "density": 1.0,
+    "elasticity": 0.5,
+    "friction": 0.5
+  },
+  "placement": {
+    "action": "choose the tool center [x,y]",
+    "coordinate_space": "600 x 600 integer pixels",
+    "origin": "bottom-left",
+    "valid_range": [
+      0,
+      599
+    ],
+    "validity": "The entire tool must fit within the scene and must not overlap an existing object at placement time."
+  },
+  "schema_version": 1,
+  "tool_id": "PLACED",
+  "visible_label": "orange ball tool"
+}

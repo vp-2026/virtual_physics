@@ -1,0 +1,51 @@
+{
+  "frame_asset_ids": [
+    "rollout_frames/080/frame_01.png",
+    "rollout_frames/080/frame_02.png",
+    "rollout_frames/080/frame_03.png",
+    "rollout_frames/080/frame_04.png",
+    "rollout_frames/080/frame_05.png",
+    "rollout_frames/080/frame_06.png",
+    "rollout_frames/080/frame_07.png",
+    "rollout_frames/080/frame_08.png",
+    "rollout_frames/080/frame_09.png",
+    "rollout_frames/080/frame_10.png",
+    "rollout_frames/080/frame_11.png",
+    "rollout_frames/080/frame_12.png",
+    "rollout_frames/080/frame_13.png",
+    "rollout_frames/080/frame_14.png",
+    "rollout_frames/080/frame_15.png",
+    "rollout_frames/080/frame_16.png",
+    "rollout_frames/080/frame_17.png",
+    "rollout_frames/080/frame_18.png",
+    "rollout_frames/080/frame_19.png",
+    "rollout_frames/080/frame_20.png",
+    "rollout_frames/080/frame_21.png",
+    "rollout_frames/080/frame_22.png",
+    "rollout_frames/080/frame_23.png",
+    "rollout_frames/080/frame_24.png",
+    "rollout_frames/080/frame_25.png",
+    "rollout_frames/080/frame_26.png",
+    "rollout_frames/080/frame_27.png",
+    "rollout_frames/080/frame_28.png",
+    "rollout_frames/080/frame_29.png",
+    "rollout_frames/080/frame_30.png",
+    "rollout_frames/080/frame_31.png",
+    "rollout_frames/080/frame_32.png"
+  ],
+  "frame_asset_note": "The 32 images were supplied to the evaluated model but are not duplicated in this compact GitHub package. Regenerate them from the numbered environment, tool mechanism, diagnostic placement, and sampled indices in cell_manifest.jsonl.",
+  "frame_assets_bundled": false,
+  "image_sequence_labels": true,
+  "response_schema": {
+    "required_question_ids": [
+      "Falling_10_upward:tool_vertical_direction_v3",
+      "Falling_10_upward:red_visibly_moves_v3"
+    ],
+    "type": "object",
+    "values": "one option letter"
+  },
+  "scene_json": null,
+  "scene_json_label": null,
+  "system": "You are answering simple retrospective perception questions about one observed 2D rollout. Use the 32 attached full-resolution frames only. Do not predict unshown physics, estimate pixel distances, infer a hidden goal, or choose an action. Return one JSON object mapping every question_id to exactly one option letter.",
+  "user_text": "The 32 attached images are sampled observations labeled FRAME 01 through FRAME 32 in chronological order.\nThe orange circle/tool is the placed tool and the red circle/ball is the target ball.\nThis is a qualitative retrospective reading test. Answer only what is clearly visible in the shown frames; no goal, gravity label, or success/failure label is supplied.\n\nFalling_10_upward:tool_vertical_direction_v3: When the orange tool visibly moves away from its starting position, does it move upward or downward?\n  A. upward\n  B. downward\nFalling_10_upward:red_visibly_moves_v3: Does the red ball visibly change position during the shown rollout?\n  A. no\n  B. yes"
+}

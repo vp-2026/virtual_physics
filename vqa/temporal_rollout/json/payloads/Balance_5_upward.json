@@ -1,0 +1,1112 @@
+{
+  "image_paths": [],
+  "image_sequence_labels": false,
+  "response_schema": {
+    "required_question_ids": [
+      "Balance_5_upward:tool_vertical_direction_v3"
+    ],
+    "type": "object",
+    "values": "one option letter"
+  },
+  "scene_json": {
+    "sample_indices": [
+      0,
+      10,
+      20,
+      31,
+      41,
+      51,
+      61,
+      72,
+      82,
+      92,
+      102,
+      112,
+      123,
+      133,
+      143,
+      153,
+      164,
+      174,
+      184,
+      194,
+      205,
+      215,
+      225,
+      235,
+      245,
+      256,
+      266,
+      276,
+      286,
+      297,
+      307,
+      317
+    ],
+    "sampling": "uniform_over_native_trace",
+    "schema_version": 1,
+    "source_pose_sample_count": 318,
+    "state_count": 32,
+    "states": [
+      {
+        "objects": [
+          {
+            "center": [
+              213.0,
+              306.0
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 0.0
+          },
+          {
+            "center": [
+              540.0,
+              300.0
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 0.0
+          },
+          {
+            "center": [
+              342.0,
+              285.0
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 0.0
+          }
+        ],
+        "state_index": 0,
+        "time_s": 0.0
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              212.932,
+              303.813
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": -0.34
+          },
+          {
+            "center": [
+              540.0,
+              308.7
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 0.0
+          },
+          {
+            "center": [
+              341.908,
+              286.304
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 1.094
+          }
+        ],
+        "state_index": 1,
+        "time_s": 0.2
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              212.634,
+              297.385
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": -0.133
+          },
+          {
+            "center": [
+              540.0,
+              335.4
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 0.0
+          },
+          {
+            "center": [
+              341.619,
+              286.792
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 4.181
+          }
+        ],
+        "state_index": 2,
+        "time_s": 0.4
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              211.735,
+              285.156
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 5.139
+          },
+          {
+            "center": [
+              540.0,
+              385.56
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 0.0
+          },
+          {
+            "center": [
+              341.054,
+              287.348
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 9.853
+          }
+        ],
+        "state_index": 3,
+        "time_s": 0.62
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              210.03,
+              268.873
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 21.029
+          },
+          {
+            "center": [
+              540.0,
+              450.06
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 0.0
+          },
+          {
+            "center": [
+              340.266,
+              287.934
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 17.058
+          }
+        ],
+        "state_index": 4,
+        "time_s": 0.82
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              207.098,
+              246.208
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 53.842
+          },
+          {
+            "center": [
+              540.0,
+              532.56
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 0.0
+          },
+          {
+            "center": [
+              338.443,
+              288.153
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 26.048
+          }
+        ],
+        "state_index": 5,
+        "time_s": 1.02
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              202.459,
+              213.871
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 102.103
+          },
+          {
+            "center": [
+              547.701,
+              551.596
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 12.257
+          },
+          {
+            "center": [
+              333.42,
+              285.715
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 36.442
+          }
+        ],
+        "state_index": 6,
+        "time_s": 1.22
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              196.214,
+              160.781
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 161.621
+          },
+          {
+            "center": [
+              560.409,
+              548.626
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 32.482
+          },
+          {
+            "center": [
+              323.061,
+              274.299
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 48.762
+          }
+        ],
+        "state_index": 7,
+        "time_s": 1.44
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              190.497,
+              93.701
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 215.899
+          },
+          {
+            "center": [
+              561.25,
+              562.148
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 44.11
+          },
+          {
+            "center": [
+              311.302,
+              248.934
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 60.302
+          }
+        ],
+        "state_index": 8,
+        "time_s": 1.64
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              184.592,
+              16.453
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 268.736
+          },
+          {
+            "center": [
+              561.365,
+              563.045
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 45.187
+          },
+          {
+            "center": [
+              299.45,
+              205.688
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 71.863
+          }
+        ],
+        "state_index": 9,
+        "time_s": 1.84
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              176.045,
+              29.698
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 301.385
+          },
+          {
+            "center": [
+              561.706,
+              563.048
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 45.73
+          },
+          {
+            "center": [
+              287.973,
+              156.291
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 82.294
+          }
+        ],
+        "state_index": 10,
+        "time_s": 2.04
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              167.497,
+              24.943
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 334.034
+          },
+          {
+            "center": [
+              562.204,
+              563.058
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 46.522
+          },
+          {
+            "center": [
+              278.929,
+              164.96
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 85.486
+          }
+        ],
+        "state_index": 11,
+        "time_s": 2.24
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              158.452,
+              16.224
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 369.264
+          },
+          {
+            "center": [
+              563.055,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.926
+          },
+          {
+            "center": [
+              269.006,
+              156.11
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 89.001
+          }
+        ],
+        "state_index": 12,
+        "time_s": 2.46
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              159.088,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 369.615
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              260.312,
+              156.063
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 92.197
+          }
+        ],
+        "state_index": 13,
+        "time_s": 2.66
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              159.481,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 368.113
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              251.544,
+              155.766
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 95.438
+          }
+        ],
+        "state_index": 14,
+        "time_s": 2.86
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              159.874,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 366.612
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              241.963,
+              154.872
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 98.994
+          }
+        ],
+        "state_index": 15,
+        "time_s": 3.06
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              160.306,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 364.96
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              229.562,
+              152.798
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 103.639
+          }
+        ],
+        "state_index": 16,
+        "time_s": 3.28
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              160.699,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 363.459
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              215.706,
+              149.231
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 108.925
+          }
+        ],
+        "state_index": 17,
+        "time_s": 3.48
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              161.092,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 361.957
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              198.6,
+              142.821
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 115.708
+          }
+        ],
+        "state_index": 18,
+        "time_s": 3.68
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              161.485,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 360.456
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              178.374,
+              130.96
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 124.912
+          }
+        ],
+        "state_index": 19,
+        "time_s": 3.88
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              161.918,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 358.804
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              153.636,
+              107.077
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 138.69
+          }
+        ],
+        "state_index": 20,
+        "time_s": 4.1
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              162.311,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 357.303
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              140.954,
+              82.532
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 150.129
+          }
+        ],
+        "state_index": 21,
+        "time_s": 4.3
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              162.704,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 355.802
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              154.468,
+              74.215
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 154.775
+          }
+        ],
+        "state_index": 22,
+        "time_s": 4.5
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              163.097,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 354.3
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              171.668,
+              68.124
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 158.404
+          }
+        ],
+        "state_index": 23,
+        "time_s": 4.7
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              163.49,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 352.799
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              189.462,
+              61.446
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 158.81
+          }
+        ],
+        "state_index": 24,
+        "time_s": 4.9
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              163.923,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 351.147
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              188.484,
+              61.761
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 158.734
+          }
+        ],
+        "state_index": 25,
+        "time_s": 5.12
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              164.316,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 349.646
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              188.943,
+              61.634
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 158.791
+          }
+        ],
+        "state_index": 26,
+        "time_s": 5.32
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              164.709,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 348.144
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              189.625,
+              61.441
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 158.869
+          }
+        ],
+        "state_index": 27,
+        "time_s": 5.52
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              165.102,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 346.643
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              189.624,
+              61.441
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 158.869
+          }
+        ],
+        "state_index": 28,
+        "time_s": 5.72
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              165.351,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 345.692
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              189.624,
+              61.441
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 158.869
+          }
+        ],
+        "state_index": 29,
+        "time_s": 5.94
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              165.351,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 345.692
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              189.624,
+              61.441
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 158.869
+          }
+        ],
+        "state_index": 30,
+        "time_s": 6.14
+      },
+      {
+        "objects": [
+          {
+            "center": [
+              165.351,
+              15.966
+            ],
+            "id": "Ball",
+            "label": "red ball",
+            "orientation_deg": 345.692
+          },
+          {
+            "center": [
+              563.056,
+              563.092
+            ],
+            "id": "PLACED",
+            "label": "big orange ball (dropped tool)",
+            "orientation_deg": 47.927
+          },
+          {
+            "center": [
+              189.624,
+              61.441
+            ],
+            "id": "Platform",
+            "label": "blue plank",
+            "orientation_deg": 158.869
+          }
+        ],
+        "state_index": 31,
+        "time_s": 6.34
+      }
+    ]
+  },
+  "scene_json_label": "VISIBLE ROLLOUT JSON (32 ordered states)",
+  "system": "You are answering simple retrospective perception questions about one observed 2D rollout. Use the 32 ordered observable JSON states only. Do not predict unshown physics, estimate pixel distances, infer a hidden goal, or choose an action. Return one JSON object mapping every question_id to exactly one option letter.",
+  "user_text": "The supplied JSON contains 32 uniformly sampled observable states in chronological order. STATE 01 means state_index 0 and STATE 32 means state_index 31. Coordinates use a bottom-left origin: x increases to the right and y increases upward.\nThe orange circle/tool is the placed tool and the red circle/ball is the target ball.\nThis is a qualitative retrospective reading test. Answer only what is clearly visible in the supplied states; no goal, gravity label, or success/failure label is supplied.\n\nBalance_5_upward:tool_vertical_direction_v3: When the orange tool visibly moves away from its starting position, does it move upward or downward?\n  A. upward\n  B. downward"
+}

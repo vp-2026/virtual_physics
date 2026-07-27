@@ -1,0 +1,13 @@
+{
+  "environment_id": "045",
+  "environment_sha256": "d59ea720eefd8d400e9f5f1b6a7414be8dd58618f7fb207a5ac956c310dff657",
+  "initial_scene_path": "initial_scene.png",
+  "initial_scene_sha256": "6f2a997c7732344cb15f54da62fbb1a10ef4b85b24ce31e77ed6ae4f5a00efe4",
+  "legacy_cell_id": "BalanceUnder_8_downward",
+  "legacy_layout_id": "BalanceUnder_8",
+  "numbering_basis": "Canonical rows 1561-1692 of full_augmented_manifest_1692.json, in stored order.",
+  "paired_environment_id": "046",
+  "source_family": "BalanceUnder",
+  "source_number": 8,
+  "tool_mechanism": "downward"
+}

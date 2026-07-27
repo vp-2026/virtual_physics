@@ -1,0 +1,29 @@
+{
+  "asset_provenance": "Exact initial screenshots and simulation worlds indexed by the task runner; red/green world centers independently checked against screenshot color masks.",
+  "asset_source": "source_asset/coordinate_localization_v3_task_assets",
+  "call_count": 396,
+  "coordinate_convention": {
+    "canvas": [
+      600,
+      600
+    ],
+    "origin": "bottom-left",
+    "x": "increases right",
+    "y": "increases upward"
+  },
+  "input_conditions": [
+    "image_only",
+    "json_only"
+  ],
+  "model_keys": [
+    "gpt",
+    "gemini",
+    "qwen"
+  ],
+  "no_motion": true,
+  "paid_calls_made_by_generator": false,
+  "question_count": 726,
+  "questions_per_layout": 11,
+  "status": "valid",
+  "unique_layouts": 66
+}

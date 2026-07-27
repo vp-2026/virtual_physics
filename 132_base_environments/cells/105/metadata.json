@@ -1,0 +1,13 @@
+{
+  "environment_id": "105",
+  "environment_sha256": "2af490757151dce02db175aca910d961b8e2811d8c932a09eef88dd499101181",
+  "initial_scene_path": "initial_scene.png",
+  "initial_scene_sha256": "f4e0b9c09f7273b9d55a156b45f8bee07cb9609a3733a7ac7b6f06d58eb89ad0",
+  "legacy_cell_id": "Prevention_3_downward",
+  "legacy_layout_id": "Prevention_3",
+  "numbering_basis": "Canonical rows 1561-1692 of full_augmented_manifest_1692.json, in stored order.",
+  "paired_environment_id": "106",
+  "source_family": "Prevention",
+  "source_number": 3,
+  "tool_mechanism": "downward"
+}

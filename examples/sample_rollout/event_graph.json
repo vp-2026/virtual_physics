@@ -1,0 +1,222 @@
+{
+  "objects": [
+    {
+      "name": "Goal",
+      "label": "green container",
+      "start": [
+        250.0,
+        52.5
+      ],
+      "end": [
+        250.0,
+        52.5
+      ],
+      "trajectory_frames": 1
+    },
+    {
+      "name": "Support",
+      "label": "Support",
+      "start": [
+        310.0,
+        370.0
+      ],
+      "end": [
+        310.0,
+        370.0
+      ],
+      "trajectory_frames": 1
+    },
+    {
+      "name": "Ball",
+      "label": "red ball",
+      "start": [
+        240.0,
+        415.0
+      ],
+      "end": [
+        248.6150328520199,
+        22.48976390188157
+      ],
+      "trajectory_frames": 601
+    },
+    {
+      "name": "_LeftWall",
+      "label": "left wall",
+      "start": [
+        0.0,
+        300.0
+      ],
+      "end": [
+        0.0,
+        300.0
+      ],
+      "trajectory_frames": 1
+    },
+    {
+      "name": "_BottomWall",
+      "label": "floor",
+      "start": [
+        300.0,
+        0.0
+      ],
+      "end": [
+        300.0,
+        0.0
+      ],
+      "trajectory_frames": 1
+    },
+    {
+      "name": "_TopWall",
+      "label": "ceiling",
+      "start": [
+        300.0,
+        600.0
+      ],
+      "end": [
+        300.0,
+        600.0
+      ],
+      "trajectory_frames": 1
+    },
+    {
+      "name": "_RightWall",
+      "label": "right wall",
+      "start": [
+        600.0,
+        300.0
+      ],
+      "end": [
+        600.0,
+        300.0
+      ],
+      "trajectory_frames": 1
+    },
+    {
+      "name": "placed_tool",
+      "label": "big orange ball",
+      "start": [
+        285.0,
+        495.0
+      ],
+      "end": [
+        563.0139182076997,
+        36.95080745854107
+      ],
+      "trajectory_frames": 600
+    }
+  ],
+  "events": [
+    {
+      "type": "final_movement",
+      "object": "red ball",
+      "axis": "down",
+      "threshold_px": 50.0,
+      "delta_px": 392.51,
+      "answer": "yes"
+    },
+    {
+      "type": "final_movement",
+      "object": "big orange ball",
+      "axis": "right",
+      "threshold_px": 50.0,
+      "delta_px": 278.014,
+      "answer": "yes"
+    },
+    {
+      "type": "final_movement",
+      "object": "big orange ball",
+      "axis": "down",
+      "threshold_px": 50.0,
+      "delta_px": 458.049,
+      "answer": "yes"
+    },
+    {
+      "type": "final_contact",
+      "object": "green container",
+      "reference": "red ball",
+      "answer": "yes"
+    },
+    {
+      "type": "sustained_contact",
+      "object": "green container",
+      "reference": "red ball",
+      "min_seconds": 0.5,
+      "contact_frames": 461,
+      "answer": "yes"
+    },
+    {
+      "type": "final_contact",
+      "object": "green container",
+      "reference": "floor",
+      "answer": "yes"
+    },
+    {
+      "type": "sustained_contact",
+      "object": "Support",
+      "reference": "red ball",
+      "min_seconds": 0.5,
+      "contact_frames": 68,
+      "answer": "yes"
+    },
+    {
+      "type": "sustained_contact",
+      "object": "Support",
+      "reference": "big orange ball",
+      "min_seconds": 0.5,
+      "contact_frames": 147,
+      "answer": "yes"
+    },
+    {
+      "type": "final_contact",
+      "object": "left wall",
+      "reference": "floor",
+      "answer": "yes"
+    },
+    {
+      "type": "final_contact",
+      "object": "left wall",
+      "reference": "ceiling",
+      "answer": "yes"
+    },
+    {
+      "type": "final_contact",
+      "object": "floor",
+      "reference": "right wall",
+      "answer": "yes"
+    },
+    {
+      "type": "final_contact",
+      "object": "floor",
+      "reference": "big orange ball",
+      "answer": "yes"
+    },
+    {
+      "type": "sustained_contact",
+      "object": "floor",
+      "reference": "big orange ball",
+      "min_seconds": 0.5,
+      "contact_frames": 301,
+      "answer": "yes"
+    },
+    {
+      "type": "final_contact",
+      "object": "ceiling",
+      "reference": "right wall",
+      "answer": "yes"
+    },
+    {
+      "type": "final_contact",
+      "object": "right wall",
+      "reference": "big orange ball",
+      "answer": "yes"
+    },
+    {
+      "type": "sustained_contact",
+      "object": "right wall",
+      "reference": "big orange ball",
+      "min_seconds": 0.5,
+      "contact_frames": 277,
+      "answer": "yes"
+    }
+  ]
+}

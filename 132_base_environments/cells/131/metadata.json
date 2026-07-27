@@ -1,0 +1,13 @@
+{
+  "environment_id": "131",
+  "environment_sha256": "88ad1c20110483566a55cf6f6d69ed369f274855fb40f259022b10af28b91845",
+  "initial_scene_path": "initial_scene.png",
+  "initial_scene_sha256": "e3af0d9dcaf69428b4e3c966fbe77a0fa0674f601064205f95f6d4541baf8e9a",
+  "legacy_cell_id": "Remove_10_downward",
+  "legacy_layout_id": "Remove_10",
+  "numbering_basis": "Canonical rows 1561-1692 of full_augmented_manifest_1692.json, in stored order.",
+  "paired_environment_id": "132",
+  "source_family": "Remove",
+  "source_number": 10,
+  "tool_mechanism": "downward"
+}

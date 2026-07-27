@@ -1,0 +1,76 @@
+{
+  "answer_value_counts": {
+    "red_endpoint_horizontal": {
+      "left": 16,
+      "right": 16
+    },
+    "red_visible_motion": {
+      "no": 20,
+      "yes": 20
+    },
+    "tool_vertical_direction": {
+      "downward": 66,
+      "upward": 66
+    }
+  },
+  "call_count": 264,
+  "coordinate_convention": {
+    "canvas": [
+      600,
+      600
+    ],
+    "origin": "bottom-left",
+    "x_direction": "right",
+    "y_direction": "up"
+  },
+  "correct_letter_counts": {
+    "red_endpoint_horizontal": {
+      "A": 16,
+      "B": 16
+    },
+    "red_visible_motion": {
+      "A": 20,
+      "B": 20
+    },
+    "tool_vertical_direction": {
+      "A": 66,
+      "B": 66
+    }
+  },
+  "expected_full_cell_count": 132,
+  "frame_count_per_cell": 32,
+  "generated_cell_count": 132,
+  "hidden_margin_policy": {
+    "intermediate_cases_omitted": true,
+    "minimum_onset_gap_states": 3,
+    "stationary_displacement_px": 15.0,
+    "thresholds_shown_to_models": false,
+    "visible_displacement_px": 60.0
+  },
+  "model_keys": [
+    "gpt",
+    "gemini"
+  ],
+  "no_paid_calls_made": true,
+  "observable_state_count_per_cell": null,
+  "question_version": "qualitative_v3",
+  "questions_per_cell": {
+    "maximum": 3,
+    "mean": 1.5454545454545454,
+    "minimum": 1
+  },
+  "representation": "images",
+  "retrospective_only": true,
+  "reuses_existing_frame_assets": true,
+  "reuses_existing_trace_assets": false,
+  "schema_version": 2,
+  "selection_uses_goal_success": false,
+  "selection_uses_model_outputs": false,
+  "semantic_answer_balancing": {
+    "enabled": true,
+    "invariant_families_omitted": true,
+    "rule": "within each non-invariant family, deterministically retain the same number of items for each answer value under seed 2026",
+    "selection_uses_model_outputs": false
+  },
+  "source_root": "source_asset/artifacts"
+}

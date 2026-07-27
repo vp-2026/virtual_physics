@@ -1,0 +1,10 @@
+imageio
+matplotlib
+numpy
+openai>=1
+pillow
+pygame
+pymunk>=6.6,<7
+google-genai
+python-pptx
+scipy

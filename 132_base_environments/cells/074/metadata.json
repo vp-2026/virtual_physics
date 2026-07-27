@@ -1,0 +1,13 @@
+{
+  "environment_id": "074",
+  "environment_sha256": "2fac02c658813c8ad3184c788e160fbce6c3d47a27319a820925192818cf1461",
+  "initial_scene_path": "initial_scene.png",
+  "initial_scene_sha256": "f0eb768426b7ba807fd44fa3cb18701a2beb88236eccdd3fe0788df885c07c32",
+  "legacy_cell_id": "Falling_7_upward",
+  "legacy_layout_id": "Falling_7",
+  "numbering_basis": "Canonical rows 1561-1692 of full_augmented_manifest_1692.json, in stored order.",
+  "paired_environment_id": "073",
+  "source_family": "Falling",
+  "source_number": 7,
+  "tool_mechanism": "upward"
+}

@@ -1,0 +1,98 @@
+{
+  "image_path": null,
+  "response_schema": {
+    "required_question_ids": [
+      "BackUp_8:red_shape",
+      "BackUp_8:goal_shape",
+      "BackUp_8:blue_count",
+      "BackUp_8:colored_count",
+      "BackUp_8:movable_count",
+      "BackUp_8:horizontal_relation",
+      "BackUp_8:vertical_relation",
+      "BackUp_8:red_quadrant",
+      "BackUp_8:goal_quadrant",
+      "BackUp_8:containment",
+      "BackUp_8:movable_object_relation"
+    ],
+    "type": "object",
+    "values": "one option letter"
+  },
+  "scene_json": {
+    "canvas": {
+      "coordinate_origin": "bottom-left",
+      "height": 600,
+      "width": 600
+    },
+    "note": "This is the initial static scene. No action or motion has occurred.",
+    "visible_objects": [
+      {
+        "color": "green",
+        "geometry": {
+          "points": [
+            [
+              224.9646631943648,
+              52.34452332178466
+            ],
+            [
+              224.9646631943648,
+              3.65547667821534
+            ],
+            [
+              385.0353368056352,
+              3.65547667821534
+            ],
+            [
+              385.0353368056352,
+              52.34452332178466
+            ]
+          ],
+          "type": "Container",
+          "width": 5
+        },
+        "label": "green goal container",
+        "movable": true
+      },
+      {
+        "color": "black",
+        "geometry": {
+          "type": "Poly",
+          "vertices": [
+            [
+              220,
+              350
+            ],
+            [
+              220,
+              450
+            ],
+            [
+              400,
+              380
+            ],
+            [
+              400,
+              350
+            ]
+          ]
+        },
+        "label": "black fixed shape 1",
+        "movable": false
+      },
+      {
+        "color": "red",
+        "geometry": {
+          "position": [
+            300,
+            446
+          ],
+          "radius": 15,
+          "type": "Ball"
+        },
+        "label": "red target ball",
+        "movable": true
+      }
+    ]
+  },
+  "system": "You are answering perception questions about one INITIAL STATIC 2D scene. No action has been taken and no physics prediction is requested. Use only the supplied scene representation. Return one JSON object mapping every question_id to exactly one option letter.",
+  "user_text": "The attached JSON contains the visible initial scene geometry. Coordinates use (0,0) at bottom-left; x increases to the right and y increases upward.\nScene conventions: the red target and blue filled objects are movable; black shapes are fixed. The green goal container is movable.\nAnswer all questions. Do not infer any future motion.\n\nBackUp_8:red_shape: What is the shape of the red target?\n  A. container\n  B. circle\n  C. irregular polygon\n  D. rectangle\nBackUp_8:goal_shape: Which description best matches the green goal?\n  A. solid rectangle\n  B. solid circle\n  C. open container\n  D. solid triangle\nBackUp_8:blue_count: How many blue objects are visible?\n  A. 1\n  B. 2\n  C. 3\n  D. 0\nBackUp_8:colored_count: How many colored objects are visible in total, counting red, green, and blue but not black?\n  A. 4\n  B. 5\n  C. 2\n  D. 6\n  E. 1\n  F. 3\nBackUp_8:movable_count: Using the supplied movability information, how many visible objects are movable?\n  A. 5\n  B. 6\n  C. 1\n  D. 2\n  E. 3\n  F. 4\nBackUp_8:horizontal_relation: Where is the red target ball's center horizontally relative to the green goal container's center?\n  A. right\n  B. approximately aligned\n  C. left\nBackUp_8:vertical_relation: Where is the red target ball's center vertically relative to the green goal container's center?\n  A. below\n  B. approximately aligned\n  C. above\nBackUp_8:red_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the red target ball's center?\n  A. upper-right\n  B. upper-left\n  C. lower-left\n  D. lower-right\nBackUp_8:goal_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the green goal container's center?\n  A. upper-right\n  B. lower-right\n  C. lower-left\n  D. upper-left\nBackUp_8:containment: Is the red target ball's center initially outside the green goal container?\n  A. yes\n  B. no\nBackUp_8:movable_object_relation: Which combined relation best describes the red target ball's center relative to the green goal container's center?\n  A. right\n  B. approximately the same position\n  C. above-left\n  D. above-right\n  E. below-left\n  F. below-right\n  G. above\n  H. below\n  I. left"
+}

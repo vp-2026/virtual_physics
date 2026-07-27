@@ -1,0 +1,76 @@
+{
+  "canvas": {
+    "coordinate_origin": "bottom-left",
+    "height": 600,
+    "width": 600
+  },
+  "note": "This is the initial static scene. No action or motion has occurred.",
+  "visible_objects": [
+    {
+      "color": "green",
+      "geometry": {
+        "points": [
+          [
+            219.99999999999977,
+            338.99999999999943
+          ],
+          [
+            219.99999999999977,
+            259.00000000000057
+          ],
+          [
+            320.0000000000002,
+            259.00000000000057
+          ],
+          [
+            320.0000000000002,
+            338.99999999999943
+          ]
+        ],
+        "type": "Container",
+        "width": 3
+      },
+      "label": "green goal container",
+      "movable": true
+    },
+    {
+      "color": "red",
+      "geometry": {
+        "position": [
+          350,
+          580
+        ],
+        "radius": 15,
+        "type": "Ball"
+      },
+      "label": "red target ball",
+      "movable": true
+    },
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            -1,
+            257.5
+          ],
+          [
+            269,
+            257.5
+          ],
+          [
+            269,
+            -1.5
+          ],
+          [
+            -1,
+            -1.5
+          ]
+        ]
+      },
+      "label": "black fixed shape 1",
+      "movable": false
+    }
+  ]
+}

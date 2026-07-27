@@ -1,0 +1,128 @@
+{
+  "canvas": {
+    "coordinate_origin": "bottom-left",
+    "height": 600,
+    "width": 600
+  },
+  "note": "This is the initial static scene. No action or motion has occurred.",
+  "visible_objects": [
+    {
+      "color": "blue",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            284,
+            499
+          ],
+          [
+            284,
+            535
+          ],
+          [
+            320,
+            535
+          ],
+          [
+            320,
+            499
+          ]
+        ]
+      },
+      "label": "blue square",
+      "movable": true
+    },
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            489,
+            269
+          ],
+          [
+            489,
+            289
+          ],
+          [
+            599,
+            289
+          ],
+          [
+            599,
+            269
+          ]
+        ]
+      },
+      "label": "black fixed shape 1",
+      "movable": false
+    },
+    {
+      "color": "green",
+      "geometry": {
+        "points": [
+          [
+            172.5,
+            99.5
+          ],
+          [
+            172.5,
+            4.5
+          ],
+          [
+            367.5,
+            4.5
+          ],
+          [
+            367.5,
+            99.5
+          ]
+        ],
+        "type": "Container",
+        "width": 10
+      },
+      "label": "green goal container",
+      "movable": false
+    },
+    {
+      "color": "red",
+      "geometry": {
+        "position": [
+          267,
+          582
+        ],
+        "radius": 16.64331697709324,
+        "type": "Ball"
+      },
+      "label": "red target ball",
+      "movable": true
+    },
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            -1,
+            402
+          ],
+          [
+            271,
+            402
+          ],
+          [
+            271,
+            354
+          ],
+          [
+            -1,
+            354
+          ]
+        ]
+      },
+      "label": "black fixed shape 2",
+      "movable": false
+    }
+  ]
+}

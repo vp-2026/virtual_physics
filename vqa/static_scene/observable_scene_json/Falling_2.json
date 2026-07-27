@@ -1,0 +1,144 @@
+{
+  "canvas": {
+    "coordinate_origin": "bottom-left",
+    "height": 600,
+    "width": 600
+  },
+  "note": "This is the initial static scene. No action or motion has occurred.",
+  "visible_objects": [
+    {
+      "color": "red",
+      "geometry": {
+        "position": [
+          300,
+          230
+        ],
+        "radius": 15,
+        "type": "Ball"
+      },
+      "label": "red target ball",
+      "movable": true
+    },
+    {
+      "color": "green",
+      "geometry": {
+        "points": [
+          [
+            320.0,
+            40.5
+          ],
+          [
+            320.0,
+            0.5
+          ],
+          [
+            600.0,
+            0.5
+          ],
+          [
+            600.0,
+            40.5
+          ]
+        ],
+        "type": "Container",
+        "width": 8
+      },
+      "label": "green goal container",
+      "movable": false
+    },
+    {
+      "color": "blue",
+      "geometry": {
+        "polys": [
+          [
+            [
+              243,
+              199
+            ],
+            [
+              235,
+              183
+            ],
+            [
+              216,
+              253
+            ]
+          ],
+          [
+            [
+              232,
+              253
+            ],
+            [
+              243,
+              199
+            ],
+            [
+              216,
+              253
+            ]
+          ],
+          [
+            [
+              327,
+              199
+            ],
+            [
+              335,
+              183
+            ],
+            [
+              235,
+              183
+            ]
+          ],
+          [
+            [
+              243,
+              199
+            ],
+            [
+              327,
+              199
+            ],
+            [
+              235,
+              183
+            ]
+          ],
+          [
+            [
+              338,
+              253
+            ],
+            [
+              354,
+              253
+            ],
+            [
+              335,
+              183
+            ]
+          ],
+          [
+            [
+              327,
+              199
+            ],
+            [
+              338,
+              253
+            ],
+            [
+              335,
+              183
+            ]
+          ]
+        ],
+        "type": "Compound"
+      },
+      "label": "blue U-shaped cradle",
+      "movable": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "accuracy_summary": "accuracy_summary.csv",
+  "call_scores": "call_scores.csv",
+  "calls": 396,
+  "format_valid_calls": 396,
+  "question_file": "../../questions.jsonl",
+  "question_scores": "question_scores.csv",
+  "questions": 612,
+  "raw_provider_calls_by_model": {
+    "gemini": 132,
+    "gpt": 132,
+    "qwen": 132
+  },
+  "raw_provider_cost_usd_by_model": {
+    "gemini": 1.7694279999999996,
+    "gpt": 0.7079187499999998,
+    "qwen": 0.4076202
+  },
+  "raw_provider_cost_usd_total": 2.8849669499999995,
+  "raw_response_rows": 396,
+  "response_file": "../raw_responses_seed2026.jsonl"
+}

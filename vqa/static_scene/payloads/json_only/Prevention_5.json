@@ -1,0 +1,176 @@
+{
+  "image_path": null,
+  "response_schema": {
+    "required_question_ids": [
+      "Prevention_5:red_shape",
+      "Prevention_5:goal_shape",
+      "Prevention_5:blue_count",
+      "Prevention_5:colored_count",
+      "Prevention_5:movable_count",
+      "Prevention_5:horizontal_relation",
+      "Prevention_5:vertical_relation",
+      "Prevention_5:red_quadrant",
+      "Prevention_5:goal_quadrant",
+      "Prevention_5:containment",
+      "Prevention_5:movable_object_relation"
+    ],
+    "type": "object",
+    "values": "one option letter"
+  },
+  "scene_json": {
+    "canvas": {
+      "coordinate_origin": "bottom-left",
+      "height": 600,
+      "width": 600
+    },
+    "note": "This is the initial static scene. No action or motion has occurred.",
+    "visible_objects": [
+      {
+        "color": "black",
+        "geometry": {
+          "type": "Poly",
+          "vertices": [
+            [
+              500,
+              80
+            ],
+            [
+              500,
+              300
+            ],
+            [
+              600,
+              300
+            ],
+            [
+              600,
+              80
+            ]
+          ]
+        },
+        "label": "black fixed shape 1",
+        "movable": false
+      },
+      {
+        "color": "green",
+        "geometry": {
+          "points": [
+            [
+              455,
+              80
+            ],
+            [
+              455,
+              5
+            ],
+            [
+              505,
+              5
+            ],
+            [
+              505,
+              80
+            ]
+          ],
+          "type": "Container",
+          "width": 10
+        },
+        "label": "green goal container",
+        "movable": false
+      },
+      {
+        "color": "black",
+        "geometry": {
+          "type": "Poly",
+          "vertices": [
+            [
+              100,
+              300
+            ],
+            [
+              450,
+              300
+            ],
+            [
+              460,
+              290
+            ],
+            [
+              460,
+              150
+            ]
+          ]
+        },
+        "label": "black fixed shape 2",
+        "movable": false
+      },
+      {
+        "color": "black",
+        "geometry": {
+          "type": "Poly",
+          "vertices": [
+            [
+              0,
+              300
+            ],
+            [
+              450,
+              100
+            ],
+            [
+              450,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "label": "black fixed shape 3",
+        "movable": false
+      },
+      {
+        "color": "red",
+        "geometry": {
+          "position": [
+            506,
+            468
+          ],
+          "radius": 15,
+          "type": "Ball"
+        },
+        "label": "red target ball",
+        "movable": true
+      },
+      {
+        "color": "blue",
+        "geometry": {
+          "type": "Poly",
+          "vertices": [
+            [
+              398,
+              445
+            ],
+            [
+              530,
+              445
+            ],
+            [
+              530,
+              419
+            ],
+            [
+              398,
+              419
+            ]
+          ]
+        },
+        "label": "long horizontal blue rectangle",
+        "movable": true
+      }
+    ]
+  },
+  "system": "You are answering perception questions about one INITIAL STATIC 2D scene. No action has been taken and no physics prediction is requested. Use only the supplied scene representation. Return one JSON object mapping every question_id to exactly one option letter.",
+  "user_text": "The attached JSON contains the visible initial scene geometry. Coordinates use (0,0) at bottom-left; x increases to the right and y increases upward.\nScene conventions: the red target and blue filled objects are movable; black shapes are fixed. The green goal container is fixed.\nAnswer all questions. Do not infer any future motion.\n\nPrevention_5:red_shape: What is the shape of the red target?\n  A. container\n  B. circle\n  C. irregular polygon\n  D. rectangle\nPrevention_5:goal_shape: Which description best matches the green goal?\n  A. solid rectangle\n  B. solid circle\n  C. open container\n  D. solid triangle\nPrevention_5:blue_count: How many blue objects are visible?\n  A. 0\n  B. 2\n  C. 3\n  D. 1\nPrevention_5:colored_count: How many colored objects are visible in total, counting red, green, and blue but not black?\n  A. 4\n  B. 5\n  C. 3\n  D. 6\n  E. 1\n  F. 2\nPrevention_5:movable_count: Using the supplied movability information, how many visible objects are movable?\n  A. 5\n  B. 6\n  C. 1\n  D. 2\n  E. 3\n  F. 4\nPrevention_5:horizontal_relation: Where is the red target ball's center horizontally relative to the green goal container's center?\n  A. right\n  B. approximately aligned\n  C. left\nPrevention_5:vertical_relation: Where is the red target ball's center vertically relative to the green goal container's center?\n  A. below\n  B. approximately aligned\n  C. above\nPrevention_5:red_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the red target ball's center?\n  A. upper-right\n  B. upper-left\n  C. lower-left\n  D. lower-right\nPrevention_5:goal_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the green goal container's center?\n  A. upper-right\n  B. lower-right\n  C. lower-left\n  D. upper-left\nPrevention_5:containment: Is the red target ball's center initially outside the green goal container?\n  A. yes\n  B. no\nPrevention_5:movable_object_relation: Where is the center of the long horizontal blue rectangle horizontally relative to the red target ball's center?\n  A. left\n  B. right\n  C. approximately aligned"
+}

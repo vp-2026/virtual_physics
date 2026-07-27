@@ -1,0 +1,154 @@
+{
+  "canvas": {
+    "coordinate_origin": "bottom-left",
+    "height": 600,
+    "width": 600
+  },
+  "note": "This is the initial static scene. No action or motion has occurred.",
+  "visible_objects": [
+    {
+      "color": "green",
+      "geometry": {
+        "points": [
+          [
+            500,
+            75
+          ],
+          [
+            500,
+            5
+          ],
+          [
+            595,
+            5
+          ],
+          [
+            595,
+            75
+          ]
+        ],
+        "type": "Container",
+        "width": 8
+      },
+      "label": "green goal container",
+      "movable": false
+    },
+    {
+      "color": "red",
+      "geometry": {
+        "position": [
+          66,
+          143
+        ],
+        "radius": 12,
+        "type": "Ball"
+      },
+      "label": "red target ball",
+      "movable": true
+    },
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            240,
+            150
+          ],
+          [
+            240,
+            220
+          ],
+          [
+            260,
+            220
+          ],
+          [
+            260,
+            150
+          ]
+        ]
+      },
+      "label": "black fixed shape 1",
+      "movable": false
+    },
+    {
+      "color": "blue",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            150,
+            220
+          ],
+          [
+            150,
+            230
+          ],
+          [
+            350,
+            230
+          ],
+          [
+            350,
+            220
+          ]
+        ]
+      },
+      "label": "long horizontal blue rectangle",
+      "movable": true
+    },
+    {
+      "color": "blue",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            214,
+            437
+          ],
+          [
+            214,
+            467
+          ],
+          [
+            244,
+            467
+          ],
+          [
+            244,
+            437
+          ]
+        ]
+      },
+      "label": "blue square",
+      "movable": true
+    },
+    {
+      "color": "black",
+      "geometry": {
+        "type": "Poly",
+        "vertices": [
+          [
+            -1.5,
+            75.5
+          ],
+          [
+            495.5,
+            75.5
+          ],
+          [
+            495.5,
+            0.5
+          ],
+          [
+            -1.5,
+            0.5
+          ]
+        ]
+      },
+      "label": "black fixed shape 2",
+      "movable": false
+    }
+  ]
+}

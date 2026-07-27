@@ -1,0 +1,13 @@
+{
+  "environment_id": "077",
+  "environment_sha256": "5c02538ae962b6fc4ecc4fbb4016299a1e4cf26e1c5c32a7bc9a53d9d9282d07",
+  "initial_scene_path": "initial_scene.png",
+  "initial_scene_sha256": "350c8fd455bd8eaf083c74a3f477da4d85c87b624a4bce8f6ab974fd8a062a05",
+  "legacy_cell_id": "Falling_9_downward",
+  "legacy_layout_id": "Falling_9",
+  "numbering_basis": "Canonical rows 1561-1692 of full_augmented_manifest_1692.json, in stored order.",
+  "paired_environment_id": "078",
+  "source_family": "Falling",
+  "source_number": 9,
+  "tool_mechanism": "downward"
+}

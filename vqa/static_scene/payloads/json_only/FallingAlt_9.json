@@ -1,0 +1,228 @@
+{
+  "image_path": null,
+  "response_schema": {
+    "required_question_ids": [
+      "FallingAlt_9:red_shape",
+      "FallingAlt_9:goal_shape",
+      "FallingAlt_9:blue_count",
+      "FallingAlt_9:colored_count",
+      "FallingAlt_9:movable_count",
+      "FallingAlt_9:horizontal_relation",
+      "FallingAlt_9:vertical_relation",
+      "FallingAlt_9:red_quadrant",
+      "FallingAlt_9:goal_quadrant",
+      "FallingAlt_9:containment",
+      "FallingAlt_9:movable_object_relation"
+    ],
+    "type": "object",
+    "values": "one option letter"
+  },
+  "scene_json": {
+    "canvas": {
+      "coordinate_origin": "bottom-left",
+      "height": 600,
+      "width": 600
+    },
+    "note": "This is the initial static scene. No action or motion has occurred.",
+    "visible_objects": [
+      {
+        "color": "black",
+        "geometry": {
+          "type": "Poly",
+          "vertices": [
+            [
+              200,
+              0
+            ],
+            [
+              200,
+              200
+            ],
+            [
+              400,
+              200
+            ],
+            [
+              400,
+              0
+            ]
+          ]
+        },
+        "label": "black fixed shape 1",
+        "movable": false
+      },
+      {
+        "color": "black",
+        "geometry": {
+          "type": "Poly",
+          "vertices": [
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              230
+            ],
+            [
+              210,
+              230
+            ],
+            [
+              210,
+              200
+            ]
+          ]
+        },
+        "label": "black fixed shape 2",
+        "movable": false
+      },
+      {
+        "color": "black",
+        "geometry": {
+          "type": "Poly",
+          "vertices": [
+            [
+              390,
+              200
+            ],
+            [
+              390,
+              230
+            ],
+            [
+              400,
+              230
+            ],
+            [
+              400,
+              200
+            ]
+          ]
+        },
+        "label": "black fixed shape 3",
+        "movable": false
+      },
+      {
+        "color": "green",
+        "geometry": {
+          "points": [
+            [
+              10,
+              100
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              190,
+              5
+            ],
+            [
+              190,
+              100
+            ]
+          ],
+          "type": "Container",
+          "width": 10
+        },
+        "label": "green goal container",
+        "movable": true
+      },
+      {
+        "color": "blue",
+        "geometry": {
+          "type": "Poly",
+          "vertices": [
+            [
+              117,
+              369.5
+            ],
+            [
+              117,
+              384.5
+            ],
+            [
+              287,
+              384.5
+            ],
+            [
+              287,
+              369.5
+            ]
+          ]
+        },
+        "label": "long horizontal blue rectangle",
+        "movable": true
+      },
+      {
+        "color": "red",
+        "geometry": {
+          "position": [
+            239,
+            401
+          ],
+          "radius": 15,
+          "type": "Ball"
+        },
+        "label": "red target ball",
+        "movable": true
+      },
+      {
+        "color": "black",
+        "geometry": {
+          "type": "Poly",
+          "vertices": [
+            [
+              200,
+              300
+            ],
+            [
+              200,
+              370
+            ],
+            [
+              210,
+              370
+            ],
+            [
+              210,
+              300
+            ]
+          ]
+        },
+        "label": "black fixed shape 4",
+        "movable": false
+      },
+      {
+        "color": "black",
+        "geometry": {
+          "type": "Poly",
+          "vertices": [
+            [
+              390,
+              300
+            ],
+            [
+              390,
+              370
+            ],
+            [
+              400,
+              370
+            ],
+            [
+              400,
+              300
+            ]
+          ]
+        },
+        "label": "black fixed shape 5",
+        "movable": false
+      }
+    ]
+  },
+  "system": "You are answering perception questions about one INITIAL STATIC 2D scene. No action has been taken and no physics prediction is requested. Use only the supplied scene representation. Return one JSON object mapping every question_id to exactly one option letter.",
+  "user_text": "The attached JSON contains the visible initial scene geometry. Coordinates use (0,0) at bottom-left; x increases to the right and y increases upward.\nScene conventions: the red target and blue filled objects are movable; black shapes are fixed. The green goal container is movable.\nAnswer all questions. Do not infer any future motion.\n\nFallingAlt_9:red_shape: What is the shape of the red target?\n  A. circle\n  B. rectangle\n  C. container\n  D. irregular polygon\nFallingAlt_9:goal_shape: Which description best matches the green goal?\n  A. solid triangle\n  B. open container\n  C. solid rectangle\n  D. solid circle\nFallingAlt_9:blue_count: How many blue objects are visible?\n  A. 3\n  B. 0\n  C. 1\n  D. 2\nFallingAlt_9:colored_count: How many colored objects are visible in total, counting red, green, and blue but not black?\n  A. 1\n  B. 2\n  C. 4\n  D. 5\n  E. 6\n  F. 3\nFallingAlt_9:movable_count: Using the supplied movability information, how many visible objects are movable?\n  A. 3\n  B. 1\n  C. 2\n  D. 4\n  E. 5\n  F. 6\nFallingAlt_9:horizontal_relation: Where is the red target ball's center horizontally relative to the green goal container's center?\n  A. approximately aligned\n  B. right\n  C. left\nFallingAlt_9:vertical_relation: Where is the red target ball's center vertically relative to the green goal container's center?\n  A. below\n  B. approximately aligned\n  C. above\nFallingAlt_9:red_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the red target ball's center?\n  A. upper-right\n  B. lower-left\n  C. lower-right\n  D. upper-left\nFallingAlt_9:goal_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the green goal container's center?\n  A. lower-left\n  B. upper-left\n  C. upper-right\n  D. lower-right\nFallingAlt_9:containment: Is the red target ball's center initially inside the green goal container?\n  A. yes\n  B. no\nFallingAlt_9:movable_object_relation: Where is the center of the long horizontal blue rectangle horizontally relative to the red target ball's center?\n  A. left\n  B. right\n  C. approximately aligned"
+}

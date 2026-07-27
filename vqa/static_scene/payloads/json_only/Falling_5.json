@@ -1,0 +1,166 @@
+{
+  "image_path": null,
+  "response_schema": {
+    "required_question_ids": [
+      "Falling_5:red_shape",
+      "Falling_5:goal_shape",
+      "Falling_5:blue_count",
+      "Falling_5:colored_count",
+      "Falling_5:movable_count",
+      "Falling_5:horizontal_relation",
+      "Falling_5:vertical_relation",
+      "Falling_5:red_quadrant",
+      "Falling_5:goal_quadrant",
+      "Falling_5:containment",
+      "Falling_5:movable_object_relation"
+    ],
+    "type": "object",
+    "values": "one option letter"
+  },
+  "scene_json": {
+    "canvas": {
+      "coordinate_origin": "bottom-left",
+      "height": 600,
+      "width": 600
+    },
+    "note": "This is the initial static scene. No action or motion has occurred.",
+    "visible_objects": [
+      {
+        "color": "red",
+        "geometry": {
+          "position": [
+            342,
+            355
+          ],
+          "radius": 14.317821063276353,
+          "type": "Ball"
+        },
+        "label": "red target ball",
+        "movable": true
+      },
+      {
+        "color": "green",
+        "geometry": {
+          "points": [
+            [
+              4,
+              44
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              284,
+              4
+            ],
+            [
+              284,
+              44
+            ]
+          ],
+          "type": "Container",
+          "width": 8
+        },
+        "label": "green goal container",
+        "movable": true
+      },
+      {
+        "color": "blue",
+        "geometry": {
+          "polys": [
+            [
+              [
+                313.9351446900359,
+                12.30460444446419
+              ],
+              [
+                308.208505583376,
+                0.8513262311438439
+              ],
+              [
+                294.6077377050595,
+                50.95941841441743
+              ]
+            ],
+            [
+              [
+                306.06101591837927,
+                50.959418414415836
+              ],
+              [
+                313.935144690036,
+                12.304604444462484
+              ],
+              [
+                294.60773770505926,
+                50.959418414415836
+              ]
+            ],
+            [
+              [
+                374.0648553099642,
+                12.304604444463848
+              ],
+              [
+                379.7914944166238,
+                0.8513262311449807
+              ],
+              [
+                308.20850558337634,
+                0.8513262311449807
+              ]
+            ],
+            [
+              [
+                313.9351446900365,
+                12.304604444463848
+              ],
+              [
+                374.06485530996395,
+                12.304604444463848
+              ],
+              [
+                308.2085055833767,
+                0.8513262311449807
+              ]
+            ],
+            [
+              [
+                381.9389840816213,
+                50.95941841441686
+              ],
+              [
+                393.3922622949408,
+                50.95941841441686
+              ],
+              [
+                379.79149441662383,
+                0.8513262311430481
+              ]
+            ],
+            [
+              [
+                374.064855309964,
+                12.30460444446419
+              ],
+              [
+                381.93898408162113,
+                50.95941841441743
+              ],
+              [
+                379.7914944166238,
+                0.8513262311438439
+              ]
+            ]
+          ],
+          "type": "Compound"
+        },
+        "label": "blue U-shaped cradle",
+        "movable": true
+      }
+    ]
+  },
+  "system": "You are answering perception questions about one INITIAL STATIC 2D scene. No action has been taken and no physics prediction is requested. Use only the supplied scene representation. Return one JSON object mapping every question_id to exactly one option letter.",
+  "user_text": "The attached JSON contains the visible initial scene geometry. Coordinates use (0,0) at bottom-left; x increases to the right and y increases upward.\nScene conventions: the red target and blue filled objects are movable; black shapes are fixed. The green goal container is movable.\nAnswer all questions. Do not infer any future motion.\n\nFalling_5:red_shape: What is the shape of the red target?\n  A. rectangle\n  B. container\n  C. irregular polygon\n  D. circle\nFalling_5:goal_shape: Which description best matches the green goal?\n  A. open container\n  B. solid circle\n  C. solid triangle\n  D. solid rectangle\nFalling_5:blue_count: How many blue objects are visible?\n  A. 2\n  B. 1\n  C. 3\n  D. 0\nFalling_5:colored_count: How many colored objects are visible in total, counting red, green, and blue but not black?\n  A. 3\n  B. 1\n  C. 2\n  D. 4\n  E. 5\n  F. 6\nFalling_5:movable_count: Using the supplied movability information, how many visible objects are movable?\n  A. 2\n  B. 3\n  C. 4\n  D. 5\n  E. 6\n  F. 1\nFalling_5:horizontal_relation: Where is the red target ball's center horizontally relative to the green goal container's center?\n  A. left\n  B. approximately aligned\n  C. right\nFalling_5:vertical_relation: Where is the red target ball's center vertically relative to the green goal container's center?\n  A. above\n  B. below\n  C. approximately aligned\nFalling_5:red_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the red target ball's center?\n  A. lower-right\n  B. upper-left\n  C. upper-right\n  D. lower-left\nFalling_5:goal_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the green goal container's center?\n  A. upper-left\n  B. upper-right\n  C. lower-right\n  D. lower-left\nFalling_5:containment: Is the red target ball's center initially outside the green goal container?\n  A. yes\n  B. no\nFalling_5:movable_object_relation: Where is the center of the blue U-shaped cradle horizontally relative to the red target ball's center?\n  A. right\n  B. approximately aligned\n  C. left"
+}
