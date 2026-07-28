@@ -12,9 +12,8 @@ The release is organized around three distinct quantities:
 2. **Prediction quality:** before seeing the outcome, how accurately does the
    model predict the terminal locations of the tool and relevant movable
    objects?
-3. **Transfer quality:** after interacting with one goal, does the model
-   improve on unexecuted placements or a different goal in the same unchanged
-   environment?
+3. **Transfer quality:** after interaction, does the model improve its
+   predictions for fixed, unexecuted placements in the same environment?
 
 ## Release contents
 

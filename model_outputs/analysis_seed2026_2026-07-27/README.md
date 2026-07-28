@@ -41,7 +41,15 @@ The `coupling/` directory also includes:
   base-layout-clustered bootstrap replicates;
 - `action_prediction_arm_slopes.csv`, arm-specific slopes from the adjusted
   goal-fixed-effect regression of continuous AQ on prospective PQ; and
+- `symbolic_state_transfer_coupling.csv`, JSON-state Spearman associations
+  between source action or prospective-prediction gains and terminal
+  held-out-prediction gains, with base-layout-clustered intervals; and
 - matched versions of both tables for the complete Robotics-ER control.
+
+The `prediction/` directory includes
+`symbolic_state_first_final_cluster_bootstrap.csv`, which reports the
+first-to-final prospective-PQ change under JSON-state feedback with
+base-layout-clustered intervals.
 
 The regression outcome is continuous AQ at the 72-pixel scale. Predictors are
 prospective PQ at the 150-pixel scale, attempt, feedback-arm indicators, and

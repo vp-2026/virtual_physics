@@ -5,7 +5,7 @@
 | File | Contents |
 |---|---|
 | `paper_goals_1560.json` | The 1,560 noncanonical goals retained from the paper benchmark. |
-| `benchmark_1692_seed2026.json` | The same 1,560 goals plus 132 canonical container goals and 132 deterministic Goal-A → Goal-B pairs. |
+| `benchmark_1692_seed2026.json` | The same 1,560 goals plus 132 canonical container goals. |
 | `solution_density_summary.csv` | Per-goal simulator success numerator, valid-placement denominator, and solution density. |
 | `asset_index_132.json` | Historical task-key to numbered-cell mapping with SHA-256 world and screenshot verification. |
 | `manifest_summary.json` | Compact count and range audit. |
@@ -42,18 +42,3 @@ the sufficient per-goal counts used to recompute each density. Candidate-level
 raw sweep trajectories are substantially larger and are not required to run
 or score the benchmark; the simulator and sweep-generation code needed to
 reproduce them are released under `simulator/goal_semantics/`.
-
-## Goal-transfer pairing
-
-The 132 canonical source goals are paired with a different noncanonical target
-goal in the same unchanged scene and tool mechanism. Pair selection:
-
-1. never uses model performance;
-2. excludes the identical goal/signature;
-3. prefers a different goal category;
-4. minimizes the log difference in paper-saved solution density;
-5. uses deterministic seed 2026 for tie-breaking.
-
-The model’s ordinary fresh attempt 1 on Goal B supplies the no-experience
-comparison. Its isolated Goal-B action after terminal Goal-A interaction
-supplies the experienced comparison.

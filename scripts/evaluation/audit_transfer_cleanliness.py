@@ -118,41 +118,34 @@ def main() -> None:
                 metrics["action_point_issues"] += 1
             metrics.update(prediction_issues(predictions_from(response), expected_ids))
 
+        heldout_result_names = {
+            "early_prediction",
+            "terminal_prediction",
+            "early_probe",
+            "terminal_probe",
+            "clear_path_probe",
+        }
         for path in (unit_dir / "transfer_sidecars").rglob("result.json"):
+            if path.parent.name not in heldout_result_names:
+                continue
             data = json.loads(path.read_text(encoding="utf-8"))
-            if path.parent.name == "goal_transfer":
-                metrics["goal_transfer_payloads"] += 1
-                response = (data.get("attempt") or {}).get("model_response")
-                if not isinstance(response, dict) or not response.get("schema_valid"):
-                    metrics["goal_transfer_schema_invalid"] += 1
-                if not valid_action_point(response):
-                    metrics["goal_transfer_action_point_issues"] += 1
-                issues = prediction_issues(
-                    predictions_from(response),
-                    expected_ids,
-                )
-                for name, count in issues.items():
-                    metrics[f"goal_transfer_{name}"] += count
-                if data.get("error"):
-                    metrics["goal_transfer_errors"] += 1
-            else:
-                metrics["heldout_payloads"] += 1
-                if not data.get("schema_valid"):
-                    metrics["heldout_schema_invalid"] += 1
-                validation = data.get("validation") or {}
-                for name in ("missing_ids", "unexpected_ids", "duplicate_ids"):
-                    value = validation.get(name) or []
-                    metrics[f"heldout_{name}"] += len(value)
-                issues = prediction_issues(
-                    predictions_from(data.get("parsed_payload")),
-                    {
-                        str(item.get("id") or "")
-                        for item in (validation.get("predictions") or [])
-                        if isinstance(item, dict)
-                    },
-                )
-                metrics["heldout_coordinate_issues"] += issues["coordinate_issues"]
-                metrics["heldout_state_issues"] += issues["state_issues"]
+            metrics["heldout_payloads"] += 1
+            if not data.get("schema_valid"):
+                metrics["heldout_schema_invalid"] += 1
+            validation = data.get("validation") or {}
+            for name in ("missing_ids", "unexpected_ids", "duplicate_ids"):
+                value = validation.get(name) or []
+                metrics[f"heldout_{name}"] += len(value)
+            issues = prediction_issues(
+                predictions_from(data.get("parsed_payload")),
+                {
+                    str(item.get("id") or "")
+                    for item in (validation.get("predictions") or [])
+                    if isinstance(item, dict)
+                },
+            )
+            metrics["heldout_coordinate_issues"] += issues["coordinate_issues"]
+            metrics["heldout_state_issues"] += issues["state_issues"]
 
     totals: Counter = Counter()
     for metrics in by_model.values():

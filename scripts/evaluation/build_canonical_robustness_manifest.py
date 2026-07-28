@@ -20,7 +20,11 @@ def build(source: Path, output: Path) -> dict[str, Any]:
     for full_index, raw in enumerate(raw_goals):
         if (
             str(raw.get("source") or "") != "canonical_world_gcond"
-            and not bool(raw.get("transfer_source"))
+            and not (
+                str(raw.get("category_5")) == "canonical"
+                and str(raw.get("internal_subtype"))
+                == "specific_in_goal_dwell"
+            )
         ):
             continue
         goal = copy.deepcopy(raw)

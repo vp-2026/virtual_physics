@@ -8,7 +8,7 @@ The scripts in this folder operate on finalized experiment outputs.
 | `analyze_action_predictions.py` | Prospective per-attempt coordinate prediction scoring. |
 | `analyze_action_prediction_coupling.py` | Within-goal relation between action quality and prediction quality. |
 | `analyze_action_transfer_coupling.py` | Relation between feedback-induced source-action improvement and held-out prediction transfer. |
-| `analyze_transfer_pilot.py` | Early/terminal held-out prediction and same-scene goal-transfer scoring. |
+| `analyze_transfer_pilot.py` | Early/terminal held-out predictive-transfer scoring. |
 | `audit_transfer_cleanliness.py` | Sidecar completion, schema, target, and contamination checks. |
 | `score_paper_action_quality.py` | Paper-defined linear action quality and goal-specific normalization. |
 | `run_coordinate_replay.py` | Independent 10-pixel coordinate rounding and fixed ±5-pixel perturbation replay without new model calls. |

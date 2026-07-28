@@ -51,6 +51,12 @@ DROP_KEYS = {
     "response_id",
     "response_extra",
     "event_graph",
+    "goal_transfer",
+    "goal_transfer_eligible",
+    "target_goal_id",
+    "transfer_pair_selection",
+    "transfer_source",
+    "transfer_target_goal_id",
 }
 
 
@@ -178,6 +184,8 @@ def collect_sidecars(unit_dir: Path) -> list[dict[str, Any]]:
                     }
                 )
         for path in sorted(root.rglob("result.json")):
+            if "goal_transfer" in path.parts:
+                continue
             records.append(
                 {
                     "source": relative_label(path, unit_dir),
@@ -185,6 +193,8 @@ def collect_sidecars(unit_dir: Path) -> list[dict[str, Any]]:
                 }
             )
         for path in sorted(root.rglob("provider_calls.jsonl")):
+            if "goal_transfer" in path.parts:
+                continue
             for row in read_jsonl(path):
                 records.append(
                     {

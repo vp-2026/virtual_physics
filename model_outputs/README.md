@@ -1,14 +1,14 @@
 # Model outputs
 
 `snapshot_seed2026_2026-07-27/` is a de-identified snapshot of every completed
-main-benchmark unit available when the release was encoded. It contains 3,377
+main-benchmark unit available when the release was encoded. It contains 4,270
 completed model × goal × seed episodes:
 
 | Model | Completed units | Coverage of 1,692 goals |
 |---|---:|---:|
-| Gemini 3.1 Pro Preview | 1,653 | 97.695% |
-| GPT-5 | 1,498 | 88.534% |
-| Qwen 3.6 Plus | 226 | 13.357% |
+| Gemini 3.1 Pro Preview | 1,679 | 99.232% |
+| GPT-5 | 1,682 | 99.409% |
+| Qwen 3.6 Plus | 909 | 53.723% |
 
 `robotics_er_canonical132_seed2026_2026-07-27/` contains the complete
 132-environment Gemini Robotics-ER 1.6 Preview control. All 132 source

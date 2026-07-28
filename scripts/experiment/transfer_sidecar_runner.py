@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run isolated early, terminal, and same-scene goal-transfer sidecars.
+"""Run isolated early and terminal held-out-prediction sidecars.
 
 This program consumes completed main-run units.  Sidecar responses never enter
 the solver history.  Probe coordinates are selected jointly before feedback,
@@ -891,162 +891,6 @@ def compact_prediction_result(
     }
 
 
-def compact_goal_transfer_result(
-    result: dict[str, Any], result_path: Path
-) -> dict[str, Any]:
-    attempt = result.get("attempt") or {}
-    return {
-        "result_path": str(result_path.resolve()),
-        "error": result.get("error"),
-        "protocol_finalized": bool(result.get("protocol_finalized")),
-        "provider_call_count": int(result.get("provider_call_count") or 0),
-        "coords": attempt.get("coords"),
-        "goal_succeeded": (
-            bool(attempt.get("goal_succeeded")) if attempt else None
-        ),
-    }
-
-
-def goal_transfer_prompt(
-    *,
-    source_goal: dict[str, Any],
-    target_goal: dict[str, Any],
-    targets: Sequence[dict[str, str]],
-    feedback_text: str,
-) -> str:
-    return f"""Isolated same-scene goal-transfer branch.
-
-{feedback_text}
-
-The source-goal episode is now set aside. This is the same environment with the same initial scene, the same gravity, the same orange ball tool, and the same physical dynamics as before. Only the objective is replaced with this different target:
-
-New target goal: {target_goal["goal_text"]}
-
-Submit exactly one placement for the new target goal and prospectively predict the terminal state caused by your own placement. This branch does not return to the source solver.
-
-{runner.response_schema_text(targets)}"""
-
-
-def run_goal_transfer(
-    *,
-    args: argparse.Namespace,
-    provider: Any,
-    source_goal: dict[str, Any],
-    target_goal: dict[str, Any],
-    goal_bank: Any,
-    history: Sequence[dict[str, str]],
-    feedback_text: str,
-    images: Sequence[Path],
-    unit_dir: Path,
-    condition: str,
-    world_path: Path,
-) -> dict[str, Any]:
-    sidecar_dir = unit_dir / "transfer_sidecars" / condition / "goal_transfer"
-    result_path = sidecar_dir / "result.json"
-    if result_path.exists():
-        existing = read_json(result_path)
-        if bool(existing.get("protocol_finalized")):
-            return existing
-        if not existing.get("error") and isinstance(
-            existing.get("attempt"), dict
-        ):
-            return existing
-        archive = sidecar_dir / "result.incomplete_before_retry.json"
-        if not archive.exists():
-            shutil.copy2(result_path, archive)
-    targets = runner.prediction_targets_for_goal(target_goal, goal_bank)
-    prompt = goal_transfer_prompt(
-        source_goal=source_goal,
-        target_goal=target_goal,
-        targets=targets,
-        feedback_text=feedback_text,
-    )
-    try:
-        working_history = list(copy.deepcopy(history))
-        current_prompt = prompt
-        current_images = list(images)
-        all_calls = []
-        blocked_actions = []
-        attempt = None
-        calls = []
-        for candidate_index in range(1, args.max_blocked_repairs + 2):
-            coords, working_history, calls = runner.request_valid_action(
-                provider=provider,
-                history=working_history,
-                prompt=current_prompt,
-                image_paths=current_images,
-                call_log_path=sidecar_dir / "provider_calls.jsonl",
-                call_label=(
-                    f"{condition}_goal_transfer_candidate_{candidate_index:02d}"
-                ),
-                max_format_repairs=args.max_format_repairs,
-                prediction_targets=targets,
-                history_prompt=None,
-            )
-            all_calls.extend(calls)
-            attempt = runner.simulate_attempt(
-                goal=target_goal,
-                goal_bank=goal_bank,
-                world_path=world_path,
-                coords=coords,
-                attempt_dir=(
-                    sidecar_dir
-                    / f"target_attempt_1_candidate_{candidate_index:02d}"
-                ),
-                attempt_number=1,
-                frame_count=args.frame_count,
-                attempt_budget=1,
-                frames_condition=False,
-                stop_on_success=True,
-                trace_condition=False,
-                trace_state_count=args.frame_count,
-            )
-            if not bool(attempt["obstruction_detected"]):
-                break
-            blocked_actions.append(list(coords))
-            if candidate_index > args.max_blocked_repairs:
-                raise RuntimeError(
-                    "Exceeded goal-transfer geometric repair limit"
-                )
-            current_prompt = runner.build_blocked_prompt(coords, targets)
-            current_images = list(images[:1])
-        if attempt is None:
-            raise RuntimeError("Goal-transfer action loop produced no attempt")
-        attempt["model_response"] = copy.deepcopy(
-            calls[-1].get("parsed_action_payload") if calls else None
-        )
-        result = {
-            "schema_version": 1,
-            "source_goal_id": source_goal["balanced_goal_id"],
-            "target_goal_id": target_goal["balanced_goal_id"],
-            "condition": condition,
-            "attempt": attempt,
-            "blocked_actions": blocked_actions,
-            "provider_call_count": len(all_calls),
-            "last_provider_metadata": (
-                copy.deepcopy(all_calls[-1].get("provider_metadata"))
-                if all_calls
-                else None
-            ),
-            "error": None,
-            "protocol_finalized": True,
-        }
-    except Exception as exc:
-        result = {
-            "schema_version": 1,
-            "source_goal_id": source_goal["balanced_goal_id"],
-            "target_goal_id": target_goal["balanced_goal_id"],
-            "condition": condition,
-            "attempt": None,
-            "provider_call_count": 0,
-            "last_provider_metadata": None,
-            "error": f"{type(exc).__name__}: {exc}",
-            "protocol_finalized": True,
-        }
-    runner.atomic_write_json(result_path, result)
-    return result
-
-
 def probe_contaminated(
     probe_coords: Sequence[int], attempts: Iterable[dict[str, Any]]
 ) -> bool:
@@ -1099,13 +943,6 @@ def sidecar_summary_complete(
             or terminal.get("schema_valid")
         ):
             return False
-        goal_transfer = branch.get("goal_transfer") or {}
-        if goal_transfer.get("eligible") is False:
-            continue
-        if goal_transfer.get("protocol_finalized") is True:
-            continue
-        if goal_transfer.get("error") or goal_transfer.get("coords") is None:
-            return False
     return True
 
 
@@ -1114,7 +951,6 @@ def run_unit_sidecars(
     args: argparse.Namespace,
     provider: Any,
     goal: dict[str, Any],
-    target_goal: Optional[dict[str, Any]],
     goal_bank: Any,
     unit_dir: Path,
     probe_cache: Path,
@@ -1144,7 +980,6 @@ def run_unit_sidecars(
         if not archive.exists():
             shutil.copy2(output_path, archive)
     screenshot_path = unit_dir / "assets" / "initial_observation.png"
-    world_path = unit_dir / "assets" / "simulation_world.json"
     visual_shared, _ = branch_state(unit_dir, "full")
     trace_shared, _ = branch_state(unit_dir, "trace_status")
     avoid_coords = [
@@ -1371,40 +1206,6 @@ The fixed placement below was selected before feedback and has not been executed
             condition_results["source_first_success_attempt"] = state.get(
                 "first_success_attempt"
             )
-            if target_goal is None:
-                condition_results["goal_transfer"] = {
-                    "eligible": False,
-                    "reason": "no_noncanonical_goal_in_main_manifest_cell",
-                    "error": None,
-                    "provider_call_count": 0,
-                    "coords": None,
-                    "goal_succeeded": None,
-                }
-            else:
-                goal_transfer_result = run_goal_transfer(
-                    args=args,
-                    provider=provider,
-                    source_goal=goal,
-                    target_goal=target_goal,
-                    goal_bank=goal_bank,
-                    history=state["history"],
-                    feedback_text=terminal_feedback,
-                    images=terminal_images,
-                    unit_dir=unit_dir,
-                    condition=condition,
-                    world_path=world_path,
-                )
-                condition_results["goal_transfer"] = {
-                    "eligible": True,
-                    **compact_goal_transfer_result(
-                        goal_transfer_result,
-                        unit_dir
-                        / "transfer_sidecars"
-                        / condition
-                        / "goal_transfer"
-                        / "result.json",
-                    ),
-                }
         finally:
             clean_temporary_media(temporary_root)
         results["conditions"][condition] = condition_results
@@ -1415,9 +1216,6 @@ The fixed placement below was selected before feedback and has not been executed
         "seed": args.seed,
         "expected_conditions": list(active_conditions),
         "source_goal_id": goal["balanced_goal_id"],
-        "target_goal_id": (
-            target_goal["balanced_goal_id"] if target_goal is not None else None
-        ),
         "puzzle_key": goal["puzzle_key"],
         "probe_selection": selection,
         "results": results,
@@ -1512,18 +1310,11 @@ def main() -> None:
         budget_mode="fixed",
         fixed_budget=8,
     )
-    raw_by_id = {
-        str(goal["balanced_goal_id"]): goal for goal in raw_goals
-    }
-    goal_by_id = {
-        str(goal["balanced_goal_id"]): goal for goal in goals
-    }
     source_goals = [
         goal
         for goal in goals
-        if bool(
-            raw_by_id[str(goal["balanced_goal_id"])].get("transfer_source")
-        )
+        if str(goal.get("category_5")) == "canonical"
+        and str(goal.get("internal_subtype")) == "specific_in_goal_dwell"
     ]
     if len(source_goals) != 132:
         raise RuntimeError(
@@ -1571,22 +1362,23 @@ def main() -> None:
             flush=True,
         )
     summaries = []
+    unavailable_source_goal_ids = []
     for ordinal, goal in enumerate(selected, start=1):
-        raw = raw_by_id[str(goal["balanced_goal_id"])]
-        target_id = str(raw.get("transfer_target_goal_id") or "")
-        target_goal = goal_by_id.get(target_id) if target_id else None
-        if bool(raw.get("goal_transfer_eligible")) and target_goal is None:
-            raise RuntimeError(
-                f"Missing transfer target for {goal['balanced_goal_id']}: {target_id}"
-            )
         unit_dir = runner.goal_unit_dir(
             args.result_root, args.model, args.seed, goal
         )
         if not (unit_dir / "unit_summary.json").exists():
-            raise RuntimeError(f"Main-run unit is incomplete: {unit_dir}")
+            unavailable_source_goal_ids.append(
+                str(goal["balanced_goal_id"])
+            )
+            print(
+                f"[skip: main unit incomplete] {goal['balanced_goal_id']}",
+                flush=True,
+            )
+            continue
         print(
             f"[{ordinal}/{len(selected)}] {args.model} "
-            f"{goal['balanced_goal_id']} -> {target_id}",
+            f"{goal['balanced_goal_id']}",
             flush=True,
         )
         lock_path = unit_dir / "transfer_sidecars" / ".unit.lock"
@@ -1598,7 +1390,6 @@ def main() -> None:
                     args=args,
                     provider=provider,
                     goal=goal,
-                    target_goal=target_goal,
                     goal_bank=goal_bank,
                     unit_dir=unit_dir,
                     probe_cache=args.probe_cache,
@@ -1623,6 +1414,12 @@ def main() -> None:
             "manifest": str(args.manifest),
             "selected_goal_count": len(selected),
             "completed_unit_count": len(summaries),
+            "main_unit_unavailable_count": len(
+                unavailable_source_goal_ids
+            ),
+            "main_unit_unavailable_source_goal_ids": (
+                unavailable_source_goal_ids
+            ),
             "protocol_complete_unit_count": (
                 len(summaries) - len(incomplete_ids)
             ),
@@ -1632,7 +1429,10 @@ def main() -> None:
             "cumulative_provider_cost_usd": provider.cumulative_cost_usd,
         },
     )
-    if len(summaries) != len(selected) or incomplete_ids:
+    if (
+        len(summaries) + len(unavailable_source_goal_ids) != len(selected)
+        or incomplete_ids
+    ):
         raise RuntimeError(
             "Transfer shard coverage incomplete: "
             f"selected={len(selected)} summaries={len(summaries)} "
