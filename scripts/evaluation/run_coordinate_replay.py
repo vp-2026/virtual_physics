@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Offline coordinate-interface replay for completed VTools model runs.
 
-The replay never changes a model conversation. It replaces each accepted
-action with the nearest geometry-valid point whose coordinates are multiples
-of 10 and simulates the fixed proposed sequence from the initial state. It
-also evaluates the frozen +/-5-pixel neighborhood for attempt-1 and originally
-successful actions. One simulation is shared across every goal and model that
-uses the same layout, gravity, and coordinate.
+The replay never changes a model conversation or repairs an action. Each
+accepted action is rounded independently on x and y to the nearest 10-pixel
+grid coordinate, with a deterministic lower-coordinate tie break. If the
+mechanically rounded point overlaps scene geometry, it is recorded as invalid
+rather than projected to a nearby valid placement. The replay also evaluates
+the frozen +/-5-pixel neighborhood for attempt-1 and originally successful
+actions without feasibility projection.
 """
 
 from __future__ import annotations
@@ -197,28 +198,6 @@ def collect_actions(result_root: Path) -> tuple[
     return actions, goals
 
 
-def geometry_valid_10px_points(
-    *,
-    pred: Any,
-    world_data: dict[str, Any],
-) -> list[tuple[int, int]]:
-    points = []
-    for x in range(40, 561, 10):
-        for y in range(40, 561, 10):
-            world = pred.loadFromDict(world_data["world"]).copy()
-            if pred.place_ball_tool(
-                world,
-                (float(x), float(y)),
-                TOOL_RADIUS_PX,
-                "downward",
-                "orange",
-            ):
-                points.append((x, y))
-    if not points:
-        raise RuntimeError("Scene has no geometry-valid 10-pixel placement")
-    return points
-
-
 def placement_is_geometry_valid(
     *,
     pred: Any,
@@ -277,18 +256,20 @@ def clearance_class(clearance_px: float | None) -> str:
     return "10_to_20px"
 
 
-def nearest_point(
+def round_coordinate_to_grid(value: int, grid_px: int = 10) -> int:
+    """Round to the nearest grid coordinate, breaking exact ties downward."""
+    lower = (int(value) // grid_px) * grid_px
+    upper = lower + grid_px
+    return lower if int(value) - lower <= upper - int(value) else upper
+
+
+def round_point_to_grid(
     coords: Sequence[int],
-    candidates: Sequence[tuple[int, int]],
+    grid_px: int = 10,
 ) -> tuple[int, int]:
-    x, y = int(coords[0]), int(coords[1])
-    return min(
-        candidates,
-        key=lambda point: (
-            (point[0] - x) ** 2 + (point[1] - y) ** 2,
-            point[0],
-            point[1],
-        ),
+    return (
+        round_coordinate_to_grid(int(coords[0]), grid_px),
+        round_coordinate_to_grid(int(coords[1]), grid_px),
     )
 
 
@@ -342,10 +323,6 @@ def simulate_cell(task: dict[str, Any]) -> dict[str, Any]:
     label_map, role_map, dynamic_map = builder.build_label_maps(
         pred, world_data
     )
-    valid_10 = geometry_valid_10px_points(
-        pred=pred,
-        world_data=world_data,
-    )
     geometry_world = pred.loadFromDict(world_data["world"]).copy()
     tool_polygons = pred.regular_ngon(TOOL_RADIUS_PX, 32)
     validity_cache: dict[tuple[int, int], bool] = {}
@@ -366,13 +343,16 @@ def simulate_cell(task: dict[str, Any]) -> dict[str, Any]:
             ),
         }
     requested_signatures = set(task["requested_signatures"])
-    snapped_by_original = {
-        coordinate_key(coords): list(nearest_point(coords, valid_10))
+    rounded_by_original = {
+        coordinate_key(coords): list(round_point_to_grid(coords))
         for coords in task["original_coordinates"]
     }
     simulation_coordinates = {
-        tuple(coords) for coords in snapped_by_original.values()
+        tuple(coords) for coords in task["original_coordinates"]
     }
+    simulation_coordinates.update(
+        tuple(coords) for coords in rounded_by_original.values()
+    )
     for coords in task["jitter_source_coordinates"]:
         x, y = int(coords[0]), int(coords[1])
         simulation_coordinates.update(
@@ -412,8 +392,8 @@ def simulate_cell(task: dict[str, Any]) -> dict[str, Any]:
         "gravity": task["gravity"],
         "input_sha256": task["input_sha256"],
         "environment_json": str(environment_path.resolve()),
-        "valid_10px_point_count": len(valid_10),
-        "snapped_by_original": snapped_by_original,
+        "rounding_grid_px": 10,
+        "rounded_by_original": rounded_by_original,
         "clearance_by_original": clearance_by_original,
         "simulations": simulations,
     }
@@ -559,23 +539,37 @@ def merge_results(
         goal = goals[str(action["goal_id"])]
         cell = cell_results[str(action["puzzle_key"])]
         original = action["original_coords"]
-        snapped = cell["snapped_by_original"][coordinate_key(original)]
-        snapped_sim = cell["simulations"][coordinate_key(snapped)]
+        rounded = cell["rounded_by_original"][coordinate_key(original)]
+        original_sim = cell["simulations"][coordinate_key(original)]
+        rounded_sim = cell["simulations"][coordinate_key(rounded)]
+        original_replayed_success = goal_success_from_simulation(
+            goal, original_sim
+        )
+        rounded_success = goal_success_from_simulation(goal, rounded_sim)
+        rounding_eligible = bool(
+            original_sim["valid"] and rounded_sim["valid"]
+        )
         row = {
             **{
                 key: value
                 for key, value in action.items()
                 if key not in {"environment_json", "jitter_scope"}
             },
-            "snapped_coords": snapped,
-            "snap_displacement_px": math.dist(original, snapped),
-            "snapped_valid": bool(snapped_sim["valid"]),
-            "snapped_success": goal_success_from_simulation(
-                goal, snapped_sim
-            ),
-            "original_snapped_success_agreement": (
+            "original_replay_valid": bool(original_sim["valid"]),
+            "original_replayed_success": original_replayed_success,
+            "logged_original_replay_success_agreement": (
                 bool(action["original_success"])
-                == goal_success_from_simulation(goal, snapped_sim)
+                == original_replayed_success
+            ),
+            "rounded_coords": rounded,
+            "rounding_displacement_px": math.dist(original, rounded),
+            "rounded_valid": bool(rounded_sim["valid"]),
+            "rounding_eligible_both_valid": rounding_eligible,
+            "rounded_success": rounded_success,
+            "original_rounded_success_agreement_when_eligible": (
+                original_replayed_success == rounded_success
+                if rounding_eligible
+                else None
             ),
             **{
                 f"original_{key}": value
@@ -585,17 +579,20 @@ def merge_results(
                 ).items()
             },
             **{
-                f"snapped_{key}": value
+                f"rounded_{key}": value
                 for key, value in aq_values(
                     trees[str(action["goal_id"])],
-                    snapped,
+                    rounded,
                 ).items()
             },
             "jitter_evaluated": bool(action["jitter_scope"]),
             "jitter_valid_count": None,
             "jitter_success_count": None,
             "jitter_success_fraction": None,
+            "jitter_valid_fraction": None,
+            "jitter_success_fraction_all_eight_invalid_as_failure": None,
             "jitter_all_valid_agree_with_original": None,
+            "jitter_all_eight_agree_with_original": None,
             "jitter_all_valid_success": None,
             "jitter_any_success": None,
             "original_isolated_success": None,
@@ -605,6 +602,8 @@ def merge_results(
         }
         if action["jitter_scope"]:
             jitter_sims: list[bool] = []
+            jitter_all_eight: list[bool] = []
+            jitter_agreement_all_eight: list[bool] = []
             successful_distances: list[float] = []
             for dx, dy in JITTER_OFFSETS:
                 coords = [original[0] + dx, original[1] + dy]
@@ -614,22 +613,42 @@ def merge_results(
                         goal, simulation
                     )
                     jitter_sims.append(succeeded)
+                    jitter_all_eight.append(succeeded)
+                    jitter_agreement_all_eight.append(
+                        succeeded == original_replayed_success
+                    )
                     if succeeded:
                         successful_distances.append(math.hypot(dx, dy))
+                else:
+                    # Invalid perturbations are never repaired. The
+                    # conservative all-eight analysis counts them as failures.
+                    jitter_all_eight.append(False)
+                    jitter_agreement_all_eight.append(
+                        not original_replayed_success
+                    )
             row["jitter_valid_count"] = len(jitter_sims)
             row["jitter_success_count"] = sum(jitter_sims)
+            row["jitter_valid_fraction"] = len(jitter_sims) / len(
+                JITTER_OFFSETS
+            )
             row["jitter_success_fraction"] = (
                 sum(jitter_sims) / len(jitter_sims)
                 if jitter_sims
                 else None
             )
+            row[
+                "jitter_success_fraction_all_eight_invalid_as_failure"
+            ] = sum(jitter_all_eight) / len(JITTER_OFFSETS)
             row["jitter_all_valid_agree_with_original"] = (
                 all(
-                    value == bool(action["original_success"])
+                    value == original_replayed_success
                     for value in jitter_sims
                 )
                 if jitter_sims
                 else None
+            )
+            row["jitter_all_eight_agree_with_original"] = all(
+                jitter_agreement_all_eight
             )
             row["jitter_all_valid_success"] = (
                 all(jitter_sims) if jitter_sims else None
@@ -638,7 +657,7 @@ def merge_results(
                 any(jitter_sims) if jitter_sims else None
             )
             row["original_isolated_success"] = bool(
-                action["original_success"] and not any(jitter_sims)
+                original_replayed_success and not any(jitter_all_eight)
             )
             row["minimum_distance_to_successful_jitter_px"] = (
                 min(successful_distances)
@@ -681,13 +700,16 @@ def merge_results(
             ),
             None,
         )
-        snapped_first = next(
+        rounded_first_conservative = next(
             (
                 int(row["attempt"])
                 for row in ordered
-                if row["snapped_success"]
+                if row["rounded_valid"] and row["rounded_success"]
             ),
             None,
+        )
+        all_rounding_eligible = all(
+            bool(row["rounding_eligible_both_valid"]) for row in ordered
         )
         sequence_rows.append(
             {
@@ -700,18 +722,29 @@ def merge_results(
                 "condition": condition,
                 "attempt_count": len(ordered),
                 "original_first_success": original_first,
-                "snapped_first_success": snapped_first,
+                "all_actions_rounding_eligible": all_rounding_eligible,
+                "rounded_first_success_invalid_as_failure": (
+                    rounded_first_conservative
+                ),
                 "original_solve_by_8": original_first is not None,
-                "snapped_solve_by_8": snapped_first is not None,
-                "solve_by_8_agreement": (
-                    (original_first is not None) == (snapped_first is not None)
+                "rounded_solve_by_8_invalid_as_failure": (
+                    rounded_first_conservative is not None
+                ),
+                "rounded_solve_by_8_when_all_valid": (
+                    rounded_first_conservative is not None
+                    if all_rounding_eligible
+                    else None
+                ),
+                "solve_by_8_agreement_invalid_as_failure": (
+                    (original_first is not None)
+                    == (rounded_first_conservative is not None)
                 ),
                 "mean_original_aq_sigma72": sum(
                     float(row["original_aq_sigma72"]) for row in ordered
                 )
                 / len(ordered),
-                "mean_snapped_aq_sigma72": sum(
-                    float(row["snapped_aq_sigma72"]) for row in ordered
+                "mean_rounded_aq_sigma72": sum(
+                    float(row["rounded_aq_sigma72"]) for row in ordered
                 )
                 / len(ordered),
             }
@@ -731,13 +764,22 @@ def merge_results(
         ),
         "action_rows": str(action_path.resolve()),
         "sequence_rows": str(sequence_path.resolve()),
-        "nearest_10px_rule": (
-            "nearest initial-geometry-valid point with x and y divisible by "
-            "10; Euclidean distance then lexicographic x,y tie-break"
+        "rounding_10px_rule": (
+            "round x and y independently to the nearest coordinate divisible "
+            "by 10, with exact ties rounded downward; never project to a "
+            "geometry-valid point"
+        ),
+        "maximum_rounding_displacement_px": math.sqrt(50.0),
+        "rounding_eligibility": (
+            "primary paired rounding estimate retains actions only when both "
+            "the original and mechanically rounded points are geometry-valid; "
+            "a conservative estimate separately treats invalid rounded points "
+            "as failures"
         ),
         "jitter_offsets": [list(offset) for offset in JITTER_OFFSETS],
         "jitter_scope": (
-            "every attempt-1 action and every originally successful action"
+            "every attempt-1 action and every originally successful action; "
+            "exact offsets are simulated without feasibility projection"
         ),
         "clearance_definition": (
             "nearest geometry-invalid integer tool-center displacement, "

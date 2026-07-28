@@ -1,0 +1,46 @@
+{
+  "completed_unit_count": 132,
+  "coverage": [
+    {
+      "canonical_units": 132,
+      "completed_units": 132,
+      "completion_percent": 100.0,
+      "expected_units": 132,
+      "full_condition_units": 132,
+      "model_key": "gemini_robotics_er",
+      "neither_condition_units": 132,
+      "status_only_condition_units": 0,
+      "trace_status_condition_units": 132,
+      "units_with_transfer_sidecars": 132
+    }
+  ],
+  "created_utc": "2026-07-27T11:47:06.264856+00:00",
+  "exclusions": [
+    "partial recovery directories without unit_summary.json",
+    "rollout PNGs and videos",
+    "regenerable full simulator traces",
+    "absolute worker filesystem paths",
+    "provider response identifiers and credentials"
+  ],
+  "expected_units_per_main_model": 132,
+  "partial_candidate_directory_count": 0,
+  "schema_version": 1,
+  "shards": [
+    {
+      "bytes": 3055537,
+      "model_key": "gemini_robotics_er",
+      "path": "data/gemini_robotics_er/units-0000.jsonl.gz",
+      "sha256": "726683685c345f3246c2457833efc39ea001bc7013f1131c30e82dc6ccf8af43",
+      "unit_count": 100
+    },
+    {
+      "bytes": 1050457,
+      "model_key": "gemini_robotics_er",
+      "path": "data/gemini_robotics_er/units-0001.jsonl.gz",
+      "sha256": "e452e8904f62ad8f3db91f23f70628838be5c8c7f4cc5ddae87656125662427e",
+      "unit_count": 32
+    }
+  ],
+  "snapshot_id": "seed2026-robotics-er-canonical132-20260727T1125",
+  "source": "completed unit_summary.json records only"
+}

@@ -1,0 +1,4 @@
+model_key,condition,units,first_to_final_pq_change_points,ci95_low_points,ci95_high_points,bootstrap_cluster,bootstrap_draws,seed
+gpt5,trace_status,1361,16.36499519213173,14.368405899346218,18.363441405292903,base_layout,10000,2026
+gemini31pro,trace_status,1452,6.105021124274885,4.4607529705659985,7.923656459233149,base_layout,10000,2026
+qwen36plus,trace_status,175,4.8663783512448315,0.9402289029866713,9.252355162099187,base_layout,10000,2026

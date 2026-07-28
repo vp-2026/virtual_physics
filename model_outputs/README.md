@@ -1,14 +1,23 @@
 # Model outputs
 
 `snapshot_seed2026_2026-07-27/` is a de-identified snapshot of every completed
-main-benchmark unit available when the release was encoded. It contains 3,353
+main-benchmark unit available when the release was encoded. It contains 4,270
 completed model × goal × seed episodes:
 
 | Model | Completed units | Coverage of 1,692 goals |
 |---|---:|---:|
-| Gemini 3.1 Pro Preview | 1,653 | 97.695% |
-| GPT-5 | 1,483 | 87.648% |
-| Qwen 3.6 Plus | 217 | 12.825% |
+| Gemini 3.1 Pro Preview | 1,679 | 99.232% |
+| GPT-5 | 1,682 | 99.409% |
+| Qwen 3.6 Plus | 909 | 53.723% |
+
+`robotics_er_canonical132_seed2026_2026-07-27/` contains the complete
+132-environment Gemini Robotics-ER 1.6 Preview control. All 132 source
+episodes and all 132 held-out-prediction sidecar bundles are included.
+
+`analysis_seed2026_2026-07-27/` contains the corresponding frozen planning,
+action-quality, prospective-prediction, held-out-prediction, and coupling
+summary tables. Each table records its own complete-case or matched-case
+coverage.
 
 Coverage is reported explicitly because collection was still running at the
 snapshot boundary. Only directories containing a finalized
@@ -28,7 +37,6 @@ one completed model × goal × seed unit containing:
 - condition-specific feedback provenance;
 - simulator truth, endpoint coordinates, and success result;
 - completed early and terminal held-out prediction sidecars;
-- completed exploratory same-environment Goal-A → Goal-B sidecars;
 - schema-validity and completion flags; and
 - token usage, latency, and cost fields when returned by the provider.
 
@@ -39,6 +47,11 @@ SHA-256 digest. Validate the downloaded package with:
 python scripts/release/export_model_outputs.py \
   --check \
   --output-root model_outputs/snapshot_seed2026_2026-07-27
+
+python scripts/release/export_model_outputs.py \
+  --check \
+  --output-root \
+  model_outputs/robotics_er_canonical132_seed2026_2026-07-27
 ```
 
 ## De-identification and media policy

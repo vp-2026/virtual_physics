@@ -12,9 +12,8 @@ The release is organized around three distinct quantities:
 2. **Prediction quality:** before seeing the outcome, how accurately does the
    model predict the terminal locations of the tool and relevant movable
    objects?
-3. **Transfer quality:** after interacting with one goal, does the model
-   improve on unexecuted placements or a different goal in the same unchanged
-   environment?
+3. **Transfer quality:** after interaction, does the model improve its
+   predictions for fixed, unexecuted placements in the same environment?
 
 ## Release contents
 
@@ -28,6 +27,7 @@ scripts/evaluation/        action, prediction, transfer, and sensitivity analyse
 scripts/release/           release-building and integrity checks
 vqa/                       static, coordinate, and temporal VQA packages
 model_outputs/             completed-unit output snapshot and coverage manifest
+human_data/                de-identified human trial-stage responses
 examples/                  small runnable illustration retained from the initial release
 ```
 
@@ -71,8 +71,9 @@ part of the visual-arm shared-attempt randomization.
 
 Earlier action coordinates and prospective predictions remain in text.
 Previously supplied rollout images or JSON traces do not persist: only the
-latest rollout is supplied. Held-out prediction and Goal-A → Goal-B transfer
-queries run in isolated branches that never return to the solver conversation.
+latest rollout is supplied. Held-out predictive-transfer queries use fixed,
+unexecuted placements in isolated branches that never return to the solver
+conversation.
 
 The full and compact prompts are a controlled wording check. They differ only
 in the first system-role sentence; all task rules, dynamics, coordinate
@@ -130,6 +131,11 @@ The VQA release contains static scene recognition, free-response coordinate
 localization, and qualitative temporal recognition from both 32 visual frames
 and 32 observable JSON states. Exact questions, prompts, raw model responses,
 answer keys, scorers, and result tables are under [`vqa/`](vqa/).
+
+The human release contains only de-identified behavioral responses with
+release-only participant aliases. Direct platform identifiers, session and
+assignment identifiers, demographics, timestamps, and free text are not
+included. See [`human_data/`](human_data/).
 
 ## Historical minimal example
 

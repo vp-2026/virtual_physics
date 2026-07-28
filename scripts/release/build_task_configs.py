@@ -38,6 +38,13 @@ def public_goal(
 ) -> dict[str, Any]:
     item = dict(raw)
     item.pop("environment_json_source", None)
+    for key in (
+        "goal_transfer_eligible",
+        "transfer_pair_selection",
+        "transfer_source",
+        "transfer_target_goal_id",
+    ):
+        item.pop(key, None)
     environment_id = environment_ids[str(item["run_name"])]
     item["environment_id"] = environment_id
     item["environment_path"] = (
@@ -58,7 +65,15 @@ def public_top_level(
     result = {
         key: value
         for key, value in source.items()
-        if key not in {"goals", "transfer_pairs"}
+        if key
+        not in {
+            "goals",
+            "goal_transfer_eligible_count",
+            "goal_transfer_ineligible_count",
+            "transfer_pairing_rules",
+            "transfer_pairs",
+            "transfer_source_count",
+        }
     }
     for key in ("source_manifest", "source_main_manifest"):
         if key in result:
@@ -159,8 +174,26 @@ def check_release(repo_root: Path) -> None:
         raise ValueError(
             "benchmark_1692_seed2026.json does not contain 1,692 goals"
         )
-    if len(benchmark.get("transfer_pairs") or []) != 132:
-        raise ValueError("Expected 132 deterministic transfer pairs")
+    forbidden = {
+        "goal_transfer_eligible_count",
+        "goal_transfer_ineligible_count",
+        "transfer_pairing_rules",
+        "transfer_pairs",
+        "transfer_source_count",
+    }
+    if forbidden.intersection(benchmark):
+        raise ValueError("Goal-to-goal transfer metadata must not be released")
+    for goal in goals:
+        if any(
+            key in goal
+            for key in (
+                "goal_transfer_eligible",
+                "transfer_pair_selection",
+                "transfer_source",
+                "transfer_target_goal_id",
+            )
+        ):
+            raise ValueError("Goal-to-goal transfer fields remain in a goal")
     cutoff = float(benchmark["paper_easy_goal_cutoff"])
     densities = [float(goal["p_success"]) for goal in goals[:1560]]
     if min(densities) <= 0 or max(densities) > cutoff:
@@ -192,7 +225,7 @@ def check_release(repo_root: Path) -> None:
         raise ValueError("Expected 1,692 solution-density rows")
     print(
         "release check passed: 132 cells, 1,560 paper goals, "
-        "1,692 expanded goals, 132 transfer pairs"
+        "1,692 expanded goals"
     )
 
 
@@ -243,11 +276,7 @@ def main() -> None:
         "goal_count": 1560,
         "goals": goals[:1560],
     }
-    augmented = {
-        **public_top_level(source, source_path),
-        "goals": goals,
-        "transfer_pairs": source.get("transfer_pairs") or [],
-    }
+    augmented = {**public_top_level(source, source_path), "goals": goals}
     write_json(output / "paper_goals_1560.json", original)
     write_json(output / "benchmark_1692_seed2026.json", augmented)
     write_json(

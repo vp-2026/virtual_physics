@@ -51,6 +51,12 @@ DROP_KEYS = {
     "response_id",
     "response_extra",
     "event_graph",
+    "goal_transfer",
+    "goal_transfer_eligible",
+    "target_goal_id",
+    "transfer_pair_selection",
+    "transfer_source",
+    "transfer_target_goal_id",
 }
 
 
@@ -156,7 +162,15 @@ def collect_attempt_records(
 
 def collect_sidecars(unit_dir: Path) -> list[dict[str, Any]]:
     root = unit_dir / "transfer_sidecars"
-    if not (root / ".incremental_complete").exists():
+    # Incremental main-benchmark workers write an explicit completion marker.
+    # Some provider-specific sidecar runners atomically finalize summary.json
+    # without that marker. Accept either finalization signal; malformed or
+    # concurrently flushed bundles are still rejected by the guarded reads
+    # below.
+    if not (
+        (root / ".incremental_complete").exists()
+        or (root / "summary.json").exists()
+    ):
         return []
     records: list[dict[str, Any]] = []
     try:
@@ -170,6 +184,8 @@ def collect_sidecars(unit_dir: Path) -> list[dict[str, Any]]:
                     }
                 )
         for path in sorted(root.rglob("result.json")):
+            if "goal_transfer" in path.parts:
+                continue
             records.append(
                 {
                     "source": relative_label(path, unit_dir),
@@ -177,6 +193,8 @@ def collect_sidecars(unit_dir: Path) -> list[dict[str, Any]]:
                 }
             )
         for path in sorted(root.rglob("provider_calls.jsonl")):
+            if "goal_transfer" in path.parts:
+                continue
             for row in read_jsonl(path):
                 records.append(
                     {

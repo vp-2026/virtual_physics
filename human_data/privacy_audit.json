@@ -1,0 +1,35 @@
+{
+  "schema_version": "human_data_privacy_audit_v1",
+  "file": "deidentified_human_stage_trials.csv",
+  "sha256": "ebed0a27ed46e64d2672025d30c56c5d03eac4fbf10fd7fd984d4aa2a86ada08",
+  "rows": 460,
+  "release_participants": 208,
+  "columns": 17,
+  "source_fields_removed": [
+    "participant_id",
+    "session_id",
+    "assignment_id",
+    "agent_type",
+    "agent"
+  ],
+  "source_fields_not_present": [
+    "name",
+    "email",
+    "ip_address",
+    "age",
+    "gender",
+    "race",
+    "ethnicity",
+    "free_text"
+  ],
+  "participant_aliasing": {
+    "method": "random release-only aliases",
+    "mapping_persisted": false
+  },
+  "missing_values": {
+    "success_attempt": 77,
+    "success_x": 77,
+    "success_y": 77,
+    "reason": "task was not solved"
+  }
+}

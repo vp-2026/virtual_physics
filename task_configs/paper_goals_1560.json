@@ -10,8 +10,6 @@
     "total": 1692
   },
   "goal_count": 1560,
-  "goal_transfer_eligible_count": 124,
-  "goal_transfer_ineligible_count": 8,
   "goals": [
     {
       "attempt_limit_dynamic": 8,
@@ -49948,15 +49946,5 @@
   "selection_uses_model_outcomes": false,
   "source_main_manifest": "paper_master_manifest_1692.json",
   "source_manifest": "paper_canonical_transfer_manifest_1692.json",
-  "source_manifest_sha256": "df1a3db2aa16b4a89ae0a5048eb6546f0aecce55a801f825492363f7b9326b5e",
-  "transfer_pairing_rules": {
-    "density_ratio_caliper": 2.0,
-    "new_persistence_sweep_used": false,
-    "same_layout_and_gravity": true,
-    "same_tool_and_dynamics": true,
-    "selection_uses_paper_saved_solution_metadata_only": true,
-    "source_is_canonical": true,
-    "target_is_noncanonical": true
-  },
-  "transfer_source_count": 132
+  "source_manifest_sha256": "df1a3db2aa16b4a89ae0a5048eb6546f0aecce55a801f825492363f7b9326b5e"
 }

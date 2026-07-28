@@ -27,7 +27,21 @@ ATTEMPTS = tuple(range(1, 9))
 GRAVITY_SUFFIX = re.compile(r"_(upward|downward)$")
 
 
-def read_jsonl(path: Path) -> Iterable[dict[str, Any]]:
+def truthy(value: Any) -> bool:
+    if isinstance(value, bool):
+        return value
+    return str(value).strip().lower() in {"1", "true", "yes"}
+
+
+def read_rows(path: Path) -> Iterable[dict[str, Any]]:
+    if path.suffix.lower() == ".csv":
+        with path.open(newline="", encoding="utf-8") as handle:
+            for row in csv.DictReader(handle):
+                row["original_success"] = truthy(
+                    row.get("original_success")
+                )
+                yield row
+        return
     with path.open(encoding="utf-8") as handle:
         for line in handle:
             if line.strip():
@@ -66,8 +80,49 @@ def layout_id(puzzle_key: str) -> str:
     return GRAVITY_SUFFIX.sub("", puzzle_key)
 
 
+def nearest_solution_distance(row: dict[str, Any]) -> float:
+    """Read either the replay-export or live-analysis distance field."""
+    for field in (
+        "original_nearest_solution_distance_px",
+        "nearest_solution_distance_px",
+    ):
+        value = row.get(field)
+        if value not in (None, ""):
+            return float(value)
+    raise KeyError(
+        "Action row has neither original_nearest_solution_distance_px "
+        "nor nearest_solution_distance_px"
+    )
+
+
+def normalize_action_row(row: dict[str, Any]) -> dict[str, Any]:
+    """Normalize release-replay and canonical live-analysis row schemas."""
+    normalized = dict(row)
+    normalized.setdefault("seed", 2026)
+    if not normalized.get("puzzle_key"):
+        goal_id = str(normalized.get("goal_id", ""))
+        normalized["puzzle_key"] = re.sub(
+            r"^canonical_\d+_", "", goal_id
+        )
+    if not normalized.get("original_coords"):
+        normalized["original_coords"] = json.dumps(
+            [int(float(normalized["x"])), int(float(normalized["y"]))]
+        )
+    if normalized.get("original_success") in (None, ""):
+        normalized["original_success"] = normalized.get(
+            "goal_succeeded", False
+        )
+    if normalized.get("nearest_solution_distance_px") in (None, ""):
+        normalized["nearest_solution_distance_px"] = normalized.get(
+            "nearest_april_solution_distance_px"
+        )
+    return normalized
+
+
 def summarize_curve_rows(
     units: dict[tuple[str, int, str, str], list[dict[str, Any]]],
+    *,
+    aq_field: str,
 ) -> list[dict[str, Any]]:
     grouped: dict[
         tuple[str, str, str, int], list[dict[str, float]]
@@ -82,11 +137,11 @@ def summarize_curve_rows(
             current = by_attempt.get(attempt)
             if current is not None:
                 running_best = max(
-                    running_best, float(current["original_aq_sigma72"])
+                    running_best, float(current[aq_field])
                 )
                 running_min_distance = min(
                     running_min_distance,
-                    float(current["original_nearest_solution_distance_px"]),
+                    nearest_solution_distance(current),
                 )
             if running_best == -math.inf:
                 continue
@@ -94,12 +149,12 @@ def summarize_curve_rows(
                 "best_aq": running_best,
                 "best_distance": running_min_distance,
                 "current_aq": (
-                    float(current["original_aq_sigma72"])
+                    float(current[aq_field])
                     if current is not None
                     else math.nan
                 ),
                 "current_distance": (
-                    float(current["original_nearest_solution_distance_px"])
+                    nearest_solution_distance(current)
                     if current is not None
                     else math.nan
                 ),
@@ -131,13 +186,13 @@ def summarize_curve_rows(
                 "attempt": attempt,
                 "fixed_population_units": len(values),
                 "risk_set_units": len(current_aq),
-                "mean_best_so_far_aq_sigma72": mean(
+                "mean_best_so_far_action_quality": mean(
                     [row["best_aq"] for row in values]
                 ),
                 "mean_best_so_far_distance_px": mean(
                     [row["best_distance"] for row in values]
                 ),
-                "mean_current_action_aq_sigma72_risk_set": mean(current_aq),
+                "mean_current_action_quality_risk_set": mean(current_aq),
                 "mean_current_action_distance_px_risk_set": mean(
                     current_distance
                 ),
@@ -180,6 +235,7 @@ def cluster_bootstrap(
 def matched_contrasts(
     units: dict[tuple[str, int, str, str], list[dict[str, Any]]],
     *,
+    aq_field: str,
     draws: int,
     seed: int,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
@@ -226,28 +282,20 @@ def matched_contrasts(
                 if treatment_current is not None:
                     treatment_best = max(
                         treatment_best,
-                        float(treatment_current["original_aq_sigma72"]),
+                        float(treatment_current[aq_field]),
                     )
                     treatment_min_distance = min(
                         treatment_min_distance,
-                        float(
-                            treatment_current[
-                                "original_nearest_solution_distance_px"
-                            ]
-                        ),
+                        nearest_solution_distance(treatment_current),
                     )
                 if reference_current is not None:
                     reference_best = max(
                         reference_best,
-                        float(reference_current["original_aq_sigma72"]),
+                        float(reference_current[aq_field]),
                     )
                     reference_min_distance = min(
                         reference_min_distance,
-                        float(
-                            reference_current[
-                                "original_nearest_solution_distance_px"
-                            ]
-                        ),
+                        nearest_solution_distance(reference_current),
                     )
                 if treatment_best == -math.inf or reference_best == -math.inf:
                     continue
@@ -261,7 +309,7 @@ def matched_contrasts(
                             "gravity": gravity_level,
                             "arm": arm,
                             "attempt": attempt,
-                            "outcome": "best_so_far_aq_sigma72",
+                            "outcome": "best_so_far_action_quality",
                             "treatment": treatment_best,
                             "reference": reference_best,
                             "delta": treatment_best - reference_best,
@@ -328,15 +376,158 @@ def matched_contrasts(
     return observation_rows, summaries
 
 
+def preterminal_contrasts(
+    units: dict[tuple[str, int, str, str], list[dict[str, Any]]],
+    *,
+    aq_field: str,
+    draws: int,
+    seed: int,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Compare paper-style pre-terminal AQ in matched feedback/retry arms.
+
+    Eligibility requires the shared first action to fail, both branches to
+    contain at least two completed attempts, and exact equality of the first
+    action coordinates. Since attempt 1 is shared, the pre-terminal arm-minus-
+    retry contrast is also the difference in first-to-pre-terminal change.
+    """
+
+    indexed: dict[tuple[str, int, str], dict[str, list[dict[str, Any]]]] = (
+        defaultdict(dict)
+    )
+    for (model, unit_seed, goal, condition), attempts in units.items():
+        indexed[(model, unit_seed, goal)][condition] = attempts
+
+    observations: list[dict[str, Any]] = []
+    for (model, unit_seed, goal), branches in sorted(indexed.items()):
+        reference = sorted(
+            branches.get(REFERENCE, []),
+            key=lambda row: int(row["attempt"]),
+        )
+        if len(reference) < 2:
+            continue
+        reference_first = reference[0]
+        if bool(reference_first["original_success"]):
+            continue
+        reference_preterminal = reference[-2]
+        for arm in ARMS:
+            treatment = sorted(
+                branches.get(arm, []),
+                key=lambda row: int(row["attempt"]),
+            )
+            if len(treatment) < 2:
+                continue
+            treatment_first = treatment[0]
+            if (
+                treatment_first["original_coords"]
+                != reference_first["original_coords"]
+            ):
+                continue
+            treatment_preterminal = treatment[-2]
+            first_aq = float(reference_first[aq_field])
+            treatment_aq = float(treatment_preterminal[aq_field])
+            reference_aq = float(reference_preterminal[aq_field])
+            gravity = str(reference_first["gravity"])
+            base_layout = layout_id(str(reference_first["puzzle_key"]))
+            for gravity_level in (gravity, "all"):
+                observations.append(
+                    {
+                        "model_key": model,
+                        "seed": unit_seed,
+                        "goal_id": goal,
+                        "layout_id": base_layout,
+                        "gravity": gravity_level,
+                        "arm": arm,
+                        "reference": REFERENCE,
+                        "first_action_quality": first_aq,
+                        "arm_preterminal_attempt": int(
+                            treatment_preterminal["attempt"]
+                        ),
+                        "retry_preterminal_attempt": int(
+                            reference_preterminal["attempt"]
+                        ),
+                        "arm_preterminal_action_quality": treatment_aq,
+                        "retry_preterminal_action_quality": reference_aq,
+                        "arm_first_to_preterminal_change": (
+                            treatment_aq - first_aq
+                        ),
+                        "retry_first_to_preterminal_change": (
+                            reference_aq - first_aq
+                        ),
+                        "arm_minus_retry_preterminal_action_quality": (
+                            treatment_aq - reference_aq
+                        ),
+                    }
+                )
+
+    grouped: dict[
+        tuple[str, str, str], list[dict[str, Any]]
+    ] = defaultdict(list)
+    for row in observations:
+        grouped[
+            (
+                str(row["model_key"]),
+                str(row["arm"]),
+                str(row["gravity"]),
+            )
+        ].append(
+            {
+                **row,
+                "delta": row[
+                    "arm_minus_retry_preterminal_action_quality"
+                ],
+            }
+        )
+    summaries = []
+    for (model, arm, gravity), rows in sorted(grouped.items()):
+        effect, low, high, layouts = cluster_bootstrap(
+            rows,
+            draws=draws,
+            seed=seed
+            + sum(
+                ord(char)
+                for char in f"preterminal:{model}:{arm}:{gravity}"
+            ),
+        )
+        summaries.append(
+            {
+                "model_key": model,
+                "arm": arm,
+                "reference": REFERENCE,
+                "gravity": gravity,
+                "matched_units": len(rows),
+                "base_layouts": layouts,
+                "mean_arm_minus_retry_preterminal_action_quality": effect,
+                "ci95_low": low,
+                "ci95_high": high,
+                "eligibility": (
+                    "shared_attempt_1_failed_and_both_branches_have_"
+                    "at_least_2_attempts"
+                ),
+            }
+        )
+    return observations, summaries
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("coordinate_action_rows", type=Path)
     parser.add_argument("--output-dir", type=Path, required=True)
+    parser.add_argument(
+        "--aq-field",
+        default="paper_action_quality",
+        help=(
+            "CSV/JSONL field containing action quality. The default is the "
+            "linear normalized metric defined in the submitted paper."
+        ),
+    )
     parser.add_argument("--bootstrap-draws", type=int, default=10000)
     parser.add_argument("--seed", type=int, default=2026)
     args = parser.parse_args()
 
-    rows = list(read_jsonl(args.coordinate_action_rows))
+    rows = [
+        normalize_action_row(row)
+        for row in read_rows(args.coordinate_action_rows)
+    ]
     units: dict[
         tuple[str, int, str, str], list[dict[str, Any]]
     ] = defaultdict(list)
@@ -350,11 +541,20 @@ def main() -> None:
             )
         ].append(row)
 
-    curves = summarize_curve_rows(units)
+    curves = summarize_curve_rows(units, aq_field=args.aq_field)
     observations, contrasts = matched_contrasts(
         units,
+        aq_field=args.aq_field,
         draws=args.bootstrap_draws,
         seed=args.seed,
+    )
+    preterminal_observations, preterminal_summaries = (
+        preterminal_contrasts(
+            units,
+            aq_field=args.aq_field,
+            draws=args.bootstrap_draws,
+            seed=args.seed,
+        )
     )
     args.output_dir.mkdir(parents=True, exist_ok=True)
     write_csv(args.output_dir / "action_quality_curves.csv", curves)
@@ -366,16 +566,31 @@ def main() -> None:
         args.output_dir / "paired_action_quality_contrasts.csv",
         contrasts,
     )
+    write_csv(
+        args.output_dir
+        / "paired_preterminal_action_quality_observations.csv",
+        preterminal_observations,
+    )
+    write_csv(
+        args.output_dir / "paired_preterminal_action_quality_contrasts.csv",
+        preterminal_summaries,
+    )
     report = {
         "schema_version": 1,
         "coordinate_action_rows": len(rows),
         "model_goal_condition_units": len(units),
         "matched_observations": len(observations),
         "contrast_rows": len(contrasts),
+        "action_quality_field": args.aq_field,
         "primary_estimand": (
             "layout-equal-weighted feedback-arm minus retry-only difference "
-            "in best-so-far AQ through attempt t among shared-attempt-1 "
-            "failures; solved branches are carried forward"
+            "in paper-style pre-terminal action quality among shared-"
+            "attempt-1 failures with at least two attempts in both branches"
+        ),
+        "trajectory_estimand": (
+            "layout-equal-weighted feedback-arm minus retry-only difference "
+            "in best-so-far action quality through attempt t among shared-"
+            "attempt-1 failures; solved branches are carried forward"
         ),
         "secondary_estimand": (
             "current proposed-action AQ among branches still at risk at "
