@@ -34,6 +34,21 @@ contrast against the visual `neither` arm.
 - Action-transfer coupling relates feedback-minus-retry source-action
   improvement to feedback-minus-retry held-out prediction improvement.
 
+The `coupling/` directory also includes:
+
+- `action_prediction_success_contrast_cluster_bootstrap.csv`, the primary
+  successful-minus-failed prospective-PQ contrast with 20,000
+  base-layout-clustered bootstrap replicates;
+- `action_prediction_arm_slopes.csv`, arm-specific slopes from the adjusted
+  goal-fixed-effect regression of continuous AQ on prospective PQ; and
+- matched versions of both tables for the complete Robotics-ER control.
+
+The regression outcome is continuous AQ at the 72-pixel scale. Predictors are
+prospective PQ at the 150-pixel scale, attempt, feedback-arm indicators, and
+PQ-by-arm interactions. Goal fixed effects absorb fixed goal category and
+solution-density differences; CR1 uncertainty is clustered by the 66 base
+layouts.
+
 The noncanonical action-quality snapshot covers only goals with a recoverable
 simulator-derived solution set. Canonical action quality uses the saved April
 solution spaces. The paper-defined linear normalization is implemented in

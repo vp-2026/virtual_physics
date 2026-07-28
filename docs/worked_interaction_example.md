@@ -161,5 +161,5 @@ attempt happened to satisfy the goal.
 
 The corresponding JSON-feedback branch follows the same memory rule but
 replaces the latest 32 images with 32 observable JSON states. Held-out
-prediction and Goal-A → Goal-B transfer queries are isolated side branches
-and never rejoin this solver conversation.
+predictive-transfer queries use a fixed, unexecuted placement in an isolated
+side branch and never rejoin this solver conversation.

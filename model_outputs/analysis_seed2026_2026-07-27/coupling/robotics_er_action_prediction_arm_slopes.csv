@@ -1,0 +1,4 @@
+model_key,condition,dependent_variable,predictor,estimate,cluster_se,ci95_low,ci95_high,attempt_rows_joint_model,goal_fixed_effects,base_layout_clusters
+gemini_robotics_er,full,aq_sigma72,pq_sigma150,0.019268223390628007,0.1279260737827378,-0.2314668812235381,0.2700033280047941,1711,132,66
+gemini_robotics_er,neither,aq_sigma72,pq_sigma150,0.0954372724678111,0.13855880070925775,-0.17613797692233407,0.36701252185795624,1711,132,66
+gemini_robotics_er,trace_status,aq_sigma72,pq_sigma150,0.022746841648863272,0.10473081432926258,-0.18252555443649138,0.22801923773421795,1711,132,66

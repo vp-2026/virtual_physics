@@ -12,8 +12,7 @@ completed model × goal × seed episodes:
 
 `robotics_er_canonical132_seed2026_2026-07-27/` contains the complete
 132-environment Gemini Robotics-ER 1.6 Preview control. All 132 source
-episodes and all 132 held-out-prediction/goal-transfer sidecar bundles are
-included.
+episodes and all 132 held-out-prediction sidecar bundles are included.
 
 `analysis_seed2026_2026-07-27/` contains the corresponding frozen planning,
 action-quality, prospective-prediction, held-out-prediction, and coupling
@@ -38,7 +37,6 @@ one completed model × goal × seed unit containing:
 - condition-specific feedback provenance;
 - simulator truth, endpoint coordinates, and success result;
 - completed early and terminal held-out prediction sidecars;
-- completed exploratory same-environment Goal-A → Goal-B sidecars;
 - schema-validity and completion flags; and
 - token usage, latency, and cost fields when returned by the provider.
 
