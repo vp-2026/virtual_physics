@@ -2753,25 +2753,39 @@ def main() -> None:
         )
     goal_bank = base.GoalBank(REPO_ROOT / "task_configs", args.goal_builder)
     summaries: List[Dict[str, Any]] = []
+    unit_errors: List[Dict[str, str]] = []
     for ordinal, goal in enumerate(selected, start=1):
         print(
             f"[{ordinal}/{len(selected)}] {model_spec.key} seed={args.seed} "
             f"goal={goal['benchmark_index']:04d} {goal['balanced_goal_id']}",
             flush=True,
         )
-        summaries.append(
-            run_unit(
-                args=args,
-                provider=provider,
-                model_spec=model_spec,
-                goal=goal,
-                goal_bank=goal_bank,
-                output_root=args.output_root,
+        try:
+            summaries.append(
+                run_unit(
+                    args=args,
+                    provider=provider,
+                    model_spec=model_spec,
+                    goal=goal,
+                    goal_bank=goal_bank,
+                    output_root=args.output_root,
+                )
             )
-        )
+        except Exception as exc:
+            error = {
+                "goal_id": str(goal["balanced_goal_id"]),
+                "error": f"{type(exc).__name__}: {exc}",
+            }
+            unit_errors.append(error)
+            print(
+                f"[unit error] {error['goal_id']}: {error['error']}",
+                flush=True,
+            )
     shard_summary = {
         **run_manifest,
         "completed_unit_count": len(summaries),
+        "failed_unit_count": len(unit_errors),
+        "unit_errors": unit_errors,
         "unit_summary_paths": [str(Path(item["unit_dir"]) / "unit_summary.json") for item in summaries],
     }
     atomic_write_json(run_manifest_path.with_name(run_manifest_path.stem + "_summary.json"), shard_summary)

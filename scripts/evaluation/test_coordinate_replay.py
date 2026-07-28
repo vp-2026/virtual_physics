@@ -53,13 +53,18 @@ class CoordinateReplayTest(unittest.TestCase):
             },
         )
 
-    def test_nearest_point_uses_lexicographic_tie_break(self):
+    def test_grid_rounding_is_coordinatewise_and_ties_down(self):
         self.assertEqual(
-            replay.nearest_point(
-                (105, 105),
-                [(100, 110), (110, 100), (100, 100), (110, 110)],
+            replay.round_point_to_grid((104, 106)),
+            (100, 110),
+        )
+        self.assertEqual(replay.round_point_to_grid((105, 115)), (100, 110))
+        self.assertLessEqual(
+            replay.math.dist(
+                (105, 115),
+                replay.round_point_to_grid((105, 115)),
             ),
-            (100, 100),
+            replay.math.sqrt(50.0),
         )
 
     def test_goal_success_uses_signature_or_canonical_dwell(self):

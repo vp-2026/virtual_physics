@@ -1,0 +1,4 @@
+model_key,seed,condition,units,mean_first_attempt_prediction_quality,mean_last_attempt_prediction_quality,mean_last_minus_first
+gemini_robotics_er,2026,full,132,0.3489915995768136,0.4044917514316619,0.05550015185484822
+gemini_robotics_er,2026,neither,132,0.3489915995768136,0.3634008821894917,0.014409282612678029
+gemini_robotics_er,2026,trace_status,132,0.4539371281173289,0.5323159703733037,0.07837884225597497

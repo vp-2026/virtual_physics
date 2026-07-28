@@ -66,7 +66,10 @@ def action_summary(actions: list[dict[str, Any]]) -> list[dict[str, Any]]:
     for (model, condition, gravity), group in sorted(groups.items()):
         jitter = [row for row in group if row["jitter_evaluated"]]
         displacement = [
-            float(row["snap_displacement_px"]) for row in group
+            float(row["rounding_displacement_px"]) for row in group
+        ]
+        eligible = [
+            row for row in group if row["rounding_eligible_both_valid"]
         ]
         output.append(
             {
@@ -77,25 +80,39 @@ def action_summary(actions: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "original_success_rate": mean(
                     [float(row["original_success"]) for row in group]
                 ),
-                "snapped_success_rate": mean(
-                    [float(row["snapped_success"]) for row in group]
-                ),
-                "snapped_minus_original_success_rate": mean(
+                "rounding_eligible_rate": mean(
                     [
-                        float(row["snapped_success"])
-                        - float(row["original_success"])
+                        float(row["rounding_eligible_both_valid"])
                         for row in group
                     ]
                 ),
-                "success_agreement_rate": mean(
+                "rounded_success_rate_when_both_valid": mean(
+                    [float(row["rounded_success"]) for row in eligible]
+                ),
+                "rounded_minus_original_success_when_both_valid": mean(
                     [
-                        float(row["original_snapped_success_agreement"])
-                        for row in group
+                        float(row["rounded_success"])
+                        - float(row["original_replayed_success"])
+                        for row in eligible
                     ]
                 ),
-                "median_snap_displacement_px": quantile(displacement, 0.5),
-                "p95_snap_displacement_px": quantile(displacement, 0.95),
-                "snap_displacement_gt_7_1px_rate": mean(
+                "success_agreement_when_both_valid": mean(
+                    [
+                        float(
+                            row[
+                                "original_rounded_success_agreement_when_eligible"
+                            ]
+                        )
+                        for row in eligible
+                    ]
+                ),
+                "rounded_success_rate_invalid_as_failure": mean(
+                    [float(row["rounded_success"]) for row in group]
+                ),
+                "median_rounding_displacement_px": quantile(displacement, 0.5),
+                "p95_rounding_displacement_px": quantile(displacement, 0.95),
+                "max_rounding_displacement_px": max(displacement),
+                "rounding_displacement_gt_sqrt50_rate": mean(
                     [
                         float(value > math.sqrt(50.0))
                         for value in displacement
@@ -104,8 +121,8 @@ def action_summary(actions: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "mean_original_aq72": mean(
                     [float(row["original_aq_sigma72"]) for row in group]
                 ),
-                "mean_snapped_aq72": mean(
-                    [float(row["snapped_aq_sigma72"]) for row in group]
+                "mean_rounded_aq72_when_both_valid": mean(
+                    [float(row["rounded_aq_sigma72"]) for row in eligible]
                 ),
                 "jitter_actions": len(jitter),
                 "mean_jitter_success_fraction": mean(
@@ -113,6 +130,22 @@ def action_summary(actions: list[dict[str, Any]]) -> list[dict[str, Any]]:
                         float(row["jitter_success_fraction"])
                         for row in jitter
                         if row["jitter_success_fraction"] is not None
+                    ]
+                ),
+                "mean_jitter_valid_fraction": mean(
+                    [
+                        float(row["jitter_valid_fraction"])
+                        for row in jitter
+                    ]
+                ),
+                "mean_jitter_success_fraction_all_eight": mean(
+                    [
+                        float(
+                            row[
+                                "jitter_success_fraction_all_eight_invalid_as_failure"
+                            ]
+                        )
+                        for row in jitter
                     ]
                 ),
                 "jitter_all_valid_agreement_rate": mean(
@@ -189,9 +222,25 @@ def sequence_summary(sequences: list[dict[str, str]]) -> list[dict[str, Any]]:
             float(row["original_solve_by_8"].lower() == "true")
             for row in group
         ]
-        snapped = [
-            float(row["snapped_solve_by_8"].lower() == "true")
+        rounded_conservative = [
+            float(
+                row["rounded_solve_by_8_invalid_as_failure"].lower()
+                == "true"
+            )
             for row in group
+        ]
+        fully_valid = [
+            row
+            for row in group
+            if row["all_actions_rounding_eligible"].lower() == "true"
+        ]
+        original_fully_valid = [
+            float(row["original_solve_by_8"].lower() == "true")
+            for row in fully_valid
+        ]
+        rounded_fully_valid = [
+            float(row["rounded_solve_by_8_when_all_valid"].lower() == "true")
+            for row in fully_valid
         ]
         output.append(
             {
@@ -200,18 +249,39 @@ def sequence_summary(sequences: list[dict[str, str]]) -> list[dict[str, Any]]:
                 "gravity": gravity,
                 "sequences": len(group),
                 "original_solve_by_8": mean(original),
-                "snapped_solve_by_8": mean(snapped),
-                "snapped_minus_original_solve_by_8": mean(
+                "all_actions_rounding_eligible_rate": (
+                    len(fully_valid) / len(group)
+                ),
+                "rounded_solve_by_8_invalid_as_failure": mean(
+                    rounded_conservative
+                ),
+                "rounded_minus_original_invalid_as_failure": mean(
                     [
-                        snapped_value - original_value
-                        for original_value, snapped_value in zip(
-                            original, snapped
+                        rounded_value - original_value
+                        for original_value, rounded_value in zip(
+                            original, rounded_conservative
                         )
                     ]
                 ),
-                "solve_by_8_agreement": mean(
+                "rounded_solve_by_8_when_all_valid": mean(
+                    rounded_fully_valid
+                ),
+                "rounded_minus_original_when_all_valid": mean(
                     [
-                        float(row["solve_by_8_agreement"].lower() == "true")
+                        rounded_value - original_value
+                        for original_value, rounded_value in zip(
+                            original_fully_valid, rounded_fully_valid
+                        )
+                    ]
+                ),
+                "solve_by_8_agreement_invalid_as_failure": mean(
+                    [
+                        float(
+                            row[
+                                "solve_by_8_agreement_invalid_as_failure"
+                            ].lower()
+                            == "true"
+                        )
                         for row in group
                     ]
                 ),

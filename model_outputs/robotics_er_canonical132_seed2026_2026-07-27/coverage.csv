@@ -1,0 +1,2 @@
+model_key,completed_units,expected_units,completion_percent,canonical_units,units_with_transfer_sidecars,full_condition_units,neither_condition_units,trace_status_condition_units,status_only_condition_units
+gemini_robotics_er,132,132,100.0,132,132,132,132,132,0

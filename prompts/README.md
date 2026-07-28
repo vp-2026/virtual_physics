@@ -97,19 +97,16 @@ Status-visible arms stop at the first success. Status-hidden arms follow the
 predeclared attempt budget so the mere presence of another turn cannot reveal
 whether the previous hidden outcome succeeded.
 
-## Isolated prediction and transfer branches
+## Isolated held-out prediction branches
 
 The sidecar runner asks:
 
 - an unexecuted held-out placement before feedback;
 - a matched unexecuted placement after exactly one feedback exposure;
-- a difficulty-matched unexecuted placement at terminal interaction;
-- one action for a different matched goal in the same unchanged environment,
-  gravity, orange tool, and physical dynamics.
+- a difficulty-matched unexecuted placement at terminal interaction.
 
-Every sidecar states that it never returns to the solver conversation.
-Predictions receive no explicit prediction-error feedback. Goal transfer
-explicitly states that only the objective has changed.
+Every sidecar states that it never returns to the solver conversation, and
+predictions receive no explicit prediction-error feedback.
 
 ## Authoritative source
 

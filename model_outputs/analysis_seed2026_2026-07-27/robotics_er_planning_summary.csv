@@ -1,0 +1,10 @@
+model_key,condition,gravity,completed_units,solve_by_8,mean_attempts_to_success_or_9
+gemini_robotics_er,full,all,132,0.5909090909090909,4.787878787878788
+gemini_robotics_er,full,downward,66,0.6363636363636364,4.515151515151516
+gemini_robotics_er,full,upward,66,0.5454545454545454,5.0606060606060606
+gemini_robotics_er,neither,all,132,0.6136363636363636,4.606060606060606
+gemini_robotics_er,neither,downward,66,0.6060606060606061,4.621212121212121
+gemini_robotics_er,neither,upward,66,0.6212121212121212,4.590909090909091
+gemini_robotics_er,trace_status,all,132,0.7727272727272727,3.462121212121212
+gemini_robotics_er,trace_status,downward,66,0.803030303030303,3.3333333333333335
+gemini_robotics_er,trace_status,upward,66,0.7424242424242424,3.590909090909091

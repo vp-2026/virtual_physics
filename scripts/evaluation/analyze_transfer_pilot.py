@@ -1,40 +1,26 @@
 #!/usr/bin/env python3
-"""Analyze matched held-out prediction and same-scene goal transfer."""
+"""Analyze matched held-out counterfactual prediction transfer."""
 
 from __future__ import annotations
 
 import argparse
 import csv
 import hashlib
-import importlib.util
 import json
 import math
-import sys
 from collections import defaultdict
 from pathlib import Path
 from typing import Any, Iterable
 
 import numpy as np
-from scipy.spatial import cKDTree
 
 
 CONDITIONS = ("full", "frames_only", "status_only", "neither", "trace_status")
 SIGMA_PX = 150.0
-AQ_SIGMA_PX = 72.0
 
 
 def read_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def load_module(path: Path, name: str) -> Any:
-    spec = importlib.util.spec_from_file_location(name, path)
-    if spec is None or spec.loader is None:
-        raise RuntimeError(f"Could not import {path}")
-    module = importlib.util.module_from_spec(spec)
-    sys.modules[name] = module
-    spec.loader.exec_module(module)
-    return module
 
 
 def resolve_recorded_path(value: str, unit_dir: Path) -> Path | None:
@@ -375,74 +361,6 @@ def prediction_result(
     return raw, score_row_summary(raw.get("score_rows") or [])
 
 
-def load_target_solution_trees(
-    *,
-    target_goals: dict[str, dict[str, Any]],
-    sweep_root: Path | None,
-    goal_builder: Path | None,
-) -> dict[str, cKDTree]:
-    if sweep_root is None or goal_builder is None:
-        return {}
-    builder = load_module(
-        goal_builder,
-        "transfer_analysis_goal_builder",
-    )
-    by_cell: dict[str, list[dict[str, Any]]] = defaultdict(list)
-    for goal in target_goals.values():
-        by_cell[str(goal["puzzle_key"])].append(goal)
-    points: dict[str, list[tuple[int, int]]] = {
-        goal_id: [] for goal_id in target_goals
-    }
-    for puzzle_key, goals in sorted(by_cell.items()):
-        signature_to_ids: dict[str, list[str]] = defaultdict(list)
-        for goal in goals:
-            signature_to_ids[str(goal["signature"])].append(
-                str(goal["balanced_goal_id"])
-            )
-        placements = sweep_root / puzzle_key / "placements.jsonl"
-        if not placements.exists():
-            raise FileNotFoundError(placements)
-        with placements.open(encoding="utf-8") as handle:
-            for line in handle:
-                if not line.strip():
-                    continue
-                row = json.loads(line)
-                if not row.get("valid"):
-                    continue
-                row_signatures = {
-                    builder.event_signature(event)
-                    for event in (row.get("event_graph") or [])
-                }
-                coords = tuple(int(value) for value in row["placement_xy"])
-                for signature in row_signatures.intersection(
-                    signature_to_ids
-                ):
-                    for goal_id in signature_to_ids[signature]:
-                        points[goal_id].append(coords)
-    missing = [goal_id for goal_id, values in points.items() if not values]
-    if missing:
-        raise RuntimeError(
-            f"Target goals missing revised solution sets: {missing[:10]}"
-        )
-    return {
-        goal_id: cKDTree(values) for goal_id, values in points.items()
-    }
-
-
-def action_quality(
-    attempt: dict[str, Any],
-    tree: cKDTree | None,
-) -> tuple[float | None, float | None]:
-    if tree is None:
-        return None, None
-    coords = attempt.get("coords") or []
-    if len(coords) != 2:
-        return None, None
-    distance = float(tree.query([float(coords[0]), float(coords[1])])[0])
-    quality = math.exp(-(distance**2) / (2 * AQ_SIGMA_PX**2))
-    return distance, quality
-
-
 def usage_summary(result_root: Path) -> dict[str, Any]:
     cost = 0.0
     calls = 0
@@ -471,51 +389,15 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("result_root", type=Path)
     parser.add_argument("--output-dir", type=Path, required=True)
-    parser.add_argument("--sweep-root", type=Path)
-    parser.add_argument("--goal-builder", type=Path)
     parser.add_argument("--bootstrap-draws", type=int, default=10000)
     parser.add_argument("--seed", type=int, default=2026)
     args = parser.parse_args()
     args.result_root = args.result_root.expanduser().resolve()
     args.output_dir = args.output_dir.expanduser().resolve()
-    args.sweep_root = (
-        args.sweep_root.expanduser().resolve()
-        if args.sweep_root is not None
-        else None
-    )
-    args.goal_builder = (
-        args.goal_builder.expanduser().resolve()
-        if args.goal_builder is not None
-        else None
-    )
-    if (args.sweep_root is None) != (args.goal_builder is None):
-        parser.error("--sweep-root and --goal-builder must be supplied together")
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     units, by_model_goal = collect_units(args.result_root)
-    target_goal_ids = {
-        str(transfer["target_goal_id"])
-        for _unit_dir, _summary, transfer in units
-        if str(transfer.get("target_goal_id") or "")
-    }
-    target_goals = {}
-    for target_goal_id in sorted(target_goal_ids):
-        matches = [
-            summary["goal"]
-            for (model, goal_id), (_unit_dir, summary)
-            in by_model_goal.items()
-            if goal_id == target_goal_id
-        ]
-        if not matches:
-            continue
-        target_goals[target_goal_id] = dict(matches[0])
-    solution_trees = load_target_solution_trees(
-        target_goals=target_goals,
-        sweep_root=args.sweep_root,
-        goal_builder=args.goal_builder,
-    )
     heldout_rows = []
-    transfer_rows = []
     clear_path_rows = []
     format_rows = []
 
@@ -525,7 +407,6 @@ def main() -> None:
         gravity = str(goal["condition"])
         layout_id = str(goal["puzzle_key"]).rsplit("_", 1)[0]
         source_goal_id = str(goal["balanced_goal_id"])
-        target_goal_id = str(transfer["target_goal_id"])
         pre = transfer["results"]["pre_feedback"]
         visual_early_raw, visual_early = prediction_result(
             pre["visual_early_probe"],
@@ -753,129 +634,6 @@ def main() -> None:
                 ]
             )
 
-            compact_goal = branch["goal_transfer"]
-            if compact_goal.get("eligible") is False:
-                continue
-            goal_result_path = resolve_recorded_path(
-                str(compact_goal["result_path"]), unit_dir
-            )
-            if goal_result_path is None:
-                raise FileNotFoundError(compact_goal["result_path"])
-            goal_result = read_json(goal_result_path)
-            transfer_attempt = goal_result.get("attempt")
-            target_entry = by_model_goal.get((model, target_goal_id))
-            fresh_attempt = None
-            fresh_prediction = {
-                "prediction_coverage": math.nan,
-                "state_accuracy": math.nan,
-                "prediction_quality_sigma150": math.nan,
-            }
-            if target_entry is not None:
-                target_unit, _target_summary = target_entry
-                if condition == "trace_status":
-                    fresh_state = read_json(
-                        target_unit
-                        / "branches"
-                        / "trace_status"
-                        / "independent_attempt_1"
-                        / "state.json"
-                    )
-                else:
-                    fresh_state = read_json(
-                        target_unit / "shared_attempt_1" / "state.json"
-                    )
-                fresh_attempt = fresh_state["attempt"]
-                fresh_prediction = attempt_prediction_score(
-                    fresh_attempt,
-                    unit_dir=target_unit,
-                )
-            transferred_prediction = (
-                attempt_prediction_score(
-                    transfer_attempt,
-                    unit_dir=unit_dir,
-                )
-                if transfer_attempt
-                else {
-                    "prediction_coverage": math.nan,
-                    "state_accuracy": math.nan,
-                    "prediction_quality_sigma150": math.nan,
-                }
-            )
-            solution_tree = solution_trees.get(target_goal_id)
-            fresh_distance, fresh_aq = (
-                action_quality(fresh_attempt, solution_tree)
-                if fresh_attempt
-                else (None, None)
-            )
-            transferred_distance, transferred_aq = (
-                action_quality(transfer_attempt, solution_tree)
-                if transfer_attempt
-                else (None, None)
-            )
-            transfer_rows.append(
-                {
-                    "model_key": model,
-                    "gravity": gravity,
-                    "layout_id": layout_id,
-                    "source_goal_id": source_goal_id,
-                    "target_goal_id": target_goal_id,
-                    "condition": condition,
-                    "source_attempt_count": int(
-                        branch["source_attempt_count"]
-                    ),
-                    "fresh_baseline_available": int(
-                        fresh_attempt is not None
-                    ),
-                    "fresh_target_success": (
-                        int(bool(fresh_attempt["goal_succeeded"]))
-                        if fresh_attempt
-                        else None
-                    ),
-                    "transferred_target_success": (
-                        int(bool(transfer_attempt["goal_succeeded"]))
-                        if transfer_attempt
-                        else None
-                    ),
-                    "transfer_minus_fresh_success": (
-                        int(bool(transfer_attempt["goal_succeeded"]))
-                        - int(bool(fresh_attempt["goal_succeeded"]))
-                        if transfer_attempt and fresh_attempt
-                        else None
-                    ),
-                    "fresh_nearest_solution_distance_px": fresh_distance,
-                    "transferred_nearest_solution_distance_px": (
-                        transferred_distance
-                    ),
-                    "fresh_action_quality_sigma72": fresh_aq,
-                    "transferred_action_quality_sigma72": transferred_aq,
-                    "transfer_minus_fresh_action_quality_sigma72": (
-                        transferred_aq - fresh_aq
-                        if transferred_aq is not None
-                        and fresh_aq is not None
-                        else None
-                    ),
-                    "fresh_prediction_quality": fresh_prediction[
-                        "prediction_quality_sigma150"
-                    ],
-                    "transferred_prediction_quality": (
-                        transferred_prediction[
-                            "prediction_quality_sigma150"
-                        ]
-                    ),
-                    "transfer_minus_fresh_prediction_quality": (
-                        transferred_prediction[
-                            "prediction_quality_sigma150"
-                        ]
-                        - fresh_prediction["prediction_quality_sigma150"]
-                        if transfer_attempt and fresh_attempt
-                        else None
-                    ),
-                    "goal_transfer_error": goal_result.get("error"),
-                    "goal_transfer_provider_call_count": int(
-                        goal_result.get("provider_call_count") or 0
-                    ),
-                }
-            )
 
     # Pair each feedback-arm change with the same unit's neither-arm change.
     neither = {
@@ -915,25 +673,6 @@ def main() -> None:
         bootstrap_draws=args.bootstrap_draws,
         seed=args.seed,
     )
-    transfer_summary = clustered_summary(
-        transfer_rows,
-        value_fields=(
-            "fresh_target_success",
-            "transferred_target_success",
-            "transfer_minus_fresh_success",
-            "fresh_nearest_solution_distance_px",
-            "transferred_nearest_solution_distance_px",
-            "fresh_action_quality_sigma72",
-            "transferred_action_quality_sigma72",
-            "transfer_minus_fresh_action_quality_sigma72",
-            "fresh_prediction_quality",
-            "transferred_prediction_quality",
-            "transfer_minus_fresh_prediction_quality",
-        ),
-        group_fields=("model_key", "condition", "gravity"),
-        bootstrap_draws=args.bootstrap_draws,
-        seed=args.seed,
-    )
     clear_path_summary = clustered_summary(
         clear_path_rows,
         value_fields=(
@@ -958,8 +697,6 @@ def main() -> None:
 
     write_csv(args.output_dir / "heldout_unit_rows.csv", heldout_rows)
     write_csv(args.output_dir / "heldout_summary.csv", heldout_summary)
-    write_csv(args.output_dir / "goal_transfer_rows.csv", transfer_rows)
-    write_csv(args.output_dir / "goal_transfer_summary.csv", transfer_summary)
     write_csv(args.output_dir / "clear_path_rows.csv", clear_path_rows)
     write_csv(
         args.output_dir / "clear_path_summary.csv",
@@ -972,11 +709,9 @@ def main() -> None:
             {
                 "completed_transfer_units": len(units),
                 "heldout_unit_rows": len(heldout_rows),
-                "goal_transfer_rows": len(transfer_rows),
                 "clear_path_rows": len(clear_path_rows),
                 "usage": usage,
                 "heldout_summary": heldout_summary,
-                "goal_transfer_summary": transfer_summary,
                 "clear_path_summary": clear_path_summary,
                 "format_summary": format_summary,
             },
@@ -990,7 +725,6 @@ def main() -> None:
             {
                 "completed_transfer_units": len(units),
                 "heldout_unit_rows": len(heldout_rows),
-                "goal_transfer_rows": len(transfer_rows),
                 "clear_path_rows": len(clear_path_rows),
                 "usage": usage,
             },
