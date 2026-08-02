@@ -1,0 +1,406 @@
+{
+  "completed_unit_count": 4923,
+  "coverage": [
+    {
+      "canonical_units": 132,
+      "completed_units": 1691,
+      "completion_percent": 99.941,
+      "expected_units": 1692,
+      "full_condition_units": 1691,
+      "model_key": "gemini31pro",
+      "neither_condition_units": 1691,
+      "status_only_condition_units": 166,
+      "trace_status_condition_units": 1691,
+      "units_with_transfer_sidecars": 132
+    },
+    {
+      "canonical_units": 132,
+      "completed_units": 1692,
+      "completion_percent": 100.0,
+      "expected_units": 1692,
+      "full_condition_units": 1692,
+      "model_key": "gpt5",
+      "neither_condition_units": 1692,
+      "status_only_condition_units": 149,
+      "trace_status_condition_units": 1692,
+      "units_with_transfer_sidecars": 132
+    },
+    {
+      "canonical_units": 132,
+      "completed_units": 1540,
+      "completion_percent": 91.017,
+      "expected_units": 1692,
+      "full_condition_units": 1540,
+      "model_key": "qwen36plus",
+      "neither_condition_units": 1540,
+      "status_only_condition_units": 134,
+      "trace_status_condition_units": 1540,
+      "units_with_transfer_sidecars": 131
+    }
+  ],
+  "created_utc": "2026-08-02T22:18:31.123671+00:00",
+  "exclusions": [
+    "partial recovery directories without unit_summary.json",
+    "rollout PNGs and videos",
+    "regenerable full simulator traces",
+    "absolute worker filesystem paths",
+    "provider response identifiers and credentials"
+  ],
+  "expected_units_per_main_model": 1692,
+  "partial_candidate_directory_count": 153,
+  "schema_version": 1,
+  "shards": [
+    {
+      "bytes": 2850707,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0000.jsonl.gz",
+      "sha256": "1fdde9f27413a7cde2bd004877ca201fee88d836257deba1539f6fe397fbcfce",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2656299,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0001.jsonl.gz",
+      "sha256": "92f124f6546c049f837195100e88b565bb24f1bc3754ab57bb1c941818bbdc41",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2562307,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0002.jsonl.gz",
+      "sha256": "a85b430b00992dc77fcae50914b0b0e67bc3bb9d005c45543dc53418285ee510",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2707996,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0003.jsonl.gz",
+      "sha256": "e55a5cace4d2fafe7fac103b100aefa6a5c7e21e26c6d10d97a39786288b413a",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2668359,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0004.jsonl.gz",
+      "sha256": "4edbd83c409fa9a74fce4aedccfbf51ac5eb1c76d7782bfd210926913694fdf8",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2519121,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0005.jsonl.gz",
+      "sha256": "f4cf13f89130fbc529493b5bee3824e87b5b8444bf4ca26dea37899c8b8b5bc8",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2506707,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0006.jsonl.gz",
+      "sha256": "41e59e2dad85f1ddd8d406af07817d1785cfb77a29d0c1260a00e70cb5153446",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3514289,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0007.jsonl.gz",
+      "sha256": "3f826fce7097e23ff04ffaa13f6c37fbc9114d82d764659969d3f1ec3723e55a",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2825719,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0008.jsonl.gz",
+      "sha256": "2480aa4682d2ea0b9f388dfbddbaed381cda8250805c468f8afa9a86e76968f4",
+      "unit_count": 100
+    },
+    {
+      "bytes": 1162282,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0009.jsonl.gz",
+      "sha256": "edc778aacdf4a0cefee306aa9614ce0af068e724ffd44809cc5fab5a3cc57726",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2586667,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0010.jsonl.gz",
+      "sha256": "74bee44ff51b0541f0984ea2f45011d479e1447f4a7b29fbc22e33430439a005",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3212715,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0011.jsonl.gz",
+      "sha256": "0aabcc780501e88e06dec6e3fdb465f0f51cac1734a9709f104184e1c0ffd55d",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2490987,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0012.jsonl.gz",
+      "sha256": "591970df05b18e9e31f4032fef87d3d1c2f5450066297df7a230a90f22bbb371",
+      "unit_count": 100
+    },
+    {
+      "bytes": 1457620,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0013.jsonl.gz",
+      "sha256": "0b36082fdb000cd0951e3171e5c4a1cea77c0657204539791a8d11d2342d7796",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2172207,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0014.jsonl.gz",
+      "sha256": "090cfccfe30ccf0e51e07e260ab9b224a3ecfc764c4fb405499e173aaac3bc7f",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2450834,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0015.jsonl.gz",
+      "sha256": "8a52807e8351035e85ef9ff7109b93c10ba379193f48f12a2e7682a1db37968c",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3146663,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0016.jsonl.gz",
+      "sha256": "4e3172aba53f082344e2a012a816a947cc20234e45471847081cf3c11ab4d18b",
+      "unit_count": 91
+    },
+    {
+      "bytes": 2921907,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0000.jsonl.gz",
+      "sha256": "be7645e48f8a51c061f13f634a26e2c8f687c4135fb67055309da0a8c43a4cee",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2678895,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0001.jsonl.gz",
+      "sha256": "256b3ebd78664a6ae0e9d124b040a972e004bef0d80f61c43eb43cedd713888d",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2641321,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0002.jsonl.gz",
+      "sha256": "bf51d07de3f5869a60398a1caf9135149e1e3feffc8e5e1a19ba7e1fa021f2a9",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2704217,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0003.jsonl.gz",
+      "sha256": "9dd73a1c00a687f032578606fe722ad43d531d21ba895d696686b2de64919aa5",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2729583,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0004.jsonl.gz",
+      "sha256": "df0009c164cac8029a8b7710d1df9e5ba5ef4ed3d943879cff79d7c3162773a6",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2687207,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0005.jsonl.gz",
+      "sha256": "529f71c2d2f0971825e0bc3e02e9efdeb81aae38d502747f6115007d600c70a2",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2799372,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0006.jsonl.gz",
+      "sha256": "0d69dbd25f3f9993808d1819db51d03d8467ff419ba9f5ffa83bd827c53aca12",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3395836,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0007.jsonl.gz",
+      "sha256": "879bd4df09c422797ef66f7e6286431c00ecc275dade8dc6f3c9c44f650da6d6",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2993338,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0008.jsonl.gz",
+      "sha256": "1d678445fb930b0022ec4b67f68e723a40256428769589fc9f552ebcea0c3aad",
+      "unit_count": 100
+    },
+    {
+      "bytes": 1971000,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0009.jsonl.gz",
+      "sha256": "53848db1d4e51ddbb99a08efdea92b784b9f4a19d693a62ce040ae002b54f236",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2893863,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0010.jsonl.gz",
+      "sha256": "17b329a4358da14738c066d24533ce7c535b172a21b184e9af4e97388329cd8e",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3349446,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0011.jsonl.gz",
+      "sha256": "7922e890e34f77065ea368c22c2a8644e0a2376317cb63c30a823a53bd98091d",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2649473,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0012.jsonl.gz",
+      "sha256": "96f45c9d4fe187dbdc82dbb578ff8fdde3a819762cf6d31c9c4e4e79c9481af2",
+      "unit_count": 100
+    },
+    {
+      "bytes": 1810189,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0013.jsonl.gz",
+      "sha256": "0ab4354669e3eb25f76fcdff1a58c1ba686e698909f1ee965fb85e2eb511e312",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2403029,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0014.jsonl.gz",
+      "sha256": "1932b9c63d2c85eebc51267d39cd8dbc6809c88c5f44072bdb33de9f9021e162",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2858495,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0015.jsonl.gz",
+      "sha256": "30fa26e44647bc30430634f71db9a2da94916fc45537b6b74f6e9506a57c1e7c",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3762416,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0016.jsonl.gz",
+      "sha256": "a4a74a778f77bc3c0b5bc694a6dc06dce8947757aa65468cac30c46914fbb4f7",
+      "unit_count": 92
+    },
+    {
+      "bytes": 3120293,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0000.jsonl.gz",
+      "sha256": "2db8b01e4b380d6c6630c001ef1c0b96ec2a3ca00708bb1bf10f4781eb3f518c",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3126246,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0001.jsonl.gz",
+      "sha256": "5f3600e1708011f8253b5d378ea933a8947d8438ea03e6202ce26e8c1e388d4e",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2947676,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0002.jsonl.gz",
+      "sha256": "b349c8f540b43f0a7fb42dc607da3d12c44700cc54539c504762fde7b0c89012",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3355974,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0003.jsonl.gz",
+      "sha256": "29e7a04003c32b61ace46ecde183548ddab6867f53f1b704c873e1567424c291",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2792768,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0004.jsonl.gz",
+      "sha256": "7131a34f1db0dfd5092c428721d2e49173a2380d04a315e53f2a955a1fae44fb",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3108701,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0005.jsonl.gz",
+      "sha256": "f827b7a6d77efe7109ff8af306e493ed0dfaa919619307a7ad8ff07da488b233",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3490249,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0006.jsonl.gz",
+      "sha256": "9da1c53e4fffb88038432ab739390a3305b651d8463235d9701939934a0695b5",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3604732,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0007.jsonl.gz",
+      "sha256": "7bb26de51d23c500323b799c05da85ca45cb129c6ba6c2c8e6b93759a87b96a6",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2382678,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0008.jsonl.gz",
+      "sha256": "0e5b3d8fef4d8f249faa2c1afdd7441bc8c1cde6357dcd25cc21012222c59cbd",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3258846,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0009.jsonl.gz",
+      "sha256": "2dfc8dd7526da730d916c3e2cdabfc960e6355a7daf527f1cd123efae4fcd561",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3781905,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0010.jsonl.gz",
+      "sha256": "1c3b30f010cc71136e5235b4aeb7e9dad4ae6da36e04363c20030377fcbc478d",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2677249,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0011.jsonl.gz",
+      "sha256": "66c89f62e2a253c7843ae773bbc9594f4ac505eefeffe4943b8ce73cb737f19b",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2384128,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0012.jsonl.gz",
+      "sha256": "70a9817112bc2ab50ec7c0a4a709d8a69463f564e4abce04f40c467f2d90620a",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2671957,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0013.jsonl.gz",
+      "sha256": "c6acd00c667e11a95e2eb974c88a767be99a5f47965f08918edc71d2fd0a50a4",
+      "unit_count": 100
+    },
+    {
+      "bytes": 4365466,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0014.jsonl.gz",
+      "sha256": "b7264c41589d8c87819350f7b515e69808f40fcc9c7582e963b55c638ee2d06e",
+      "unit_count": 100
+    },
+    {
+      "bytes": 1682941,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0015.jsonl.gz",
+      "sha256": "3f9169eed586bd33471fdc5af60b5d2f05bfd3e0856ef4c6b3637e499ec5659d",
+      "unit_count": 40
+    }
+  ],
+  "snapshot_id": "goalA_checkpoint_20260802",
+  "source": "completed unit_summary.json records only"
+}
