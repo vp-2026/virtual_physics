@@ -1,5 +1,26 @@
 # Model outputs
 
+`snapshot_goalA_2026-08-02/` is the current de-identified Goal-A checkpoint.
+It contains 4,923 completed model × goal × seed episodes and excludes every
+partial unit and all Goal-A → Goal-B material:
+
+| Model | Completed units | Coverage of 1,692 goals | Canonical sidecars |
+|---|---:|---:|---:|
+| GPT-5 | 1,692 | 100.000% | 132/132 |
+| Gemini 3.1 Pro Preview | 1,691 | 99.941% | 132/132 |
+| Qwen 3.6 Plus | 1,540 | 91.017% | 131/132 |
+
+Gemini index 1379 and 152 Qwen main units were still partial at this snapshot
+boundary and are not serialized as completed observations. Qwen canonical
+sidecar 1690 was also incomplete and is excluded. `PROTOCOL_EXCEPTION.md`
+records the bounded recovery exception used after the original collection
+ceilings were exhausted.
+
+The checkpoint was validated across 50 deterministic compressed shards. A
+recursive scan found no credentials, personal filesystem paths, email
+addresses, Goal-B fields, provider-account identifiers, or provider response
+identifiers.
+
 `snapshot_seed2026_2026-07-27/` is a de-identified snapshot of every completed
 main-benchmark unit available when the release was encoded. It contains 4,270
 completed model × goal × seed episodes:
