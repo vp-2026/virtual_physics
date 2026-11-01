@@ -127,6 +127,11 @@ checkpoints are retained for recovery but are neither scored as failures nor
 represented as completed outputs. Exact coverage is reported in
 [`model_outputs/README.md`](model_outputs/README.md).
 
+For camera-ready reproducibility, the accepted-paper analysis tables remain
+frozen at their dated analysis boundary, while the later archival output
+snapshot reports its own strictly validated coverage. No full Qwen completion
+claim is made.
+
 The VQA release contains static scene recognition, free-response coordinate
 localization, and qualitative temporal recognition from both 32 visual frames
 and 32 observable JSON states. Exact questions, prompts, raw model responses,
