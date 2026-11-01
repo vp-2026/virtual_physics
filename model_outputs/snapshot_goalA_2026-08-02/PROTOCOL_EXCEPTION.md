@@ -36,3 +36,17 @@ Checkpoint publication policy:
 - disclose this recovery exception and exact model/unit counts;
 - run the complete de-identification, credential/privacy, manifest, hash, scorer, and Goal-B-exclusion scans before any external submission;
 - continue Qwen recovery toward 1,692 after the checkpoint is published.
+
+## Camera-ready disposition — 2026-11-01
+
+The recovery collection is closed. The accepted-paper analyses remain frozen
+at their explicitly dated analysis boundary, and this directory is retained as
+the final archival model-output snapshot rather than as evidence of complete
+Qwen coverage.
+
+A later strict terminal-state audit found 1,539 valid Qwen main episodes. One
+summary-bearing general episode, benchmark index 701, did not satisfy the
+terminal-state gate and is excluded from the camera-ready shards. The final
+published Qwen coverage is therefore 1,539/1,692 main episodes and 131/132
+canonical held-out-prediction sidecars. The remaining records are partial, not
+benchmark failures, and are not serialized.

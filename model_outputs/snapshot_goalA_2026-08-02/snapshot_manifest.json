@@ -1,5 +1,5 @@
 {
-  "completed_unit_count": 4923,
+  "completed_unit_count": 4922,
   "coverage": [
     {
       "canonical_units": 132,
@@ -27,14 +27,14 @@
     },
     {
       "canonical_units": 132,
-      "completed_units": 1540,
-      "completion_percent": 91.017,
+      "completed_units": 1539,
+      "completion_percent": 90.957,
       "expected_units": 1692,
-      "full_condition_units": 1540,
+      "full_condition_units": 1539,
       "model_key": "qwen36plus",
-      "neither_condition_units": 1540,
+      "neither_condition_units": 1539,
       "status_only_condition_units": 134,
-      "trace_status_condition_units": 1540,
+      "trace_status_condition_units": 1539,
       "units_with_transfer_sidecars": 131
     }
   ],
@@ -44,10 +44,14 @@
     "rollout PNGs and videos",
     "regenerable full simulator traces",
     "absolute worker filesystem paths",
-    "provider response identifiers and credentials"
+    "provider response identifiers and credentials",
+    "summary-bearing records that fail strict terminal-state validation"
   ],
   "expected_units_per_main_model": 1692,
-  "partial_candidate_directory_count": 153,
+  "finalized_utc": "2026-11-01T22:08:34Z",
+  "partial_candidate_directory_count": 154,
+  "publication_status": "camera_ready_final",
+  "paper_analysis_snapshot": "../analysis_seed2026_2026-07-27",
   "schema_version": 1,
   "shards": [
     {
@@ -331,76 +335,83 @@
       "unit_count": 100
     },
     {
-      "bytes": 3490249,
+      "bytes": 3471926,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0006.jsonl.gz",
-      "sha256": "9da1c53e4fffb88038432ab739390a3305b651d8463235d9701939934a0695b5",
+      "sha256": "b465a7513b941aba1e2cafd233cb79bd994d27d96b6b8832a3243944b3450c5c",
       "unit_count": 100
     },
     {
-      "bytes": 3604732,
+      "bytes": 3614308,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0007.jsonl.gz",
-      "sha256": "7bb26de51d23c500323b799c05da85ca45cb129c6ba6c2c8e6b93759a87b96a6",
+      "sha256": "23ba7dc2c5b1f24fe15d612df3c9ee6b454f0b80ee45cf7637c6cfdf77af1140",
       "unit_count": 100
     },
     {
-      "bytes": 2382678,
+      "bytes": 2369409,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0008.jsonl.gz",
-      "sha256": "0e5b3d8fef4d8f249faa2c1afdd7441bc8c1cde6357dcd25cc21012222c59cbd",
+      "sha256": "fb7ee414d01c45b4f24759c6bbeff1a0d1b95d1bb5d8e3be67fa62c0ce95ebb8",
       "unit_count": 100
     },
     {
-      "bytes": 3258846,
+      "bytes": 3252740,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0009.jsonl.gz",
-      "sha256": "2dfc8dd7526da730d916c3e2cdabfc960e6355a7daf527f1cd123efae4fcd561",
+      "sha256": "6b621203087549698a542f3c8d39c01ba177288cb0071ac92b5c65fc3d5552e1",
       "unit_count": 100
     },
     {
-      "bytes": 3781905,
+      "bytes": 3789460,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0010.jsonl.gz",
-      "sha256": "1c3b30f010cc71136e5235b4aeb7e9dad4ae6da36e04363c20030377fcbc478d",
+      "sha256": "463350cb5f65467f1af6606933dac01236e7c8374c477c3316e262805c6f6be6",
       "unit_count": 100
     },
     {
-      "bytes": 2677249,
+      "bytes": 2653185,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0011.jsonl.gz",
-      "sha256": "66c89f62e2a253c7843ae773bbc9594f4ac505eefeffe4943b8ce73cb737f19b",
+      "sha256": "39d3445b946d72e1fa6a55553ba9459b15f58e877201096dab431611c7bd3b3c",
       "unit_count": 100
     },
     {
-      "bytes": 2384128,
+      "bytes": 2372738,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0012.jsonl.gz",
-      "sha256": "70a9817112bc2ab50ec7c0a4a709d8a69463f564e4abce04f40c467f2d90620a",
+      "sha256": "d4d803cada9b1c30043f2ff9b07fe9e06928fa19ba6ca6660aa8ca79f4019f8e",
       "unit_count": 100
     },
     {
-      "bytes": 2671957,
+      "bytes": 2673626,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0013.jsonl.gz",
-      "sha256": "c6acd00c667e11a95e2eb974c88a767be99a5f47965f08918edc71d2fd0a50a4",
+      "sha256": "3236c10f51c4315c3576ae160611aae6bd36b23ca3cab9e08a90b7d9c32ee10e",
       "unit_count": 100
     },
     {
-      "bytes": 4365466,
+      "bytes": 4400369,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0014.jsonl.gz",
-      "sha256": "b7264c41589d8c87819350f7b515e69808f40fcc9c7582e963b55c638ee2d06e",
+      "sha256": "b109ba2e0e96fa7b7b37ec0e5ec0e47da3d3f030f7db6f98c6199421267a85cb",
       "unit_count": 100
     },
     {
-      "bytes": 1682941,
+      "bytes": 1643170,
       "model_key": "qwen36plus",
       "path": "data/qwen36plus/units-0015.jsonl.gz",
-      "sha256": "3f9169eed586bd33471fdc5af60b5d2f05bfd3e0856ef4c6b3637e499ec5659d",
-      "unit_count": 40
+      "sha256": "9ebd2847d0406e886e8e5850e106832561765d890dca12475f7db95df06f43cd",
+      "unit_count": 39
     }
   ],
   "snapshot_id": "goalA_checkpoint_20260802",
-  "source": "completed unit_summary.json records only"
+  "source": "strict terminal-state validated unit records only",
+  "strict_exclusions": [
+    {
+      "benchmark_index": 701,
+      "model_key": "qwen36plus",
+      "reason": "summary-bearing directory failed the terminal-state gate"
+    }
+  ]
 }
