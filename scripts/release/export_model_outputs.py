@@ -38,6 +38,37 @@ SECRET_RE = re.compile(
     r"(?:sk-[A-Za-z0-9_-]{16,}|AIza[A-Za-z0-9_-]{16,}|"
     r"Bearer\s+[A-Za-z0-9._-]{16,})"
 )
+EMAIL_RE = re.compile(
+    r"(?<![A-Za-z0-9._%+-])[A-Za-z0-9._%+-]+@"
+    r"[A-Za-z0-9.-]+\.[A-Za-z]{2,}(?![A-Za-z0-9.-])"
+)
+UUID_RE = re.compile(
+    r"(?<![0-9a-f])[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-"
+    r"[89ab][0-9a-f]{3}-[0-9a-f]{12}(?![0-9a-f])",
+    re.IGNORECASE,
+)
+IPV4_RE = re.compile(
+    r"(?<![0-9.])(?:25[0-5]|2[0-4]\d|1?\d?\d)"
+    r"(?:\.(?:25[0-5]|2[0-4]\d|1?\d?\d)){3}(?![0-9.])"
+)
+GOAL_B_RE = re.compile(
+    r"Goal-A\s*(?:->|→|to)\s*Goal-B",
+    re.IGNORECASE,
+)
+
+FORBIDDEN_RELEASE_KEYS = {
+    "account_id",
+    "goal_transfer",
+    "goal_transfer_eligible",
+    "provider_response_id",
+    "request_id",
+    "response_id",
+    "target_goal_id",
+    "transfer_pair_selection",
+    "transfer_source",
+    "transfer_target_goal_id",
+    "user_id",
+}
 
 DROP_KEYS = {
     "environment_json",
@@ -249,6 +280,35 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
+def validate_release_value(value: Any, path: Path) -> None:
+    stack = [value]
+    while stack:
+        item = stack.pop()
+        if isinstance(item, dict):
+            forbidden = FORBIDDEN_RELEASE_KEYS.intersection(item)
+            if forbidden:
+                raise SystemExit(
+                    f"Forbidden release field found in {path}: "
+                    f"{sorted(forbidden)}"
+                )
+            stack.extend(item.values())
+        elif isinstance(item, list):
+            stack.extend(item)
+        elif isinstance(item, str):
+            if ABSOLUTE_PATH_RE.search(item):
+                raise SystemExit(f"Absolute path found in {path}")
+            if SECRET_RE.search(item):
+                raise SystemExit(f"Possible secret found in {path}")
+            if EMAIL_RE.search(item):
+                raise SystemExit(f"Email address found in {path}")
+            if UUID_RE.search(item):
+                raise SystemExit(f"UUID found in {path}")
+            if IPV4_RE.search(item):
+                raise SystemExit(f"IP address found in {path}")
+            if GOAL_B_RE.search(item):
+                raise SystemExit(f"Goal-B material found in {path}")
+
+
 def discover_unit_dirs(result_root: Path) -> tuple[list[Path], int]:
     complete = sorted(result_root.glob("*/seed_*/*/unit_summary.json"))
     candidate_dirs = {
@@ -355,8 +415,11 @@ def export(args: argparse.Namespace) -> dict[str, Any]:
 def check(output_root: Path) -> None:
     manifest = read_json(output_root / "snapshot_manifest.json")
     observed = 0
+    observed_by_model: Counter[str] = Counter()
+    source_units: set[str] = set()
     for shard in manifest["shards"]:
         path = output_root / shard["path"]
+        shard_observed = 0
         if sha256_file(path) != shard["sha256"]:
             raise SystemExit(f"SHA-256 mismatch: {path}")
         if path.stat().st_size != shard["bytes"]:
@@ -364,19 +427,51 @@ def check(output_root: Path) -> None:
         with gzip.open(path, "rt") as stream:
             for line in stream:
                 record = json.loads(line)
-                serialized = json.dumps(record)
-                if ABSOLUTE_PATH_RE.search(serialized):
-                    raise SystemExit(f"Absolute path found in {path}")
-                if SECRET_RE.search(serialized):
-                    raise SystemExit(f"Possible secret found in {path}")
+                validate_release_value(record, path)
+                source_unit = str(record.get("source_unit") or "")
+                if not source_unit or source_unit in source_units:
+                    raise SystemExit(
+                        f"Missing or duplicate source unit found in {path}"
+                    )
+                source_units.add(source_unit)
+                model_key = str(
+                    (record.get("summary") or {}).get("model_key") or ""
+                )
+                if model_key != shard["model_key"]:
+                    raise SystemExit(f"Shard model mismatch found in {path}")
+                observed_by_model[model_key] += 1
+                shard_observed += 1
                 observed += 1
+        if shard_observed != int(shard["unit_count"]):
+            raise SystemExit(
+                f"Shard count mismatch in {path}: "
+                f"{shard_observed} != {shard['unit_count']}"
+            )
     if observed != manifest["completed_unit_count"]:
         raise SystemExit(
             f"Expected {manifest['completed_unit_count']} units, observed {observed}"
         )
+    coverage_by_model = {
+        str(row["model_key"]): int(row["completed_units"])
+        for row in manifest["coverage"]
+    }
+    if dict(observed_by_model) != coverage_by_model:
+        raise SystemExit(
+            "Manifest coverage does not match serialized model counts: "
+            f"{dict(observed_by_model)} != {coverage_by_model}"
+        )
+    csv_coverage = {
+        str(row["model_key"]): int(row["completed_units"])
+        for row in csv.DictReader((output_root / "coverage.csv").open(newline=""))
+    }
+    if csv_coverage != coverage_by_model:
+        raise SystemExit(
+            f"coverage.csv does not match the manifest: "
+            f"{csv_coverage} != {coverage_by_model}"
+        )
     print(
         f"validated {observed} completed units across "
-        f"{len(manifest['shards'])} shards"
+        f"{len(manifest['shards'])} shards; privacy and Goal-B scan passed"
     )
 
 
