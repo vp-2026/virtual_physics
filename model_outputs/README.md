@@ -1,6 +1,6 @@
 # Model outputs
 
-`snapshot_goalA_2026-08-02/` is the final de-identified camera-ready archival
+`snapshot_goalA_2026-08-02/` is the published de-identified camera-ready archival
 snapshot. It contains 4,922 strictly terminal model × goal × seed episodes and
 excludes every partial unit and all Goal-A → Goal-B material:
 
@@ -15,7 +15,7 @@ boundary and are not serialized as completed observations. The strict audit
 excluded Qwen index 701 because its summary-bearing directory did not satisfy
 the terminal-state gate. Qwen canonical sidecar 1690 was also incomplete and
 is excluded. Partial records are neither serialized nor scored as failures.
-`PROTOCOL_EXCEPTION.md` records the bounded recovery exception used after the
+[`PROTOCOL_EXCEPTION.md`](snapshot_goalA_2026-08-02/PROTOCOL_EXCEPTION.md) records the bounded recovery exception used after the
 original collection ceilings were exhausted and the camera-ready disposition.
 
 The snapshot was validated across 50 deterministic compressed shards. A
@@ -92,6 +92,8 @@ sampled states at run time. Rollout media can be regenerated from the released
 world, action, simulator, seed, sampling indices, and recorded hashes rather
 than duplicated for every attempt in Git.
 
-The Qwen collection is closed at the disclosed strict coverage above. The
-repository does not claim 1,692/1,692 Qwen completion or 132/132 Qwen sidecar
+This published Qwen snapshot is closed at the disclosed strict coverage above.
+Later recovery is documented in [collection status and recovery limits](../docs/collection_status.md);
+those additional checkpoints have not been published as a replacement snapshot.
+The repository does not claim 1,692/1,692 Qwen completion or 132/132 Qwen sidecar
 completion.
