@@ -132,6 +132,10 @@ frozen at their dated analysis boundary, while the later archival output
 snapshot reports its own strictly validated coverage. No full Qwen completion
 claim is made.
 
+The dated [collection status and recovery limits](docs/collection_status.md)
+document later recovery progress and the exhausted Gemini repair ceiling.
+Those observations do not change the published snapshot coverage.
+
 The VQA release contains static scene recognition, free-response coordinate
 localization, and qualitative temporal recognition from both 32 visual frames
 and 32 observable JSON states. Exact questions, prompts, raw model responses,
