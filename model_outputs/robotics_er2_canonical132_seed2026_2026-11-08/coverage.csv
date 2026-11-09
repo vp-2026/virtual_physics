@@ -1,0 +1,4 @@
+model_id,condition,completed_episodes,complete_sidecars,solved_episodes,valid_attempts
+gemini-robotics-er-2-preview,full,132,132,99,461
+gemini-robotics-er-2-preview,neither,132,132,95,1056
+gemini-robotics-er-2-preview,trace_status,132,132,103,429

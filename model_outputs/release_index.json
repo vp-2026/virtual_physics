@@ -1,0 +1,36 @@
+{
+  "historical_analysis_tables_recomputed": false,
+  "missing_runs_are_scored_failures": false,
+  "original_model_missing_main_episodes": 41,
+  "original_model_missing_probe_bundles": 1,
+  "publication_date": "2026-11-08",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "complete_canonical_probe_bundles": 395,
+      "completed_main_episodes": 5035,
+      "directory": "snapshot_seed2026_documented_gaps_2026-11-05",
+      "manifest_sha256": "40ff9e088ec066e5acb1374ac0dba6611a9414baf183d8cac7394c6bb4933220"
+    },
+    {
+      "complete_canonical_probe_bundles": 132,
+      "completed_main_episodes": 132,
+      "directory": "robotics_er2_canonical132_seed2026_2026-11-08",
+      "manifest_sha256": "354259887aa8b6b46042772baa8a39a7128ce6bc05f956b984e0397fadb27b41"
+    }
+  ],
+  "task_manifests": [
+    {
+      "goals": 1560,
+      "path": "../task_configs/paper_goals_1560.json",
+      "sha256": "9dea545d73a7cb72406767d96ad5f8a5ccc7bca25111b8ad45adc198ba356f4b"
+    },
+    {
+      "goals": 1692,
+      "path": "../task_configs/benchmark_1692_seed2026.json",
+      "sha256": "4a4bd7dbc6f28d3ebc8652e915aadf063808c5ae1f91a277d907ec0f303037d3"
+    }
+  ],
+  "total_complete_probe_bundles": 527,
+  "total_completed_model_episodes": 5167
+}

@@ -1,0 +1,4 @@
+model_key,completed_units,expected_units,incomplete_units,completion_percent,canonical_units,units_with_transfer_sidecars,expected_canonical_sidecars,incomplete_canonical_sidecars,fresh_recovery_units,full_condition_units,neither_condition_units,trace_status_condition_units,status_only_condition_units
+gpt5,1692,1692,0,100.0,132,132,132,0,0,1692,1692,1692,149
+gemini31pro,1691,1692,1,99.941,132,132,132,0,0,1691,1691,1691,166
+qwen36plus,1652,1692,40,97.636,132,131,132,1,113,1652,1652,1652,134

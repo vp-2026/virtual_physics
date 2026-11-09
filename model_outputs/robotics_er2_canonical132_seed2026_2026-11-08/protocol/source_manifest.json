@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "path": "scripts/run.py",
+      "sha256": "e464ea0396987aa85ff9d85a2d4d71145aa686032009c90042ade5e3fd613c5f",
+      "bytes": 6192
+    },
+    {
+      "path": "scripts/providers.py",
+      "sha256": "b6118e561ab67401ddc154a595ff71c709905e0f81b94d858d8413c5205b2a15",
+      "bytes": 13032,
+      "matches_recorded_collection_hash": false
+    },
+    {
+      "path": "scripts/run_guard.py",
+      "sha256": "f1ea20e9d3b61b2a0ecce327fd6054d6d0037a47e5c67391305d8c6eb19a28eb",
+      "bytes": 1153
+    },
+    {
+      "path": "scripts/continue_once.py",
+      "sha256": "078d43d6f85ff2ac3749a63f6a9d08171c75c3f8bf74f7fea4a85f044d2059b7",
+      "bytes": 1948,
+      "original_source_sha256": "468e7f148ce515d23bd75063116cea8e00d621cfb890a5f2aaffc0e3682349bf",
+      "publication_change": "Removed hard-coded private cloud project; caller must supply VTOOLS_GCP_PROJECT."
+    },
+    {
+      "path": "runtime/scripts/experiment/forked_feedback_runner.py",
+      "sha256": "3da8838f6e56e750c708c1363878d8f6da75b1afec627f1fcb85cef1ff1a066c",
+      "bytes": 110489,
+      "matches_recorded_collection_hash": true
+    },
+    {
+      "path": "runtime/scripts/experiment/transfer_sidecar_runner.py",
+      "sha256": "65d5d9957090bb6682d015c99cea0dc66043ef952418fa8edea565c4d270799c",
+      "bytes": 51534
+    }
+  ],
+  "purpose": "Collection source snapshots. Validate the exported data without any API calls; these files are not executed during release validation.",
+  "provider_source_note": "The final shared provider adapter snapshot does not match the earlier provider hash recorded in the collection manifest. Exact per-call model identities, request parameters and outputs are preserved in the exported records."
+}

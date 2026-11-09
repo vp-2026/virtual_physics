@@ -38,6 +38,9 @@ metadata, and SHA-256 hashes.
 
 ## Task manifests
 
+- **[All 1,560 diverse-goal tasks](task_configs/paper_goals_1560.json)**:
+  exact goal definitions, success signatures, tool configurations, and relative
+  paths to the included [environment assets](132_base_environments/).
 - `task_configs/paper_goals_1560.json` freezes the 1,560 noncanonical goals
   selected using the paper’s simulator-derived solution-density rule.
 - `task_configs/benchmark_1692_seed2026.json` adds one canonical
@@ -122,19 +125,22 @@ The evaluation entry points and expected input files are documented in
 
 ## Model outputs and VQA
 
-The published snapshot contains only protocol-finalized units. Partial
-checkpoints are retained for recovery but are neither scored as failures nor
-represented as completed outputs. Exact coverage is reported in
-[`model_outputs/README.md`](model_outputs/README.md).
+The [model-output index](model_outputs/README.md) provides the released
+GPT-5, Gemini 3.1 Pro Preview, Qwen 3.6 Plus, and Gemini Robotics ER2 records.
 
-For camera-ready reproducibility, the accepted-paper analysis tables remain
-frozen at their dated analysis boundary, while the later archival output
-snapshot reports its own strictly validated coverage. No full Qwen completion
-claim is made.
+- The [original-model snapshot](model_outputs/snapshot_seed2026_documented_gaps_2026-11-05/)
+  contains 5,035 completed main episodes and 395 complete canonical probe
+  bundles, including 113 recovered Qwen episodes added since the August release.
+- The [Robotics ER2 extension](model_outputs/robotics_er2_canonical132_seed2026_2026-11-08/)
+  contains 132 canonical episodes and 132 complete probe bundles for
+  `gemini-robotics-er-2-preview`, separately from the ER1.6 control.
 
-The dated [collection status and recovery limits](docs/collection_status.md)
-document later recovery progress and the exhausted Gemini repair ceiling.
-Those observations do not change the published snapshot coverage.
+Each snapshot includes raw responses, actions, predictions, simulator endpoint
+truth, prompts, coverage tables, and checksummed compressed shards. Incomplete
+original-model runs are identified in the machine-readable missingness manifest
+and are not scored as failures. Earlier snapshots and their analysis tables
+retain their dated populations; new archive coverage does not silently replace
+an analysis denominator.
 
 The VQA release contains static scene recognition, free-response coordinate
 localization, and qualitative temporal recognition from both 32 visual frames
