@@ -1,0 +1,386 @@
+{
+  "canonical_sidecar_gaps": 1,
+  "main_episode_gaps": 41,
+  "missingness_is_not_assumed_random": true,
+  "schema_version": 1,
+  "units": [
+    {
+      "benchmark_index": 1379,
+      "model_key": "gemini31pro",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "gemini31pro/seed_2026/1379_under29_new_1379_FallingAlt_5_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 9,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0009_0011_Prevention_1_upward__goal_0005",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 43,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_missing_choices",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0043_0067_Prevention_1_upward__goal_0007",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 52,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0052_0083_Basic_6_downward__goal_0011",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 82,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "format_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0082_0128_BalanceUnder_2_upward__goal_0055",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 175,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0175_0262_Remove_8_downward__goal_0012",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 181,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "format_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0181_0268_Remove_6_upward__goal_0032",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 212,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0212_0321_FallingAlt_9_upward__goal_0008",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 256,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0256_0379_FallingAlt_3_upward__goal_0036",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 265,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0265_0392_Remove_8_upward__goal_0015",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 284,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0284_0414_Remove_10_upward__goal_0003",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 412,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0412_0597_Balance_2_upward__goal_0010",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 491,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0491_0702_Remove_9_upward__goal_0004",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 565,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0565_0801_Remove_10_upward__goal_0017",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 583,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0583_0823_Remove_9_upward__goal_0006",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 591,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0591_0833_Basic_9_downward__goal_0025",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 606,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0606_0856_Remove_9_upward__goal_0016",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 612,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0612_0866_BalanceUnder_5_upward__goal_0009",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 639,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0639_0903_Remove_10_downward__goal_0001",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 712,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "format_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0712_under29_new_0712_Falling_8_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 765,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0765_under29_new_0765_FallingAlt_8_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 801,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0801_under29_new_0801_BalanceUnder_2_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 810,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0810_under29_new_0810_FallingAlt_4_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 895,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "interrupted_checkpoint",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0895_under29_new_0895_FallingAlt_9_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 898,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_missing_choices",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0898_under29_new_0898_Prevention_10_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 926,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "format_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0926_under29_new_0926_Prevention_1_downward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 944,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0944_under29_new_0944_Prevention_5_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 953,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0953_under29_new_0953_BalanceUnder_3_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 992,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/0992_under29_new_0992_Falling_8_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1031,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1031_under29_new_1031_FallingAlt_3_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1067,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1067_under29_new_1067_Prevention_5_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1100,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "format_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1100_under29_new_1100_BalanceUnder_8_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1105,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1105_under29_new_1105_FallingAlt_6_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1149,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1149_under29_new_1149_BalanceUnder_7_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1157,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1157_under29_new_1157_BalanceUnder_6_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1295,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1295_under29_new_1295_Remove_8_downward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1305,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1305_under29_new_1305_Remove_10_downward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1420,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1420_under29_new_1420_Remove_8_downward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1481,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1481_under29_new_1481_FallingAlt_4_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1504,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1504_under29_new_1504_Prevention_5_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1529,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "procedural_repair_ceiling",
+      "scope": "main",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1529_under29_new_1529_Prevention_1_upward",
+      "status": "incomplete"
+    },
+    {
+      "benchmark_index": 1690,
+      "model_key": "qwen36plus",
+      "observed_stop_reason": "provider_content_inspection",
+      "scope": "canonical_sidecar",
+      "scored_as_experimental_failure": false,
+      "source_unit": "qwen36plus/seed_2026/1690_canonical_0131_Remove_10_downward",
+      "status": "incomplete"
+    }
+  ]
+}

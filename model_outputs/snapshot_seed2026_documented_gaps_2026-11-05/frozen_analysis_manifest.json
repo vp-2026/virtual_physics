@@ -1,0 +1,131 @@
+{
+  "files": [
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/action_quality/canonical_main_paired_contrasts.csv",
+      "rows": 240,
+      "sha256": "ab6d1d63dfef5d53e36f29f725260cfeb2b1d1551d49e31878c43e0ff8833563"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/action_quality/canonical_main_preterminal_contrasts.csv",
+      "rows": 13,
+      "sha256": "0c1cf4794f4a7da4cf314ae04c0569a5daadb278aa2d3b80de5e08119dcdfed5"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/action_quality/canonical_robotics_er_paired_contrasts.csv",
+      "rows": 96,
+      "sha256": "1da6a82fc5ffaa6a4969d905443892a2db67be9ada2bdea338ce0a4d36b81f99"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/action_quality/canonical_robotics_er_preterminal_contrasts.csv",
+      "rows": 6,
+      "sha256": "cab3f1406c7edd5cd17e4662d011a1acd3fd529be0f2fcee75157e7f9cf6ab34"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/action_quality/noncanonical_action_quality_curves.csv",
+      "rows": 240,
+      "sha256": "e828c9ea7e797c9515e143ca634d14194ffcecf5e10c479f6adaacb404626d3d"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/action_quality/noncanonical_paired_contrasts.csv",
+      "rows": 256,
+      "sha256": "a9383fce64f50a0caf843efda2fd7f42bc0bda86cc76b45e91bdc784aa0194c9"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/action_quality/noncanonical_preterminal_contrasts.csv",
+      "rows": 16,
+      "sha256": "8dd61c6c73720cb10efbd6284c5dfb8ae7c718695fc522d6ab8edee3b03489b3"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/coupling/action_prediction_arm_slopes.csv",
+      "rows": 9,
+      "sha256": "3ffec18d79d67951ee9d28a863b5d14a94fdd5ba80171fc1375824d70be504d5"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/coupling/action_prediction_correlations.csv",
+      "rows": 27,
+      "sha256": "7452f7b8b2c80187def5a0834b3bbb78e9523fff7416922714853bdb071f7b7a"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/coupling/action_prediction_goal_fe_coefficients.csv",
+      "rows": 18,
+      "sha256": "b9635651adbed905de261fcd2457453d045e0b775506c1ef43c72fe248724b4c"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/coupling/action_prediction_success_contrast_cluster_bootstrap.csv",
+      "rows": 9,
+      "sha256": "3fec447dc3943134adb1b2fca59e2786b9ded4225026338587ed4a44a7a462a6"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/coupling/action_transfer_summary.csv",
+      "rows": 9,
+      "sha256": "cf78a8422d3853ae2cc5f342ec42fb9fd0c860f605796788c75a6473b6af1267"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/coupling/robotics_er_action_prediction_arm_slopes.csv",
+      "rows": 3,
+      "sha256": "0a189817ee87dd6febd1d32b026e64519d6ca5fa31f940b4f7dc21f0f6bda017"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/coupling/robotics_er_action_prediction_correlations.csv",
+      "rows": 9,
+      "sha256": "3faf551a444591293e7ea4cff529b74b9880dcabbb625a98ec792d6629903b72"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/coupling/robotics_er_action_prediction_goal_fe_coefficients.csv",
+      "rows": 6,
+      "sha256": "9ed16d1d827038c8269add97eee4385e1a457158b39ca078958d88cd51ba65c8"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/coupling/robotics_er_action_prediction_success_contrast_cluster_bootstrap.csv",
+      "rows": 3,
+      "sha256": "510f5c4324e5d75817431d1802d2b91f654ef253b1aa735010962b7758835acc"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/coupling/robotics_er_action_transfer_summary.csv",
+      "rows": 3,
+      "sha256": "d52507af14fcdc4b74dae5afe343ad9dcfeb383e9f8f4c9ce74833f96a3994f2"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/coupling/symbolic_state_transfer_coupling.csv",
+      "rows": 6,
+      "sha256": "f609d17b0b138db4a5d3bc8f1248fa22510ae959c1350966e4925bc8ef444fae"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/heldout_prediction/heldout_summary.csv",
+      "rows": 48,
+      "sha256": "74277d6cab82da58e50bd526545a9cc09e80b4957e4d3cc2fe176827ec17af45"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/heldout_prediction/robotics_er_heldout_summary.csv",
+      "rows": 18,
+      "sha256": "4150dd1a7703789cc432fc60c5c927806588d0f9eec6d5cbe3bde3ff8268b557"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/planning_snapshot.csv",
+      "rows": 36,
+      "sha256": "1ab45fd0863cb078fb9aa4227062b5bd1a661da0956ca27c8e23919d0faa9b87"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/prediction/action_prediction_first_last.csv",
+      "rows": 15,
+      "sha256": "fc8ceed4dc4a96cba02404fe69584a39ff904b85804f2fb9433354fd819687b2"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/prediction/robotics_er_action_prediction_first_last.csv",
+      "rows": 3,
+      "sha256": "b2edb5d32c75c9fb7309a8d5fd30c8a5db339e873e1b81cb4cba9e1056717e20"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/prediction/symbolic_state_first_final_cluster_bootstrap.csv",
+      "rows": 3,
+      "sha256": "c5196d380ce4c3f0ab4c5e389c486246846e6793edb4f4bdce39ff6656a78cf1"
+    },
+    {
+      "path": "model_outputs/analysis_seed2026_2026-07-27/robotics_er_planning_summary.csv",
+      "rows": 9,
+      "sha256": "5e6fb421e224ad287f3fbb191e7f2e27f963937d07b08ee2bb4b4781299d873b"
+    }
+  ],
+  "modified": false,
+  "scope": "Historical paper-analysis boundary; not recomputed from this later recovery snapshot"
+}

@@ -1,0 +1,579 @@
+{
+  "collection_status": "closed_with_documented_incomplete_units",
+  "completed_canonical_sidecar_count": 395,
+  "completed_unit_count": 5035,
+  "coverage": [
+    {
+      "canonical_units": 132,
+      "completed_units": 1692,
+      "completion_percent": 100.0,
+      "expected_canonical_sidecars": 132,
+      "expected_units": 1692,
+      "fresh_recovery_units": 0,
+      "full_condition_units": 1692,
+      "incomplete_canonical_sidecars": 0,
+      "incomplete_units": 0,
+      "model_key": "gpt5",
+      "neither_condition_units": 1692,
+      "status_only_condition_units": 149,
+      "trace_status_condition_units": 1692,
+      "units_with_transfer_sidecars": 132
+    },
+    {
+      "canonical_units": 132,
+      "completed_units": 1691,
+      "completion_percent": 99.941,
+      "expected_canonical_sidecars": 132,
+      "expected_units": 1692,
+      "fresh_recovery_units": 0,
+      "full_condition_units": 1691,
+      "incomplete_canonical_sidecars": 0,
+      "incomplete_units": 1,
+      "model_key": "gemini31pro",
+      "neither_condition_units": 1691,
+      "status_only_condition_units": 166,
+      "trace_status_condition_units": 1691,
+      "units_with_transfer_sidecars": 132
+    },
+    {
+      "canonical_units": 132,
+      "completed_units": 1652,
+      "completion_percent": 97.636,
+      "expected_canonical_sidecars": 132,
+      "expected_units": 1692,
+      "fresh_recovery_units": 113,
+      "full_condition_units": 1652,
+      "incomplete_canonical_sidecars": 1,
+      "incomplete_units": 40,
+      "model_key": "qwen36plus",
+      "neither_condition_units": 1652,
+      "status_only_condition_units": 134,
+      "trace_status_condition_units": 1652,
+      "units_with_transfer_sidecars": 131
+    }
+  ],
+  "created_utc": "2026-11-05T07:28:22.592117+00:00",
+  "exclusions": [
+    "incomplete main episodes and incomplete sidecar bundles",
+    "goal-switch transfer materials",
+    "credentials, provider identifiers and personal paths",
+    "regenerable images and full simulator traces"
+  ],
+  "expanded_allowance_log_record_count": 1089,
+  "expected_units_per_main_model": 1692,
+  "gemini_procedural_recovery_policy": {
+    "affected_main_units": 1,
+    "authorized_ceiling_sequence": [
+      48,
+      96
+    ],
+    "final_unit_complete": false,
+    "original_ceiling": 24,
+    "saved_counts_and_histories_preserved": true,
+    "valid_attempt_limit": 8
+  },
+  "incomplete_canonical_sidecar_count": 1,
+  "incomplete_main_unit_count": 41,
+  "manifest_source_scope": "Original three-model seed-2026 collection; later frontier models are not added to this release",
+  "missingness_manifest": "missing_units.json",
+  "paper_analysis_snapshot": "../analysis_seed2026_2026-07-27",
+  "paper_tables_recomputed": false,
+  "partial_episodes_are_experimental_failures": false,
+  "preserved_original_record_count": 4922,
+  "recovered_main_units": [
+    "qwen36plus/seed_2026/0006_0007_Remove_9_downward__goal_0010",
+    "qwen36plus/seed_2026/0016_0022_Balance_7_downward__goal_0012",
+    "qwen36plus/seed_2026/0022_0036_Remove_6_upward__goal_0009",
+    "qwen36plus/seed_2026/0023_0037_Prevention_5_upward__goal_0035",
+    "qwen36plus/seed_2026/0027_0042_Prevention_3_downward__goal_0028",
+    "qwen36plus/seed_2026/0028_0044_FallingAlt_10_upward__goal_0004",
+    "qwen36plus/seed_2026/0038_0060_Basic_9_upward__goal_0002",
+    "qwen36plus/seed_2026/0060_0096_FallingAlt_1_upward__goal_0040",
+    "qwen36plus/seed_2026/0109_0168_FallingAlt_9_upward__goal_0046",
+    "qwen36plus/seed_2026/0154_0234_Prevention_1_downward__goal_0009",
+    "qwen36plus/seed_2026/0165_0249_Balance_7_upward__goal_0010",
+    "qwen36plus/seed_2026/0166_0252_FallingAlt_9_upward__goal_0026",
+    "qwen36plus/seed_2026/0202_0302_Remove_6_downward__goal_0054",
+    "qwen36plus/seed_2026/0215_0325_BalanceUnder_6_downward__goal_0043",
+    "qwen36plus/seed_2026/0220_0333_FallingAlt_6_upward__goal_0025",
+    "qwen36plus/seed_2026/0233_0350_Remove_6_downward__goal_0058",
+    "qwen36plus/seed_2026/0250_0372_Prevention_1_downward__goal_0027",
+    "qwen36plus/seed_2026/0251_0373_FallingAlt_6_upward__goal_0018",
+    "qwen36plus/seed_2026/0259_0382_BalanceUnder_3_upward__goal_0035",
+    "qwen36plus/seed_2026/0285_0416_Prevention_3_upward__goal_0027",
+    "qwen36plus/seed_2026/0290_0425_Balance_5_upward__goal_0025",
+    "qwen36plus/seed_2026/0299_0439_Falling_10_upward__goal_0017",
+    "qwen36plus/seed_2026/0306_0448_Balance_1_upward__goal_0014",
+    "qwen36plus/seed_2026/0314_0456_Remove_9_downward__goal_0002",
+    "qwen36plus/seed_2026/0323_0467_Prevention_1_downward__goal_0028",
+    "qwen36plus/seed_2026/0355_0513_BalanceUnder_7_upward__goal_0039",
+    "qwen36plus/seed_2026/0363_0524_FallingAlt_3_upward__goal_0004",
+    "qwen36plus/seed_2026/0404_0586_BalanceUnder_8_upward__goal_0025",
+    "qwen36plus/seed_2026/0443_0638_Balance_1_upward__goal_0016",
+    "qwen36plus/seed_2026/0451_0648_Prevention_1_downward__goal_0029",
+    "qwen36plus/seed_2026/0470_0677_Balance_5_upward__goal_0004",
+    "qwen36plus/seed_2026/0477_0685_Falling_10_upward__goal_0006",
+    "qwen36plus/seed_2026/0504_0716_Balance_8_downward__goal_0012",
+    "qwen36plus/seed_2026/0505_0717_FallingAlt_9_downward__goal_0031",
+    "qwen36plus/seed_2026/0513_0728_Remove_10_downward__goal_0023",
+    "qwen36plus/seed_2026/0533_0752_Remove_6_downward__goal_0050",
+    "qwen36plus/seed_2026/0535_0756_Balance_5_upward__goal_0002",
+    "qwen36plus/seed_2026/0541_0764_BalanceUnder_8_upward__goal_0046",
+    "qwen36plus/seed_2026/0559_0789_Remove_6_downward__goal_0070",
+    "qwen36plus/seed_2026/0603_0851_Remove_1_upward__goal_0012",
+    "qwen36plus/seed_2026/0626_0883_Falling_3_upward__goal_0009",
+    "qwen36plus/seed_2026/0628_0885_FallingAlt_1_upward__goal_0034",
+    "qwen36plus/seed_2026/0641_0905_Remove_9_upward__goal_0014",
+    "qwen36plus/seed_2026/0643_0909_Remove_8_upward__goal_0031",
+    "qwen36plus/seed_2026/0652_0920_BackUp_4_upward__goal_0005",
+    "qwen36plus/seed_2026/0656_0930_BackUp_9_downward__goal_0006",
+    "qwen36plus/seed_2026/0661_0937_Basic_6_downward__goal_0002",
+    "qwen36plus/seed_2026/0678_0964_Remove_6_downward__goal_0071",
+    "qwen36plus/seed_2026/0701_under29_new_0701_Falling_7_upward",
+    "qwen36plus/seed_2026/0710_under29_new_0710_Falling_7_upward",
+    "qwen36plus/seed_2026/0713_under29_new_0713_Falling_10_upward",
+    "qwen36plus/seed_2026/0716_under29_new_0716_Falling_7_downward",
+    "qwen36plus/seed_2026/0725_under29_new_0725_Falling_10_upward",
+    "qwen36plus/seed_2026/0733_under29_new_0733_Falling_8_upward",
+    "qwen36plus/seed_2026/0756_under29_new_0756_Balance_2_upward",
+    "qwen36plus/seed_2026/0779_under29_new_0779_Balance_2_upward",
+    "qwen36plus/seed_2026/0796_under29_new_0796_FallingAlt_7_upward",
+    "qwen36plus/seed_2026/0815_under29_new_0815_FallingAlt_10_downward",
+    "qwen36plus/seed_2026/0827_under29_new_0827_Prevention_1_downward",
+    "qwen36plus/seed_2026/0847_under29_new_0847_Prevention_3_downward",
+    "qwen36plus/seed_2026/0856_under29_new_0856_Falling_6_upward",
+    "qwen36plus/seed_2026/0862_under29_new_0862_Falling_9_upward",
+    "qwen36plus/seed_2026/0870_under29_new_0870_Falling_10_upward",
+    "qwen36plus/seed_2026/0890_under29_new_0890_Balance_1_upward",
+    "qwen36plus/seed_2026/0896_under29_new_0896_FallingAlt_4_upward",
+    "qwen36plus/seed_2026/0897_under29_new_0897_Prevention_7_upward",
+    "qwen36plus/seed_2026/0900_under29_new_0900_FallingAlt_4_upward",
+    "qwen36plus/seed_2026/0908_under29_new_0908_FallingAlt_5_upward",
+    "qwen36plus/seed_2026/0918_under29_new_0918_BalanceUnder_10_upward",
+    "qwen36plus/seed_2026/0919_under29_new_0919_Prevention_5_upward",
+    "qwen36plus/seed_2026/0929_under29_new_0929_Prevention_1_downward",
+    "qwen36plus/seed_2026/0930_under29_new_0930_Balance_2_upward",
+    "qwen36plus/seed_2026/0931_under29_new_0931_BalanceUnder_5_upward",
+    "qwen36plus/seed_2026/0940_under29_new_0940_Prevention_1_upward",
+    "qwen36plus/seed_2026/0947_under29_new_0947_BalanceUnder_6_upward",
+    "qwen36plus/seed_2026/0959_under29_new_0959_Balance_5_upward",
+    "qwen36plus/seed_2026/0967_under29_new_0967_Balance_8_upward",
+    "qwen36plus/seed_2026/1011_under29_new_1011_Falling_10_upward",
+    "qwen36plus/seed_2026/1015_under29_new_1015_Falling_6_upward",
+    "qwen36plus/seed_2026/1017_under29_new_1017_Falling_1_downward",
+    "qwen36plus/seed_2026/1051_under29_new_1051_BalanceUnder_2_upward",
+    "qwen36plus/seed_2026/1066_under29_new_1066_Balance_7_upward",
+    "qwen36plus/seed_2026/1081_under29_new_1081_BalanceUnder_3_upward",
+    "qwen36plus/seed_2026/1106_under29_new_1106_Prevention_3_upward",
+    "qwen36plus/seed_2026/1137_under29_new_1137_BalanceUnder_10_downward",
+    "qwen36plus/seed_2026/1141_under29_new_1141_Prevention_1_downward",
+    "qwen36plus/seed_2026/1148_under29_new_1148_FallingAlt_8_upward",
+    "qwen36plus/seed_2026/1155_under29_new_1155_FallingAlt_4_upward",
+    "qwen36plus/seed_2026/1172_under29_new_1172_BalanceUnder_8_downward",
+    "qwen36plus/seed_2026/1179_under29_new_1179_Prevention_5_upward",
+    "qwen36plus/seed_2026/1193_under29_new_1193_BalanceUnder_6_downward",
+    "qwen36plus/seed_2026/1204_under29_new_1204_Remove_7_upward",
+    "qwen36plus/seed_2026/1205_under29_new_1205_Remove_6_upward",
+    "qwen36plus/seed_2026/1209_under29_new_1209_Basic_10_downward",
+    "qwen36plus/seed_2026/1240_under29_new_1240_FallingAlt_6_upward",
+    "qwen36plus/seed_2026/1247_under29_new_1247_BalanceUnder_10_upward",
+    "qwen36plus/seed_2026/1279_under29_new_1279_Prevention_1_downward",
+    "qwen36plus/seed_2026/1300_under29_new_1300_Remove_7_downward",
+    "qwen36plus/seed_2026/1336_under29_new_1336_Prevention_8_downward",
+    "qwen36plus/seed_2026/1340_under29_new_1340_BalanceUnder_7_upward",
+    "qwen36plus/seed_2026/1347_under29_new_1347_FallingAlt_1_downward",
+    "qwen36plus/seed_2026/1365_under29_new_1365_Prevention_1_downward",
+    "qwen36plus/seed_2026/1376_under29_new_1376_FallingAlt_5_upward",
+    "qwen36plus/seed_2026/1389_under29_new_1389_Prevention_5_upward",
+    "qwen36plus/seed_2026/1421_under29_new_1421_Remove_8_upward",
+    "qwen36plus/seed_2026/1422_under29_new_1422_Remove_8_upward",
+    "qwen36plus/seed_2026/1486_under29_new_1486_Prevention_10_upward",
+    "qwen36plus/seed_2026/1498_under29_new_1498_Prevention_3_upward",
+    "qwen36plus/seed_2026/1501_under29_new_1501_FallingAlt_5_upward",
+    "qwen36plus/seed_2026/1505_under29_new_1505_Prevention_1_downward",
+    "qwen36plus/seed_2026/1512_under29_new_1512_Prevention_3_downward",
+    "qwen36plus/seed_2026/1522_under29_new_1522_Prevention_1_downward",
+    "qwen36plus/seed_2026/1553_under29_new_1553_BackUp_7_downward"
+  ],
+  "recovery_exception_report": "recovery_exceptions.csv",
+  "recovery_replicas_with_observed_token_expansion": 106,
+  "retained_incomplete_main_unit_count": 41,
+  "schema_version": 2,
+  "selection_policy": "Retain all previously terminal episodes and every strictly terminal predeclared recovery replica; exclude incomplete units regardless of partial outcomes",
+  "shards": [
+    {
+      "bytes": 2921907,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0000.jsonl.gz",
+      "sha256": "be7645e48f8a51c061f13f634a26e2c8f687c4135fb67055309da0a8c43a4cee",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2678895,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0001.jsonl.gz",
+      "sha256": "256b3ebd78664a6ae0e9d124b040a972e004bef0d80f61c43eb43cedd713888d",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2641321,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0002.jsonl.gz",
+      "sha256": "bf51d07de3f5869a60398a1caf9135149e1e3feffc8e5e1a19ba7e1fa021f2a9",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2704217,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0003.jsonl.gz",
+      "sha256": "9dd73a1c00a687f032578606fe722ad43d531d21ba895d696686b2de64919aa5",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2729583,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0004.jsonl.gz",
+      "sha256": "df0009c164cac8029a8b7710d1df9e5ba5ef4ed3d943879cff79d7c3162773a6",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2687207,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0005.jsonl.gz",
+      "sha256": "529f71c2d2f0971825e0bc3e02e9efdeb81aae38d502747f6115007d600c70a2",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2799372,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0006.jsonl.gz",
+      "sha256": "0d69dbd25f3f9993808d1819db51d03d8467ff419ba9f5ffa83bd827c53aca12",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3395836,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0007.jsonl.gz",
+      "sha256": "879bd4df09c422797ef66f7e6286431c00ecc275dade8dc6f3c9c44f650da6d6",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2993338,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0008.jsonl.gz",
+      "sha256": "1d678445fb930b0022ec4b67f68e723a40256428769589fc9f552ebcea0c3aad",
+      "unit_count": 100
+    },
+    {
+      "bytes": 1971000,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0009.jsonl.gz",
+      "sha256": "53848db1d4e51ddbb99a08efdea92b784b9f4a19d693a62ce040ae002b54f236",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2893863,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0010.jsonl.gz",
+      "sha256": "17b329a4358da14738c066d24533ce7c535b172a21b184e9af4e97388329cd8e",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3349446,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0011.jsonl.gz",
+      "sha256": "7922e890e34f77065ea368c22c2a8644e0a2376317cb63c30a823a53bd98091d",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2649473,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0012.jsonl.gz",
+      "sha256": "96f45c9d4fe187dbdc82dbb578ff8fdde3a819762cf6d31c9c4e4e79c9481af2",
+      "unit_count": 100
+    },
+    {
+      "bytes": 1810189,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0013.jsonl.gz",
+      "sha256": "0ab4354669e3eb25f76fcdff1a58c1ba686e698909f1ee965fb85e2eb511e312",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2403029,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0014.jsonl.gz",
+      "sha256": "1932b9c63d2c85eebc51267d39cd8dbc6809c88c5f44072bdb33de9f9021e162",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2858495,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0015.jsonl.gz",
+      "sha256": "30fa26e44647bc30430634f71db9a2da94916fc45537b6b74f6e9506a57c1e7c",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3762416,
+      "model_key": "gpt5",
+      "path": "data/gpt5/units-0016.jsonl.gz",
+      "sha256": "a4a74a778f77bc3c0b5bc694a6dc06dce8947757aa65468cac30c46914fbb4f7",
+      "unit_count": 92
+    },
+    {
+      "bytes": 2850707,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0000.jsonl.gz",
+      "sha256": "1fdde9f27413a7cde2bd004877ca201fee88d836257deba1539f6fe397fbcfce",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2656299,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0001.jsonl.gz",
+      "sha256": "92f124f6546c049f837195100e88b565bb24f1bc3754ab57bb1c941818bbdc41",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2562307,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0002.jsonl.gz",
+      "sha256": "a85b430b00992dc77fcae50914b0b0e67bc3bb9d005c45543dc53418285ee510",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2707996,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0003.jsonl.gz",
+      "sha256": "e55a5cace4d2fafe7fac103b100aefa6a5c7e21e26c6d10d97a39786288b413a",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2668359,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0004.jsonl.gz",
+      "sha256": "4edbd83c409fa9a74fce4aedccfbf51ac5eb1c76d7782bfd210926913694fdf8",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2519121,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0005.jsonl.gz",
+      "sha256": "f4cf13f89130fbc529493b5bee3824e87b5b8444bf4ca26dea37899c8b8b5bc8",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2506707,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0006.jsonl.gz",
+      "sha256": "41e59e2dad85f1ddd8d406af07817d1785cfb77a29d0c1260a00e70cb5153446",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3514289,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0007.jsonl.gz",
+      "sha256": "3f826fce7097e23ff04ffaa13f6c37fbc9114d82d764659969d3f1ec3723e55a",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2825719,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0008.jsonl.gz",
+      "sha256": "2480aa4682d2ea0b9f388dfbddbaed381cda8250805c468f8afa9a86e76968f4",
+      "unit_count": 100
+    },
+    {
+      "bytes": 1162282,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0009.jsonl.gz",
+      "sha256": "edc778aacdf4a0cefee306aa9614ce0af068e724ffd44809cc5fab5a3cc57726",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2586667,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0010.jsonl.gz",
+      "sha256": "74bee44ff51b0541f0984ea2f45011d479e1447f4a7b29fbc22e33430439a005",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3212715,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0011.jsonl.gz",
+      "sha256": "0aabcc780501e88e06dec6e3fdb465f0f51cac1734a9709f104184e1c0ffd55d",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2490987,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0012.jsonl.gz",
+      "sha256": "591970df05b18e9e31f4032fef87d3d1c2f5450066297df7a230a90f22bbb371",
+      "unit_count": 100
+    },
+    {
+      "bytes": 1457620,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0013.jsonl.gz",
+      "sha256": "0b36082fdb000cd0951e3171e5c4a1cea77c0657204539791a8d11d2342d7796",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2172207,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0014.jsonl.gz",
+      "sha256": "090cfccfe30ccf0e51e07e260ab9b224a3ecfc764c4fb405499e173aaac3bc7f",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2450834,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0015.jsonl.gz",
+      "sha256": "8a52807e8351035e85ef9ff7109b93c10ba379193f48f12a2e7682a1db37968c",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3146663,
+      "model_key": "gemini31pro",
+      "path": "data/gemini31pro/units-0016.jsonl.gz",
+      "sha256": "4e3172aba53f082344e2a012a816a947cc20234e45471847081cf3c11ab4d18b",
+      "unit_count": 91
+    },
+    {
+      "bytes": 3225719,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0000.jsonl.gz",
+      "sha256": "83429a61f20048646edcaee7cef1d22df765edfe50acc6a0ebc6024b94c0f766",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3148342,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0001.jsonl.gz",
+      "sha256": "d26da02fca1130137760cdfbad155cb9e5c0417cfd4263eb48fb89770e6d73b9",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3179585,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0002.jsonl.gz",
+      "sha256": "63edf357a39ad65a40d95d7626af7ad07e6150a2cbd300a8e33e1f00cd039dfd",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3278572,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0003.jsonl.gz",
+      "sha256": "a41b8c8cae17fe7f9ebf95ce8f3edbb6e479efec8153181ae37dcf6010119e7d",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3199597,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0004.jsonl.gz",
+      "sha256": "a4e72c2da099ce6b53dcec57346c876616bbd4db5d311ee09babda007ec2eade",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3235092,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0005.jsonl.gz",
+      "sha256": "cd7e8013fc9063a557d90ba66702e9385e89ab93d474a113855869d3b1576fdc",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3420452,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0006.jsonl.gz",
+      "sha256": "f95ea25355b46aeb07c7f7f19b68dfe9ebfc34645eb68c12f0582493faab84d7",
+      "unit_count": 100
+    },
+    {
+      "bytes": 4006426,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0007.jsonl.gz",
+      "sha256": "4c9b58c8041ea05c1b0568864c356d4a5b43dda8367013b2f20d81016010c7e2",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3491421,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0008.jsonl.gz",
+      "sha256": "e777aedc36f9f4e02f8e7043b70e9c305e80d9968d63e158f38881af8be8dd63",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2322107,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0009.jsonl.gz",
+      "sha256": "dc85bde83eacfce5c8da69de8646e94ccb44dee7a6cc0a05a6b867cb61c56051",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3586808,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0010.jsonl.gz",
+      "sha256": "e0b17686af280ebeb5c12a4662ee5d19981606f5087c539bc57d16c483ac3723",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3850313,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0011.jsonl.gz",
+      "sha256": "d98db12a148387c3f3d890f31b8fdbaf9a2039bae2d9861d497c032936935a58",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2778193,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0012.jsonl.gz",
+      "sha256": "f2bc23db5437d7dd59fa24a7c092ea71f609708d51f3bcf99ec5b0fb70058521",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2407114,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0013.jsonl.gz",
+      "sha256": "11488981cc1cc49e3ccc1827812393dfe3763de570aa2eed6fa7a614ad9481c5",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2912094,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0014.jsonl.gz",
+      "sha256": "6d8d149425053a40648f6d71b8949ba4e56d49353849cbdc09bf01d4bdabe48f",
+      "unit_count": 100
+    },
+    {
+      "bytes": 3882916,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0015.jsonl.gz",
+      "sha256": "dd474a7b0267f0f3879aff68bdd8b791cb62d88172f524851fd23a951923843e",
+      "unit_count": 100
+    },
+    {
+      "bytes": 2402517,
+      "model_key": "qwen36plus",
+      "path": "data/qwen36plus/units-0016.jsonl.gz",
+      "sha256": "7db880520685acca3ebef9ef71d69a69a1c9e8f33cd96b08f6aeeda2790e75ed",
+      "unit_count": 52
+    }
+  ],
+  "snapshot_id": "snapshot_seed2026_documented_gaps_2026-11-05",
+  "source_snapshot": "snapshot_goalA_2026-08-02",
+  "token_budget_recovery_policy": {
+    "analysis": "Accepted-paper analysis tables remain unchanged",
+    "authorized_date": "2026-11-02",
+    "base_output_caps": [
+      8192,
+      16384
+    ],
+    "maximum_request_output_tokens": 32768,
+    "policy": "empty_length_truncation_only_v1",
+    "recovery_request_timeout_seconds": 900,
+    "retry_rule": "Double the previous request cap; at most two extra calls",
+    "selection": "First nonempty response, regardless of validity or task success",
+    "trigger": "Empty final text and finish_reason=length only",
+    "unchanged": "Exact request history, prompt, image bytes, seed, temperature and reasoning effort"
+  }
+}

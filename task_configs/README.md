@@ -4,11 +4,24 @@
 
 | File | Contents |
 |---|---|
-| `paper_goals_1560.json` | The 1,560 noncanonical goals retained from the paper benchmark. |
-| `benchmark_1692_seed2026.json` | The same 1,560 goals plus 132 canonical container goals. |
-| `solution_density_summary.csv` | Per-goal simulator success numerator, valid-placement denominator, and solution density. |
-| `asset_index_132.json` | Historical task-key to numbered-cell mapping with SHA-256 world and screenshot verification. |
+| [`paper_goals_1560.json`](paper_goals_1560.json) | All 1,560 noncanonical goal tasks retained from the paper benchmark. |
+| [`benchmark_1692_seed2026.json`](benchmark_1692_seed2026.json) | The same 1,560 goals plus 132 canonical container goals. |
+| [`solution_density_summary.csv`](solution_density_summary.csv) | Per-goal simulator success numerator, valid-placement denominator, and solution density. |
+| [`asset_index_132.json`](asset_index_132.json) | Historical task-key to numbered-cell mapping with SHA-256 world and screenshot verification. |
 | `manifest_summary.json` | Compact count and range audit. |
+
+Each diverse-goal entry includes its goal text, machine-readable success
+signature, category, solution density, and paths to the world JSON, tool JSON,
+and initial screenshot. Resolve those paths relative to this directory. All
+required assets are included under [`132_base_environments/`](../132_base_environments/);
+running the tasks does not require access to the original Google project.
+
+From the repository root, verify the released goals and asset hashes with:
+
+```bash
+python3 scripts/release/build_task_configs.py --check
+python3 scripts/release/attach_initial_scenes.py --check
+```
 
 ## Population
 
