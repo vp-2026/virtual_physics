@@ -27,7 +27,6 @@ scripts/evaluation/        action, prediction, transfer, and sensitivity analyse
 scripts/release/           release-building and integrity checks
 vqa/                       static, coordinate, and temporal VQA packages
 model_outputs/             completed-unit output snapshot and coverage manifest
-human_data/                de-identified human trial-stage responses
 examples/                  small runnable illustration retained from the initial release
 ```
 
@@ -146,11 +145,6 @@ The VQA release contains static scene recognition, free-response coordinate
 localization, and qualitative temporal recognition from both 32 visual frames
 and 32 observable JSON states. Exact questions, prompts, raw model responses,
 answer keys, scorers, and result tables are under [`vqa/`](vqa/).
-
-The human release contains only de-identified behavioral responses with
-release-only participant aliases. Direct platform identifiers, session and
-assignment identifiers, demographics, timestamps, and free text are not
-included. See [`human_data/`](human_data/).
 
 ## Historical minimal example
 
