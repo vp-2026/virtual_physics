@@ -151,3 +151,10 @@ answer keys, scorers, and result tables are under [`vqa/`](vqa/).
 The original one-environment example remains under `data/` and `examples/`.
 The exact benchmark simulator and semantics used by the expanded release are
 under `simulator/`.
+
+## Human participant data
+
+Individual-level human participant data are not publicly released because
+participant consent does not authorize public distribution. Aggregate human
+statistics are reported in the paper. Public reproducibility materials cover
+the model experiments, simulator, task definitions, prompts, and VQA controls.
