@@ -1,0 +1,13 @@
+{
+  "excluded_layouts": [
+    "BackUp_8",
+    "Balance_8"
+  ],
+  "seed": 2026,
+  "analysis": "Post hoc sensitivity; archived records and original estimates remain unchanged",
+  "intervals": "Percentile whole-layout cluster bootstrap, resampling both tool directions and all goals together",
+  "figure4": "Same frozen estimator functions, adjustment sets and seeds as the November 14 audit",
+  "prediction_score": "PQ sigma=150 pixels; unchanged exit-state handling",
+  "no_human_data": true,
+  "no_inference": true
+}

@@ -1,0 +1,197 @@
+{
+  "scope": "Archive-catalog evidence for original historical prompt-control assets; no scoring changes or inference. Request-level proof for the main experiments is provided separately.",
+  "pairs": [
+    {
+      "layout": "BackUp_8",
+      "asset_directory": "results/compact_prompt_seed2026/gemini31pro/seed_2026/0012_canonical_0013_BackUp_8_downward/assets",
+      "image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59",
+      "world_sha256": "b670e8be2568f88bb9b98b69a8e26eb1451d2400485fd38352480bff00e46bb1",
+      "image_archive_source_id": "5e55033589c973f6d67b426d1994e4913d0db551092fc441fb620e79efacf1bf",
+      "world_archive_source_id": "1d9065f03e69850a66ff4500e83a0e74976c37bf25b0e91869e1e39fc4e4c1d2"
+    },
+    {
+      "layout": "BackUp_8",
+      "asset_directory": "results/compact_prompt_seed2026/gemini31pro/seed_2026/0013_canonical_0014_BackUp_8_upward/assets",
+      "image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59",
+      "world_sha256": "b670e8be2568f88bb9b98b69a8e26eb1451d2400485fd38352480bff00e46bb1",
+      "image_archive_source_id": "1098394c85d13ae132426164961218c9a601067ed3291bb66c78fd5c5142fdde",
+      "world_archive_source_id": "c2b74419108da40217a588a133413fcfcbda2b640c2c576e1172a716f51e4f21"
+    },
+    {
+      "layout": "BackUp_8",
+      "asset_directory": "results/compact_prompt_seed2026/gpt5/seed_2026/0012_canonical_0013_BackUp_8_downward/assets",
+      "image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59",
+      "world_sha256": "b670e8be2568f88bb9b98b69a8e26eb1451d2400485fd38352480bff00e46bb1",
+      "image_archive_source_id": "be11bbe7226c067b0930c3f7f7ba58a5f09eaed89ec30a2af62b9837692609ff",
+      "world_archive_source_id": "816ac9b1d3bbe8bb69f93e29c3846c62c786e617928c5990502f36b9462e50aa"
+    },
+    {
+      "layout": "BackUp_8",
+      "asset_directory": "results/compact_prompt_seed2026/gpt5/seed_2026/0013_canonical_0014_BackUp_8_upward/assets",
+      "image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59",
+      "world_sha256": "b670e8be2568f88bb9b98b69a8e26eb1451d2400485fd38352480bff00e46bb1",
+      "image_archive_source_id": "3e02437656bc94d5c32f8cb0363d8f04ff6320adef9a67b43e88b792730b6344",
+      "world_archive_source_id": "ae0b63c384fc8a8b4c81c4c3ce4b94d33fd3510497c6608423dd70ccc28f5af1"
+    },
+    {
+      "layout": "BackUp_8",
+      "asset_directory": "results/compact_prompt_seed2026/qwen36plus/seed_2026/0012_canonical_0013_BackUp_8_downward/assets",
+      "image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59",
+      "world_sha256": "b670e8be2568f88bb9b98b69a8e26eb1451d2400485fd38352480bff00e46bb1",
+      "image_archive_source_id": "28d4a59eda2fdc55bfb3df4cbff406caa595debb64b9a6ed9e23454ce465c2f5",
+      "world_archive_source_id": "c6076ff544bbc9e772acd72a4cd7be71b08d4a44db5e2aafd1f76e804deaf18b"
+    },
+    {
+      "layout": "BackUp_8",
+      "asset_directory": "results/compact_prompt_seed2026/qwen36plus/seed_2026/0013_canonical_0014_BackUp_8_upward/assets",
+      "image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59",
+      "world_sha256": "b670e8be2568f88bb9b98b69a8e26eb1451d2400485fd38352480bff00e46bb1",
+      "image_archive_source_id": "f335f39088a50abe8a5dd751546b8e78b818c42c606d0b36cd032feb668d18ff",
+      "world_archive_source_id": "7d79f4d3cf9c32be25809b629beada74d36574a84358686409ae96ad106fa90c"
+    },
+    {
+      "layout": "BackUp_8",
+      "asset_directory": "results/full_prompt_seed2026/qwen36plus/seed_2026/0012_canonical_0013_BackUp_8_downward/assets",
+      "image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59",
+      "world_sha256": "b670e8be2568f88bb9b98b69a8e26eb1451d2400485fd38352480bff00e46bb1",
+      "image_archive_source_id": "620fe5805b042a7d6fefea2d6e38029a0a88921c031764daa5cfa12885cd3415",
+      "world_archive_source_id": "b4b244f45f038f1b15c56237c2b703d0a91e8dcf65795835943378a31dc43558"
+    },
+    {
+      "layout": "BackUp_8",
+      "asset_directory": "results/full_prompt_seed2026/qwen36plus/seed_2026/0013_canonical_0014_BackUp_8_upward/assets",
+      "image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59",
+      "world_sha256": "b670e8be2568f88bb9b98b69a8e26eb1451d2400485fd38352480bff00e46bb1",
+      "image_archive_source_id": "e8ababc3c89e07599b6fb273d3b5349a594018333b6bddf8fa12ef4bfc0765ec",
+      "world_archive_source_id": "7b89fdbccc79447e2f96ede539d96ec2dbbc0db27dd1bfebfd6c4030edfe7a98"
+    },
+    {
+      "layout": "Balance_8",
+      "asset_directory": "results/compact_prompt_seed2026/gemini31pro/seed_2026/0030_canonical_0031_Balance_8_downward/assets",
+      "image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2",
+      "world_sha256": "34645b67d82e668583a7b9da65d1c9179018896672d4402253bc8b84d277dfc2",
+      "image_archive_source_id": "49ced80403c75eeb76d9f6926b4621348a405baf87377e9735031164fb9b0094",
+      "world_archive_source_id": "96aa45a044557a579ad55e95972e3fd0734eaef33e7eced667e17c9d69733b6d"
+    },
+    {
+      "layout": "Balance_8",
+      "asset_directory": "results/compact_prompt_seed2026/gemini31pro/seed_2026/0031_canonical_0032_Balance_8_upward/assets",
+      "image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2",
+      "world_sha256": "34645b67d82e668583a7b9da65d1c9179018896672d4402253bc8b84d277dfc2",
+      "image_archive_source_id": "7a76008201e8f723d3eb49b3edb6509db9104b71b518c2bcf93f8584d6240b06",
+      "world_archive_source_id": "e28e028d48df85eee03fd9843fcc1a83083be016def0027da812b327e57da122"
+    },
+    {
+      "layout": "Balance_8",
+      "asset_directory": "results/compact_prompt_seed2026/gpt5/seed_2026/0030_canonical_0031_Balance_8_downward/assets",
+      "image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2",
+      "world_sha256": "34645b67d82e668583a7b9da65d1c9179018896672d4402253bc8b84d277dfc2",
+      "image_archive_source_id": "efb9b823fd75c3f2a0421040d8574ac71407a64606b0ecc23f12661a23b66458",
+      "world_archive_source_id": "26f8191948e5fcc53c976fb88ff860f578784ea6ca3c7fb1ab751ff6d8923d0a"
+    },
+    {
+      "layout": "Balance_8",
+      "asset_directory": "results/compact_prompt_seed2026/gpt5/seed_2026/0031_canonical_0032_Balance_8_upward/assets",
+      "image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2",
+      "world_sha256": "34645b67d82e668583a7b9da65d1c9179018896672d4402253bc8b84d277dfc2",
+      "image_archive_source_id": "53c1911355f74c367a00bdeccae7cf302164cb7919bdf9ac84cc8ee6220e1c8c",
+      "world_archive_source_id": "2f40042d9d59b9feceadf2d8aac985e3143a221c66289bf9952a7fb2f6596c4c"
+    },
+    {
+      "layout": "Balance_8",
+      "asset_directory": "results/compact_prompt_seed2026/qwen36plus/seed_2026/0030_canonical_0031_Balance_8_downward/assets",
+      "image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2",
+      "world_sha256": "34645b67d82e668583a7b9da65d1c9179018896672d4402253bc8b84d277dfc2",
+      "image_archive_source_id": "6491f012da5d22f1279fd6d53d26aa3756e2aba3721f91edcd73b86ef9cd388c",
+      "world_archive_source_id": "f558fbd53926c8defa4b956a6953e50a71859a72fe1c67aa44c31586ba285971"
+    },
+    {
+      "layout": "Balance_8",
+      "asset_directory": "results/compact_prompt_seed2026/qwen36plus/seed_2026/0031_canonical_0032_Balance_8_upward/assets",
+      "image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2",
+      "world_sha256": "34645b67d82e668583a7b9da65d1c9179018896672d4402253bc8b84d277dfc2",
+      "image_archive_source_id": "190463fe1618fc33c3cb36dfe3baf368ce7a474f4cef1d9208b8e4ca8a6b68fe",
+      "world_archive_source_id": "d6768e42a6f51eabf812b556d23a0d2070fc19d7abd1944bbd6b2adbdd52291a"
+    },
+    {
+      "layout": "Balance_8",
+      "asset_directory": "results/full_prompt_seed2026/qwen36plus/seed_2026/0030_canonical_0031_Balance_8_downward/assets",
+      "image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2",
+      "world_sha256": "34645b67d82e668583a7b9da65d1c9179018896672d4402253bc8b84d277dfc2",
+      "image_archive_source_id": "bc45b475b68106c048c1c7677f6a951ca696e86601b807e6c641dffa711a61a5",
+      "world_archive_source_id": "1a12a8c94ebe67658be6b11e4256d1420f9e971da1e9f12fab5bb3795851e867"
+    },
+    {
+      "layout": "Balance_8",
+      "asset_directory": "results/full_prompt_seed2026/qwen36plus/seed_2026/0031_canonical_0032_Balance_8_upward/assets",
+      "image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2",
+      "world_sha256": "34645b67d82e668583a7b9da65d1c9179018896672d4402253bc8b84d277dfc2",
+      "image_archive_source_id": "632938288d068d713166ab3d9bdae9bcf8dde0cf255371dbaa25848db0a9cdf0",
+      "world_archive_source_id": "867f47c011874a1a92c4b0c61749ff66b9b7b38767cde04fb10f12454351d96a"
+    },
+    {
+      "layout": "Falling_1",
+      "asset_directory": "results/compact_prompt_seed2026/gemini31pro/seed_2026/0062_canonical_0063_Falling_1_downward/assets",
+      "image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5",
+      "world_sha256": "df103f4b88307e2334e5f90474d83067af6c619fe4184f977484251af902e0b4",
+      "image_archive_source_id": "bf90195acd7d1545c386762554e6a2d188a73fdb8c93524335a66db9ffb2b1cb",
+      "world_archive_source_id": "fe291d90a545b36ee98b6540e7bd48781c64c5072b6c983e13c940ea28e395f1"
+    },
+    {
+      "layout": "Falling_1",
+      "asset_directory": "results/compact_prompt_seed2026/gemini31pro/seed_2026/0063_canonical_0064_Falling_1_upward/assets",
+      "image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5",
+      "world_sha256": "df103f4b88307e2334e5f90474d83067af6c619fe4184f977484251af902e0b4",
+      "image_archive_source_id": "da99fed0f603813253d50867f9064526bbf0e6811eafc95dc8671f67ccb03e72",
+      "world_archive_source_id": "fabb33523be2b646248cb429d0a37a73f87bbaa0bd9100e1e788460aad76c3ce"
+    },
+    {
+      "layout": "Falling_1",
+      "asset_directory": "results/compact_prompt_seed2026/gpt5/seed_2026/0062_canonical_0063_Falling_1_downward/assets",
+      "image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5",
+      "world_sha256": "df103f4b88307e2334e5f90474d83067af6c619fe4184f977484251af902e0b4",
+      "image_archive_source_id": "55085ad10d83ad2776be313deff42feb0e42c18f8211201a7d2b58cb75f1a7f1",
+      "world_archive_source_id": "ca118d3b6825ed7803453ed77b8faf640ac0c7adfd07bad7eeee44e7f906f658"
+    },
+    {
+      "layout": "Falling_1",
+      "asset_directory": "results/compact_prompt_seed2026/gpt5/seed_2026/0063_canonical_0064_Falling_1_upward/assets",
+      "image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5",
+      "world_sha256": "df103f4b88307e2334e5f90474d83067af6c619fe4184f977484251af902e0b4",
+      "image_archive_source_id": "440b77e26a626751ae5abb3cf63db00936911229c7ed2a051af5a236dd1babb0",
+      "world_archive_source_id": "b2fa4fb10524f76412644720f8fbdc141dc195b5723691d63b937abc45ec2a0b"
+    },
+    {
+      "layout": "Falling_1",
+      "asset_directory": "results/compact_prompt_seed2026/qwen36plus/seed_2026/0062_canonical_0063_Falling_1_downward/assets",
+      "image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5",
+      "world_sha256": "df103f4b88307e2334e5f90474d83067af6c619fe4184f977484251af902e0b4",
+      "image_archive_source_id": "33c4e179fbd67c0802cc9850d755b9f423da98595fa4a816d90ac39f81e2966b",
+      "world_archive_source_id": "296cefb3e68e82aa62dd6426521f2e35c08689938980a7538ef7358f0ab51dae"
+    },
+    {
+      "layout": "Falling_1",
+      "asset_directory": "results/compact_prompt_seed2026/qwen36plus/seed_2026/0063_canonical_0064_Falling_1_upward/assets",
+      "image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5",
+      "world_sha256": "df103f4b88307e2334e5f90474d83067af6c619fe4184f977484251af902e0b4",
+      "image_archive_source_id": "1ae1126b07f90188d0b097794e7207b10aa17f53111c6899d79825a274d738bf",
+      "world_archive_source_id": "61f16b6da9b3fdf1211b740983f7f658f928e5e9f0e5a8deb4bcc2eb5d7031b7"
+    },
+    {
+      "layout": "Falling_1",
+      "asset_directory": "results/full_prompt_seed2026/qwen36plus/seed_2026/0062_canonical_0063_Falling_1_downward/assets",
+      "image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5",
+      "world_sha256": "df103f4b88307e2334e5f90474d83067af6c619fe4184f977484251af902e0b4",
+      "image_archive_source_id": "804c74f6bfaac55625799b8b9e8d909b7c31869bc0a9e013c89f2d36f0a5e2a9",
+      "world_archive_source_id": "155875171fda34dfe4b6adcde9851982970713a6da09b21d6a2b1cc3ff5860fc"
+    },
+    {
+      "layout": "Falling_1",
+      "asset_directory": "results/full_prompt_seed2026/qwen36plus/seed_2026/0063_canonical_0064_Falling_1_upward/assets",
+      "image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5",
+      "world_sha256": "df103f4b88307e2334e5f90474d83067af6c619fe4184f977484251af902e0b4",
+      "image_archive_source_id": "4ba42705b36542a1b6680630ea1cbbeea2e417bb52d4a93136241d51747828cd",
+      "world_archive_source_id": "a672c7e267e3e209f3f755e4229c28b4a0a49ee952278f9053e03340ef313e0d"
+    }
+  ]
+}

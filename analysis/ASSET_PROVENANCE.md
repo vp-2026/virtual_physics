@@ -1,5 +1,20 @@
 # Task and VQA asset provenance
 
+## Follow-up: scene mismatch origin established
+
+The [scene provenance and sensitivity audit](scene_mismatch_2026-11-14/README.md)
+establishes that the `BackUp_8` and `Balance_8` mismatches below occurred in
+the actual visual model experiments, before release. A full RGB comparison
+also identifies `Falling_1`'s blue-body geometry. Historical assets and VQA
+records remain untouched. A separate prospective scene index supplies three
+native-rendered corrections, and all 66 layouts in that index now match the
+native world renderings pixel-for-pixel. The previous two-object check was
+insufficient to detect the blue-body discrepancy.
+
+MIT code/simulator publication was separately authorized by the maintainer;
+upstream asset scope and retained attribution are described in
+[LICENSE_STATUS.md](../LICENSE_STATUS.md) and [NOTICE.md](../NOTICE.md).
+
 `task_configs/asset_index_132.json` maps 66 layouts × two tool directions to
 132 released cells. The builder's SHA checks pass for all cells and for the
 1,560 noncanonical / 1,692 expanded task manifests. Those frozen assets are

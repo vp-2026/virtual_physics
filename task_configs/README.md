@@ -1,5 +1,14 @@
 # Task configurations
 
+For **new experiments**, use
+[`asset_index_132_scene_corrected_2026-11-14.json`](asset_index_132_scene_corrected_2026-11-14.json).
+It overrides six direction-cell image references for three layouts while
+retaining all world JSON and tool configurations. The original asset index and
+task manifests below remain frozen descriptions of the historical runs.
+Do not associate old model outputs with the corrected screenshots. The
+[scene audit](../analysis/scene_mismatch_2026-11-14/README.md) contains the exact
+excluded goal IDs and checksummed correction provenance.
+
 ## Frozen manifests
 
 | File | Contents |

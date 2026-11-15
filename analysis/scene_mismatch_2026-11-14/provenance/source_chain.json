@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-14",
+  "original_release_commit": "30abca80cd6081b1ffcb4d90e1f87cc7e3bfedc7",
+  "source_chain": [
+    {
+      "step": "Showcase cache",
+      "paths": [
+        "environment_set_showcase_v4/BackUp/8/environment.png",
+        "environment_set_showcase_v4/Balance/8/environment.png"
+      ],
+      "sha256": [
+        "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59",
+        "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2"
+      ],
+      "evidence": "Local cached PNGs independently read and hashed; match original cloud/model-request/release images."
+    },
+    {
+      "step": "VQA image staging",
+      "script": "perception_vqa_source/generate_vqa.py",
+      "operation": "generate() copies showcase/<family>/<env_id>/environment.png to images/base/<layout>.png; world JSON is loaded separately."
+    },
+    {
+      "step": "Cloud upload",
+      "timestamp_utc": "2026-07-25T02:16:36.656Z",
+      "source": "outputs/perception_vqa/images/base",
+      "destination": "vtools_full_seed2026/static_screenshots/base",
+      "evidence": "Recovered original execution chat records the copy command."
+    },
+    {
+      "step": "World/image association",
+      "script": "historical_build_full_asset_index.py",
+      "sha256": "cec965057cc51acb3abfcd38a5fb32dd2be8af1aca42bffa5cd4b0862d941ee5",
+      "world_root": "transfer_5pct_seed2026/runtime_home/.../simulation/runtime/environment_sets",
+      "image_root": "vtools_full_seed2026/static_screenshots/base",
+      "operation": "Join by family/environment filename; existence and SHA checks only; inconsistent_assets is assigned an empty list without geometric validation."
+    },
+    {
+      "step": "Run inputs",
+      "script": "scripts/experiment/forked_feedback_runner.py",
+      "operation": "copy_unit_assets verifies hashes; visual requests use the cached PNG; GoalBank and JSON initial-scene requests read the world JSON; feedback rendering replays the simulator trace."
+    },
+    {
+      "step": "Public export",
+      "scripts": [
+        "scripts/release/attach_initial_scenes.py",
+        "scripts/release/build_task_configs.py"
+      ],
+      "operation": "Copies exact model-run screenshots and worlds and preserves their hashes. Does not introduce the discrepancy."
+    }
+  ],
+  "historical_world_revision_for_old_showcase": "Not recovered; no claim is made about the exact edit/date that first diverged from the cache.",
+  "historical_authority": "The inconsistent pair is authoritative evidence of what was supplied/executed. Neither member can retroactively substitute for the other.",
+  "prospective_authority": "Executed simulation worlds, independently supported by archived JSON initial-scene request geometries, model-run hashes and simulator/task-generation code; newly rendered images are not experimental observations."
+}

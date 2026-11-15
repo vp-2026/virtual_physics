@@ -2,6 +2,12 @@
 
 The scripts in this folder operate on finalized experiment outputs.
 
+`analyze_scene_exclusions.py` reproduces the November 14 **model-only**
+sensitivity to initial-image/world discrepancies. It preserves the original
+scoring and estimators, removes both tool directions for each named layout,
+and reports exact memberships and layout-bootstrap intervals. See
+[`analysis/scene_mismatch_2026-11-14/`](../../analysis/scene_mismatch_2026-11-14/README.md).
+
 | Script | Purpose |
 |---|---|
 | `analyze_action_quality_trajectories.py` | Attempt-indexed success and continuous action quality, including matched feedback-vs-retry contrasts. |

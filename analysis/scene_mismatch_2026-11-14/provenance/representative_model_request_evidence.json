@@ -1,0 +1,1630 @@
+[
+  {
+    "layout": "BackUp_8",
+    "model": "robotics_er2",
+    "snapshot": "robotics_er2_canonical132_seed2026_2026-11-08",
+    "goal_id": "canonical_0013_BackUp_8_downward",
+    "visual_request": {
+      "source": "branches/full/provider_calls.jsonl",
+      "label": "full_attempt_2",
+      "timestamp_unix": 1793602099.5870562,
+      "prompt_sha256": "594f8f00765f968a771f1ec11ba7e3ac9ee41dfef031ca9eb5cc91e86f3650a2",
+      "initial_image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                424.9646631943648,
+                332.34452332178466
+              ],
+              [
+                424.9646631943648,
+                281.65547667821534
+              ],
+              [
+                585.0353368056352,
+                281.65547667821534
+              ],
+              [
+                585.0353368056352,
+                332.34452332178466
+              ]
+            ],
+            "type": "Container",
+            "width": 5
+          },
+          "id": "Goal",
+          "label": "green container",
+          "movable": true
+        },
+        {
+          "color": "black",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                220,
+                350
+              ],
+              [
+                220,
+                400
+              ],
+              [
+                400,
+                380
+              ],
+              [
+                400,
+                350
+              ]
+            ]
+          },
+          "id": "Support",
+          "label": "black support",
+          "movable": false
+        },
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              240,
+              415
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        }
+      ]
+    }
+  },
+  {
+    "layout": "Balance_8",
+    "model": "robotics_er2",
+    "snapshot": "robotics_er2_canonical132_seed2026_2026-11-08",
+    "goal_id": "canonical_0031_Balance_8_downward",
+    "visual_request": {
+      "source": "branches/full/provider_calls.jsonl",
+      "label": "full_attempt_2",
+      "timestamp_unix": 1793609839.122564,
+      "prompt_sha256": "90f56b621096f0468b5a84a5d40ff83e7870195d11f234f62d1aa409997c2936",
+      "initial_image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                500,
+                308
+              ],
+              [
+                500,
+                234
+              ],
+              [
+                596,
+                234
+              ],
+              [
+                596,
+                308
+              ]
+            ],
+            "type": "Container",
+            "width": 5
+          },
+          "id": "Goal",
+          "label": "green container",
+          "movable": false
+        },
+        {
+          "color": "blue",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                135.99999999999997,
+                385.99999999999835
+              ],
+              [
+                446,
+                385.99999999999835
+              ],
+              [
+                446,
+                376.00000000000165
+              ],
+              [
+                135.99999999999997,
+                376.00000000000165
+              ]
+            ]
+          },
+          "id": "Platform",
+          "label": "blue plank",
+          "movable": true
+        },
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              226,
+              401
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        },
+        {
+          "color": "black",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                276,
+                376
+              ],
+              [
+                286,
+                376
+              ],
+              [
+                286,
+                0
+              ],
+              [
+                276,
+                0
+              ]
+            ]
+          },
+          "id": "Object1",
+          "label": "black pillar",
+          "movable": false
+        }
+      ]
+    }
+  },
+  {
+    "layout": "Falling_1",
+    "model": "robotics_er2",
+    "snapshot": "robotics_er2_canonical132_seed2026_2026-11-08",
+    "goal_id": "canonical_0063_Falling_1_downward",
+    "visual_request": {
+      "source": "branches/neither/provider_calls.jsonl",
+      "label": "neither_attempt_2",
+      "timestamp_unix": 1793618232.640191,
+      "prompt_sha256": "f2252de9e4cdc265567a5aeb485529f84ef8fd5304439e71fbd40618df69bf76",
+      "initial_image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              300,
+              230
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        },
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                0,
+                40
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                600,
+                0
+              ],
+              [
+                600,
+                40
+              ]
+            ],
+            "type": "Container",
+            "width": 8
+          },
+          "id": "Floor",
+          "label": "green container",
+          "movable": false
+        },
+        {
+          "color": "blue",
+          "geometry": {
+            "polys": [
+              [
+                [
+                  243,
+                  199
+                ],
+                [
+                  235,
+                  183
+                ],
+                [
+                  216,
+                  253
+                ]
+              ],
+              [
+                [
+                  232,
+                  253
+                ],
+                [
+                  243,
+                  199
+                ],
+                [
+                  216,
+                  253
+                ]
+              ],
+              [
+                [
+                  327,
+                  199
+                ],
+                [
+                  335,
+                  183
+                ],
+                [
+                  235,
+                  183
+                ]
+              ],
+              [
+                [
+                  243,
+                  199
+                ],
+                [
+                  327,
+                  199
+                ],
+                [
+                  235,
+                  183
+                ]
+              ],
+              [
+                [
+                  338,
+                  253
+                ],
+                [
+                  354,
+                  253
+                ],
+                [
+                  335,
+                  183
+                ]
+              ],
+              [
+                [
+                  327,
+                  199
+                ],
+                [
+                  338,
+                  253
+                ],
+                [
+                  335,
+                  183
+                ]
+              ]
+            ],
+            "type": "Compound"
+          },
+          "id": "Object1",
+          "label": "blue U-shaped cradle",
+          "movable": true
+        }
+      ]
+    }
+  },
+  {
+    "layout": "BackUp_8",
+    "model": "gemini31pro",
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "goal_id": "0019_BackUp_8_downward__goal_0001",
+    "visual_request": {
+      "source": "branches/frames_only/provider_calls.jsonl",
+      "label": "frames_only_attempt_2",
+      "timestamp_unix": 1785101673.3279874,
+      "prompt_sha256": "e9aaeb8427ab837f7fb8288b6dbfc048512aaf1d26ac4033646bef4c6244a808",
+      "initial_image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                424.9646631943648,
+                332.34452332178466
+              ],
+              [
+                424.9646631943648,
+                281.65547667821534
+              ],
+              [
+                585.0353368056352,
+                281.65547667821534
+              ],
+              [
+                585.0353368056352,
+                332.34452332178466
+              ]
+            ],
+            "type": "Container",
+            "width": 5
+          },
+          "id": "Goal",
+          "label": "green container",
+          "movable": true
+        },
+        {
+          "color": "black",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                220,
+                350
+              ],
+              [
+                220,
+                400
+              ],
+              [
+                400,
+                380
+              ],
+              [
+                400,
+                350
+              ]
+            ]
+          },
+          "id": "Support",
+          "label": "black support",
+          "movable": false
+        },
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              240,
+              415
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        }
+      ]
+    }
+  },
+  {
+    "layout": "Balance_8",
+    "model": "gemini31pro",
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "goal_id": "0136_Balance_8_downward__goal_0006",
+    "visual_request": {
+      "source": "branches/full/provider_calls.jsonl",
+      "label": "full_attempt_2",
+      "timestamp_unix": 1785102291.0501986,
+      "prompt_sha256": "be8ac7cdde70617e08f8c9e050db61970b4223fe950631a62e93421b219d4b8d",
+      "initial_image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                500,
+                308
+              ],
+              [
+                500,
+                234
+              ],
+              [
+                596,
+                234
+              ],
+              [
+                596,
+                308
+              ]
+            ],
+            "type": "Container",
+            "width": 5
+          },
+          "id": "Goal",
+          "label": "green container",
+          "movable": false
+        },
+        {
+          "color": "blue",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                135.99999999999997,
+                385.99999999999835
+              ],
+              [
+                446,
+                385.99999999999835
+              ],
+              [
+                446,
+                376.00000000000165
+              ],
+              [
+                135.99999999999997,
+                376.00000000000165
+              ]
+            ]
+          },
+          "id": "Platform",
+          "label": "blue plank",
+          "movable": true
+        },
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              226,
+              401
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        },
+        {
+          "color": "black",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                276,
+                376
+              ],
+              [
+                286,
+                376
+              ],
+              [
+                286,
+                0
+              ],
+              [
+                276,
+                0
+              ]
+            ]
+          },
+          "id": "Object1",
+          "label": "black pillar",
+          "movable": false
+        }
+      ]
+    }
+  },
+  {
+    "layout": "Falling_1",
+    "model": "gemini31pro",
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "goal_id": "0395_Falling_1_downward__goal_0020",
+    "visual_request": {
+      "source": "branches/full/provider_calls.jsonl",
+      "label": "full_attempt_2",
+      "timestamp_unix": 1785105854.9274573,
+      "prompt_sha256": "00724c98366b9559fd5671b96d8e8f5cd4ca596083d0f07be3c1f802f38599cd",
+      "initial_image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              300,
+              230
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        },
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                0,
+                40
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                600,
+                0
+              ],
+              [
+                600,
+                40
+              ]
+            ],
+            "type": "Container",
+            "width": 8
+          },
+          "id": "Floor",
+          "label": "green container",
+          "movable": false
+        },
+        {
+          "color": "blue",
+          "geometry": {
+            "polys": [
+              [
+                [
+                  243,
+                  199
+                ],
+                [
+                  235,
+                  183
+                ],
+                [
+                  216,
+                  253
+                ]
+              ],
+              [
+                [
+                  232,
+                  253
+                ],
+                [
+                  243,
+                  199
+                ],
+                [
+                  216,
+                  253
+                ]
+              ],
+              [
+                [
+                  327,
+                  199
+                ],
+                [
+                  335,
+                  183
+                ],
+                [
+                  235,
+                  183
+                ]
+              ],
+              [
+                [
+                  243,
+                  199
+                ],
+                [
+                  327,
+                  199
+                ],
+                [
+                  235,
+                  183
+                ]
+              ],
+              [
+                [
+                  338,
+                  253
+                ],
+                [
+                  354,
+                  253
+                ],
+                [
+                  335,
+                  183
+                ]
+              ],
+              [
+                [
+                  327,
+                  199
+                ],
+                [
+                  338,
+                  253
+                ],
+                [
+                  335,
+                  183
+                ]
+              ]
+            ],
+            "type": "Compound"
+          },
+          "id": "Object1",
+          "label": "blue U-shaped cradle",
+          "movable": true
+        }
+      ]
+    }
+  },
+  {
+    "layout": "BackUp_8",
+    "model": "gpt5",
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "goal_id": "0019_BackUp_8_downward__goal_0001",
+    "visual_request": {
+      "source": "branches/frames_only/provider_calls.jsonl",
+      "label": "frames_only_attempt_2",
+      "timestamp_unix": 1785101308.4147658,
+      "prompt_sha256": "7a3ec3f1df9db50230a58112dfa981a40d44acaed3c41a25e8630990b08d29bb",
+      "initial_image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                424.9646631943648,
+                332.34452332178466
+              ],
+              [
+                424.9646631943648,
+                281.65547667821534
+              ],
+              [
+                585.0353368056352,
+                281.65547667821534
+              ],
+              [
+                585.0353368056352,
+                332.34452332178466
+              ]
+            ],
+            "type": "Container",
+            "width": 5
+          },
+          "id": "Goal",
+          "label": "green container",
+          "movable": true
+        },
+        {
+          "color": "black",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                220,
+                350
+              ],
+              [
+                220,
+                400
+              ],
+              [
+                400,
+                380
+              ],
+              [
+                400,
+                350
+              ]
+            ]
+          },
+          "id": "Support",
+          "label": "black support",
+          "movable": false
+        },
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              240,
+              415
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        }
+      ]
+    }
+  },
+  {
+    "layout": "Balance_8",
+    "model": "gpt5",
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "goal_id": "0136_Balance_8_downward__goal_0006",
+    "visual_request": {
+      "source": "branches/full/provider_calls.jsonl",
+      "label": "full_attempt_2",
+      "timestamp_unix": 1785102846.0120144,
+      "prompt_sha256": "7d779879c2c2c666c26d6122c2b70ed0ce485df559bb47ade218d73fd4bc9719",
+      "initial_image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                500,
+                308
+              ],
+              [
+                500,
+                234
+              ],
+              [
+                596,
+                234
+              ],
+              [
+                596,
+                308
+              ]
+            ],
+            "type": "Container",
+            "width": 5
+          },
+          "id": "Goal",
+          "label": "green container",
+          "movable": false
+        },
+        {
+          "color": "blue",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                135.99999999999997,
+                385.99999999999835
+              ],
+              [
+                446,
+                385.99999999999835
+              ],
+              [
+                446,
+                376.00000000000165
+              ],
+              [
+                135.99999999999997,
+                376.00000000000165
+              ]
+            ]
+          },
+          "id": "Platform",
+          "label": "blue plank",
+          "movable": true
+        },
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              226,
+              401
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        },
+        {
+          "color": "black",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                276,
+                376
+              ],
+              [
+                286,
+                376
+              ],
+              [
+                286,
+                0
+              ],
+              [
+                276,
+                0
+              ]
+            ]
+          },
+          "id": "Object1",
+          "label": "black pillar",
+          "movable": false
+        }
+      ]
+    }
+  },
+  {
+    "layout": "Falling_1",
+    "model": "gpt5",
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "goal_id": "0395_Falling_1_downward__goal_0020",
+    "visual_request": {
+      "source": "branches/full/provider_calls.jsonl",
+      "label": "full_attempt_2",
+      "timestamp_unix": 1785107658.0919898,
+      "prompt_sha256": "a72f9076164197abba3937aad050dd33d7291fba398575ded961f2aa3687272c",
+      "initial_image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              300,
+              230
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        },
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                0,
+                40
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                600,
+                0
+              ],
+              [
+                600,
+                40
+              ]
+            ],
+            "type": "Container",
+            "width": 8
+          },
+          "id": "Floor",
+          "label": "green container",
+          "movable": false
+        },
+        {
+          "color": "blue",
+          "geometry": {
+            "polys": [
+              [
+                [
+                  243,
+                  199
+                ],
+                [
+                  235,
+                  183
+                ],
+                [
+                  216,
+                  253
+                ]
+              ],
+              [
+                [
+                  232,
+                  253
+                ],
+                [
+                  243,
+                  199
+                ],
+                [
+                  216,
+                  253
+                ]
+              ],
+              [
+                [
+                  327,
+                  199
+                ],
+                [
+                  335,
+                  183
+                ],
+                [
+                  235,
+                  183
+                ]
+              ],
+              [
+                [
+                  243,
+                  199
+                ],
+                [
+                  327,
+                  199
+                ],
+                [
+                  235,
+                  183
+                ]
+              ],
+              [
+                [
+                  338,
+                  253
+                ],
+                [
+                  354,
+                  253
+                ],
+                [
+                  335,
+                  183
+                ]
+              ],
+              [
+                [
+                  327,
+                  199
+                ],
+                [
+                  338,
+                  253
+                ],
+                [
+                  335,
+                  183
+                ]
+              ]
+            ],
+            "type": "Compound"
+          },
+          "id": "Object1",
+          "label": "blue U-shaped cradle",
+          "movable": true
+        }
+      ]
+    }
+  },
+  {
+    "layout": "BackUp_8",
+    "model": "qwen36plus",
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "goal_id": "0019_BackUp_8_downward__goal_0001",
+    "visual_request": {
+      "source": "branches/full/provider_calls.jsonl",
+      "label": "full_attempt_2",
+      "timestamp_unix": 1785101514.4557078,
+      "prompt_sha256": "14315208be798535f76cf4f91834759fdd32d90fda6cb3a10d3573bc71dac730",
+      "initial_image_sha256": "6c4ccd6af89244a27fd6247c3816d78f45a8e682430d2e0dd59a5b378b479f59"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                424.9646631943648,
+                332.34452332178466
+              ],
+              [
+                424.9646631943648,
+                281.65547667821534
+              ],
+              [
+                585.0353368056352,
+                281.65547667821534
+              ],
+              [
+                585.0353368056352,
+                332.34452332178466
+              ]
+            ],
+            "type": "Container",
+            "width": 5
+          },
+          "id": "Goal",
+          "label": "green container",
+          "movable": true
+        },
+        {
+          "color": "black",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                220,
+                350
+              ],
+              [
+                220,
+                400
+              ],
+              [
+                400,
+                380
+              ],
+              [
+                400,
+                350
+              ]
+            ]
+          },
+          "id": "Support",
+          "label": "black support",
+          "movable": false
+        },
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              240,
+              415
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        }
+      ]
+    }
+  },
+  {
+    "layout": "Balance_8",
+    "model": "qwen36plus",
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "goal_id": "0136_Balance_8_downward__goal_0006",
+    "visual_request": {
+      "source": "branches/full/provider_calls.jsonl",
+      "label": "full_attempt_2",
+      "timestamp_unix": 1785105400.12517,
+      "prompt_sha256": "2978d60aa8999ffc8490112ef22051e3ad65e269a53e7694017e982c3f4e2920",
+      "initial_image_sha256": "4d080b2a699a0f0a3534ba7aec43b94e6dc4d1291b5ddf1e2f46cda6adab3eb2"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                500,
+                308
+              ],
+              [
+                500,
+                234
+              ],
+              [
+                596,
+                234
+              ],
+              [
+                596,
+                308
+              ]
+            ],
+            "type": "Container",
+            "width": 5
+          },
+          "id": "Goal",
+          "label": "green container",
+          "movable": false
+        },
+        {
+          "color": "blue",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                135.99999999999997,
+                385.99999999999835
+              ],
+              [
+                446,
+                385.99999999999835
+              ],
+              [
+                446,
+                376.00000000000165
+              ],
+              [
+                135.99999999999997,
+                376.00000000000165
+              ]
+            ]
+          },
+          "id": "Platform",
+          "label": "blue plank",
+          "movable": true
+        },
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              226,
+              401
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        },
+        {
+          "color": "black",
+          "geometry": {
+            "type": "Poly",
+            "vertices": [
+              [
+                276,
+                376
+              ],
+              [
+                286,
+                376
+              ],
+              [
+                286,
+                0
+              ],
+              [
+                276,
+                0
+              ]
+            ]
+          },
+          "id": "Object1",
+          "label": "black pillar",
+          "movable": false
+        }
+      ]
+    }
+  },
+  {
+    "layout": "Falling_1",
+    "model": "qwen36plus",
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "goal_id": "0395_Falling_1_downward__goal_0020",
+    "visual_request": {
+      "source": "branches/full/provider_calls.jsonl",
+      "label": "full_attempt_2",
+      "timestamp_unix": 1785128482.5328107,
+      "prompt_sha256": "d6c0549248022d6542f1ea0fc0a8d86b53a5b64ded33e580b27390b9bf55a93e",
+      "initial_image_sha256": "8111bb0d6107e4404e0209fad22f05b1d9c7c6a9d3deba03a94a52a38b0683c5"
+    },
+    "json_initial_scene": {
+      "canvas": {
+        "coordinate_origin": "bottom-left",
+        "height": 600,
+        "valid_integer_coordinate_range": [
+          0,
+          599
+        ],
+        "width": 600,
+        "x_direction": "right",
+        "y_direction": "up"
+      },
+      "note": "Observable initial geometry only; no hidden physical parameters.",
+      "tool": {
+        "diameter_px": 72,
+        "id": "PLACED",
+        "label": "orange ball tool",
+        "shape": "Ball"
+      },
+      "visible_objects": [
+        {
+          "color": "red",
+          "geometry": {
+            "position": [
+              300,
+              230
+            ],
+            "radius": 15,
+            "type": "Ball"
+          },
+          "id": "Ball",
+          "label": "red ball",
+          "movable": true
+        },
+        {
+          "color": "green",
+          "geometry": {
+            "points": [
+              [
+                0,
+                40
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                600,
+                0
+              ],
+              [
+                600,
+                40
+              ]
+            ],
+            "type": "Container",
+            "width": 8
+          },
+          "id": "Floor",
+          "label": "green container",
+          "movable": false
+        },
+        {
+          "color": "blue",
+          "geometry": {
+            "polys": [
+              [
+                [
+                  243,
+                  199
+                ],
+                [
+                  235,
+                  183
+                ],
+                [
+                  216,
+                  253
+                ]
+              ],
+              [
+                [
+                  232,
+                  253
+                ],
+                [
+                  243,
+                  199
+                ],
+                [
+                  216,
+                  253
+                ]
+              ],
+              [
+                [
+                  327,
+                  199
+                ],
+                [
+                  335,
+                  183
+                ],
+                [
+                  235,
+                  183
+                ]
+              ],
+              [
+                [
+                  243,
+                  199
+                ],
+                [
+                  327,
+                  199
+                ],
+                [
+                  235,
+                  183
+                ]
+              ],
+              [
+                [
+                  338,
+                  253
+                ],
+                [
+                  354,
+                  253
+                ],
+                [
+                  335,
+                  183
+                ]
+              ],
+              [
+                [
+                  327,
+                  199
+                ],
+                [
+                  338,
+                  253
+                ],
+                [
+                  335,
+                  183
+                ]
+              ]
+            ],
+            "type": "Compound"
+          },
+          "id": "Object1",
+          "label": "blue U-shaped cradle",
+          "movable": true
+        }
+      ]
+    }
+  }
+]

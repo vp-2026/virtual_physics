@@ -5,6 +5,11 @@ calls unless the explicitly marked VQA `--execute` flag is supplied. Use new
 output directories: scripts reject nonempty destinations and do not overwrite
 frozen experiment files.
 
+The subsequent [scene discrepancy audit](scene_mismatch_2026-11-14/README.md)
+adds native-render geometry checks and model-only exclusion analyses. It does
+not overwrite the numerical results documented below. Both the requested
+two-layout exclusion and the expanded three-layout exclusion are retained.
+
 ## Environment
 
 The numerical audit used Python 3.14, NumPy 2.5.4, SciPy 1.18.1, and Pillow

@@ -1,5 +1,17 @@
 # Numbered VTools environments
 
+The numbered `cells/` are **historical experiment inputs**, preserved byte for
+byte. Three initial images disagree with the executed worlds: `BackUp_8`,
+`Balance_8`, and `Falling_1` (both tool directions). New, native-rendered images
+are under `corrections/2026-11-14/`; use the
+[versioned corrected index](../task_configs/asset_index_132_scene_corrected_2026-11-14.json)
+for new work. See the [correction record](../analysis/scene_mismatch_2026-11-14/README.md)
+for source hashes, all affected tasks, and exclusion analyses. Re-rendering does
+not retroactively repair predictions or actions collected with a different image.
+
+Code licensing and upstream-derived asset scope are distinguished in
+[LICENSE_STATUS.md](../LICENSE_STATUS.md) and [NOTICE.md](../NOTICE.md).
+
 `cells/001` through `cells/132` are the release-facing environment IDs.
 
 Each directory contains:

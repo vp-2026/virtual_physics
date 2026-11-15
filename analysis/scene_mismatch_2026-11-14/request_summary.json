@@ -1,0 +1,167 @@
+[
+  {
+    "snapshot": "robotics_er2_canonical132_seed2026_2026-11-08",
+    "model": "robotics_er2",
+    "n": 6,
+    "by_puzzle": {
+      "BackUp_8_downward": 1,
+      "BackUp_8_upward": 1,
+      "Balance_8_downward": 1,
+      "Balance_8_upward": 1,
+      "Falling_1_downward": 1,
+      "Falling_1_upward": 1
+    },
+    "visual_request_hash_matches": 71,
+    "world_hash_mismatches": 0
+  },
+  {
+    "snapshot": "robotics_er_canonical132_seed2026_2026-07-27",
+    "model": "gemini_robotics_er",
+    "n": 6,
+    "by_puzzle": {
+      "BackUp_8_downward": 1,
+      "BackUp_8_upward": 1,
+      "Balance_8_downward": 1,
+      "Balance_8_upward": 1,
+      "Falling_1_downward": 1,
+      "Falling_1_upward": 1
+    },
+    "visual_request_hash_matches": 30,
+    "world_hash_mismatches": 0
+  },
+  {
+    "snapshot": "snapshot_goalA_2026-08-02",
+    "model": "gemini31pro",
+    "n": 59,
+    "by_puzzle": {
+      "BackUp_8_downward": 5,
+      "Balance_8_downward": 12,
+      "Falling_1_downward": 18,
+      "Falling_1_upward": 14,
+      "Balance_8_upward": 9,
+      "BackUp_8_upward": 1
+    },
+    "visual_request_hash_matches": 657,
+    "world_hash_mismatches": 0
+  },
+  {
+    "snapshot": "snapshot_goalA_2026-08-02",
+    "model": "gpt5",
+    "n": 59,
+    "by_puzzle": {
+      "BackUp_8_downward": 5,
+      "Balance_8_downward": 12,
+      "Falling_1_downward": 18,
+      "Falling_1_upward": 14,
+      "Balance_8_upward": 9,
+      "BackUp_8_upward": 1
+    },
+    "visual_request_hash_matches": 723,
+    "world_hash_mismatches": 0
+  },
+  {
+    "snapshot": "snapshot_goalA_2026-08-02",
+    "model": "qwen36plus",
+    "n": 56,
+    "by_puzzle": {
+      "BackUp_8_downward": 5,
+      "Balance_8_downward": 11,
+      "Falling_1_downward": 17,
+      "Falling_1_upward": 14,
+      "Balance_8_upward": 8,
+      "BackUp_8_upward": 1
+    },
+    "visual_request_hash_matches": 614,
+    "world_hash_mismatches": 0
+  },
+  {
+    "snapshot": "snapshot_seed2026_2026-07-27",
+    "model": "gemini31pro",
+    "n": 59,
+    "by_puzzle": {
+      "BackUp_8_downward": 5,
+      "Balance_8_downward": 12,
+      "Falling_1_downward": 18,
+      "Falling_1_upward": 14,
+      "Balance_8_upward": 9,
+      "BackUp_8_upward": 1
+    },
+    "visual_request_hash_matches": 655,
+    "world_hash_mismatches": 0
+  },
+  {
+    "snapshot": "snapshot_seed2026_2026-07-27",
+    "model": "gpt5",
+    "n": 59,
+    "by_puzzle": {
+      "BackUp_8_downward": 5,
+      "Balance_8_downward": 12,
+      "Falling_1_downward": 18,
+      "Falling_1_upward": 14,
+      "Balance_8_upward": 9,
+      "BackUp_8_upward": 1
+    },
+    "visual_request_hash_matches": 681,
+    "world_hash_mismatches": 0
+  },
+  {
+    "snapshot": "snapshot_seed2026_2026-07-27",
+    "model": "qwen36plus",
+    "n": 37,
+    "by_puzzle": {
+      "BackUp_8_downward": 4,
+      "Balance_8_downward": 9,
+      "Falling_1_downward": 14,
+      "Falling_1_upward": 5,
+      "Balance_8_upward": 4,
+      "BackUp_8_upward": 1
+    },
+    "visual_request_hash_matches": 406,
+    "world_hash_mismatches": 0
+  },
+  {
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "model": "gemini31pro",
+    "n": 59,
+    "by_puzzle": {
+      "BackUp_8_downward": 5,
+      "Balance_8_downward": 12,
+      "Falling_1_downward": 18,
+      "Falling_1_upward": 14,
+      "Balance_8_upward": 9,
+      "BackUp_8_upward": 1
+    },
+    "visual_request_hash_matches": 657,
+    "world_hash_mismatches": 0
+  },
+  {
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "model": "gpt5",
+    "n": 59,
+    "by_puzzle": {
+      "BackUp_8_downward": 5,
+      "Balance_8_downward": 12,
+      "Falling_1_downward": 18,
+      "Falling_1_upward": 14,
+      "Balance_8_upward": 9,
+      "BackUp_8_upward": 1
+    },
+    "visual_request_hash_matches": 723,
+    "world_hash_mismatches": 0
+  },
+  {
+    "snapshot": "snapshot_seed2026_documented_gaps_2026-11-05",
+    "model": "qwen36plus",
+    "n": 59,
+    "by_puzzle": {
+      "BackUp_8_downward": 5,
+      "Balance_8_downward": 12,
+      "Falling_1_downward": 18,
+      "Falling_1_upward": 14,
+      "Balance_8_upward": 9,
+      "BackUp_8_upward": 1
+    },
+    "visual_request_hash_matches": 662,
+    "world_hash_mismatches": 0
+  }
+]

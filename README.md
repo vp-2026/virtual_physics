@@ -35,6 +35,16 @@ an orange tool that accelerates downward and the same tool accelerated upward.
 Every cell includes its exact world JSON, tool configuration, initial scene,
 metadata, and SHA-256 hashes.
 
+**Scene correction (November 14, 2026):** the archived initial images for
+`BackUp_8` and `Balance_8` have misplaced green containers; a full-image check
+also found a different blue-body shape in `Falling_1`. These mismatches were
+present in the original visual model requests. Historical inputs and results
+remain frozen. Use the explicitly versioned
+[corrected scene index](task_configs/asset_index_132_scene_corrected_2026-11-14.json)
+for new experiments. All 66 corrected layouts match native simulator rendering
+pixel-for-pixel. The [provenance and exclusion analyses](analysis/scene_mismatch_2026-11-14/README.md)
+report the requested two-layout sensitivity and the expanded three-layout check.
+
 ## Task manifests
 
 - **[All 1,560 diverse-goal tasks](task_configs/paper_goals_1560.json)**:
@@ -98,6 +108,8 @@ from environment variables and are never stored in task manifests or outputs.
 ```bash
 python scripts/release/build_task_configs.py --check
 python scripts/release/attach_initial_scenes.py --check
+python scripts/release/build_scene_corrections.py --check
+python scripts/release/verify_scene_geometry.py
 python -m compileall scripts simulator
 ```
 
