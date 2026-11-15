@@ -1,0 +1,62 @@
+[
+  {
+    "file": "worker.py",
+    "private_source_sha256": "b3a44e1e07ed322a8e3a1e31ada589c3081b537cbabaca9f2c80fb3501b58610",
+    "published_source_sha256": "f9ef3c52161fce1522ce4b3cf732165ee9251c291c3538dd88d250c10e638310",
+    "changes": "Local deployment paths replaced by named placeholders; protocol code unchanged."
+  },
+  {
+    "file": "run_replacements.py",
+    "private_source_sha256": "3e4f4cf6a42974c548738251a81b995bd85e33cfd7d7a6363cfff399c45c523d",
+    "published_source_sha256": "61b21a5e9f6695c31634552ece7def80962b33c7fd20fa7142f68f6836f87985",
+    "changes": "Local deployment paths replaced by named placeholders; protocol code unchanged."
+  },
+  {
+    "file": "budget_guard.py",
+    "private_source_sha256": "c37c01d9488092df02aadfd0247d848f5c1d565b6dc6f2870395da732f401241",
+    "published_source_sha256": "c37c01d9488092df02aadfd0247d848f5c1d565b6dc6f2870395da732f401241",
+    "changes": "Local deployment paths replaced by named placeholders; protocol code unchanged."
+  },
+  {
+    "file": "qwen_recovery.py",
+    "private_source_sha256": "c7ace3d0c8b43eed3e0ea1237cbe3dc0858d4c1a5f641cf673614cfe4f68332a",
+    "published_source_sha256": "c7ace3d0c8b43eed3e0ea1237cbe3dc0858d4c1a5f641cf673614cfe4f68332a",
+    "changes": "Local deployment paths replaced by named placeholders; protocol code unchanged."
+  },
+  {
+    "file": "providers.py",
+    "private_source_sha256": "b6118e561ab67401ddc154a595ff71c709905e0f81b94d858d8413c5205b2a15",
+    "published_source_sha256": "b6118e561ab67401ddc154a595ff71c709905e0f81b94d858d8413c5205b2a15",
+    "changes": "Local deployment paths replaced by named placeholders; protocol code unchanged."
+  },
+  {
+    "file": "test_recovery.py",
+    "private_source_sha256": "db91a8cf2978686195fd59ae7b0fb2c3f06f1ca8033bfad3d35668230593db99",
+    "published_source_sha256": "db91a8cf2978686195fd59ae7b0fb2c3f06f1ca8033bfad3d35668230593db99",
+    "changes": "Local deployment paths replaced by named placeholders; protocol code unchanged."
+  },
+  {
+    "file": "er2_forked_feedback_runner.py",
+    "private_source_sha256": "3da8838f6e56e750c708c1363878d8f6da75b1afec627f1fcb85cef1ff1a066c",
+    "published_source_sha256": "3da8838f6e56e750c708c1363878d8f6da75b1afec627f1fcb85cef1ff1a066c",
+    "changes": "None; original Robotics-ER 2 collection-specific runner."
+  },
+  {
+    "file": "er2_goal_probe_runner.py",
+    "private_source_sha256": "62a0651cd2447fec86f0fa4c75e45d34c89b27d06fd70c45813903f6f568d511",
+    "published_source_sha256": "62a0651cd2447fec86f0fa4c75e45d34c89b27d06fd70c45813903f6f568d511",
+    "changes": "None; original Robotics-ER 2 collection-specific runner."
+  },
+  {
+    "file": "er2_transfer_sidecar_runner.py",
+    "private_source_sha256": "65d5d9957090bb6682d015c99cea0dc66043ef952418fa8edea565c4d270799c",
+    "published_source_sha256": "65d5d9957090bb6682d015c99cea0dc66043ef952418fa8edea565c4d270799c",
+    "changes": "None; original Robotics-ER 2 collection-specific runner."
+  },
+  {
+    "file": "recover_provider_error_probes.py",
+    "private_source_sha256": "a1d83238860f3860b79d01c2fb011796b0c3d0de244293bb413fa61189ffdf74",
+    "published_source_sha256": "ea65e7f8d7212d13d6e2f8b8ce0c86c20354d10dcd27ce95dd931e1752c707e7",
+    "changes": "Local deployment paths replaced by named placeholders; protocol code unchanged."
+  }
+]

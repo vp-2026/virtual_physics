@@ -1,0 +1,26 @@
+{
+  "annotation_policy": "All 66 images agree with native simulator rendering. No geometry override.",
+  "changed_question_records": 4,
+  "comparison_caveat": "Post-diagnostic condition. Changes response_format to json_object, reasoning effort to low, max_tokens to16384 for all models. Image-only prompts, questions, eligibility, seed2026 and temperatures unchanged. Not an asset-only comparison with historical medium8192.",
+  "eligible_questions_per_model": 670,
+  "excluded_quadrants_per_model": 56,
+  "historical_json_qwen": "Unchanged: 565/677; this run has no JSON arm.",
+  "image_world_mismatches": [],
+  "input_condition": "image_only",
+  "layouts": 66,
+  "model_settings": {
+    "max_tokens": 16384,
+    "reasoning_effort": "low",
+    "response_format": "json_object",
+    "seed": 2026,
+    "temperature": "0.2 for Gemini/Qwen; omitted for GPT-5 (unsupported)"
+  },
+  "planned_calls": 198,
+  "predeclared_analysis": "All eligible items; first returned answer; missing/invalid answers incorrect; 10000 layout-bootstrap draws, seed20261114.",
+  "protocol_revision": "Corrected-scene replacement v1. Preserve 63 frozen compatible-format responses per model; replace only three layouts, with scene-dependent keys frozen before inference.",
+  "questions": 726,
+  "replacement_calls": 9,
+  "reused_calls": 189,
+  "scorer": "score_current_scene_vqa.py; fixed eligible denominator, missing answers incorrect",
+  "seed": 2026
+}

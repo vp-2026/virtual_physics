@@ -1,0 +1,1394 @@
+{
+  "calls": [
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_10:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_10:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_10:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_2:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_2:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_2:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_3:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_3:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 2,
+      "call_id": "current_scene_20261114_compatible:BackUp_3:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_4:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_4:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_4:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_5:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_5:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_5:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_6:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_6:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_6:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_7:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_7:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 2,
+      "call_id": "current_scene_20261114_compatible:BackUp_7:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "corrected_scene_20261115:BackUp_8:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "corrected_scene_20261115:BackUp_8:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "corrected_scene_20261115:BackUp_8:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_9:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BackUp_9:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 2,
+      "call_id": "current_scene_20261114_compatible:BackUp_9:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_10:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_10:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_10:qwen:image_only",
+      "format_valid": false,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 2,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_2:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_2:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_2:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 2,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_3:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_3:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_3:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 2,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_5:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_5:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_5:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_6:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_6:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_6:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_7:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_7:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_7:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_8:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_8:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:BalanceUnder_8:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_1:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_1:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_1:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_10:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_10:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_10:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_2:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_2:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_2:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_3:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_3:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_3:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_4:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_4:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_4:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_5:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_5:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_5:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_7:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_7:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Balance_7:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "corrected_scene_20261115:Balance_8:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "corrected_scene_20261115:Balance_8:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "corrected_scene_20261115:Balance_8:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_1:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_1:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_1:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_10:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_10:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_10:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_2:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_2:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_2:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_6:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_6:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_6:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_7:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_7:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_7:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_8:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_8:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_8:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_9:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_9:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Basic_9:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_1:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_1:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_1:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_10:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_10:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_10:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_2:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_2:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_2:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_3:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_3:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_3:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_4:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_4:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_4:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_5:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_5:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_5:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_6:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_6:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_6:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_7:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_7:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_7:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_8:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_8:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_8:qwen:image_only",
+      "format_valid": false,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_9:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_9:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:FallingAlt_9:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "corrected_scene_20261115:Falling_1:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "corrected_scene_20261115:Falling_1:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "corrected_scene_20261115:Falling_1:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_10:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_10:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_10:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_2:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_2:gemini:image_only",
+      "format_valid": false,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_2:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_3:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_3:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_3:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_5:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_5:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_5:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_6:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_6:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_6:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_7:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_7:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_7:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_8:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_8:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_8:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_9:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_9:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Falling_9:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_1:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_1:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_1:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_10:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_10:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_10:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_2:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_2:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_2:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_3:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_3:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_3:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_4:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_4:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_4:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_5:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_5:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_5:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_7:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_7:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_7:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_8:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_8:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Prevention_8:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_1:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_1:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_1:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_10:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_10:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_10:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_2:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_2:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_2:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_5:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_5:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_5:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_6:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_6:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_6:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_7:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_7:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_7:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_8:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_8:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_8:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_9:gpt:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gpt"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_9:gemini:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "gemini"
+    },
+    {
+      "attempts": 1,
+      "call_id": "current_scene_20261114_compatible:Remove_9:qwen:image_only",
+      "format_valid": true,
+      "missing": false,
+      "model_key": "qwen"
+    }
+  ],
+  "invalid_calls": 3,
+  "missing_calls": 0,
+  "planned_calls": 198,
+  "raw_requests": 204
+}

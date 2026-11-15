@@ -1,0 +1,1195 @@
+{
+  "schema_version": 2,
+  "puzzle_count": 132,
+  "layouts": 66,
+  "puzzles": {
+    "BackUp_10_downward": {
+      "environment_id": "017",
+      "world_path": "assets/BackUp_10/world.json",
+      "screenshot_path": "assets/BackUp_10/initial_scene.png",
+      "tool_path": "assets/BackUp_10/tool_downward.json",
+      "world_sha256": "1186d073f459044bec5a8363f322f4c67f59051cb5961460a0d34879fa652aa4",
+      "screenshot_sha256": "dcf68a5122b24ff001f69503d52e3ff04f20e0597dc631d4331a3b4440ebd5cf",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BackUp_10_upward": {
+      "environment_id": "018",
+      "world_path": "assets/BackUp_10/world.json",
+      "screenshot_path": "assets/BackUp_10/initial_scene.png",
+      "tool_path": "assets/BackUp_10/tool_upward.json",
+      "world_sha256": "1186d073f459044bec5a8363f322f4c67f59051cb5961460a0d34879fa652aa4",
+      "screenshot_sha256": "dcf68a5122b24ff001f69503d52e3ff04f20e0597dc631d4331a3b4440ebd5cf",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BackUp_2_downward": {
+      "environment_id": "001",
+      "world_path": "assets/BackUp_2/world.json",
+      "screenshot_path": "assets/BackUp_2/initial_scene.png",
+      "tool_path": "assets/BackUp_2/tool_downward.json",
+      "world_sha256": "5a3ade1322b9ede00bcecd17a0fd82b3038d8f3067b30503973d8f0d03d0c0c3",
+      "screenshot_sha256": "4b207b4bed3fdd0a98db66fa7033a63a6a6cf731987a6c96d458c322a2d911bc",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BackUp_2_upward": {
+      "environment_id": "002",
+      "world_path": "assets/BackUp_2/world.json",
+      "screenshot_path": "assets/BackUp_2/initial_scene.png",
+      "tool_path": "assets/BackUp_2/tool_upward.json",
+      "world_sha256": "5a3ade1322b9ede00bcecd17a0fd82b3038d8f3067b30503973d8f0d03d0c0c3",
+      "screenshot_sha256": "4b207b4bed3fdd0a98db66fa7033a63a6a6cf731987a6c96d458c322a2d911bc",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BackUp_3_downward": {
+      "environment_id": "003",
+      "world_path": "assets/BackUp_3/world.json",
+      "screenshot_path": "assets/BackUp_3/initial_scene.png",
+      "tool_path": "assets/BackUp_3/tool_downward.json",
+      "world_sha256": "d422df64079b95caf0334f9d47284eb14bfde084725f59a8e1ec867be4095c11",
+      "screenshot_sha256": "8a22280b6c002c23d1fbe6aa0aa74e2d168c9dcdb88181e41b01c299fa4fa915",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BackUp_3_upward": {
+      "environment_id": "004",
+      "world_path": "assets/BackUp_3/world.json",
+      "screenshot_path": "assets/BackUp_3/initial_scene.png",
+      "tool_path": "assets/BackUp_3/tool_upward.json",
+      "world_sha256": "d422df64079b95caf0334f9d47284eb14bfde084725f59a8e1ec867be4095c11",
+      "screenshot_sha256": "8a22280b6c002c23d1fbe6aa0aa74e2d168c9dcdb88181e41b01c299fa4fa915",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BackUp_4_downward": {
+      "environment_id": "005",
+      "world_path": "assets/BackUp_4/world.json",
+      "screenshot_path": "assets/BackUp_4/initial_scene.png",
+      "tool_path": "assets/BackUp_4/tool_downward.json",
+      "world_sha256": "b287bcd4bc433a8ad47bfc447ac471515dd9df3f065f7fdae21395272aea1a9f",
+      "screenshot_sha256": "02e7f7e48fe845d73d47f4e5b1e76209b8253e7746cbf100147912c25abfa0b2",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BackUp_4_upward": {
+      "environment_id": "006",
+      "world_path": "assets/BackUp_4/world.json",
+      "screenshot_path": "assets/BackUp_4/initial_scene.png",
+      "tool_path": "assets/BackUp_4/tool_upward.json",
+      "world_sha256": "b287bcd4bc433a8ad47bfc447ac471515dd9df3f065f7fdae21395272aea1a9f",
+      "screenshot_sha256": "02e7f7e48fe845d73d47f4e5b1e76209b8253e7746cbf100147912c25abfa0b2",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BackUp_5_downward": {
+      "environment_id": "007",
+      "world_path": "assets/BackUp_5/world.json",
+      "screenshot_path": "assets/BackUp_5/initial_scene.png",
+      "tool_path": "assets/BackUp_5/tool_downward.json",
+      "world_sha256": "842486a4fc21a2ddfd3eff0aa2f63d30c3935c015393dcd4fee0df6be76bb97a",
+      "screenshot_sha256": "6ca942be317770f2f4c0e4e830e2099a268b0d9d440d363b39f63bdb8f024836",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BackUp_5_upward": {
+      "environment_id": "008",
+      "world_path": "assets/BackUp_5/world.json",
+      "screenshot_path": "assets/BackUp_5/initial_scene.png",
+      "tool_path": "assets/BackUp_5/tool_upward.json",
+      "world_sha256": "842486a4fc21a2ddfd3eff0aa2f63d30c3935c015393dcd4fee0df6be76bb97a",
+      "screenshot_sha256": "6ca942be317770f2f4c0e4e830e2099a268b0d9d440d363b39f63bdb8f024836",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BackUp_6_downward": {
+      "environment_id": "009",
+      "world_path": "assets/BackUp_6/world.json",
+      "screenshot_path": "assets/BackUp_6/initial_scene.png",
+      "tool_path": "assets/BackUp_6/tool_downward.json",
+      "world_sha256": "c71f3e1db39759632816d328b3a9221ea0dff8eba3cfa423fa34b35f5f2645f2",
+      "screenshot_sha256": "bb19671b1cb2fe556ba7b28fc00d114de2c68adf8f222d41d7426b1bebe5c9fc",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BackUp_6_upward": {
+      "environment_id": "010",
+      "world_path": "assets/BackUp_6/world.json",
+      "screenshot_path": "assets/BackUp_6/initial_scene.png",
+      "tool_path": "assets/BackUp_6/tool_upward.json",
+      "world_sha256": "c71f3e1db39759632816d328b3a9221ea0dff8eba3cfa423fa34b35f5f2645f2",
+      "screenshot_sha256": "bb19671b1cb2fe556ba7b28fc00d114de2c68adf8f222d41d7426b1bebe5c9fc",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BackUp_7_downward": {
+      "environment_id": "011",
+      "world_path": "assets/BackUp_7/world.json",
+      "screenshot_path": "assets/BackUp_7/initial_scene.png",
+      "tool_path": "assets/BackUp_7/tool_downward.json",
+      "world_sha256": "851f8b2a493044d9d9fc7b03adec011aeefd8d6ec99a671e89e49f0a8e1c04de",
+      "screenshot_sha256": "712a3c8ee1a723ff62c977e01d22359ea6943fa89dde914593b44aa533b81be7",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BackUp_7_upward": {
+      "environment_id": "012",
+      "world_path": "assets/BackUp_7/world.json",
+      "screenshot_path": "assets/BackUp_7/initial_scene.png",
+      "tool_path": "assets/BackUp_7/tool_upward.json",
+      "world_sha256": "851f8b2a493044d9d9fc7b03adec011aeefd8d6ec99a671e89e49f0a8e1c04de",
+      "screenshot_sha256": "712a3c8ee1a723ff62c977e01d22359ea6943fa89dde914593b44aa533b81be7",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BackUp_8_downward": {
+      "environment_id": "013",
+      "world_path": "assets/BackUp_8/world.json",
+      "screenshot_path": "assets/BackUp_8/initial_scene.png",
+      "tool_path": "assets/BackUp_8/tool_downward.json",
+      "world_sha256": "b670e8be2568f88bb9b98b69a8e26eb1451d2400485fd38352480bff00e46bb1",
+      "screenshot_sha256": "00a5da05ce9a4e96553019ada3cb81997729eb55b3685b3643831b0d17d78a0f",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BackUp_8_upward": {
+      "environment_id": "014",
+      "world_path": "assets/BackUp_8/world.json",
+      "screenshot_path": "assets/BackUp_8/initial_scene.png",
+      "tool_path": "assets/BackUp_8/tool_upward.json",
+      "world_sha256": "b670e8be2568f88bb9b98b69a8e26eb1451d2400485fd38352480bff00e46bb1",
+      "screenshot_sha256": "00a5da05ce9a4e96553019ada3cb81997729eb55b3685b3643831b0d17d78a0f",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BackUp_9_downward": {
+      "environment_id": "015",
+      "world_path": "assets/BackUp_9/world.json",
+      "screenshot_path": "assets/BackUp_9/initial_scene.png",
+      "tool_path": "assets/BackUp_9/tool_downward.json",
+      "world_sha256": "d6eb622264664db5311f955607b82b89fb489f269414f09b284ce7d53f932b7d",
+      "screenshot_sha256": "cf76c8543caa6e65bbf93fb1f2e298a6847f414515a0e89c48d1eae0a17be898",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BackUp_9_upward": {
+      "environment_id": "016",
+      "world_path": "assets/BackUp_9/world.json",
+      "screenshot_path": "assets/BackUp_9/initial_scene.png",
+      "tool_path": "assets/BackUp_9/tool_upward.json",
+      "world_sha256": "d6eb622264664db5311f955607b82b89fb489f269414f09b284ce7d53f932b7d",
+      "screenshot_sha256": "cf76c8543caa6e65bbf93fb1f2e298a6847f414515a0e89c48d1eae0a17be898",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BalanceUnder_10_downward": {
+      "environment_id": "047",
+      "world_path": "assets/BalanceUnder_10/world.json",
+      "screenshot_path": "assets/BalanceUnder_10/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_10/tool_downward.json",
+      "world_sha256": "07170673bff3a1c0dd435a02d336f0f96b8983f27bf9c61215ddacf9c2749a1d",
+      "screenshot_sha256": "48add8ddde638ea339cb17b596cd48787651afbaccee3307720aed47e74d0c1d",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BalanceUnder_10_upward": {
+      "environment_id": "048",
+      "world_path": "assets/BalanceUnder_10/world.json",
+      "screenshot_path": "assets/BalanceUnder_10/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_10/tool_upward.json",
+      "world_sha256": "07170673bff3a1c0dd435a02d336f0f96b8983f27bf9c61215ddacf9c2749a1d",
+      "screenshot_sha256": "48add8ddde638ea339cb17b596cd48787651afbaccee3307720aed47e74d0c1d",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BalanceUnder_2_downward": {
+      "environment_id": "035",
+      "world_path": "assets/BalanceUnder_2/world.json",
+      "screenshot_path": "assets/BalanceUnder_2/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_2/tool_downward.json",
+      "world_sha256": "379ca9e1bd6e32604c19dc972e4b2b9dc2c524dd20df6e0471b86851bf0fe580",
+      "screenshot_sha256": "0cf5c2e48398dc26ceed1521da3905d5a43b7bd3145f376fd3d709d14317eb27",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BalanceUnder_2_upward": {
+      "environment_id": "036",
+      "world_path": "assets/BalanceUnder_2/world.json",
+      "screenshot_path": "assets/BalanceUnder_2/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_2/tool_upward.json",
+      "world_sha256": "379ca9e1bd6e32604c19dc972e4b2b9dc2c524dd20df6e0471b86851bf0fe580",
+      "screenshot_sha256": "0cf5c2e48398dc26ceed1521da3905d5a43b7bd3145f376fd3d709d14317eb27",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BalanceUnder_3_downward": {
+      "environment_id": "037",
+      "world_path": "assets/BalanceUnder_3/world.json",
+      "screenshot_path": "assets/BalanceUnder_3/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_3/tool_downward.json",
+      "world_sha256": "9cf6f1ed20cffa86cf6e0ef5a49d2e891f7b4498763f13e0cff3d52ebf7453a2",
+      "screenshot_sha256": "c95604914eb23bbe7338a6701736fe56c913aa31cf3cb2ac5348c066dfb8adfc",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BalanceUnder_3_upward": {
+      "environment_id": "038",
+      "world_path": "assets/BalanceUnder_3/world.json",
+      "screenshot_path": "assets/BalanceUnder_3/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_3/tool_upward.json",
+      "world_sha256": "9cf6f1ed20cffa86cf6e0ef5a49d2e891f7b4498763f13e0cff3d52ebf7453a2",
+      "screenshot_sha256": "c95604914eb23bbe7338a6701736fe56c913aa31cf3cb2ac5348c066dfb8adfc",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BalanceUnder_5_downward": {
+      "environment_id": "039",
+      "world_path": "assets/BalanceUnder_5/world.json",
+      "screenshot_path": "assets/BalanceUnder_5/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_5/tool_downward.json",
+      "world_sha256": "ce306ba9031e6cb28b42a5919cb136c79df85fbe21dd0b2d7389d9d04776c639",
+      "screenshot_sha256": "c9fb12331bf924c1d392845c00c1efddcb8e29945dcda1178356e16f1daa91a9",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BalanceUnder_5_upward": {
+      "environment_id": "040",
+      "world_path": "assets/BalanceUnder_5/world.json",
+      "screenshot_path": "assets/BalanceUnder_5/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_5/tool_upward.json",
+      "world_sha256": "ce306ba9031e6cb28b42a5919cb136c79df85fbe21dd0b2d7389d9d04776c639",
+      "screenshot_sha256": "c9fb12331bf924c1d392845c00c1efddcb8e29945dcda1178356e16f1daa91a9",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BalanceUnder_6_downward": {
+      "environment_id": "041",
+      "world_path": "assets/BalanceUnder_6/world.json",
+      "screenshot_path": "assets/BalanceUnder_6/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_6/tool_downward.json",
+      "world_sha256": "ebe01b4a181f40c2568e3d82a91b443b0de29f6ed40a8317e8f6139efc3b74ad",
+      "screenshot_sha256": "4467ce51c987a927e9741403a9ebd08e86729708d7b11aa18cf4d84da1d75b4f",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BalanceUnder_6_upward": {
+      "environment_id": "042",
+      "world_path": "assets/BalanceUnder_6/world.json",
+      "screenshot_path": "assets/BalanceUnder_6/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_6/tool_upward.json",
+      "world_sha256": "ebe01b4a181f40c2568e3d82a91b443b0de29f6ed40a8317e8f6139efc3b74ad",
+      "screenshot_sha256": "4467ce51c987a927e9741403a9ebd08e86729708d7b11aa18cf4d84da1d75b4f",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BalanceUnder_7_downward": {
+      "environment_id": "043",
+      "world_path": "assets/BalanceUnder_7/world.json",
+      "screenshot_path": "assets/BalanceUnder_7/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_7/tool_downward.json",
+      "world_sha256": "8b5b7fb63b8cd48c88d46d3c6ef8e9f69169c32c14f193665c921423ac6d6578",
+      "screenshot_sha256": "465454234de61277c02ae136ebb03d1e2f00a9d1773b04b499bf856d2fad84b4",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BalanceUnder_7_upward": {
+      "environment_id": "044",
+      "world_path": "assets/BalanceUnder_7/world.json",
+      "screenshot_path": "assets/BalanceUnder_7/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_7/tool_upward.json",
+      "world_sha256": "8b5b7fb63b8cd48c88d46d3c6ef8e9f69169c32c14f193665c921423ac6d6578",
+      "screenshot_sha256": "465454234de61277c02ae136ebb03d1e2f00a9d1773b04b499bf856d2fad84b4",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "BalanceUnder_8_downward": {
+      "environment_id": "045",
+      "world_path": "assets/BalanceUnder_8/world.json",
+      "screenshot_path": "assets/BalanceUnder_8/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_8/tool_downward.json",
+      "world_sha256": "d59ea720eefd8d400e9f5f1b6a7414be8dd58618f7fb207a5ac956c310dff657",
+      "screenshot_sha256": "6f2a997c7732344cb15f54da62fbb1a10ef4b85b24ce31e77ed6ae4f5a00efe4",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "BalanceUnder_8_upward": {
+      "environment_id": "046",
+      "world_path": "assets/BalanceUnder_8/world.json",
+      "screenshot_path": "assets/BalanceUnder_8/initial_scene.png",
+      "tool_path": "assets/BalanceUnder_8/tool_upward.json",
+      "world_sha256": "d59ea720eefd8d400e9f5f1b6a7414be8dd58618f7fb207a5ac956c310dff657",
+      "screenshot_sha256": "6f2a997c7732344cb15f54da62fbb1a10ef4b85b24ce31e77ed6ae4f5a00efe4",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Balance_10_downward": {
+      "environment_id": "033",
+      "world_path": "assets/Balance_10/world.json",
+      "screenshot_path": "assets/Balance_10/initial_scene.png",
+      "tool_path": "assets/Balance_10/tool_downward.json",
+      "world_sha256": "03b0c0c8d9b6616626d1998b17d7f951f935e809866eb554d39fbd2bc43b1f10",
+      "screenshot_sha256": "f9bd150f6ccf04dec8e4abba0e59fa8fedadbafa50f4a296baf0bd0ad2b4c2fa",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Balance_10_upward": {
+      "environment_id": "034",
+      "world_path": "assets/Balance_10/world.json",
+      "screenshot_path": "assets/Balance_10/initial_scene.png",
+      "tool_path": "assets/Balance_10/tool_upward.json",
+      "world_sha256": "03b0c0c8d9b6616626d1998b17d7f951f935e809866eb554d39fbd2bc43b1f10",
+      "screenshot_sha256": "f9bd150f6ccf04dec8e4abba0e59fa8fedadbafa50f4a296baf0bd0ad2b4c2fa",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Balance_1_downward": {
+      "environment_id": "019",
+      "world_path": "assets/Balance_1/world.json",
+      "screenshot_path": "assets/Balance_1/initial_scene.png",
+      "tool_path": "assets/Balance_1/tool_downward.json",
+      "world_sha256": "94df526130231ed44292698104c404501a414d2f02538a593a78b4ccb230a3dd",
+      "screenshot_sha256": "d8b56d2c0bd3efdd661e15ec81c868e7c31982fbca4a5bbff99a372fea7d7d63",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Balance_1_upward": {
+      "environment_id": "020",
+      "world_path": "assets/Balance_1/world.json",
+      "screenshot_path": "assets/Balance_1/initial_scene.png",
+      "tool_path": "assets/Balance_1/tool_upward.json",
+      "world_sha256": "94df526130231ed44292698104c404501a414d2f02538a593a78b4ccb230a3dd",
+      "screenshot_sha256": "d8b56d2c0bd3efdd661e15ec81c868e7c31982fbca4a5bbff99a372fea7d7d63",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Balance_2_downward": {
+      "environment_id": "021",
+      "world_path": "assets/Balance_2/world.json",
+      "screenshot_path": "assets/Balance_2/initial_scene.png",
+      "tool_path": "assets/Balance_2/tool_downward.json",
+      "world_sha256": "5d528f1354f2104624aca7a5542d2d9f715f387476c0cf0b9f1bb87212a7667c",
+      "screenshot_sha256": "67019a1f1666ad308f08c52c94cdf9e7e4803aed1f097752ec684bd2f3d2e1c9",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Balance_2_upward": {
+      "environment_id": "022",
+      "world_path": "assets/Balance_2/world.json",
+      "screenshot_path": "assets/Balance_2/initial_scene.png",
+      "tool_path": "assets/Balance_2/tool_upward.json",
+      "world_sha256": "5d528f1354f2104624aca7a5542d2d9f715f387476c0cf0b9f1bb87212a7667c",
+      "screenshot_sha256": "67019a1f1666ad308f08c52c94cdf9e7e4803aed1f097752ec684bd2f3d2e1c9",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Balance_3_downward": {
+      "environment_id": "023",
+      "world_path": "assets/Balance_3/world.json",
+      "screenshot_path": "assets/Balance_3/initial_scene.png",
+      "tool_path": "assets/Balance_3/tool_downward.json",
+      "world_sha256": "cd8f626839a7238bb17197d8e4d265c3013ec7ad7aede6a1a1f49156ba3d4f07",
+      "screenshot_sha256": "a4a01b557b807af19bccce926e99ee0fdab04e1f2a5416b98b42c7ee103a9651",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Balance_3_upward": {
+      "environment_id": "024",
+      "world_path": "assets/Balance_3/world.json",
+      "screenshot_path": "assets/Balance_3/initial_scene.png",
+      "tool_path": "assets/Balance_3/tool_upward.json",
+      "world_sha256": "cd8f626839a7238bb17197d8e4d265c3013ec7ad7aede6a1a1f49156ba3d4f07",
+      "screenshot_sha256": "a4a01b557b807af19bccce926e99ee0fdab04e1f2a5416b98b42c7ee103a9651",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Balance_4_downward": {
+      "environment_id": "025",
+      "world_path": "assets/Balance_4/world.json",
+      "screenshot_path": "assets/Balance_4/initial_scene.png",
+      "tool_path": "assets/Balance_4/tool_downward.json",
+      "world_sha256": "2b0440f9df688b4b24144015b8bb1a5fd00f90abfbbf2167a3fd5131629db05e",
+      "screenshot_sha256": "b260f0379a46a62728b2cbfd5a59f2d2ab07c0cfca1ce1747e25252c704b2a4a",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Balance_4_upward": {
+      "environment_id": "026",
+      "world_path": "assets/Balance_4/world.json",
+      "screenshot_path": "assets/Balance_4/initial_scene.png",
+      "tool_path": "assets/Balance_4/tool_upward.json",
+      "world_sha256": "2b0440f9df688b4b24144015b8bb1a5fd00f90abfbbf2167a3fd5131629db05e",
+      "screenshot_sha256": "b260f0379a46a62728b2cbfd5a59f2d2ab07c0cfca1ce1747e25252c704b2a4a",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Balance_5_downward": {
+      "environment_id": "027",
+      "world_path": "assets/Balance_5/world.json",
+      "screenshot_path": "assets/Balance_5/initial_scene.png",
+      "tool_path": "assets/Balance_5/tool_downward.json",
+      "world_sha256": "2dd0aa419b6792d92f658e74820f449025b07393a024f00e7d93d1da9021d7eb",
+      "screenshot_sha256": "7c4ff2d004f5ce4632fc7e94403c6859480dd7b3e03034f734f20e27c84aa4f6",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Balance_5_upward": {
+      "environment_id": "028",
+      "world_path": "assets/Balance_5/world.json",
+      "screenshot_path": "assets/Balance_5/initial_scene.png",
+      "tool_path": "assets/Balance_5/tool_upward.json",
+      "world_sha256": "2dd0aa419b6792d92f658e74820f449025b07393a024f00e7d93d1da9021d7eb",
+      "screenshot_sha256": "7c4ff2d004f5ce4632fc7e94403c6859480dd7b3e03034f734f20e27c84aa4f6",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Balance_7_downward": {
+      "environment_id": "029",
+      "world_path": "assets/Balance_7/world.json",
+      "screenshot_path": "assets/Balance_7/initial_scene.png",
+      "tool_path": "assets/Balance_7/tool_downward.json",
+      "world_sha256": "bf278eb748763f3b12a995cd1c64629aeddff931fb64935e691b259740d10daa",
+      "screenshot_sha256": "e5d7d3dcd9d0fa090935f283bde1965162173e27d36322646b515efbe009b00d",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Balance_7_upward": {
+      "environment_id": "030",
+      "world_path": "assets/Balance_7/world.json",
+      "screenshot_path": "assets/Balance_7/initial_scene.png",
+      "tool_path": "assets/Balance_7/tool_upward.json",
+      "world_sha256": "bf278eb748763f3b12a995cd1c64629aeddff931fb64935e691b259740d10daa",
+      "screenshot_sha256": "e5d7d3dcd9d0fa090935f283bde1965162173e27d36322646b515efbe009b00d",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Balance_8_downward": {
+      "environment_id": "031",
+      "world_path": "assets/Balance_8/world.json",
+      "screenshot_path": "assets/Balance_8/initial_scene.png",
+      "tool_path": "assets/Balance_8/tool_downward.json",
+      "world_sha256": "34645b67d82e668583a7b9da65d1c9179018896672d4402253bc8b84d277dfc2",
+      "screenshot_sha256": "1d3fb46dfdad158b525ce3bc5abe4cc14e511853f41c874a3aeac5bb8cc55ac3",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Balance_8_upward": {
+      "environment_id": "032",
+      "world_path": "assets/Balance_8/world.json",
+      "screenshot_path": "assets/Balance_8/initial_scene.png",
+      "tool_path": "assets/Balance_8/tool_upward.json",
+      "world_sha256": "34645b67d82e668583a7b9da65d1c9179018896672d4402253bc8b84d277dfc2",
+      "screenshot_sha256": "1d3fb46dfdad158b525ce3bc5abe4cc14e511853f41c874a3aeac5bb8cc55ac3",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Basic_10_downward": {
+      "environment_id": "061",
+      "world_path": "assets/Basic_10/world.json",
+      "screenshot_path": "assets/Basic_10/initial_scene.png",
+      "tool_path": "assets/Basic_10/tool_downward.json",
+      "world_sha256": "e79dae7720f1fcadca1d9828a9938cd9f3d12d87b1e6bb24203bc9f9deeb8e2d",
+      "screenshot_sha256": "be729df18596444c22cce5388d16e37f40900c16f158503cbadd68729f5b10ce",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Basic_10_upward": {
+      "environment_id": "062",
+      "world_path": "assets/Basic_10/world.json",
+      "screenshot_path": "assets/Basic_10/initial_scene.png",
+      "tool_path": "assets/Basic_10/tool_upward.json",
+      "world_sha256": "e79dae7720f1fcadca1d9828a9938cd9f3d12d87b1e6bb24203bc9f9deeb8e2d",
+      "screenshot_sha256": "be729df18596444c22cce5388d16e37f40900c16f158503cbadd68729f5b10ce",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Basic_1_downward": {
+      "environment_id": "049",
+      "world_path": "assets/Basic_1/world.json",
+      "screenshot_path": "assets/Basic_1/initial_scene.png",
+      "tool_path": "assets/Basic_1/tool_downward.json",
+      "world_sha256": "6291439be4b245df893157313639fcf51a626242eaf972541d8bfee63896bd03",
+      "screenshot_sha256": "7058247573b86bb01e68f468aa627346d78fef9864d64cdbb2c8d8c2739cef5f",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Basic_1_upward": {
+      "environment_id": "050",
+      "world_path": "assets/Basic_1/world.json",
+      "screenshot_path": "assets/Basic_1/initial_scene.png",
+      "tool_path": "assets/Basic_1/tool_upward.json",
+      "world_sha256": "6291439be4b245df893157313639fcf51a626242eaf972541d8bfee63896bd03",
+      "screenshot_sha256": "7058247573b86bb01e68f468aa627346d78fef9864d64cdbb2c8d8c2739cef5f",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Basic_2_downward": {
+      "environment_id": "051",
+      "world_path": "assets/Basic_2/world.json",
+      "screenshot_path": "assets/Basic_2/initial_scene.png",
+      "tool_path": "assets/Basic_2/tool_downward.json",
+      "world_sha256": "a33f289ff0b471f47e5ed96eab8be0c08d262f513d1c25ae82618729b0b29b19",
+      "screenshot_sha256": "9d23668e9d3b1a6eb133c6e974af7aac1aa49901ed0217f03f63e5bfc5d7fefe",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Basic_2_upward": {
+      "environment_id": "052",
+      "world_path": "assets/Basic_2/world.json",
+      "screenshot_path": "assets/Basic_2/initial_scene.png",
+      "tool_path": "assets/Basic_2/tool_upward.json",
+      "world_sha256": "a33f289ff0b471f47e5ed96eab8be0c08d262f513d1c25ae82618729b0b29b19",
+      "screenshot_sha256": "9d23668e9d3b1a6eb133c6e974af7aac1aa49901ed0217f03f63e5bfc5d7fefe",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Basic_6_downward": {
+      "environment_id": "053",
+      "world_path": "assets/Basic_6/world.json",
+      "screenshot_path": "assets/Basic_6/initial_scene.png",
+      "tool_path": "assets/Basic_6/tool_downward.json",
+      "world_sha256": "6b9978ebd85948124c0c0a256f6529bf5329baf743fafd3c40f24e6082cba33e",
+      "screenshot_sha256": "5f6fa8b379bd1c38faffa05ed69f62042331669d38402b4a46ff64b94ab6bab2",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Basic_6_upward": {
+      "environment_id": "054",
+      "world_path": "assets/Basic_6/world.json",
+      "screenshot_path": "assets/Basic_6/initial_scene.png",
+      "tool_path": "assets/Basic_6/tool_upward.json",
+      "world_sha256": "6b9978ebd85948124c0c0a256f6529bf5329baf743fafd3c40f24e6082cba33e",
+      "screenshot_sha256": "5f6fa8b379bd1c38faffa05ed69f62042331669d38402b4a46ff64b94ab6bab2",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Basic_7_downward": {
+      "environment_id": "055",
+      "world_path": "assets/Basic_7/world.json",
+      "screenshot_path": "assets/Basic_7/initial_scene.png",
+      "tool_path": "assets/Basic_7/tool_downward.json",
+      "world_sha256": "59e30f4e47fd5350e83b6dbf973b9ad080e6c775c8e5fac1f3123c40ae50232e",
+      "screenshot_sha256": "c6008211b2a7867f77827bc50b5ac0815ea3facfa382e0dd71fc8a3ab4184157",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Basic_7_upward": {
+      "environment_id": "056",
+      "world_path": "assets/Basic_7/world.json",
+      "screenshot_path": "assets/Basic_7/initial_scene.png",
+      "tool_path": "assets/Basic_7/tool_upward.json",
+      "world_sha256": "59e30f4e47fd5350e83b6dbf973b9ad080e6c775c8e5fac1f3123c40ae50232e",
+      "screenshot_sha256": "c6008211b2a7867f77827bc50b5ac0815ea3facfa382e0dd71fc8a3ab4184157",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Basic_8_downward": {
+      "environment_id": "057",
+      "world_path": "assets/Basic_8/world.json",
+      "screenshot_path": "assets/Basic_8/initial_scene.png",
+      "tool_path": "assets/Basic_8/tool_downward.json",
+      "world_sha256": "693512274d46500d7443011ed7922bb3942a654844ea166c5a2590d83490e838",
+      "screenshot_sha256": "653519f30a3460d82731058a51129f8552d384c93554e187dd80a24b32d23461",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Basic_8_upward": {
+      "environment_id": "058",
+      "world_path": "assets/Basic_8/world.json",
+      "screenshot_path": "assets/Basic_8/initial_scene.png",
+      "tool_path": "assets/Basic_8/tool_upward.json",
+      "world_sha256": "693512274d46500d7443011ed7922bb3942a654844ea166c5a2590d83490e838",
+      "screenshot_sha256": "653519f30a3460d82731058a51129f8552d384c93554e187dd80a24b32d23461",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Basic_9_downward": {
+      "environment_id": "059",
+      "world_path": "assets/Basic_9/world.json",
+      "screenshot_path": "assets/Basic_9/initial_scene.png",
+      "tool_path": "assets/Basic_9/tool_downward.json",
+      "world_sha256": "0b7beb3d0c7e9f6481d4c6c270e01146e3e3daf286e1194d78781702dd58f51b",
+      "screenshot_sha256": "8cb7a1ec8da5e69723ee615bc51f200bd98ffc4527c2d5d60b301c09ba831f54",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Basic_9_upward": {
+      "environment_id": "060",
+      "world_path": "assets/Basic_9/world.json",
+      "screenshot_path": "assets/Basic_9/initial_scene.png",
+      "tool_path": "assets/Basic_9/tool_upward.json",
+      "world_sha256": "0b7beb3d0c7e9f6481d4c6c270e01146e3e3daf286e1194d78781702dd58f51b",
+      "screenshot_sha256": "8cb7a1ec8da5e69723ee615bc51f200bd98ffc4527c2d5d60b301c09ba831f54",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "FallingAlt_10_downward": {
+      "environment_id": "099",
+      "world_path": "assets/FallingAlt_10/world.json",
+      "screenshot_path": "assets/FallingAlt_10/initial_scene.png",
+      "tool_path": "assets/FallingAlt_10/tool_downward.json",
+      "world_sha256": "3e2f20a26dff797ffce88c3d6940f37fef41f2399dd0e6f006d46aaee33ac88c",
+      "screenshot_sha256": "ef74102447c582aa92c5509fabaa8af34f41014afcd413eeb71d6aa79460c3f3",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "FallingAlt_10_upward": {
+      "environment_id": "100",
+      "world_path": "assets/FallingAlt_10/world.json",
+      "screenshot_path": "assets/FallingAlt_10/initial_scene.png",
+      "tool_path": "assets/FallingAlt_10/tool_upward.json",
+      "world_sha256": "3e2f20a26dff797ffce88c3d6940f37fef41f2399dd0e6f006d46aaee33ac88c",
+      "screenshot_sha256": "ef74102447c582aa92c5509fabaa8af34f41014afcd413eeb71d6aa79460c3f3",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "FallingAlt_1_downward": {
+      "environment_id": "081",
+      "world_path": "assets/FallingAlt_1/world.json",
+      "screenshot_path": "assets/FallingAlt_1/initial_scene.png",
+      "tool_path": "assets/FallingAlt_1/tool_downward.json",
+      "world_sha256": "ef8e97be7a93f58d2a4148817cdb120983a2003191f9853b6b906eeaf73cb9c7",
+      "screenshot_sha256": "f2b3815be04303dc0c6d010f5874c172e8fb0641cf507b92c37390a07d73f0ea",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "FallingAlt_1_upward": {
+      "environment_id": "082",
+      "world_path": "assets/FallingAlt_1/world.json",
+      "screenshot_path": "assets/FallingAlt_1/initial_scene.png",
+      "tool_path": "assets/FallingAlt_1/tool_upward.json",
+      "world_sha256": "ef8e97be7a93f58d2a4148817cdb120983a2003191f9853b6b906eeaf73cb9c7",
+      "screenshot_sha256": "f2b3815be04303dc0c6d010f5874c172e8fb0641cf507b92c37390a07d73f0ea",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "FallingAlt_2_downward": {
+      "environment_id": "083",
+      "world_path": "assets/FallingAlt_2/world.json",
+      "screenshot_path": "assets/FallingAlt_2/initial_scene.png",
+      "tool_path": "assets/FallingAlt_2/tool_downward.json",
+      "world_sha256": "c698c8e6ef154b12a56ee9f429f844a1213ea8382366e6c3f92c2f13841dcc5d",
+      "screenshot_sha256": "a201305b7772ad3fca84381b0a743fe819c823e79bc7eb0b807219ac8977d4c5",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "FallingAlt_2_upward": {
+      "environment_id": "084",
+      "world_path": "assets/FallingAlt_2/world.json",
+      "screenshot_path": "assets/FallingAlt_2/initial_scene.png",
+      "tool_path": "assets/FallingAlt_2/tool_upward.json",
+      "world_sha256": "c698c8e6ef154b12a56ee9f429f844a1213ea8382366e6c3f92c2f13841dcc5d",
+      "screenshot_sha256": "a201305b7772ad3fca84381b0a743fe819c823e79bc7eb0b807219ac8977d4c5",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "FallingAlt_3_downward": {
+      "environment_id": "085",
+      "world_path": "assets/FallingAlt_3/world.json",
+      "screenshot_path": "assets/FallingAlt_3/initial_scene.png",
+      "tool_path": "assets/FallingAlt_3/tool_downward.json",
+      "world_sha256": "e04a4742e75f414ff12ac47c37c90b10d994751875f30df07adb946583610bcb",
+      "screenshot_sha256": "bb6867b0258752af1802ca9bdcead4b44c9f653ec5f9347258caf86cb088a682",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "FallingAlt_3_upward": {
+      "environment_id": "086",
+      "world_path": "assets/FallingAlt_3/world.json",
+      "screenshot_path": "assets/FallingAlt_3/initial_scene.png",
+      "tool_path": "assets/FallingAlt_3/tool_upward.json",
+      "world_sha256": "e04a4742e75f414ff12ac47c37c90b10d994751875f30df07adb946583610bcb",
+      "screenshot_sha256": "bb6867b0258752af1802ca9bdcead4b44c9f653ec5f9347258caf86cb088a682",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "FallingAlt_4_downward": {
+      "environment_id": "087",
+      "world_path": "assets/FallingAlt_4/world.json",
+      "screenshot_path": "assets/FallingAlt_4/initial_scene.png",
+      "tool_path": "assets/FallingAlt_4/tool_downward.json",
+      "world_sha256": "183fc79d6c63ac88a266ffd1f0d6d706c44f2a53525a5e41763913c65c85d31c",
+      "screenshot_sha256": "98ac8fc5efa5ede68330a544de6dfd8cead5290308d250eaf7d74ede0469c77d",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "FallingAlt_4_upward": {
+      "environment_id": "088",
+      "world_path": "assets/FallingAlt_4/world.json",
+      "screenshot_path": "assets/FallingAlt_4/initial_scene.png",
+      "tool_path": "assets/FallingAlt_4/tool_upward.json",
+      "world_sha256": "183fc79d6c63ac88a266ffd1f0d6d706c44f2a53525a5e41763913c65c85d31c",
+      "screenshot_sha256": "98ac8fc5efa5ede68330a544de6dfd8cead5290308d250eaf7d74ede0469c77d",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "FallingAlt_5_downward": {
+      "environment_id": "089",
+      "world_path": "assets/FallingAlt_5/world.json",
+      "screenshot_path": "assets/FallingAlt_5/initial_scene.png",
+      "tool_path": "assets/FallingAlt_5/tool_downward.json",
+      "world_sha256": "812de125c68d137276b8600382ea9f06af3214c4ae226774d50efdcf3723850b",
+      "screenshot_sha256": "ae4148772480ec964ad9114ee55558c8a0b79c89199a188fb5a31be90e8a125c",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "FallingAlt_5_upward": {
+      "environment_id": "090",
+      "world_path": "assets/FallingAlt_5/world.json",
+      "screenshot_path": "assets/FallingAlt_5/initial_scene.png",
+      "tool_path": "assets/FallingAlt_5/tool_upward.json",
+      "world_sha256": "812de125c68d137276b8600382ea9f06af3214c4ae226774d50efdcf3723850b",
+      "screenshot_sha256": "ae4148772480ec964ad9114ee55558c8a0b79c89199a188fb5a31be90e8a125c",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "FallingAlt_6_downward": {
+      "environment_id": "091",
+      "world_path": "assets/FallingAlt_6/world.json",
+      "screenshot_path": "assets/FallingAlt_6/initial_scene.png",
+      "tool_path": "assets/FallingAlt_6/tool_downward.json",
+      "world_sha256": "159c366f7b4de6b2aad2c042c1b924a2f580e96f814a53050c3b47a7de76103b",
+      "screenshot_sha256": "b3fa5194c4fbfc874e6a282da5716cb75cd88b1a483b2912abd5efeb806096fe",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "FallingAlt_6_upward": {
+      "environment_id": "092",
+      "world_path": "assets/FallingAlt_6/world.json",
+      "screenshot_path": "assets/FallingAlt_6/initial_scene.png",
+      "tool_path": "assets/FallingAlt_6/tool_upward.json",
+      "world_sha256": "159c366f7b4de6b2aad2c042c1b924a2f580e96f814a53050c3b47a7de76103b",
+      "screenshot_sha256": "b3fa5194c4fbfc874e6a282da5716cb75cd88b1a483b2912abd5efeb806096fe",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "FallingAlt_7_downward": {
+      "environment_id": "093",
+      "world_path": "assets/FallingAlt_7/world.json",
+      "screenshot_path": "assets/FallingAlt_7/initial_scene.png",
+      "tool_path": "assets/FallingAlt_7/tool_downward.json",
+      "world_sha256": "a82ea12e26a834349213878665973c74ea13ca29a901ad566508d04835b51cb6",
+      "screenshot_sha256": "241574fbc1bb93c3ae0f0ef1d4f0e63cc0a50235cf04fca2ec596180531b909c",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "FallingAlt_7_upward": {
+      "environment_id": "094",
+      "world_path": "assets/FallingAlt_7/world.json",
+      "screenshot_path": "assets/FallingAlt_7/initial_scene.png",
+      "tool_path": "assets/FallingAlt_7/tool_upward.json",
+      "world_sha256": "a82ea12e26a834349213878665973c74ea13ca29a901ad566508d04835b51cb6",
+      "screenshot_sha256": "241574fbc1bb93c3ae0f0ef1d4f0e63cc0a50235cf04fca2ec596180531b909c",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "FallingAlt_8_downward": {
+      "environment_id": "095",
+      "world_path": "assets/FallingAlt_8/world.json",
+      "screenshot_path": "assets/FallingAlt_8/initial_scene.png",
+      "tool_path": "assets/FallingAlt_8/tool_downward.json",
+      "world_sha256": "008a84f295cb0a62f55fa7eeeddf522d1b8e3db81c14e17f38bdab59d0014106",
+      "screenshot_sha256": "4c9b4865184937f780cb60b31185d05d0ee4efdc27cf9eac7cd4b6947081ea30",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "FallingAlt_8_upward": {
+      "environment_id": "096",
+      "world_path": "assets/FallingAlt_8/world.json",
+      "screenshot_path": "assets/FallingAlt_8/initial_scene.png",
+      "tool_path": "assets/FallingAlt_8/tool_upward.json",
+      "world_sha256": "008a84f295cb0a62f55fa7eeeddf522d1b8e3db81c14e17f38bdab59d0014106",
+      "screenshot_sha256": "4c9b4865184937f780cb60b31185d05d0ee4efdc27cf9eac7cd4b6947081ea30",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "FallingAlt_9_downward": {
+      "environment_id": "097",
+      "world_path": "assets/FallingAlt_9/world.json",
+      "screenshot_path": "assets/FallingAlt_9/initial_scene.png",
+      "tool_path": "assets/FallingAlt_9/tool_downward.json",
+      "world_sha256": "215a464a5a80f0d49ed79a2cc7f0a236cfb21b519996c780a40c4092361fd615",
+      "screenshot_sha256": "882c23b8622378e39735358b3a80b6bfcf8bbfc7b2432d0d273302c803572baa",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "FallingAlt_9_upward": {
+      "environment_id": "098",
+      "world_path": "assets/FallingAlt_9/world.json",
+      "screenshot_path": "assets/FallingAlt_9/initial_scene.png",
+      "tool_path": "assets/FallingAlt_9/tool_upward.json",
+      "world_sha256": "215a464a5a80f0d49ed79a2cc7f0a236cfb21b519996c780a40c4092361fd615",
+      "screenshot_sha256": "882c23b8622378e39735358b3a80b6bfcf8bbfc7b2432d0d273302c803572baa",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Falling_10_downward": {
+      "environment_id": "079",
+      "world_path": "assets/Falling_10/world.json",
+      "screenshot_path": "assets/Falling_10/initial_scene.png",
+      "tool_path": "assets/Falling_10/tool_downward.json",
+      "world_sha256": "fe86f352cf4f3afc433c124ac69bedbd4ef5ba2fe5027479c03d3d9429ed6344",
+      "screenshot_sha256": "2742b032bfbf2df34a7c79b54c8d3d8ecafb853e25b25e8e2583e9174527a076",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Falling_10_upward": {
+      "environment_id": "080",
+      "world_path": "assets/Falling_10/world.json",
+      "screenshot_path": "assets/Falling_10/initial_scene.png",
+      "tool_path": "assets/Falling_10/tool_upward.json",
+      "world_sha256": "fe86f352cf4f3afc433c124ac69bedbd4ef5ba2fe5027479c03d3d9429ed6344",
+      "screenshot_sha256": "2742b032bfbf2df34a7c79b54c8d3d8ecafb853e25b25e8e2583e9174527a076",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Falling_1_downward": {
+      "environment_id": "063",
+      "world_path": "assets/Falling_1/world.json",
+      "screenshot_path": "assets/Falling_1/initial_scene.png",
+      "tool_path": "assets/Falling_1/tool_downward.json",
+      "world_sha256": "df103f4b88307e2334e5f90474d83067af6c619fe4184f977484251af902e0b4",
+      "screenshot_sha256": "c3f1853f071a1832fa96b3f848e0226df04944348b9dc43629df8999d5d36619",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Falling_1_upward": {
+      "environment_id": "064",
+      "world_path": "assets/Falling_1/world.json",
+      "screenshot_path": "assets/Falling_1/initial_scene.png",
+      "tool_path": "assets/Falling_1/tool_upward.json",
+      "world_sha256": "df103f4b88307e2334e5f90474d83067af6c619fe4184f977484251af902e0b4",
+      "screenshot_sha256": "c3f1853f071a1832fa96b3f848e0226df04944348b9dc43629df8999d5d36619",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Falling_2_downward": {
+      "environment_id": "065",
+      "world_path": "assets/Falling_2/world.json",
+      "screenshot_path": "assets/Falling_2/initial_scene.png",
+      "tool_path": "assets/Falling_2/tool_downward.json",
+      "world_sha256": "6bc24aed27d916914a6f5cc621519711d735b2f946f1324dbbc68ecd42139c23",
+      "screenshot_sha256": "d313e108a487fad50659e3a409c92e471dad1de6e243c299ab2ba54d93c81458",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Falling_2_upward": {
+      "environment_id": "066",
+      "world_path": "assets/Falling_2/world.json",
+      "screenshot_path": "assets/Falling_2/initial_scene.png",
+      "tool_path": "assets/Falling_2/tool_upward.json",
+      "world_sha256": "6bc24aed27d916914a6f5cc621519711d735b2f946f1324dbbc68ecd42139c23",
+      "screenshot_sha256": "d313e108a487fad50659e3a409c92e471dad1de6e243c299ab2ba54d93c81458",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Falling_3_downward": {
+      "environment_id": "067",
+      "world_path": "assets/Falling_3/world.json",
+      "screenshot_path": "assets/Falling_3/initial_scene.png",
+      "tool_path": "assets/Falling_3/tool_downward.json",
+      "world_sha256": "e87c062cefa6995c77e6005295446264ccf7b94a927ffb8f31f463f07f0ee1f7",
+      "screenshot_sha256": "76807ea853b9f89fbe55dd77fe6662b83864a6ccafda95b7cbd2739d3023927e",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Falling_3_upward": {
+      "environment_id": "068",
+      "world_path": "assets/Falling_3/world.json",
+      "screenshot_path": "assets/Falling_3/initial_scene.png",
+      "tool_path": "assets/Falling_3/tool_upward.json",
+      "world_sha256": "e87c062cefa6995c77e6005295446264ccf7b94a927ffb8f31f463f07f0ee1f7",
+      "screenshot_sha256": "76807ea853b9f89fbe55dd77fe6662b83864a6ccafda95b7cbd2739d3023927e",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Falling_5_downward": {
+      "environment_id": "069",
+      "world_path": "assets/Falling_5/world.json",
+      "screenshot_path": "assets/Falling_5/initial_scene.png",
+      "tool_path": "assets/Falling_5/tool_downward.json",
+      "world_sha256": "667482df62e0032d3e7128677854039390ff00b5545e4f76cb628a4f8bd50fbc",
+      "screenshot_sha256": "76807ea853b9f89fbe55dd77fe6662b83864a6ccafda95b7cbd2739d3023927e",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Falling_5_upward": {
+      "environment_id": "070",
+      "world_path": "assets/Falling_5/world.json",
+      "screenshot_path": "assets/Falling_5/initial_scene.png",
+      "tool_path": "assets/Falling_5/tool_upward.json",
+      "world_sha256": "667482df62e0032d3e7128677854039390ff00b5545e4f76cb628a4f8bd50fbc",
+      "screenshot_sha256": "76807ea853b9f89fbe55dd77fe6662b83864a6ccafda95b7cbd2739d3023927e",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Falling_6_downward": {
+      "environment_id": "071",
+      "world_path": "assets/Falling_6/world.json",
+      "screenshot_path": "assets/Falling_6/initial_scene.png",
+      "tool_path": "assets/Falling_6/tool_downward.json",
+      "world_sha256": "0adb96f5e60c59387d31ace6dfe045697015a5c6b964fae480e6568c2f2d090e",
+      "screenshot_sha256": "5fa0a13532cbd010b3d09ce9c936409f48671fb3ba961b50fb199dfe44359887",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Falling_6_upward": {
+      "environment_id": "072",
+      "world_path": "assets/Falling_6/world.json",
+      "screenshot_path": "assets/Falling_6/initial_scene.png",
+      "tool_path": "assets/Falling_6/tool_upward.json",
+      "world_sha256": "0adb96f5e60c59387d31ace6dfe045697015a5c6b964fae480e6568c2f2d090e",
+      "screenshot_sha256": "5fa0a13532cbd010b3d09ce9c936409f48671fb3ba961b50fb199dfe44359887",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Falling_7_downward": {
+      "environment_id": "073",
+      "world_path": "assets/Falling_7/world.json",
+      "screenshot_path": "assets/Falling_7/initial_scene.png",
+      "tool_path": "assets/Falling_7/tool_downward.json",
+      "world_sha256": "2fac02c658813c8ad3184c788e160fbce6c3d47a27319a820925192818cf1461",
+      "screenshot_sha256": "f0eb768426b7ba807fd44fa3cb18701a2beb88236eccdd3fe0788df885c07c32",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Falling_7_upward": {
+      "environment_id": "074",
+      "world_path": "assets/Falling_7/world.json",
+      "screenshot_path": "assets/Falling_7/initial_scene.png",
+      "tool_path": "assets/Falling_7/tool_upward.json",
+      "world_sha256": "2fac02c658813c8ad3184c788e160fbce6c3d47a27319a820925192818cf1461",
+      "screenshot_sha256": "f0eb768426b7ba807fd44fa3cb18701a2beb88236eccdd3fe0788df885c07c32",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Falling_8_downward": {
+      "environment_id": "075",
+      "world_path": "assets/Falling_8/world.json",
+      "screenshot_path": "assets/Falling_8/initial_scene.png",
+      "tool_path": "assets/Falling_8/tool_downward.json",
+      "world_sha256": "c396ee90460bcd3bcca330a8bd882815f7061780a2b3f38d0ac8a144d81ce078",
+      "screenshot_sha256": "c1e26e4704cc5c6cef65f81ebf90f222013966960d5c27450c30afe7344ead0e",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Falling_8_upward": {
+      "environment_id": "076",
+      "world_path": "assets/Falling_8/world.json",
+      "screenshot_path": "assets/Falling_8/initial_scene.png",
+      "tool_path": "assets/Falling_8/tool_upward.json",
+      "world_sha256": "c396ee90460bcd3bcca330a8bd882815f7061780a2b3f38d0ac8a144d81ce078",
+      "screenshot_sha256": "c1e26e4704cc5c6cef65f81ebf90f222013966960d5c27450c30afe7344ead0e",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Falling_9_downward": {
+      "environment_id": "077",
+      "world_path": "assets/Falling_9/world.json",
+      "screenshot_path": "assets/Falling_9/initial_scene.png",
+      "tool_path": "assets/Falling_9/tool_downward.json",
+      "world_sha256": "5c02538ae962b6fc4ecc4fbb4016299a1e4cf26e1c5c32a7bc9a53d9d9282d07",
+      "screenshot_sha256": "350c8fd455bd8eaf083c74a3f477da4d85c87b624a4bce8f6ab974fd8a062a05",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Falling_9_upward": {
+      "environment_id": "078",
+      "world_path": "assets/Falling_9/world.json",
+      "screenshot_path": "assets/Falling_9/initial_scene.png",
+      "tool_path": "assets/Falling_9/tool_upward.json",
+      "world_sha256": "5c02538ae962b6fc4ecc4fbb4016299a1e4cf26e1c5c32a7bc9a53d9d9282d07",
+      "screenshot_sha256": "350c8fd455bd8eaf083c74a3f477da4d85c87b624a4bce8f6ab974fd8a062a05",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Prevention_10_downward": {
+      "environment_id": "115",
+      "world_path": "assets/Prevention_10/world.json",
+      "screenshot_path": "assets/Prevention_10/initial_scene.png",
+      "tool_path": "assets/Prevention_10/tool_downward.json",
+      "world_sha256": "706ccee3e0fd9b8d5f353d5e41ffead7cf4fab3212d40d21dbb23e3bb0e9b934",
+      "screenshot_sha256": "2bd67680a6d87c85a3e6269bc965e9154e6be943d81bfdcb50f651ecf4681230",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Prevention_10_upward": {
+      "environment_id": "116",
+      "world_path": "assets/Prevention_10/world.json",
+      "screenshot_path": "assets/Prevention_10/initial_scene.png",
+      "tool_path": "assets/Prevention_10/tool_upward.json",
+      "world_sha256": "706ccee3e0fd9b8d5f353d5e41ffead7cf4fab3212d40d21dbb23e3bb0e9b934",
+      "screenshot_sha256": "2bd67680a6d87c85a3e6269bc965e9154e6be943d81bfdcb50f651ecf4681230",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Prevention_1_downward": {
+      "environment_id": "101",
+      "world_path": "assets/Prevention_1/world.json",
+      "screenshot_path": "assets/Prevention_1/initial_scene.png",
+      "tool_path": "assets/Prevention_1/tool_downward.json",
+      "world_sha256": "6e823d62fee7f1da555cf2bf04c4043a745b31830c9784b23727a55777536782",
+      "screenshot_sha256": "853196f8035e7dce3e082aa5a63b4ce5bf34d85b0b0e449e43a70f5e967ddf57",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Prevention_1_upward": {
+      "environment_id": "102",
+      "world_path": "assets/Prevention_1/world.json",
+      "screenshot_path": "assets/Prevention_1/initial_scene.png",
+      "tool_path": "assets/Prevention_1/tool_upward.json",
+      "world_sha256": "6e823d62fee7f1da555cf2bf04c4043a745b31830c9784b23727a55777536782",
+      "screenshot_sha256": "853196f8035e7dce3e082aa5a63b4ce5bf34d85b0b0e449e43a70f5e967ddf57",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Prevention_2_downward": {
+      "environment_id": "103",
+      "world_path": "assets/Prevention_2/world.json",
+      "screenshot_path": "assets/Prevention_2/initial_scene.png",
+      "tool_path": "assets/Prevention_2/tool_downward.json",
+      "world_sha256": "649683f7c4cb9632e8b8d65618db94bccfb4096f93ecf15400c9689d37f24140",
+      "screenshot_sha256": "8288f4c38f15cceda868a52c6506c68bb26030bdc8f71649fb1c044a65177686",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Prevention_2_upward": {
+      "environment_id": "104",
+      "world_path": "assets/Prevention_2/world.json",
+      "screenshot_path": "assets/Prevention_2/initial_scene.png",
+      "tool_path": "assets/Prevention_2/tool_upward.json",
+      "world_sha256": "649683f7c4cb9632e8b8d65618db94bccfb4096f93ecf15400c9689d37f24140",
+      "screenshot_sha256": "8288f4c38f15cceda868a52c6506c68bb26030bdc8f71649fb1c044a65177686",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Prevention_3_downward": {
+      "environment_id": "105",
+      "world_path": "assets/Prevention_3/world.json",
+      "screenshot_path": "assets/Prevention_3/initial_scene.png",
+      "tool_path": "assets/Prevention_3/tool_downward.json",
+      "world_sha256": "2af490757151dce02db175aca910d961b8e2811d8c932a09eef88dd499101181",
+      "screenshot_sha256": "f4e0b9c09f7273b9d55a156b45f8bee07cb9609a3733a7ac7b6f06d58eb89ad0",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Prevention_3_upward": {
+      "environment_id": "106",
+      "world_path": "assets/Prevention_3/world.json",
+      "screenshot_path": "assets/Prevention_3/initial_scene.png",
+      "tool_path": "assets/Prevention_3/tool_upward.json",
+      "world_sha256": "2af490757151dce02db175aca910d961b8e2811d8c932a09eef88dd499101181",
+      "screenshot_sha256": "f4e0b9c09f7273b9d55a156b45f8bee07cb9609a3733a7ac7b6f06d58eb89ad0",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Prevention_4_downward": {
+      "environment_id": "107",
+      "world_path": "assets/Prevention_4/world.json",
+      "screenshot_path": "assets/Prevention_4/initial_scene.png",
+      "tool_path": "assets/Prevention_4/tool_downward.json",
+      "world_sha256": "942ad7f1cffc02c30c9d4b6a82881fdeb795ce64ddce5c2fdec7727e84a20631",
+      "screenshot_sha256": "64e4fad9a9ec2662257102a4fca6c3a74c5e986d2afcd91b3f16368f51f2d4eb",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Prevention_4_upward": {
+      "environment_id": "108",
+      "world_path": "assets/Prevention_4/world.json",
+      "screenshot_path": "assets/Prevention_4/initial_scene.png",
+      "tool_path": "assets/Prevention_4/tool_upward.json",
+      "world_sha256": "942ad7f1cffc02c30c9d4b6a82881fdeb795ce64ddce5c2fdec7727e84a20631",
+      "screenshot_sha256": "64e4fad9a9ec2662257102a4fca6c3a74c5e986d2afcd91b3f16368f51f2d4eb",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Prevention_5_downward": {
+      "environment_id": "109",
+      "world_path": "assets/Prevention_5/world.json",
+      "screenshot_path": "assets/Prevention_5/initial_scene.png",
+      "tool_path": "assets/Prevention_5/tool_downward.json",
+      "world_sha256": "094aa22ca7c706975966bd9026b0c35acc97b484ef5069dd2849d3abfdde5192",
+      "screenshot_sha256": "973b735f2020c05c9ecb727f10b606e90e34454962d334a1bd2a666fc398e983",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Prevention_5_upward": {
+      "environment_id": "110",
+      "world_path": "assets/Prevention_5/world.json",
+      "screenshot_path": "assets/Prevention_5/initial_scene.png",
+      "tool_path": "assets/Prevention_5/tool_upward.json",
+      "world_sha256": "094aa22ca7c706975966bd9026b0c35acc97b484ef5069dd2849d3abfdde5192",
+      "screenshot_sha256": "973b735f2020c05c9ecb727f10b606e90e34454962d334a1bd2a666fc398e983",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Prevention_7_downward": {
+      "environment_id": "111",
+      "world_path": "assets/Prevention_7/world.json",
+      "screenshot_path": "assets/Prevention_7/initial_scene.png",
+      "tool_path": "assets/Prevention_7/tool_downward.json",
+      "world_sha256": "6c27ab69bb6d53d2a777058f9a44374f9efc14247ad58387dd5743e0f64a0c24",
+      "screenshot_sha256": "f50f83367bf7990aa31aeee93653c8d580efa7dc358f6951e1c277d826dff53b",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Prevention_7_upward": {
+      "environment_id": "112",
+      "world_path": "assets/Prevention_7/world.json",
+      "screenshot_path": "assets/Prevention_7/initial_scene.png",
+      "tool_path": "assets/Prevention_7/tool_upward.json",
+      "world_sha256": "6c27ab69bb6d53d2a777058f9a44374f9efc14247ad58387dd5743e0f64a0c24",
+      "screenshot_sha256": "f50f83367bf7990aa31aeee93653c8d580efa7dc358f6951e1c277d826dff53b",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Prevention_8_downward": {
+      "environment_id": "113",
+      "world_path": "assets/Prevention_8/world.json",
+      "screenshot_path": "assets/Prevention_8/initial_scene.png",
+      "tool_path": "assets/Prevention_8/tool_downward.json",
+      "world_sha256": "4dfe15ae7bcde33c87625a6873e741ec1804ba77c20f097f3d164f22ea2b4c26",
+      "screenshot_sha256": "e3db797c36f1b14bba774d891db9ba64da218d852c2de85a5367578bcf890f77",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Prevention_8_upward": {
+      "environment_id": "114",
+      "world_path": "assets/Prevention_8/world.json",
+      "screenshot_path": "assets/Prevention_8/initial_scene.png",
+      "tool_path": "assets/Prevention_8/tool_upward.json",
+      "world_sha256": "4dfe15ae7bcde33c87625a6873e741ec1804ba77c20f097f3d164f22ea2b4c26",
+      "screenshot_sha256": "e3db797c36f1b14bba774d891db9ba64da218d852c2de85a5367578bcf890f77",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Remove_10_downward": {
+      "environment_id": "131",
+      "world_path": "assets/Remove_10/world.json",
+      "screenshot_path": "assets/Remove_10/initial_scene.png",
+      "tool_path": "assets/Remove_10/tool_downward.json",
+      "world_sha256": "88ad1c20110483566a55cf6f6d69ed369f274855fb40f259022b10af28b91845",
+      "screenshot_sha256": "e3af0d9dcaf69428b4e3c966fbe77a0fa0674f601064205f95f6d4541baf8e9a",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Remove_10_upward": {
+      "environment_id": "132",
+      "world_path": "assets/Remove_10/world.json",
+      "screenshot_path": "assets/Remove_10/initial_scene.png",
+      "tool_path": "assets/Remove_10/tool_upward.json",
+      "world_sha256": "88ad1c20110483566a55cf6f6d69ed369f274855fb40f259022b10af28b91845",
+      "screenshot_sha256": "e3af0d9dcaf69428b4e3c966fbe77a0fa0674f601064205f95f6d4541baf8e9a",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Remove_1_downward": {
+      "environment_id": "117",
+      "world_path": "assets/Remove_1/world.json",
+      "screenshot_path": "assets/Remove_1/initial_scene.png",
+      "tool_path": "assets/Remove_1/tool_downward.json",
+      "world_sha256": "ef3aa0fe3dae72a0b0bf8876750dc93fab27314b5af7338527d9d4e272a8e6ee",
+      "screenshot_sha256": "bc3c2922589fd0ce3c44cb9c050e0b8bbc1ee2336291a52852048737ccaed65e",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Remove_1_upward": {
+      "environment_id": "118",
+      "world_path": "assets/Remove_1/world.json",
+      "screenshot_path": "assets/Remove_1/initial_scene.png",
+      "tool_path": "assets/Remove_1/tool_upward.json",
+      "world_sha256": "ef3aa0fe3dae72a0b0bf8876750dc93fab27314b5af7338527d9d4e272a8e6ee",
+      "screenshot_sha256": "bc3c2922589fd0ce3c44cb9c050e0b8bbc1ee2336291a52852048737ccaed65e",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Remove_2_downward": {
+      "environment_id": "119",
+      "world_path": "assets/Remove_2/world.json",
+      "screenshot_path": "assets/Remove_2/initial_scene.png",
+      "tool_path": "assets/Remove_2/tool_downward.json",
+      "world_sha256": "ada262c9912a50fc48d1ebc359a196433defc984877bf23a96546caadc7ac4fb",
+      "screenshot_sha256": "743e08f0bbdd591f338e36967dcb5432926b973c75da5feac971545753ab8a44",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Remove_2_upward": {
+      "environment_id": "120",
+      "world_path": "assets/Remove_2/world.json",
+      "screenshot_path": "assets/Remove_2/initial_scene.png",
+      "tool_path": "assets/Remove_2/tool_upward.json",
+      "world_sha256": "ada262c9912a50fc48d1ebc359a196433defc984877bf23a96546caadc7ac4fb",
+      "screenshot_sha256": "743e08f0bbdd591f338e36967dcb5432926b973c75da5feac971545753ab8a44",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Remove_5_downward": {
+      "environment_id": "121",
+      "world_path": "assets/Remove_5/world.json",
+      "screenshot_path": "assets/Remove_5/initial_scene.png",
+      "tool_path": "assets/Remove_5/tool_downward.json",
+      "world_sha256": "b9153584a7706615350bd3a0da4191386ce9c974658e05bf995e80c6a7c7d916",
+      "screenshot_sha256": "863753e6c40599459c2568f87dcc8f2f6dcd59b413b2f1732c07635cbb72806e",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Remove_5_upward": {
+      "environment_id": "122",
+      "world_path": "assets/Remove_5/world.json",
+      "screenshot_path": "assets/Remove_5/initial_scene.png",
+      "tool_path": "assets/Remove_5/tool_upward.json",
+      "world_sha256": "b9153584a7706615350bd3a0da4191386ce9c974658e05bf995e80c6a7c7d916",
+      "screenshot_sha256": "863753e6c40599459c2568f87dcc8f2f6dcd59b413b2f1732c07635cbb72806e",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Remove_6_downward": {
+      "environment_id": "123",
+      "world_path": "assets/Remove_6/world.json",
+      "screenshot_path": "assets/Remove_6/initial_scene.png",
+      "tool_path": "assets/Remove_6/tool_downward.json",
+      "world_sha256": "14264ce03094c6e078966f01bc066f4704f9fa043351399e5509225500ec9e92",
+      "screenshot_sha256": "2aae85283b441abe0a53ff1b4c76ff26d7b9b3dc91a168ffc146e0229770c4bd",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Remove_6_upward": {
+      "environment_id": "124",
+      "world_path": "assets/Remove_6/world.json",
+      "screenshot_path": "assets/Remove_6/initial_scene.png",
+      "tool_path": "assets/Remove_6/tool_upward.json",
+      "world_sha256": "14264ce03094c6e078966f01bc066f4704f9fa043351399e5509225500ec9e92",
+      "screenshot_sha256": "2aae85283b441abe0a53ff1b4c76ff26d7b9b3dc91a168ffc146e0229770c4bd",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Remove_7_downward": {
+      "environment_id": "125",
+      "world_path": "assets/Remove_7/world.json",
+      "screenshot_path": "assets/Remove_7/initial_scene.png",
+      "tool_path": "assets/Remove_7/tool_downward.json",
+      "world_sha256": "2b5e327929c6a40a4b9565f353865c0dd837ae428ef9a4809a420815f3780e6a",
+      "screenshot_sha256": "e2510b251981c2e982b6c4bd08b0fa553d2cba98b5984798e37f1f3c62b9e31d",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Remove_7_upward": {
+      "environment_id": "126",
+      "world_path": "assets/Remove_7/world.json",
+      "screenshot_path": "assets/Remove_7/initial_scene.png",
+      "tool_path": "assets/Remove_7/tool_upward.json",
+      "world_sha256": "2b5e327929c6a40a4b9565f353865c0dd837ae428ef9a4809a420815f3780e6a",
+      "screenshot_sha256": "e2510b251981c2e982b6c4bd08b0fa553d2cba98b5984798e37f1f3c62b9e31d",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Remove_8_downward": {
+      "environment_id": "127",
+      "world_path": "assets/Remove_8/world.json",
+      "screenshot_path": "assets/Remove_8/initial_scene.png",
+      "tool_path": "assets/Remove_8/tool_downward.json",
+      "world_sha256": "3ff06277d8131be34c447567c9a070c6dd6fc10eea81e1019622b2f9cb534974",
+      "screenshot_sha256": "e5fb6ed247f28237e6a295e94e5b90c34be0796eac6a98905199015a634bb898",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Remove_8_upward": {
+      "environment_id": "128",
+      "world_path": "assets/Remove_8/world.json",
+      "screenshot_path": "assets/Remove_8/initial_scene.png",
+      "tool_path": "assets/Remove_8/tool_upward.json",
+      "world_sha256": "3ff06277d8131be34c447567c9a070c6dd6fc10eea81e1019622b2f9cb534974",
+      "screenshot_sha256": "e5fb6ed247f28237e6a295e94e5b90c34be0796eac6a98905199015a634bb898",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    },
+    "Remove_9_downward": {
+      "environment_id": "129",
+      "world_path": "assets/Remove_9/world.json",
+      "screenshot_path": "assets/Remove_9/initial_scene.png",
+      "tool_path": "assets/Remove_9/tool_downward.json",
+      "world_sha256": "b2b6a0bd6987d8bd79b41efb2d41a4e8707246914fd097d4a87e3b28f0c91e85",
+      "screenshot_sha256": "199b8930084da2e9da94da3034542b1775ad1a9d0239f113ecd047e1fb646e0f",
+      "tool_sha256": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef"
+    },
+    "Remove_9_upward": {
+      "environment_id": "130",
+      "world_path": "assets/Remove_9/world.json",
+      "screenshot_path": "assets/Remove_9/initial_scene.png",
+      "tool_path": "assets/Remove_9/tool_upward.json",
+      "world_sha256": "b2b6a0bd6987d8bd79b41efb2d41a4e8707246914fd097d4a87e3b28f0c91e85",
+      "screenshot_sha256": "199b8930084da2e9da94da3034542b1775ad1a9d0239f113ecd047e1fb646e0f",
+      "tool_sha256": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33"
+    }
+  }
+}

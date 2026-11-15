@@ -1,0 +1,35 @@
+{
+  "max_tokens": 16384,
+  "messages": [
+    {
+      "content": "You are answering perception questions about one INITIAL STATIC 2D scene. No action has been taken and no physics prediction is requested. Use only the supplied scene representation. Return one JSON object mapping every question_id to exactly one option letter.",
+      "role": "system"
+    },
+    {
+      "content": [
+        {
+          "text": "The attached clean 600-by-600 image contains the initial scene. Image coordinates use (0,0) at bottom-left; x increases to the right and y increases upward.\nScene conventions: the red target and blue filled objects are movable; black shapes are fixed. The green goal container is fixed.\nAnswer all questions. Do not infer any future motion.\n\nFalling_1:red_shape: What is the shape of the red target?\n  A. rectangle\n  B. container\n  C. irregular polygon\n  D. circle\nFalling_1:goal_shape: Which description best matches the green goal?\n  A. open container\n  B. solid circle\n  C. solid triangle\n  D. solid rectangle\nFalling_1:blue_count: How many blue objects are visible?\n  A. 2\n  B. 1\n  C. 3\n  D. 0\nFalling_1:colored_count: How many colored objects are visible in total, counting red, green, and blue but not black?\n  A. 6\n  B. 1\n  C. 2\n  D. 4\n  E. 3\n  F. 5\nFalling_1:movable_count: Using the supplied movability information, how many visible objects are movable?\n  A. 1\n  B. 3\n  C. 4\n  D. 5\n  E. 6\n  F. 2\nFalling_1:horizontal_relation: Where is the red target ball's center horizontally relative to the green goal container's center?\n  A. approximately aligned\n  B. left\n  C. right\nFalling_1:vertical_relation: Where is the red target ball's center vertically relative to the green goal container's center?\n  A. approximately aligned\n  B. above\n  C. below\nFalling_1:red_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the red target ball's center?\n  A. lower-left\n  B. upper-left\n  C. lower-right\n  D. upper-right\nFalling_1:goal_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the green goal container's center?\n  A. upper-left\n  B. upper-right\n  C. lower-left\n  D. lower-right\nFalling_1:containment: Is the red target ball's center initially outside the green goal container?\n  A. yes\n  B. no\nFalling_1:movable_object_relation: Where is the center of the blue U-shaped cradle horizontally relative to the red target ball's center?\n  A. left\n  B. right\n  C. approximately aligned",
+          "type": "text"
+        },
+        {
+          "image_url": {
+            "detail": "high",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAJYCAIAAAAxBA+LAAAKyElEQVR4nO3d3W3cRhhAUTFwDW4lb6og6cJ2UbG7cCrQW1pxEwwCAUawkmUvl+QOec958PpHWq0/PVzMDKl9eAAAAKBpen6Y5/nerwQA9jZN02+7f1EAGIgQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEAaUIIQJoQApAmhACkCSEA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"
+          },
+          "type": "image_url"
+        }
+      ],
+      "role": "user"
+    }
+  ],
+  "model": "google/gemini-3.1-pro-preview",
+  "reasoning": {
+    "effort": "low",
+    "exclude": true
+  },
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 2026,
+  "temperature": 0.2
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this software release when using its benchmark assets, experimental records, or analysis code."
+type: software
+title: "Virtual Physics: Joint Evaluation of Planning, Prediction, and Transfer"
+authors:
+  - name: "vp-2026"
+version: "corrected-scenes-v1"
+date-released: "2026-11-15"
+repository-code: "https://github.com/vp-2026/virtual_physics"
+url: "https://github.com/vp-2026/virtual_physics"

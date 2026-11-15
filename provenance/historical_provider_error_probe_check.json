@@ -1,0 +1,8 @@
+{
+  "counts": {
+    "('gpt5', True, 'stop')": 1848,
+    "('gemini31pro', True, 'stop')": 1848,
+    "('qwen36plus', True, 'stop')": 1834
+  },
+  "provider_error_probes": []
+}

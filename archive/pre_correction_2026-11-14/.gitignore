@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+outputs/
+participant_onetool/
+
+# Local history files
+.Rhistory
+*.Rhistory
+
+# Local history files
+.Rhistory
+*.Rhistory
+.Rhistory
+*.Rhistory

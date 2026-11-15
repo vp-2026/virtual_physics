@@ -1,0 +1,192 @@
+# Acting without Knowing: Virtual Physics release
+
+This repository contains the task assets and evaluation code for studying
+whether a model can act successfully in a deterministic 2-D rigid-body
+environment while accurately predicting and transferring the consequences of
+its actions.
+
+The release is organized around three distinct quantities:
+
+1. **Action quality:** does a proposed tool placement solve the goal, and how
+   close is it to a known solution?
+2. **Prediction quality:** before seeing the outcome, how accurately does the
+   model predict the terminal locations of the tool and relevant movable
+   objects?
+3. **Transfer quality:** after interaction, does the model improve its
+   predictions for fixed, unexecuted placements in the same environment?
+
+## Release contents
+
+```text
+132_base_environments/     132 numbered environment × tool-mechanism cells
+task_configs/              frozen 1,560- and 1,692-goal manifests and densities
+prompts/                   exact full and compact prompt protocols
+simulator/                 Pygame/Pymunk runtime and goal evaluators
+scripts/experiment/        main feedback-arm and isolated-transfer runners
+scripts/evaluation/        action, prediction, transfer, and sensitivity analyses
+scripts/release/           release-building and integrity checks
+vqa/                       static, coordinate, and temporal VQA packages
+model_outputs/             completed-unit output snapshot and coverage manifest
+examples/                  small runnable illustration retained from the initial release
+```
+
+The 132 numbered cells comprise 66 visual layouts under two tool mechanisms:
+an orange tool that accelerates downward and the same tool accelerated upward.
+Every cell includes its exact world JSON, tool configuration, initial scene,
+metadata, and SHA-256 hashes.
+
+**Scene correction (November 14, 2026):** the archived initial images for
+`BackUp_8` and `Balance_8` have misplaced green containers; a full-image check
+also found a different blue-body shape in `Falling_1`. These mismatches were
+present in the original visual model requests. Historical inputs and results
+remain frozen. Use the explicitly versioned
+[corrected scene index](task_configs/asset_index_132_scene_corrected_2026-11-14.json)
+for new experiments. All 66 corrected layouts match native simulator rendering
+pixel-for-pixel. The [provenance and exclusion analyses](analysis/scene_mismatch_2026-11-14/README.md)
+report the requested two-layout sensitivity and the expanded three-layout check.
+
+## Task manifests
+
+- **[All 1,560 diverse-goal tasks](task_configs/paper_goals_1560.json)**:
+  exact goal definitions, success signatures, tool configurations, and relative
+  paths to the included [environment assets](132_base_environments/).
+- `task_configs/paper_goals_1560.json` freezes the 1,560 noncanonical goals
+  selected using the paper’s simulator-derived solution-density rule.
+- `task_configs/benchmark_1692_seed2026.json` adds one canonical
+  red-ball-into-green-container goal for every cell, for 1,692 total goals.
+- `task_configs/solution_density_summary.csv` records the simulator success
+  count, valid-placement count, and solution density for every released goal.
+- `task_configs/asset_index_132.json` maps historical task keys to the numbered
+  release cells and verifies the exact scene hashes.
+
+Selection is deterministic with seed 2026 and never reads model outputs.
+Noncanonical goals with zero solution coverage or coverage above
+`1 - 1/sqrt(2)` are excluded. See
+[`task_configs/README.md`](task_configs/README.md) for the exact population and
+provenance.
+
+## Feedback protocol
+
+The four image-initialized branches share the same attempt-1 response for a
+model × goal × seed unit. Later turns differ only in the evidence made
+available:
+
+- `full`: latest 32 visual rollout frames plus success/failure;
+- `trace_status`: latest 32 observable JSON states plus success/failure;
+- `frames_only`: latest 32 visual frames without success/failure;
+- `status_only`: success/failure without rollout media;
+- `neither`: retry alone, without rollout media or success/failure.
+
+Because `trace_status` replaces visual input with a symbolic scene
+representation, it has its own attempt 1; it is a representation control, not
+part of the visual-arm shared-attempt randomization.
+
+Earlier action coordinates and prospective predictions remain in text.
+Previously supplied rollout images or JSON traces do not persist: only the
+latest rollout is supplied. Held-out predictive-transfer queries use fixed,
+unexecuted placements in isolated branches that never return to the solver
+conversation.
+
+The full and compact prompts are a controlled wording check. They differ only
+in the first system-role sentence; all task rules, dynamics, coordinate
+conventions, schemas, and interaction context are identical. See
+[`prompts/README.md`](prompts/README.md).
+
+## Install
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+Headless rendering uses `SDL_VIDEODRIVER=dummy`. API credentials are read only
+from environment variables and are never stored in task manifests or outputs.
+
+## Validate the release
+
+```bash
+python scripts/release/build_task_configs.py --check
+python scripts/release/attach_initial_scenes.py --check
+python scripts/release/build_scene_corrections.py --check
+python scripts/release/verify_scene_geometry.py
+python -m compileall scripts simulator
+```
+
+## Run an experiment
+
+The main runner supports a deterministic mock provider for a local protocol
+smoke test:
+
+```bash
+python scripts/experiment/forked_feedback_runner.py \
+  --provider mock \
+  --model gpt5 \
+  --seed 2026 \
+  --prompt-variant full \
+  --limit 1
+```
+
+For a paid run, export the relevant provider credential and select the desired
+provider/model arguments. Run `--help` before launching; outputs are resumable
+and written beneath `outputs/`, which is gitignored.
+
+The evaluation entry points and expected input files are documented in
+[`scripts/evaluation/README.md`](scripts/evaluation/README.md).
+
+## Model outputs and VQA
+
+The [model-output index](model_outputs/README.md) provides the released
+GPT-5, Gemini 3.1 Pro Preview, Qwen 3.6 Plus, and Gemini Robotics ER2 records.
+
+- The [original-model snapshot](model_outputs/snapshot_seed2026_documented_gaps_2026-11-05/)
+  contains 5,035 completed main episodes and 395 complete canonical probe
+  bundles, including 113 recovered Qwen episodes added since the August release.
+- The [Robotics ER2 extension](model_outputs/robotics_er2_canonical132_seed2026_2026-11-08/)
+  contains 132 canonical episodes and 132 complete probe bundles for
+  `gemini-robotics-er-2-preview`, separately from the ER1.6 control.
+
+Each snapshot includes raw responses, actions, predictions, simulator endpoint
+truth, prompts, coverage tables, and checksummed compressed shards. Incomplete
+original-model runs are identified in the machine-readable missingness manifest
+and are not scored as failures. Earlier snapshots and their analysis tables
+retain their dated populations; new archive coverage does not silently replace
+an analysis denominator.
+
+The VQA release contains static scene recognition, free-response coordinate
+localization, and qualitative temporal recognition from both 32 visual frames
+and 32 observable JSON states. Exact questions, prompts, raw model responses,
+answer keys, scorers, and result tables are under [`vqa/`](vqa/).
+
+## Historical minimal example
+
+The original one-environment example remains under `data/` and `examples/`.
+The exact benchmark simulator and semantics used by the expanded release are
+under `simulator/`.
+
+## License and attribution
+
+Project code and the bundled simulator are published under the
+[MIT License](LICENSE), at the maintainer's explicit direction following
+their confirmation of simulator-wide permission. See [NOTICE.md](NOTICE.md)
+for Virtual Tools attribution and third-party dependency notices, and
+[LICENSE_STATUS.md](LICENSE_STATUS.md) for the authorization record and the
+separate scope of upstream task assets. This notice does not relicense
+third-party dependencies or imply independently verified asset permissions.
+
+## Human participant data
+
+Individual-level human participant data are not publicly released because
+participant consent does not authorize public distribution. Aggregate human
+statistics are reported in the paper. Public reproducibility materials cover
+the model experiments, simulator, task definitions, prompts, and VQA controls.
+
+## Tested reproduction and provenance
+
+See [tested commands and populations](analysis/REPRODUCIBILITY.md),
+[asset provenance](analysis/ASSET_PROVENANCE.md), and
+[license status](LICENSE_STATUS.md). Historical and current-scene VQA are
+separate datasets; archived results are never overwritten by a rerun.
+
+The [current-scene VQA archive](vqa/current_scene_2026-11-14/README.md) includes
+all frozen conditions, format diagnostics, source hashes and reproducible results.

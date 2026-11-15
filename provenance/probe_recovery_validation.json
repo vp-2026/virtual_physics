@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "reviewed_queries": 13,
+  "recovered": 11,
+  "missing": 2,
+  "queries": [
+    {
+      "index": 136,
+      "goal": "canonical_0013_BackUp_8_downward",
+      "query": "transfer_sidecars/status_only/early_prediction/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": true,
+      "finish_reason": "stop",
+      "missing": false
+    },
+    {
+      "index": 136,
+      "goal": "canonical_0013_BackUp_8_downward",
+      "query": "transfer_sidecars/pre_feedback/visual/early_probe/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": true,
+      "finish_reason": "stop",
+      "missing": false
+    },
+    {
+      "index": 136,
+      "goal": "canonical_0013_BackUp_8_downward",
+      "query": "transfer_sidecars/neither/terminal_prediction/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": true,
+      "finish_reason": "stop",
+      "missing": false
+    },
+    {
+      "index": 136,
+      "goal": "canonical_0013_BackUp_8_downward",
+      "query": "transfer_sidecars/full/terminal_prediction/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": false,
+      "finish_reason": "error",
+      "missing": true
+    },
+    {
+      "index": 137,
+      "goal": "canonical_0014_BackUp_8_upward",
+      "query": "transfer_sidecars/pre_feedback/visual/early_probe/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": true,
+      "finish_reason": "stop",
+      "missing": false
+    },
+    {
+      "index": 137,
+      "goal": "canonical_0014_BackUp_8_upward",
+      "query": "transfer_sidecars/pre_feedback/visual/terminal_probe/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": true,
+      "finish_reason": "stop",
+      "missing": false
+    },
+    {
+      "index": 139,
+      "goal": "canonical_0032_Balance_8_upward",
+      "query": "transfer_sidecars/status_only/early_prediction/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": true,
+      "finish_reason": "stop",
+      "missing": false
+    },
+    {
+      "index": 140,
+      "goal": "canonical_0063_Falling_1_downward",
+      "query": "transfer_sidecars/frames_only/early_prediction/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": true,
+      "finish_reason": "stop",
+      "missing": false
+    },
+    {
+      "index": 140,
+      "goal": "canonical_0063_Falling_1_downward",
+      "query": "transfer_sidecars/pre_feedback/visual/terminal_probe/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": true,
+      "finish_reason": "stop",
+      "missing": false
+    },
+    {
+      "index": 140,
+      "goal": "canonical_0063_Falling_1_downward",
+      "query": "transfer_sidecars/neither/terminal_prediction/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": false,
+      "finish_reason": "error",
+      "missing": true
+    },
+    {
+      "index": 140,
+      "goal": "canonical_0063_Falling_1_downward",
+      "query": "transfer_sidecars/full/terminal_prediction/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": true,
+      "finish_reason": "stop",
+      "missing": false
+    },
+    {
+      "index": 141,
+      "goal": "canonical_0064_Falling_1_upward",
+      "query": "transfer_sidecars/pre_feedback/visual/early_probe/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": true,
+      "finish_reason": "stop",
+      "missing": false
+    },
+    {
+      "index": 141,
+      "goal": "canonical_0064_Falling_1_upward",
+      "query": "transfer_sidecars/full/terminal_prediction/result.json",
+      "prompt_identical": true,
+      "images_identical": true,
+      "main_records_unchanged": true,
+      "schema_valid": true,
+      "finish_reason": "stop",
+      "missing": false
+    }
+  ]
+}

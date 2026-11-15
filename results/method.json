@@ -1,0 +1,12 @@
+{
+  "dataset_manifest_sha256": "1b0f0432a751cc838af47dfe6d7cba48f17cdfe31fb599f8b7ed5d54c6f02503",
+  "PQ": "Mean object-level exp(-endpoint_error_squared/(2*150^2)); correct exit state/side=1, mismatch=0. Missing/invalid object forecasts receive zero under the frozen scorer; explicit provider-error probes are excluded as missing requests. Not percentage accuracy.",
+  "intervals": "Whole-layout cluster percentile bootstrap; both directions and all goals resampled together. Seeds/draw counts recorded per estimate.",
+  "main": "Frozen historical 1641-task membership intersected with complete, prediction-reconciled replacement records across all three main models.",
+  "broad": "Common completed model tasks, historically 1651.",
+  "transfer": "Frozen historical 118-task membership; require complete full/retry/JSON probes. Terminal placements must be at least 40px from every executed action, and early placements at least 40px from the first action in each arm.",
+  "robotics": "Separate canonical 132-task extension; transfer uses its own valid untried-probe population.",
+  "feedback": "Full minus retry paired on the same failed first action. JSON has its own initial action and is a representation control.",
+  "stopping": "Legacy main-model branches absorb immediate shared success; after first failure, status-hidden branches continue to eight. ER2 status-hidden branches always continue to eight.",
+  "human_data": "No participant data or idealized human estimates are used."
+}

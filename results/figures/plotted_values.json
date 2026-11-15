@@ -1,0 +1,783 @@
+{
+  "figure3": {
+    "A": {
+      "gpt5_0": {
+        "initial": {
+          "estimate": 0.1882998171846435,
+          "ci95": [
+            0.15792399327852127,
+            0.22156058461330028
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 4000463790,
+          "numerator": 309
+        },
+        "final": {
+          "estimate": 0.41803778184034124,
+          "ci95": [
+            0.3852636876006441,
+            0.451574957641264
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 766489302,
+          "numerator": 686
+        }
+      },
+      "gemini31pro_0": {
+        "initial": {
+          "estimate": 0.28275441803778184,
+          "ci95": [
+            0.2552035200595539,
+            0.3108976975832789
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 2346838783,
+          "numerator": 464
+        },
+        "final": {
+          "estimate": 0.46496039000609385,
+          "ci95": [
+            0.43329452948045616,
+            0.49753363680571266
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 4291899480,
+          "numerator": 763
+        }
+      },
+      "qwen36plus_0": {
+        "initial": {
+          "estimate": 0.20292504570383912,
+          "ci95": [
+            0.1735587677872367,
+            0.23439497387758157
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 374448592,
+          "numerator": 333
+        },
+        "final": {
+          "estimate": 0.4162096282754418,
+          "ci95": [
+            0.3854403592905534,
+            0.44710825839487806
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 47674508,
+          "numerator": 683
+        }
+      },
+      "gpt5_1": {
+        "initial": {
+          "estimate": 0.46183065763030234,
+          "ci95": [
+            0.4256162889371398,
+            0.4974010029886116
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "final": {
+          "estimate": 0.5245789456392407,
+          "ci95": [
+            0.49863811309246225,
+            0.5511368166122108
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "gemini31pro_1": {
+        "initial": {
+          "estimate": 0.4354999304685908,
+          "ci95": [
+            0.38949845091207674,
+            0.47926431941532593
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "final": {
+          "estimate": 0.4534462281340811,
+          "ci95": [
+            0.41015503701784256,
+            0.4960891769401935
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "qwen36plus_1": {
+        "initial": {
+          "estimate": 0.43500621243016746,
+          "ci95": [
+            0.3990167026911151,
+            0.4703826504371588
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "final": {
+          "estimate": 0.4873789778714198,
+          "ci95": [
+            0.4581927798413293,
+            0.5171682641370196
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "gpt5_2": {
+        "initial": {
+          "estimate": 0.4782176503052316,
+          "ci95": [
+            0.41979009606008905,
+            0.5337140820435856
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "final": {
+          "estimate": 0.5944653763224411,
+          "ci95": [
+            0.538408266374722,
+            0.6487205585019034
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "gemini31pro_2": {
+        "initial": {
+          "estimate": 0.4515733286163531,
+          "ci95": [
+            0.3843464978973264,
+            0.5180083697210063
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "final": {
+          "estimate": 0.4965987623929278,
+          "ci95": [
+            0.4330843195154272,
+            0.5564664673141595
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "qwen36plus_2": {
+        "initial": {
+          "estimate": 0.5455294225419902,
+          "ci95": [
+            0.4919523098174987,
+            0.5975392533881769
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "final": {
+          "estimate": 0.6176842128605715,
+          "ci95": [
+            0.565526118073582,
+            0.6678714836782008
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      }
+    },
+    "B": {
+      "gpt5_subsequent_solve": {
+        "estimate": 0.06006006006006006,
+        "ci95": [
+          0.032390438483883545,
+          0.08692004041008755
+        ],
+        "n": 1332,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "gemini31pro_subsequent_solve": {
+        "estimate": 0.03993203058623619,
+        "ci95": [
+          0.020280670024773476,
+          0.0619584144278302
+        ],
+        "n": 1177,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "qwen36plus_subsequent_solve": {
+        "estimate": 0.021406727828746176,
+        "ci95": [
+          0.0045171370983690335,
+          0.03864408618994889
+        ],
+        "n": 1308,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "gpt5_next_chosen_pq": {
+        "estimate": 0.07332569204055117,
+        "ci95": [
+          0.04943869294496656,
+          0.09955210506531906
+        ],
+        "n": 1332,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "gemini31pro_next_chosen_pq": {
+        "estimate": 0.010450494259292911,
+        "ci95": [
+          -0.00604027048711697,
+          0.02558461028385567
+        ],
+        "n": 1177,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "qwen36plus_next_chosen_pq": {
+        "estimate": 0.044765577974192526,
+        "ci95": [
+          0.028156861576055927,
+          0.06362541476794273
+        ],
+        "n": 1308,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "gpt5_early_novel_pq": {
+        "estimate": 0.17739800268085476,
+        "ci95": [
+          0.11393711714854445,
+          0.2512214443270197
+        ],
+        "n": 60,
+        "layouts": 47,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "gemini31pro_early_novel_pq": {
+        "estimate": 0.060250950453046806,
+        "ci95": [
+          -0.01614019520610154,
+          0.1390888620780148
+        ],
+        "n": 52,
+        "layouts": 41,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "qwen36plus_early_novel_pq": {
+        "estimate": 0.09883327832135551,
+        "ci95": [
+          0.03230043038137525,
+          0.16791746816921008
+        ],
+        "n": 63,
+        "layouts": 44,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      }
+    }
+  },
+  "figure4": {
+    "A": {
+      "effects": {
+        "gpt5": {
+          "A": {
+            "estimate": 0.04378381394619408,
+            "ci95": [
+              0.007667898940873386,
+              0.08153016272589833
+            ],
+            "n": 9350,
+            "n_tasks": 1641,
+            "layouts": 66,
+            "valid_draws": 2000,
+            "bootstrap_draws": 2000,
+            "fixed_effect": "goal",
+            "fixed_effect_levels": 1641,
+            "parameters": [
+              "S",
+              "attempt_2",
+              "attempt_3",
+              "attempt_4",
+              "attempt_5",
+              "attempt_6",
+              "attempt_7",
+              "attempt_8"
+            ],
+            "weighting": "equal episode",
+            "formula": "pq ~ success + categorical attempt + exact-goal FE",
+            "informative_recovered_goals": 377,
+            "interpretation": "Conditional within-goal association, not a causal effect.",
+            "bootstrap_seed": 6112702
+          }
+        },
+        "gemini31pro": {
+          "A": {
+            "estimate": 0.10606197769764183,
+            "ci95": [
+              0.07742955484049295,
+              0.13708641207755884
+            ],
+            "n": 8623,
+            "n_tasks": 1641,
+            "layouts": 66,
+            "valid_draws": 2000,
+            "bootstrap_draws": 2000,
+            "fixed_effect": "goal",
+            "fixed_effect_levels": 1641,
+            "parameters": [
+              "S",
+              "attempt_2",
+              "attempt_3",
+              "attempt_4",
+              "attempt_5",
+              "attempt_6",
+              "attempt_7",
+              "attempt_8"
+            ],
+            "weighting": "equal episode",
+            "formula": "pq ~ success + categorical attempt + exact-goal FE",
+            "informative_recovered_goals": 299,
+            "interpretation": "Conditional within-goal association, not a causal effect.",
+            "bootstrap_seed": 6112702
+          }
+        },
+        "qwen36plus": {
+          "A": {
+            "estimate": 0.044337933187522674,
+            "ci95": [
+              0.017867374530332398,
+              0.06954127301026039
+            ],
+            "n": 9281,
+            "n_tasks": 1641,
+            "layouts": 66,
+            "valid_draws": 2000,
+            "bootstrap_draws": 2000,
+            "fixed_effect": "goal",
+            "fixed_effect_levels": 1641,
+            "parameters": [
+              "S",
+              "attempt_2",
+              "attempt_3",
+              "attempt_4",
+              "attempt_5",
+              "attempt_6",
+              "attempt_7",
+              "attempt_8"
+            ],
+            "weighting": "equal episode",
+            "formula": "pq ~ success + categorical attempt + exact-goal FE",
+            "informative_recovered_goals": 350,
+            "interpretation": "Conditional within-goal association, not a causal effect.",
+            "bootstrap_seed": 6112702
+          }
+        }
+      },
+      "means": {
+        "gpt5_0": {
+          "estimate": 0.5084438261703873,
+          "ci95": [
+            0.4810271059105594,
+            0.5360498040264052
+          ],
+          "n": 8664
+        },
+        "gpt5_1": {
+          "estimate": 0.5002613659719568,
+          "ci95": [
+            0.4578083312184904,
+            0.5409640522132834
+          ],
+          "n": 686
+        },
+        "gemini31pro_0": {
+          "estimate": 0.43739086466528565,
+          "ci95": [
+            0.39559262476784507,
+            0.4796458152010122
+          ],
+          "n": 7860
+        },
+        "gemini31pro_1": {
+          "estimate": 0.449066486098046,
+          "ci95": [
+            0.39521876805623585,
+            0.5047250899480097
+          ],
+          "n": 763
+        },
+        "qwen36plus_0": {
+          "estimate": 0.48114450081651094,
+          "ci95": [
+            0.4531672958944817,
+            0.5107213537842032
+          ],
+          "n": 8598
+        },
+        "qwen36plus_1": {
+          "estimate": 0.45422778850672674,
+          "ci95": [
+            0.41257609967600306,
+            0.4954307612038764
+          ],
+          "n": 683
+        }
+      },
+      "descriptive_fits": {}
+    },
+    "B": {
+      "effects": {
+        "gpt5": {
+          "B": {
+            "estimate": -0.08637210260925791,
+            "ci95": [
+              -0.3360670907831717,
+              0.14411913507482327
+            ],
+            "n": 116,
+            "valid_draws": 2000,
+            "layouts": 65,
+            "estimand": "Partial Spearman: correlation of residual rank scores",
+            "controls": [
+              "upward"
+            ],
+            "layout_fixed_effect": true,
+            "informative_paired_layouts": 51,
+            "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+            "bootstrap_seed": 6112703
+          },
+          "B_richer": {
+            "estimate": -0.12458766809230554,
+            "ci95": [
+              -0.3525780244784508,
+              0.10659576265371683
+            ],
+            "n": 116,
+            "valid_draws": 2000,
+            "layouts": 65,
+            "estimand": "Partial Spearman: correlation of residual rank scores",
+            "controls": [
+              "upward",
+              "P_first",
+              "N_pre",
+              "exposure"
+            ],
+            "layout_fixed_effect": true,
+            "informative_paired_layouts": 51,
+            "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+            "bootstrap_seed": 6112703
+          }
+        },
+        "gemini31pro": {
+          "B": {
+            "estimate": 0.10123778146704578,
+            "ci95": [
+              -0.19472747115728412,
+              0.37222500674519576
+            ],
+            "n": 116,
+            "valid_draws": 2000,
+            "layouts": 65,
+            "estimand": "Partial Spearman: correlation of residual rank scores",
+            "controls": [
+              "upward"
+            ],
+            "layout_fixed_effect": true,
+            "informative_paired_layouts": 51,
+            "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+            "bootstrap_seed": 6112703
+          },
+          "B_richer": {
+            "estimate": -0.002964086244371241,
+            "ci95": [
+              -0.2815223722108098,
+              0.2934834214193873
+            ],
+            "n": 116,
+            "valid_draws": 2000,
+            "layouts": 65,
+            "estimand": "Partial Spearman: correlation of residual rank scores",
+            "controls": [
+              "upward",
+              "P_first",
+              "N_pre",
+              "exposure"
+            ],
+            "layout_fixed_effect": true,
+            "informative_paired_layouts": 51,
+            "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+            "bootstrap_seed": 6112703
+          }
+        },
+        "qwen36plus": {
+          "B": {
+            "estimate": 0.13417011501678958,
+            "ci95": [
+              -0.17578082718376112,
+              0.42726491735820427
+            ],
+            "n": 116,
+            "valid_draws": 2000,
+            "layouts": 65,
+            "estimand": "Partial Spearman: correlation of residual rank scores",
+            "controls": [
+              "upward"
+            ],
+            "layout_fixed_effect": true,
+            "informative_paired_layouts": 51,
+            "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+            "bootstrap_seed": 6112703
+          },
+          "B_richer": {
+            "estimate": 0.08294629629330713,
+            "ci95": [
+              -0.18326275454118476,
+              0.3449691976976563
+            ],
+            "n": 116,
+            "valid_draws": 2000,
+            "layouts": 65,
+            "estimand": "Partial Spearman: correlation of residual rank scores",
+            "controls": [
+              "upward",
+              "P_first",
+              "N_pre",
+              "exposure"
+            ],
+            "layout_fixed_effect": true,
+            "informative_paired_layouts": 51,
+            "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+            "bootstrap_seed": 6112703
+          }
+        }
+      },
+      "means": {},
+      "descriptive_fits": {
+        "gpt5": {
+          "slope": 0.237030941951165,
+          "intercept": 0.463438815267738,
+          "n": 116,
+          "x_range": [
+            0.09993241306580382,
+            0.9579271843023581
+          ]
+        },
+        "gemini31pro": {
+          "slope": 0.4276014593643546,
+          "intercept": 0.25642589220032114,
+          "n": 116,
+          "x_range": [
+            0.04075005563425799,
+            0.9906103150639162
+          ]
+        },
+        "qwen36plus": {
+          "slope": 0.33202241274441907,
+          "intercept": 0.4374695528888282,
+          "n": 116,
+          "x_range": [
+            0.0382157976190436,
+            0.9937883638200653
+          ]
+        }
+      }
+    },
+    "C": {
+      "effects": {
+        "gpt5": {
+          "C": {
+            "estimate": -0.0337928411079266,
+            "ci95": [
+              -0.13016789568241677,
+              0.06734290524164854
+            ],
+            "n": 116,
+            "valid_draws": 2000,
+            "layouts": 65,
+            "fixed_effect": "layout",
+            "fixed_effect_levels": 65,
+            "parameters": [
+              "S_first",
+              "early_pre",
+              "upward"
+            ],
+            "dropped_constant_columns": [],
+            "residual_df": 48,
+            "weighting": "equal observation",
+            "formula": "N_early ~ S_first + early_pre + upward + layout FE",
+            "interpretation": "Conditional association, not a causal effect.",
+            "bootstrap_seed": 6112702
+          }
+        },
+        "gemini31pro": {
+          "C": {
+            "estimate": -0.116405526822655,
+            "ci95": [
+              -0.27537536108846233,
+              0.04882499674915145
+            ],
+            "n": 116,
+            "valid_draws": 2000,
+            "layouts": 65,
+            "fixed_effect": "layout",
+            "fixed_effect_levels": 65,
+            "parameters": [
+              "S_first",
+              "early_pre",
+              "upward"
+            ],
+            "dropped_constant_columns": [],
+            "residual_df": 48,
+            "weighting": "equal observation",
+            "formula": "N_early ~ S_first + early_pre + upward + layout FE",
+            "interpretation": "Conditional association, not a causal effect.",
+            "bootstrap_seed": 6112702
+          }
+        },
+        "qwen36plus": {
+          "C": {
+            "estimate": -0.10871069276087454,
+            "ci95": [
+              -0.30873350072729,
+              0.08921475447051055
+            ],
+            "n": 116,
+            "valid_draws": 2000,
+            "layouts": 65,
+            "fixed_effect": "layout",
+            "fixed_effect_levels": 65,
+            "parameters": [
+              "S_first",
+              "early_pre",
+              "upward"
+            ],
+            "dropped_constant_columns": [],
+            "residual_df": 48,
+            "weighting": "equal observation",
+            "formula": "N_early ~ S_first + early_pre + upward + layout FE",
+            "interpretation": "Conditional association, not a causal effect.",
+            "bootstrap_seed": 6112702
+          }
+        }
+      },
+      "means": {
+        "gpt5_0": {
+          "estimate": 0.6275225880237546,
+          "ci95": [
+            0.5631699225446535,
+            0.6926995138862326
+          ],
+          "n": 60,
+          "valid_draws": 2000,
+          "layouts": 47
+        },
+        "gpt5_1": {
+          "estimate": 0.6267221148926593,
+          "ci95": [
+            0.5496296985463198,
+            0.6950289776586891
+          ],
+          "n": 56,
+          "valid_draws": 2000,
+          "layouts": 40
+        },
+        "gemini31pro_0": {
+          "estimate": 0.5100018336596966,
+          "ci95": [
+            0.4222847697836704,
+            0.5918232540623287
+          ],
+          "n": 52,
+          "valid_draws": 2000,
+          "layouts": 41
+        },
+        "gemini31pro_1": {
+          "estimate": 0.4714115035459696,
+          "ci95": [
+            0.39256469452461923,
+            0.5453151371613418
+          ],
+          "n": 64,
+          "valid_draws": 2000,
+          "layouts": 44
+        },
+        "qwen36plus_0": {
+          "estimate": 0.6526165653065786,
+          "ci95": [
+            0.5810641481097117,
+            0.7178677663788579
+          ],
+          "n": 63,
+          "valid_draws": 2000,
+          "layouts": 44
+        },
+        "qwen36plus_1": {
+          "estimate": 0.583312380992622,
+          "ci95": [
+            0.5092593111898968,
+            0.6556285894136608
+          ],
+          "n": 53,
+          "valid_draws": 2000,
+          "layouts": 37
+        }
+      },
+      "descriptive_fits": {}
+    }
+  },
+  "human_estimates": "None included; measured human results remain separate.",
+  "source_sha256": {
+    "summary.json": "5505b569d4960bc4b725155661c2d16c961c05cab5f351afad519e4753fbcccf",
+    "observations.json": "725d9129ed1a9391c6b707c10be06571b820c5416ca96752a84671611ce7b2a2"
+  }
+}

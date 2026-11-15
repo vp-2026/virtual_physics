@@ -1,0 +1,128 @@
+[
+  {
+    "after": {
+      "answer": "B",
+      "answer_value": "left",
+      "category": "relative_position",
+      "options": {
+        "A": "approximately aligned",
+        "B": "left",
+        "C": "right"
+      },
+      "question": "Where is the red target ball's center horizontally relative to the green goal container's center?",
+      "question_id": "BackUp_8:horizontal_relation"
+    },
+    "before": {
+      "answer": "B",
+      "answer_value": "right",
+      "category": "relative_position",
+      "options": {
+        "A": "approximately aligned",
+        "B": "right",
+        "C": "left"
+      },
+      "question": "Where is the red target ball's center horizontally relative to the green goal container's center?",
+      "question_id": "BackUp_8:horizontal_relation"
+    },
+    "layout_id": "BackUp_8",
+    "question_id": "BackUp_8:horizontal_relation"
+  },
+  {
+    "after": {
+      "answer": "C",
+      "answer_value": "above",
+      "category": "relative_position",
+      "options": {
+        "A": "below",
+        "B": "approximately aligned",
+        "C": "above"
+      },
+      "question": "Where is the red target ball's center vertically relative to the green goal container's center?",
+      "question_id": "BackUp_8:vertical_relation"
+    },
+    "before": {
+      "answer": "C",
+      "answer_value": "below",
+      "category": "relative_position",
+      "options": {
+        "A": "above",
+        "B": "approximately aligned",
+        "C": "below"
+      },
+      "question": "Where is the red target ball's center vertically relative to the green goal container's center?",
+      "question_id": "BackUp_8:vertical_relation"
+    },
+    "layout_id": "BackUp_8",
+    "question_id": "BackUp_8:vertical_relation"
+  },
+  {
+    "after": {
+      "answer": "B",
+      "answer_value": "upper-right",
+      "category": "coarse_location",
+      "options": {
+        "A": "lower-left",
+        "B": "upper-right",
+        "C": "lower-right",
+        "D": "upper-left"
+      },
+      "question": "Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the green goal container's center?",
+      "question_id": "BackUp_8:goal_quadrant"
+    },
+    "before": {
+      "answer": "B",
+      "answer_value": "upper-left",
+      "category": "coarse_location",
+      "options": {
+        "A": "lower-left",
+        "B": "upper-left",
+        "C": "lower-right",
+        "D": "upper-right"
+      },
+      "question": "Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the green goal container's center?",
+      "question_id": "BackUp_8:goal_quadrant"
+    },
+    "layout_id": "BackUp_8",
+    "question_id": "BackUp_8:goal_quadrant"
+  },
+  {
+    "after": {
+      "answer": "G",
+      "answer_value": "above-left",
+      "category": "movable_object_relation",
+      "options": {
+        "A": "right",
+        "B": "approximately the same position",
+        "C": "above-right",
+        "D": "below-left",
+        "E": "below-right",
+        "F": "above",
+        "G": "above-left",
+        "H": "below",
+        "I": "left"
+      },
+      "question": "Which combined relation best describes the red target ball's center relative to the green goal container's center?",
+      "question_id": "BackUp_8:movable_object_relation"
+    },
+    "before": {
+      "answer": "G",
+      "answer_value": "below-right",
+      "category": "movable_object_relation",
+      "options": {
+        "A": "right",
+        "B": "approximately the same position",
+        "C": "above-left",
+        "D": "above-right",
+        "E": "below-left",
+        "F": "above",
+        "G": "below-right",
+        "H": "below",
+        "I": "left"
+      },
+      "question": "Which combined relation best describes the red target ball's center relative to the green goal container's center?",
+      "question_id": "BackUp_8:movable_object_relation"
+    },
+    "layout_id": "BackUp_8",
+    "question_id": "BackUp_8:movable_object_relation"
+  }
+]

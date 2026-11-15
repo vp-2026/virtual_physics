@@ -1,0 +1,102 @@
+{
+  "collection_date": "2026-11-15",
+  "completed_action_units": {
+    "gpt5": 59,
+    "gemini31pro": 59,
+    "qwen36plus": 59,
+    "robotics_er2": 6
+  },
+  "unavailable_probes": [
+    {
+      "model": "qwen36plus",
+      "goal": "canonical_0013_BackUp_8_downward",
+      "queries": [
+        "transfer_sidecars/full/terminal_prediction/result.json"
+      ]
+    },
+    {
+      "model": "qwen36plus",
+      "goal": "canonical_0063_Falling_1_downward",
+      "queries": [
+        "transfer_sidecars/neither/terminal_prediction/result.json"
+      ]
+    }
+  ],
+  "budget_ledger_usd": {
+    "openrouter": 111.6689859,
+    "robotics": 3.4264550000000007
+  },
+  "cost_note": "OpenRouter ledger uses conservative per-token price assumptions where needed; Google figure is an estimate, not an invoice. VQA cost is recorded separately.",
+  "models": {
+    "gpt5": {
+      "requested_ids": [
+        "openai/gpt-5"
+      ],
+      "returned_ids": [
+        "openai/gpt-5"
+      ],
+      "routes": {
+        "openrouter": 1067
+      },
+      "backend_providers": {
+        "OpenAI": 1067
+      },
+      "recorded_logical_calls": 1067
+    },
+    "gemini31pro": {
+      "requested_ids": [
+        "google/gemini-3.1-pro-preview"
+      ],
+      "returned_ids": [
+        "google/gemini-3.1-pro-preview"
+      ],
+      "routes": {
+        "openrouter": 983
+      },
+      "backend_providers": {
+        "Google AI Studio": 225,
+        "Google": 758
+      },
+      "recorded_logical_calls": 983
+    },
+    "qwen36plus": {
+      "requested_ids": [
+        "qwen/qwen3.6-plus"
+      ],
+      "returned_ids": [
+        "qwen/qwen3.6-plus"
+      ],
+      "routes": {
+        "openrouter": 1156
+      },
+      "backend_providers": {
+        "Alibaba": 1156
+      },
+      "recorded_logical_calls": 1156
+    },
+    "robotics_er2": {
+      "requested_ids": [
+        "gemini-robotics-er-2-preview"
+      ],
+      "returned_ids": [
+        "gemini-robotics-er-2-preview"
+      ],
+      "routes": {
+        "google_cloud": 112,
+        "google": 18
+      },
+      "backend_providers": {},
+      "recorded_logical_calls": 130
+    }
+  },
+  "fully_completed_units": {
+    "gpt5": 59,
+    "gemini31pro": 59,
+    "qwen36plus": 57,
+    "robotics_er2": 6
+  },
+  "openrouter_provider_reported_usd_including_vqa": 111.773139425,
+  "combined_cost_usd_including_estimated_google": 115.199594425,
+  "all_inference_finished": true,
+  "pending_model_requests": 0
+}

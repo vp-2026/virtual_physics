@@ -23,7 +23,7 @@ from pyGameWorld.viewer import drawWorld
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--index',type=Path,default=ROOT/'task_configs/asset_index_132_scene_corrected_2026-11-14.json')
+    p.add_argument('--index',type=Path,default=ROOT/'benchmark/asset_index.json')
     p.add_argument('--output',type=Path)
     a=p.parse_args();index=a.index.resolve();d=json.loads(index.read_text());rows=[]
     assert len(d['puzzles'])==132

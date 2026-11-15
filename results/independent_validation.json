@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "independently_scored_chosen_attempts": 92190,
+  "independently_scored_novel_objects": 22110,
+  "checks": [
+    "Raw endpoint Gaussian and exit scoring",
+    "All interaction, feedback, JSON, decomposition and transfer estimates and intervals",
+    "Primary and broad solve numerators",
+    "All Figure 4 conditional means and intervals",
+    "Figure 4 A/C via residual regression; B via full dummy-variable residualization; all 2000-draw intervals"
+  ],
+  "tolerance": 1e-09
+}

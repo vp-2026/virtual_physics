@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "provider": "mock",
+  "goal": "0015_FallingAlt_4_downward__goal_0007",
+  "fixed_valid_attempt_budget": 2,
+  "conditions": {
+    "full": {
+      "attempts": 2,
+      "solved": false
+    },
+    "frames_only": {
+      "attempts": 2,
+      "solved": false
+    },
+    "status_only": {
+      "attempts": 2,
+      "solved": false
+    },
+    "neither": {
+      "attempts": 2,
+      "solved": false
+    },
+    "trace_status": {
+      "attempts": 2,
+      "solved": false
+    }
+  },
+  "paid_calls": 0
+}

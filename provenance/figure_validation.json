@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "figures": [
+    {
+      "file": "results/figures/figure3_interaction.pdf",
+      "sha256": "f814d3d74951c48d61034e528ee7cd7862a5a292657e2afcec54653b5c5758a0",
+      "raster_images": 0,
+      "latest_pdf_render_visually_checked": true,
+      "numeric_ledger": "results/figures/plotted_values.json",
+      "fresh_environment_png_identical": true
+    },
+    {
+      "file": "results/figures/figure4_correspondence.pdf",
+      "sha256": "28a15cfc868b31efe36b541edeaa1d9de5dfcd510403b020a1f4b97c7b8e267d",
+      "raster_images": 0,
+      "latest_pdf_render_visually_checked": true,
+      "numeric_ledger": "results/figures/plotted_values.json",
+      "fresh_environment_png_identical": true
+    }
+  ]
+}

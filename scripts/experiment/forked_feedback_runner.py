@@ -47,7 +47,7 @@ REPO_ROOT = HERE.parents[1]
 OLD_RUNNER_ROOT = HERE
 OLD_PYTHON_PACKAGES = REPO_ROOT / "vendor" / "python_pkgs"
 OLD_RUNNER_PATH = HERE / "goal_probe_runner.py"
-DEFAULT_BALANCED_MANIFEST = REPO_ROOT / "task_configs" / "benchmark_1692_seed2026.json"
+DEFAULT_BALANCED_MANIFEST = REPO_ROOT / "benchmark" / "tasks.json"
 DEFAULT_GOAL_BUILDER = (
     REPO_ROOT
     / "simulator"
@@ -57,7 +57,7 @@ DEFAULT_GOAL_BUILDER = (
 DEFAULT_VTOOLS_ROOT = REPO_ROOT
 DEFAULT_ASSET_ROOTS = (REPO_ROOT,)
 DEFAULT_OUTPUT_ROOT = REPO_ROOT / "outputs" / "experiment"
-DEFAULT_ASSET_INDEX = REPO_ROOT / "task_configs" / "asset_index_132.json"
+DEFAULT_ASSET_INDEX = REPO_ROOT / "benchmark" / "asset_index.json"
 DEFAULT_PYTHON_BIN = Path(sys.executable)
 DEFAULT_SEEDS = (42, 123, 2026)
 TOOL_DIAMETER_PX = 72

@@ -1,0 +1,13 @@
+{
+  "native_scene_matches": 66,
+  "direction_cells": 132,
+  "first_action_success_replays_matching": 183,
+  "first_action_object_endpoints": 549,
+  "max_endpoint_replay_difference_px": 28.464328443668816,
+  "median_endpoint_replay_difference_px": 9.152496538777437e-13,
+  "object_endpoints_differing_more_than_1px": 10,
+  "numpy": "2.5.4",
+  "pymunk": "6.11.1",
+  "python": "3.12",
+  "note": "Identical physics code, worlds, action coordinates and success rules; local floating-point trajectories are not bit-identical to all historical workers. New observations retain newly simulated truth; historical records are unchanged."
+}

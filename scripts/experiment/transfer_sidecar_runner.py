@@ -28,7 +28,7 @@ from typing import Any, Iterable, Optional, Sequence
 HERE = Path(__file__).resolve().parent
 REPO_ROOT = HERE.parents[1]
 RUNNER_PATH = HERE / "forked_feedback_runner.py"
-DEFAULT_MANIFEST = REPO_ROOT / "task_configs" / "benchmark_1692_seed2026.json"
+DEFAULT_MANIFEST = REPO_ROOT / "benchmark" / "tasks.json"
 DEFAULT_PROBE_CACHE = REPO_ROOT / "outputs" / "probe_bank_seed2026"
 DEFAULT_GOAL_BUILDER = (
     REPO_ROOT

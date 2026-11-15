@@ -1,0 +1,12 @@
+{
+  "accuracy_summary": "accuracy_summary.csv",
+  "ambiguous_quadrant_answers_excluded": 168,
+  "calls": 198,
+  "duplicate_retry_rows": 0,
+  "format_valid_rate": 0.9848484848484849,
+  "primary_questions_scored": 2010,
+  "question_scores": "question_scores.csv",
+  "questions_scored": 2178,
+  "raw_response_rows": 198,
+  "valid_calls": 195
+}

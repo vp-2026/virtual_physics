@@ -1,0 +1,32 @@
+{
+  "gemini": {
+    "correct": 644,
+    "eligible": 670,
+    "accuracy": 0.9611940298507463,
+    "ci95_low": 0.9449404761904762,
+    "ci95_high": 0.9760479041916168,
+    "layouts": 66,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261114
+  },
+  "gpt": {
+    "correct": 629,
+    "eligible": 670,
+    "accuracy": 0.9388059701492537,
+    "ci95_low": 0.9183976261127597,
+    "ci95_high": 0.9578963173700016,
+    "layouts": 66,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261114
+  },
+  "qwen": {
+    "correct": 630,
+    "eligible": 670,
+    "accuracy": 0.9402985074626866,
+    "ci95_low": 0.8937085910637496,
+    "ci95_high": 0.9746646795827124,
+    "layouts": 66,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261114
+  }
+}

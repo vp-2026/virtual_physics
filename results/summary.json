@@ -1,0 +1,2459 @@
+{
+  "gpt5": {
+    "solve_rates": {
+      "main": {
+        "full": {
+          "estimate": 0.41803778184034124,
+          "ci95": [
+            0.3852636876006441,
+            0.451574957641264
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 766489302,
+          "numerator": 686
+        },
+        "neither": {
+          "estimate": 0.3692870201096892,
+          "ci95": [
+            0.3333283935981031,
+            0.4062135976702509
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 2939221699,
+          "numerator": 606
+        },
+        "trace_status": {
+          "estimate": 0.4728823887873248,
+          "ci95": [
+            0.44587597511726496,
+            0.5002985613124994
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 3232888019,
+          "numerator": 776
+        },
+        "full_minus_neither": {
+          "estimate": 0.04875076173065204,
+          "ci95": [
+            0.027166371836084,
+            0.07060970685631962
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_neither": {
+          "estimate": 0.1035953686776356,
+          "ci95": [
+            0.07879455168291735,
+            0.1303034332688588
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_full": {
+          "estimate": 0.054844606946983544,
+          "ci95": [
+            0.028756037611820856,
+            0.08192274018205231
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "broad": {
+        "full": {
+          "estimate": 0.4161114476075106,
+          "ci95": [
+            0.38359814793007013,
+            0.4491744016074214
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 864690250,
+          "numerator": 687
+        },
+        "neither": {
+          "estimate": 0.36826165960024226,
+          "ci95": [
+            0.3333333333333333,
+            0.4049884948766303
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 1680680702,
+          "numerator": 608
+        },
+        "trace_status": {
+          "estimate": 0.47122955784373105,
+          "ci95": [
+            0.4443200418426006,
+            0.49939779019537683
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 1508771793,
+          "numerator": 778
+        },
+        "full_minus_neither": {
+          "estimate": 0.04784978800726832,
+          "ci95": [
+            0.02668298761870924,
+            0.06898621191512613
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_neither": {
+          "estimate": 0.1029678982434888,
+          "ci95": [
+            0.07833416683911615,
+            0.12957559567100266
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_full": {
+          "estimate": 0.05511811023622047,
+          "ci95": [
+            0.029253649485661275,
+            0.08213873637304049
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      }
+    },
+    "interaction": {
+      "initial_success": {
+        "estimate": 0.1882998171846435,
+        "ci95": [
+          0.15792399327852127,
+          0.22156058461330028
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 4000463790,
+        "numerator": 309
+      },
+      "chosen_pq_initial": {
+        "estimate": 0.46183065763030234,
+        "ci95": [
+          0.4256162889371398,
+          0.4974010029886116
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "chosen_pq_final": {
+        "estimate": 0.5245789456392407,
+        "ci95": [
+          0.49863811309246225,
+          0.5511368166122108
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "chosen_pq_gain": {
+        "estimate": 0.06274828800893839,
+        "ci95": [
+          0.041515141114661376,
+          0.08741581987333227
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_pre": {
+        "estimate": 0.4782176503052316,
+        "ci95": [
+          0.41979009606008905,
+          0.5337140820435856
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_post": {
+        "estimate": 0.5944653763224411,
+        "ci95": [
+          0.538408266374722,
+          0.6487205585019034
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_gain": {
+        "estimate": 0.11624772601720933,
+        "ci95": [
+          0.07005298647823215,
+          0.16534459935702625
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_gain_beyond_retry": {
+        "estimate": 0.10559878510977509,
+        "ci95": [
+          0.06161275707459992,
+          0.15060623410932766
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      }
+    },
+    "feedback": {
+      "subsequent_solve": {
+        "estimate": 0.06006006006006006,
+        "ci95": [
+          0.032390438483883545,
+          0.08692004041008755
+        ],
+        "n": 1332,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "next_chosen_pq": {
+        "estimate": 0.07332569204055117,
+        "ci95": [
+          0.04943869294496656,
+          0.09955210506531906
+        ],
+        "n": 1332,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "early_novel_pq": {
+        "estimate": 0.17739800268085476,
+        "ci95": [
+          0.11393711714854445,
+          0.2512214443270197
+        ],
+        "n": 60,
+        "layouts": 47,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      }
+    },
+    "canonical_controls": {
+      "full": {
+        "estimate": 0.7272727272727273,
+        "ci95": [
+          0.6363636363636364,
+          0.8106060606060606
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 96
+      },
+      "neither": {
+        "estimate": 0.6893939393939394,
+        "ci95": [
+          0.5984848484848485,
+          0.7803030303030303
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 91
+      },
+      "trace_status": {
+        "estimate": 0.7803030303030303,
+        "ci95": [
+          0.7045454545454546,
+          0.8560606060606061
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 103
+      },
+      "status_only": {
+        "estimate": 0.7424242424242424,
+        "ci95": [
+          0.6590909090909091,
+          0.8181818181818182
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 98
+      },
+      "frames_only": {
+        "estimate": 0.7121212121212122,
+        "ci95": [
+          0.6212121212121212,
+          0.7954545454545454
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 94
+      },
+      "full_minus_status_only": {
+        "estimate": -0.015151515151515152,
+        "ci95": [
+          -0.07575757575757576,
+          0.045454545454545456
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      },
+      "status_only_minus_neither": {
+        "estimate": 0.05303030303030303,
+        "ci95": [
+          0.0,
+          0.10606060606060606
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      },
+      "frames_only_minus_neither": {
+        "estimate": 0.022727272727272728,
+        "ci95": [
+          -0.030303030303030304,
+          0.07575757575757576
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      },
+      "full_minus_frames_only": {
+        "estimate": 0.015151515151515152,
+        "ci95": [
+          -0.03787878787878788,
+          0.06818181818181818
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      }
+    },
+    "figure4": {
+      "A": {
+        "estimate": 0.04378381394619408,
+        "ci95": [
+          0.007667898940873386,
+          0.08153016272589833
+        ],
+        "n": 9350,
+        "n_tasks": 1641,
+        "layouts": 66,
+        "valid_draws": 2000,
+        "bootstrap_draws": 2000,
+        "fixed_effect": "goal",
+        "fixed_effect_levels": 1641,
+        "parameters": [
+          "S",
+          "attempt_2",
+          "attempt_3",
+          "attempt_4",
+          "attempt_5",
+          "attempt_6",
+          "attempt_7",
+          "attempt_8"
+        ],
+        "weighting": "equal episode",
+        "formula": "pq ~ success + categorical attempt + exact-goal FE",
+        "informative_recovered_goals": 377,
+        "interpretation": "Conditional within-goal association, not a causal effect.",
+        "bootstrap_seed": 6112702
+      },
+      "B": {
+        "estimate": -0.08637210260925791,
+        "ci95": [
+          -0.3360670907831717,
+          0.14411913507482327
+        ],
+        "n": 116,
+        "valid_draws": 2000,
+        "layouts": 65,
+        "estimand": "Partial Spearman: correlation of residual rank scores",
+        "controls": [
+          "upward"
+        ],
+        "layout_fixed_effect": true,
+        "informative_paired_layouts": 51,
+        "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+        "bootstrap_seed": 6112703
+      },
+      "B_richer": {
+        "estimate": -0.12458766809230554,
+        "ci95": [
+          -0.3525780244784508,
+          0.10659576265371683
+        ],
+        "n": 116,
+        "valid_draws": 2000,
+        "layouts": 65,
+        "estimand": "Partial Spearman: correlation of residual rank scores",
+        "controls": [
+          "upward",
+          "P_first",
+          "N_pre",
+          "exposure"
+        ],
+        "layout_fixed_effect": true,
+        "informative_paired_layouts": 51,
+        "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+        "bootstrap_seed": 6112703
+      },
+      "C": {
+        "estimate": -0.0337928411079266,
+        "ci95": [
+          -0.13016789568241677,
+          0.06734290524164854
+        ],
+        "n": 116,
+        "valid_draws": 2000,
+        "layouts": 65,
+        "fixed_effect": "layout",
+        "fixed_effect_levels": 65,
+        "parameters": [
+          "S_first",
+          "early_pre",
+          "upward"
+        ],
+        "dropped_constant_columns": [],
+        "residual_df": 48,
+        "weighting": "equal observation",
+        "formula": "N_early ~ S_first + early_pre + upward + layout FE",
+        "interpretation": "Conditional association, not a causal effect.",
+        "bootstrap_seed": 6112702
+      },
+      "conditional_A": {
+        "0": {
+          "estimate": 0.5084438261703873,
+          "ci95": [
+            0.4810271059105594,
+            0.5360498040264052
+          ],
+          "n": 8664
+        },
+        "1": {
+          "estimate": 0.5002613659719568,
+          "ci95": [
+            0.4578083312184904,
+            0.5409640522132834
+          ],
+          "n": 686
+        }
+      },
+      "conditional_C": {
+        "0": {
+          "estimate": 0.6275225880237546,
+          "ci95": [
+            0.5631699225446535,
+            0.6926995138862326
+          ],
+          "n": 60,
+          "valid_draws": 2000,
+          "layouts": 47
+        },
+        "1": {
+          "estimate": 0.6267221148926593,
+          "ci95": [
+            0.5496296985463198,
+            0.6950289776586891
+          ],
+          "n": 56,
+          "valid_draws": 2000,
+          "layouts": 40
+        }
+      }
+    },
+    "pq_scale_sensitivity": {
+      "75": {
+        "figure4A": {
+          "estimate": 0.03452557993718459,
+          "ci95": [
+            0.000860259730526046,
+            0.06774835144807437
+          ],
+          "n": 9350,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 377,
+          "interpretation": "Conditional within-goal association, not a causal effect.",
+          "bootstrap_seed": 6112702
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.06407224345965305,
+          "ci95": [
+            0.04446347283379984,
+            0.08602260156972938
+          ],
+          "n": 1332,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.17513232048353639,
+          "ci95": [
+            0.10897894749117772,
+            0.24288209156590074
+          ],
+          "n": 60,
+          "layouts": 47,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.09974210403999346,
+          "ci95": [
+            0.05580858023407152,
+            0.1438816580432702
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "100": {
+        "figure4A": {
+          "estimate": 0.04116600008242274,
+          "ci95": [
+            0.005379354211870613,
+            0.07784626579639507
+          ],
+          "n": 9350,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 377,
+          "interpretation": "Conditional within-goal association, not a causal effect.",
+          "bootstrap_seed": 6112702
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.07007398576645454,
+          "ci95": [
+            0.04796058468982083,
+            0.09499130988072174
+          ],
+          "n": 1332,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.17845322034239555,
+          "ci95": [
+            0.11096659304757975,
+            0.24800374830628555
+          ],
+          "n": 60,
+          "layouts": 47,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.10441113860555501,
+          "ci95": [
+            0.059599359800466725,
+            0.14961121681171946
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "150": {
+        "figure4A": {
+          "estimate": 0.04378381394619408,
+          "ci95": [
+            0.007667898940873386,
+            0.08153016272589833
+          ],
+          "n": 9350,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 377,
+          "interpretation": "Conditional within-goal association, not a causal effect.",
+          "bootstrap_seed": 6112702
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.07332569204055117,
+          "ci95": [
+            0.049136590439845355,
+            0.10101257315049901
+          ],
+          "n": 1332,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.17739800268085476,
+          "ci95": [
+            0.11178948775882602,
+            0.24559348739519393
+          ],
+          "n": 60,
+          "layouts": 47,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.10559878510977509,
+          "ci95": [
+            0.06161275707459992,
+            0.15060623410932766
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      }
+    }
+  },
+  "gemini31pro": {
+    "solve_rates": {
+      "main": {
+        "full": {
+          "estimate": 0.46496039000609385,
+          "ci95": [
+            0.43329452948045616,
+            0.49753363680571266
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 4291899480,
+          "numerator": 763
+        },
+        "neither": {
+          "estimate": 0.4363193174893358,
+          "ci95": [
+            0.406018915035138,
+            0.46630256275386456
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 1692240473,
+          "numerator": 716
+        },
+        "trace_status": {
+          "estimate": 0.49116392443631934,
+          "ci95": [
+            0.45996010606163357,
+            0.5241643182635808
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 1884778092,
+          "numerator": 806
+        },
+        "full_minus_neither": {
+          "estimate": 0.028641072516758074,
+          "ci95": [
+            0.014055989845670306,
+            0.04480420222606514
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_neither": {
+          "estimate": 0.054844606946983544,
+          "ci95": [
+            0.03634132209766882,
+            0.07508181776744609
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_full": {
+          "estimate": 0.026203534430225474,
+          "ci95": [
+            0.007981151078701506,
+            0.044350873563173514
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "broad": {
+        "full": {
+          "estimate": 0.46335554209569957,
+          "ci95": [
+            0.43204383880160907,
+            0.4962662404053222
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 888259036,
+          "numerator": 765
+        },
+        "neither": {
+          "estimate": 0.4348879466989703,
+          "ci95": [
+            0.4046274579522175,
+            0.46500721239718373
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 2153933495,
+          "numerator": 718
+        },
+        "trace_status": {
+          "estimate": 0.4900060569351908,
+          "ci95": [
+            0.45772644136172536,
+            0.5230667466861497
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 3052177144,
+          "numerator": 809
+        },
+        "full_minus_neither": {
+          "estimate": 0.028467595396729255,
+          "ci95": [
+            0.013953488372093023,
+            0.04456353894623388
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_neither": {
+          "estimate": 0.05511811023622047,
+          "ci95": [
+            0.036655465755144216,
+            0.07545945988698645
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_full": {
+          "estimate": 0.026650514839491216,
+          "ci95": [
+            0.008412551784594937,
+            0.044678678826084534
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      }
+    },
+    "interaction": {
+      "initial_success": {
+        "estimate": 0.28275441803778184,
+        "ci95": [
+          0.2552035200595539,
+          0.3108976975832789
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 2346838783,
+        "numerator": 464
+      },
+      "chosen_pq_initial": {
+        "estimate": 0.4354999304685908,
+        "ci95": [
+          0.38949845091207674,
+          0.47926431941532593
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "chosen_pq_final": {
+        "estimate": 0.4534462281340811,
+        "ci95": [
+          0.41015503701784256,
+          0.4960891769401935
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "chosen_pq_gain": {
+        "estimate": 0.01794629766549024,
+        "ci95": [
+          0.003906287089831794,
+          0.03312896954343278
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_pre": {
+        "estimate": 0.4515733286163531,
+        "ci95": [
+          0.3843464978973264,
+          0.5180083697210063
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_post": {
+        "estimate": 0.4965987623929278,
+        "ci95": [
+          0.4330843195154272,
+          0.5564664673141595
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_gain": {
+        "estimate": 0.04502543377657468,
+        "ci95": [
+          0.0013499021817708885,
+          0.08848034199205057
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_gain_beyond_retry": {
+        "estimate": 0.029165044207469265,
+        "ci95": [
+          -0.015575122639051978,
+          0.07417360319113486
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      }
+    },
+    "feedback": {
+      "subsequent_solve": {
+        "estimate": 0.03993203058623619,
+        "ci95": [
+          0.020280670024773476,
+          0.0619584144278302
+        ],
+        "n": 1177,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "next_chosen_pq": {
+        "estimate": 0.010450494259292911,
+        "ci95": [
+          -0.00604027048711697,
+          0.02558461028385567
+        ],
+        "n": 1177,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "early_novel_pq": {
+        "estimate": 0.060250950453046806,
+        "ci95": [
+          -0.01614019520610154,
+          0.1390888620780148
+        ],
+        "n": 52,
+        "layouts": 41,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      }
+    },
+    "canonical_controls": {
+      "full": {
+        "estimate": 0.8106060606060606,
+        "ci95": [
+          0.7348484848484849,
+          0.8787878787878788
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 107
+      },
+      "neither": {
+        "estimate": 0.7651515151515151,
+        "ci95": [
+          0.6893939393939394,
+          0.8409090909090909
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 101
+      },
+      "trace_status": {
+        "estimate": 0.803030303030303,
+        "ci95": [
+          0.7272727272727273,
+          0.8712121212121212
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 106
+      },
+      "status_only": {
+        "estimate": 0.7878787878787878,
+        "ci95": [
+          0.7045454545454546,
+          0.8712121212121212
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 104
+      },
+      "frames_only": {
+        "estimate": 0.7727272727272727,
+        "ci95": [
+          0.6893939393939394,
+          0.8484848484848485
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 102
+      },
+      "full_minus_status_only": {
+        "estimate": 0.022727272727272728,
+        "ci95": [
+          -0.022727272727272728,
+          0.06818181818181818
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      },
+      "status_only_minus_neither": {
+        "estimate": 0.022727272727272728,
+        "ci95": [
+          -0.022727272727272728,
+          0.06818181818181818
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      },
+      "frames_only_minus_neither": {
+        "estimate": 0.007575757575757576,
+        "ci95": [
+          -0.05303030303030303,
+          0.06818181818181818
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      },
+      "full_minus_frames_only": {
+        "estimate": 0.03787878787878788,
+        "ci95": [
+          -0.007575757575757576,
+          0.08333333333333333
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      }
+    },
+    "figure4": {
+      "A": {
+        "estimate": 0.10606197769764183,
+        "ci95": [
+          0.07742955484049295,
+          0.13708641207755884
+        ],
+        "n": 8623,
+        "n_tasks": 1641,
+        "layouts": 66,
+        "valid_draws": 2000,
+        "bootstrap_draws": 2000,
+        "fixed_effect": "goal",
+        "fixed_effect_levels": 1641,
+        "parameters": [
+          "S",
+          "attempt_2",
+          "attempt_3",
+          "attempt_4",
+          "attempt_5",
+          "attempt_6",
+          "attempt_7",
+          "attempt_8"
+        ],
+        "weighting": "equal episode",
+        "formula": "pq ~ success + categorical attempt + exact-goal FE",
+        "informative_recovered_goals": 299,
+        "interpretation": "Conditional within-goal association, not a causal effect.",
+        "bootstrap_seed": 6112702
+      },
+      "B": {
+        "estimate": 0.10123778146704578,
+        "ci95": [
+          -0.19472747115728412,
+          0.37222500674519576
+        ],
+        "n": 116,
+        "valid_draws": 2000,
+        "layouts": 65,
+        "estimand": "Partial Spearman: correlation of residual rank scores",
+        "controls": [
+          "upward"
+        ],
+        "layout_fixed_effect": true,
+        "informative_paired_layouts": 51,
+        "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+        "bootstrap_seed": 6112703
+      },
+      "B_richer": {
+        "estimate": -0.002964086244371241,
+        "ci95": [
+          -0.2815223722108098,
+          0.2934834214193873
+        ],
+        "n": 116,
+        "valid_draws": 2000,
+        "layouts": 65,
+        "estimand": "Partial Spearman: correlation of residual rank scores",
+        "controls": [
+          "upward",
+          "P_first",
+          "N_pre",
+          "exposure"
+        ],
+        "layout_fixed_effect": true,
+        "informative_paired_layouts": 51,
+        "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+        "bootstrap_seed": 6112703
+      },
+      "C": {
+        "estimate": -0.116405526822655,
+        "ci95": [
+          -0.27537536108846233,
+          0.04882499674915145
+        ],
+        "n": 116,
+        "valid_draws": 2000,
+        "layouts": 65,
+        "fixed_effect": "layout",
+        "fixed_effect_levels": 65,
+        "parameters": [
+          "S_first",
+          "early_pre",
+          "upward"
+        ],
+        "dropped_constant_columns": [],
+        "residual_df": 48,
+        "weighting": "equal observation",
+        "formula": "N_early ~ S_first + early_pre + upward + layout FE",
+        "interpretation": "Conditional association, not a causal effect.",
+        "bootstrap_seed": 6112702
+      },
+      "conditional_A": {
+        "0": {
+          "estimate": 0.43739086466528565,
+          "ci95": [
+            0.39559262476784507,
+            0.4796458152010122
+          ],
+          "n": 7860
+        },
+        "1": {
+          "estimate": 0.449066486098046,
+          "ci95": [
+            0.39521876805623585,
+            0.5047250899480097
+          ],
+          "n": 763
+        }
+      },
+      "conditional_C": {
+        "0": {
+          "estimate": 0.5100018336596966,
+          "ci95": [
+            0.4222847697836704,
+            0.5918232540623287
+          ],
+          "n": 52,
+          "valid_draws": 2000,
+          "layouts": 41
+        },
+        "1": {
+          "estimate": 0.4714115035459696,
+          "ci95": [
+            0.39256469452461923,
+            0.5453151371613418
+          ],
+          "n": 64,
+          "valid_draws": 2000,
+          "layouts": 44
+        }
+      }
+    },
+    "pq_scale_sensitivity": {
+      "75": {
+        "figure4A": {
+          "estimate": 0.10521107753357008,
+          "ci95": [
+            0.07500427637457056,
+            0.13755839390898586
+          ],
+          "n": 8623,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 299,
+          "interpretation": "Conditional within-goal association, not a causal effect.",
+          "bootstrap_seed": 6112702
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.010465620191941073,
+          "ci95": [
+            -0.004842547437390773,
+            0.02588886789507199
+          ],
+          "n": 1177,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.06913643208423631,
+          "ci95": [
+            -0.0026555034476897048,
+            0.1468911507292738
+          ],
+          "n": 52,
+          "layouts": 41,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.03982953908341076,
+          "ci95": [
+            -0.006455523122940233,
+            0.08636113636950872
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "100": {
+        "figure4A": {
+          "estimate": 0.11327907316977866,
+          "ci95": [
+            0.08296478589061208,
+            0.14653657069200765
+          ],
+          "n": 8623,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 299,
+          "interpretation": "Conditional within-goal association, not a causal effect.",
+          "bootstrap_seed": 6112702
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.01116766081839652,
+          "ci95": [
+            -0.004466508081660049,
+            0.027087495043346912
+          ],
+          "n": 1177,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.06557193926482825,
+          "ci95": [
+            -0.009091550956813825,
+            0.14369940345837925
+          ],
+          "n": 52,
+          "layouts": 41,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.03373962981876543,
+          "ci95": [
+            -0.011393786631463173,
+            0.07948220993149846
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "150": {
+        "figure4A": {
+          "estimate": 0.10606197769764183,
+          "ci95": [
+            0.07742955484049295,
+            0.13708641207755884
+          ],
+          "n": 8623,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 299,
+          "interpretation": "Conditional within-goal association, not a causal effect.",
+          "bootstrap_seed": 6112702
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.010450494259292911,
+          "ci95": [
+            -0.005047012956647438,
+            0.025852392896615537
+          ],
+          "n": 1177,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.060250950453046806,
+          "ci95": [
+            -0.016054833641785504,
+            0.13842961554611796
+          ],
+          "n": 52,
+          "layouts": 41,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.029165044207469265,
+          "ci95": [
+            -0.015575122639051978,
+            0.07417360319113486
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      }
+    }
+  },
+  "qwen36plus": {
+    "solve_rates": {
+      "main": {
+        "full": {
+          "estimate": 0.4162096282754418,
+          "ci95": [
+            0.3854403592905534,
+            0.44710825839487806
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 47674508,
+          "numerator": 683
+        },
+        "neither": {
+          "estimate": 0.3991468616697136,
+          "ci95": [
+            0.3680680526718734,
+            0.4292542959544383
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 1138442438,
+          "numerator": 655
+        },
+        "trace_status": {
+          "estimate": 0.28214503351614867,
+          "ci95": [
+            0.2503074654369555,
+            0.3166891617014383
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 1612409591,
+          "numerator": 463
+        },
+        "full_minus_neither": {
+          "estimate": 0.017062766605728214,
+          "ci95": [
+            0.0033943755578707095,
+            0.03068166880822848
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_neither": {
+          "estimate": -0.1170018281535649,
+          "ci95": [
+            -0.14496671110293893,
+            -0.08942992528852585
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_full": {
+          "estimate": -0.1340645947592931,
+          "ci95": [
+            -0.1629984950740248,
+            -0.1044871696373694
+          ],
+          "n": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "broad": {
+        "full": {
+          "estimate": 0.4149000605693519,
+          "ci95": [
+            0.384067002478784,
+            0.44640661592505854
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 2912321750,
+          "numerator": 685
+        },
+        "neither": {
+          "estimate": 0.3973349485160509,
+          "ci95": [
+            0.36648575158435986,
+            0.42709622798330615
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 2402067863,
+          "numerator": 656
+        },
+        "trace_status": {
+          "estimate": 0.2810417928528165,
+          "ci95": [
+            0.24873294226432277,
+            0.3151866891453951
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 2145962035,
+          "numerator": 464
+        },
+        "full_minus_neither": {
+          "estimate": 0.01756511205330103,
+          "ci95": [
+            0.004057990620490621,
+            0.031231700450450442
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_neither": {
+          "estimate": -0.11629315566323441,
+          "ci95": [
+            -0.14397990477642794,
+            -0.08894134358288772
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_full": {
+          "estimate": -0.13385826771653545,
+          "ci95": [
+            -0.1625409624523967,
+            -0.10479157158070897
+          ],
+          "n": 1651,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      }
+    },
+    "interaction": {
+      "initial_success": {
+        "estimate": 0.20292504570383912,
+        "ci95": [
+          0.1735587677872367,
+          0.23439497387758157
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 374448592,
+        "numerator": 333
+      },
+      "chosen_pq_initial": {
+        "estimate": 0.43500621243016746,
+        "ci95": [
+          0.3990167026911151,
+          0.4703826504371588
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "chosen_pq_final": {
+        "estimate": 0.4873789778714198,
+        "ci95": [
+          0.4581927798413293,
+          0.5171682641370196
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "chosen_pq_gain": {
+        "estimate": 0.05237276544125237,
+        "ci95": [
+          0.03644308427997387,
+          0.06812236050737332
+        ],
+        "n": 1641,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_pre": {
+        "estimate": 0.5455294225419902,
+        "ci95": [
+          0.4919523098174987,
+          0.5975392533881769
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_post": {
+        "estimate": 0.6176842128605715,
+        "ci95": [
+          0.565526118073582,
+          0.6678714836782008
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_gain": {
+        "estimate": 0.07215479031858132,
+        "ci95": [
+          0.02594885734619666,
+          0.11794674331430118
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_gain_beyond_retry": {
+        "estimate": 0.07942233745163065,
+        "ci95": [
+          0.02737038942337597,
+          0.1346763215806027
+        ],
+        "n": 116,
+        "layouts": 65,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      }
+    },
+    "feedback": {
+      "subsequent_solve": {
+        "estimate": 0.021406727828746176,
+        "ci95": [
+          0.0045171370983690335,
+          0.03864408618994889
+        ],
+        "n": 1308,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "next_chosen_pq": {
+        "estimate": 0.044765577974192526,
+        "ci95": [
+          0.028156861576055927,
+          0.06362541476794273
+        ],
+        "n": 1308,
+        "layouts": 66,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "early_novel_pq": {
+        "estimate": 0.09883327832135551,
+        "ci95": [
+          0.03230043038137525,
+          0.16791746816921008
+        ],
+        "n": 63,
+        "layouts": 44,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      }
+    },
+    "canonical_controls": {
+      "full": {
+        "estimate": 0.7272727272727273,
+        "ci95": [
+          0.6439393939393939,
+          0.8106060606060606
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 96
+      },
+      "neither": {
+        "estimate": 0.696969696969697,
+        "ci95": [
+          0.5984848484848485,
+          0.7878787878787878
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 92
+      },
+      "trace_status": {
+        "estimate": 0.553030303030303,
+        "ci95": [
+          0.45454545454545453,
+          0.6439393939393939
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 73
+      },
+      "status_only": {
+        "estimate": 0.7196969696969697,
+        "ci95": [
+          0.6363636363636364,
+          0.803030303030303
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 95
+      },
+      "frames_only": {
+        "estimate": 0.7348484848484849,
+        "ci95": [
+          0.6439393939393939,
+          0.8257575757575758
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 97
+      },
+      "full_minus_status_only": {
+        "estimate": 0.007575757575757576,
+        "ci95": [
+          -0.03787878787878788,
+          0.06060606060606061
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      },
+      "status_only_minus_neither": {
+        "estimate": 0.022727272727272728,
+        "ci95": [
+          -0.03787878787878788,
+          0.08333333333333333
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      },
+      "frames_only_minus_neither": {
+        "estimate": 0.03787878787878788,
+        "ci95": [
+          -0.015151515151515152,
+          0.09090909090909091
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      },
+      "full_minus_frames_only": {
+        "estimate": -0.007575757575757576,
+        "ci95": [
+          -0.05303030303030303,
+          0.03787878787878788
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601
+      }
+    },
+    "figure4": {
+      "A": {
+        "estimate": 0.044337933187522674,
+        "ci95": [
+          0.017867374530332398,
+          0.06954127301026039
+        ],
+        "n": 9281,
+        "n_tasks": 1641,
+        "layouts": 66,
+        "valid_draws": 2000,
+        "bootstrap_draws": 2000,
+        "fixed_effect": "goal",
+        "fixed_effect_levels": 1641,
+        "parameters": [
+          "S",
+          "attempt_2",
+          "attempt_3",
+          "attempt_4",
+          "attempt_5",
+          "attempt_6",
+          "attempt_7",
+          "attempt_8"
+        ],
+        "weighting": "equal episode",
+        "formula": "pq ~ success + categorical attempt + exact-goal FE",
+        "informative_recovered_goals": 350,
+        "interpretation": "Conditional within-goal association, not a causal effect.",
+        "bootstrap_seed": 6112702
+      },
+      "B": {
+        "estimate": 0.13417011501678958,
+        "ci95": [
+          -0.17578082718376112,
+          0.42726491735820427
+        ],
+        "n": 116,
+        "valid_draws": 2000,
+        "layouts": 65,
+        "estimand": "Partial Spearman: correlation of residual rank scores",
+        "controls": [
+          "upward"
+        ],
+        "layout_fixed_effect": true,
+        "informative_paired_layouts": 51,
+        "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+        "bootstrap_seed": 6112703
+      },
+      "B_richer": {
+        "estimate": 0.08294629629330713,
+        "ci95": [
+          -0.18326275454118476,
+          0.3449691976976563
+        ],
+        "n": 116,
+        "valid_draws": 2000,
+        "layouts": 65,
+        "estimand": "Partial Spearman: correlation of residual rank scores",
+        "controls": [
+          "upward",
+          "P_first",
+          "N_pre",
+          "exposure"
+        ],
+        "layout_fixed_effect": true,
+        "informative_paired_layouts": 51,
+        "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval.",
+        "bootstrap_seed": 6112703
+      },
+      "C": {
+        "estimate": -0.10871069276087454,
+        "ci95": [
+          -0.30873350072729,
+          0.08921475447051055
+        ],
+        "n": 116,
+        "valid_draws": 2000,
+        "layouts": 65,
+        "fixed_effect": "layout",
+        "fixed_effect_levels": 65,
+        "parameters": [
+          "S_first",
+          "early_pre",
+          "upward"
+        ],
+        "dropped_constant_columns": [],
+        "residual_df": 48,
+        "weighting": "equal observation",
+        "formula": "N_early ~ S_first + early_pre + upward + layout FE",
+        "interpretation": "Conditional association, not a causal effect.",
+        "bootstrap_seed": 6112702
+      },
+      "conditional_A": {
+        "0": {
+          "estimate": 0.48114450081651094,
+          "ci95": [
+            0.4531672958944817,
+            0.5107213537842032
+          ],
+          "n": 8598
+        },
+        "1": {
+          "estimate": 0.45422778850672674,
+          "ci95": [
+            0.41257609967600306,
+            0.4954307612038764
+          ],
+          "n": 683
+        }
+      },
+      "conditional_C": {
+        "0": {
+          "estimate": 0.6526165653065786,
+          "ci95": [
+            0.5810641481097117,
+            0.7178677663788579
+          ],
+          "n": 63,
+          "valid_draws": 2000,
+          "layouts": 44
+        },
+        "1": {
+          "estimate": 0.583312380992622,
+          "ci95": [
+            0.5092593111898968,
+            0.6556285894136608
+          ],
+          "n": 53,
+          "valid_draws": 2000,
+          "layouts": 37
+        }
+      }
+    },
+    "pq_scale_sensitivity": {
+      "75": {
+        "figure4A": {
+          "estimate": 0.04601902865309528,
+          "ci95": [
+            0.020023894466293962,
+            0.07111232421572315
+          ],
+          "n": 9281,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 350,
+          "interpretation": "Conditional within-goal association, not a causal effect.",
+          "bootstrap_seed": 6112702
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.04086088037005876,
+          "ci95": [
+            0.023380379380641896,
+            0.059226679837028146
+          ],
+          "n": 1308,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.08446187267744786,
+          "ci95": [
+            0.02309804316332974,
+            0.14654845056914143
+          ],
+          "n": 63,
+          "layouts": 44,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.07396309188028037,
+          "ci95": [
+            0.020124195092673273,
+            0.1288370765409567
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "100": {
+        "figure4A": {
+          "estimate": 0.04929733112716788,
+          "ci95": [
+            0.022312680306862155,
+            0.07537703572058742
+          ],
+          "n": 9281,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 350,
+          "interpretation": "Conditional within-goal association, not a causal effect.",
+          "bootstrap_seed": 6112702
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.04480224460050252,
+          "ci95": [
+            0.02635255823794345,
+            0.06451696644926821
+          ],
+          "n": 1308,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.09533458018550896,
+          "ci95": [
+            0.029379958010284712,
+            0.16203705223010853
+          ],
+          "n": 63,
+          "layouts": 44,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.07760864254097238,
+          "ci95": [
+            0.02418905640329454,
+            0.1332991460657927
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "150": {
+        "figure4A": {
+          "estimate": 0.044337933187522674,
+          "ci95": [
+            0.017867374530332398,
+            0.06954127301026039
+          ],
+          "n": 9281,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 350,
+          "interpretation": "Conditional within-goal association, not a causal effect.",
+          "bootstrap_seed": 6112702
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.044765577974192526,
+          "ci95": [
+            0.027182465824754105,
+            0.06393424740834071
+          ],
+          "n": 1308,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.09883327832135551,
+          "ci95": [
+            0.029964756291457034,
+            0.1683905603288468
+          ],
+          "n": 63,
+          "layouts": 44,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.07942233745163065,
+          "ci95": [
+            0.02737038942337597,
+            0.1346763215806027
+          ],
+          "n": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      }
+    }
+  },
+  "robotics_er2": {
+    "solve_rates": {
+      "main": {
+        "full": {
+          "estimate": 0.7575757575757576,
+          "ci95": [
+            0.6818181818181818,
+            0.8333333333333334
+          ],
+          "n": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 1311983256,
+          "numerator": 100
+        },
+        "neither": {
+          "estimate": 0.7196969696969697,
+          "ci95": [
+            0.6363636363636364,
+            0.7954545454545454
+          ],
+          "n": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 2811510508,
+          "numerator": 95
+        },
+        "trace_status": {
+          "estimate": 0.7803030303030303,
+          "ci95": [
+            0.696969696969697,
+            0.8560606060606061
+          ],
+          "n": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 204322091,
+          "numerator": 103
+        },
+        "full_minus_neither": {
+          "estimate": 0.03787878787878788,
+          "ci95": [
+            -0.015151515151515152,
+            0.09090909090909091
+          ],
+          "n": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_neither": {
+          "estimate": 0.06060606060606061,
+          "ci95": [
+            0.015151515151515152,
+            0.11363636363636363
+          ],
+          "n": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "trace_status_minus_full": {
+          "estimate": 0.022727272727272728,
+          "ci95": [
+            -0.030303030303030304,
+            0.08333333333333333
+          ],
+          "n": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      }
+    },
+    "interaction": {
+      "initial_success": {
+        "estimate": 0.4772727272727273,
+        "ci95": [
+          0.3787878787878788,
+          0.5757575757575758
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 64168613,
+        "numerator": 63
+      },
+      "chosen_pq_initial": {
+        "estimate": 0.5126015694693677,
+        "ci95": [
+          0.4669459081332977,
+          0.5572631416428512
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "chosen_pq_final": {
+        "estimate": 0.5574599794485476,
+        "ci95": [
+          0.5152511531507765,
+          0.5981349340374337
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "chosen_pq_gain": {
+        "estimate": 0.04485840997917999,
+        "ci95": [
+          0.021423325491434067,
+          0.06986261973496437
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_pre": {
+        "estimate": 0.5488254559752543,
+        "ci95": [
+          0.4896224453902092,
+          0.6045568829970923
+        ],
+        "n": 127,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_post": {
+        "estimate": 0.5822840334966,
+        "ci95": [
+          0.5289322673427824,
+          0.6329137525591451
+        ],
+        "n": 127,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_gain": {
+        "estimate": 0.03345857752134582,
+        "ci95": [
+          -0.02489599808978156,
+          0.09038349149463412
+        ],
+        "n": 127,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      },
+      "novel_gain_beyond_retry": {
+        "estimate": 0.052347392275724956,
+        "ci95": [
+          -0.0005243512025901967,
+          0.10588719393250975
+        ],
+        "n": 127,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261114
+      }
+    },
+    "feedback": {
+      "subsequent_solve": {
+        "estimate": 0.07246376811594203,
+        "ci95": [
+          -0.029411764705882353,
+          0.171875
+        ],
+        "n": 69,
+        "layouts": 46,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "next_chosen_pq": {
+        "estimate": -0.014951600508372652,
+        "ci95": [
+          -0.054517105308175794,
+          0.023713085051140843
+        ],
+        "n": 69,
+        "layouts": 46,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      },
+      "early_novel_pq": {
+        "estimate": 0.030585867085625707,
+        "ci95": [
+          -0.03766100164882159,
+          0.10262772393586318
+        ],
+        "n": 66,
+        "layouts": 44,
+        "bootstrap_draws": 2000,
+        "bootstrap_seed": 6112701
+      }
+    },
+    "canonical_controls": {
+      "full": {
+        "estimate": 0.7575757575757576,
+        "ci95": [
+          0.6742424242424242,
+          0.8333333333333334
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 100
+      },
+      "neither": {
+        "estimate": 0.7196969696969697,
+        "ci95": [
+          0.6363636363636364,
+          0.7954545454545454
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 95
+      },
+      "trace_status": {
+        "estimate": 0.7803030303030303,
+        "ci95": [
+          0.7045454545454546,
+          0.8560606060606061
+        ],
+        "n": 132,
+        "layouts": 66,
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 6112601,
+        "numerator": 103
+      }
+    },
+    "figure4": {
+      "A": {
+        "estimate": 0.17957084602725434,
+        "ci95": [
+          0.11837384121589226,
+          0.2372234702167316
+        ],
+        "n": 455,
+        "n_tasks": 132,
+        "layouts": 66,
+        "valid_draws": 2000,
+        "bootstrap_draws": 2000,
+        "fixed_effect": "goal",
+        "fixed_effect_levels": 132,
+        "parameters": [
+          "S",
+          "attempt_2",
+          "attempt_3",
+          "attempt_4",
+          "attempt_5",
+          "attempt_6",
+          "attempt_7",
+          "attempt_8"
+        ],
+        "weighting": "equal episode",
+        "formula": "pq ~ success + categorical attempt + exact-goal FE",
+        "informative_recovered_goals": 37,
+        "interpretation": "Conditional within-goal association, not a causal effect.",
+        "bootstrap_seed": 6112702
+      },
+      "conditional_A": {
+        "0": {
+          "estimate": 0.4483442374771353,
+          "ci95": [
+            0.39163812721715635,
+            0.5036942331766969
+          ],
+          "n": 355
+        },
+        "1": {
+          "estimate": 0.5845349039992809,
+          "ci95": [
+            0.5293840337362772,
+            0.6376196217863221
+          ],
+          "n": 100
+        }
+      },
+      "conditional_C": {
+        "0": {
+          "estimate": 0.5957890052032819,
+          "ci95": [
+            0.5255650123820717,
+            0.6613447407658469
+          ],
+          "n": 66,
+          "valid_draws": 2000,
+          "layouts": 44
+        },
+        "1": {
+          "estimate": 0.5688967212764019,
+          "ci95": [
+            0.48683668913859507,
+            0.6429659331628778
+          ],
+          "n": 61,
+          "valid_draws": 2000,
+          "layouts": 43
+        }
+      }
+    }
+  },
+  "vqa": {
+    "gemini": {
+      "correct": 644,
+      "eligible": 670,
+      "accuracy": 0.9611940298507463,
+      "ci95_low": 0.9449404761904762,
+      "ci95_high": 0.9760479041916168,
+      "layouts": 66,
+      "bootstrap_draws": 10000,
+      "bootstrap_seed": 20261114
+    },
+    "gpt": {
+      "correct": 629,
+      "eligible": 670,
+      "accuracy": 0.9388059701492537,
+      "ci95_low": 0.9183976261127597,
+      "ci95_high": 0.9578963173700016,
+      "layouts": 66,
+      "bootstrap_draws": 10000,
+      "bootstrap_seed": 20261114
+    },
+    "qwen": {
+      "correct": 630,
+      "eligible": 670,
+      "accuracy": 0.9402985074626866,
+      "ci95_low": 0.8937085910637496,
+      "ci95_high": 0.9746646795827124,
+      "layouts": 66,
+      "bootstrap_draws": 10000,
+      "bootstrap_seed": 20261114
+    }
+  }
+}

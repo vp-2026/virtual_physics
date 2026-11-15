@@ -1,0 +1,35 @@
+{
+  "max_tokens": 16384,
+  "messages": [
+    {
+      "content": "You are answering perception questions about one INITIAL STATIC 2D scene. No action has been taken and no physics prediction is requested. Use only the supplied scene representation. Return one JSON object mapping every question_id to exactly one option letter.",
+      "role": "system"
+    },
+    {
+      "content": [
+        {
+          "text": "The attached clean 600-by-600 image contains the initial scene. Image coordinates use (0,0) at bottom-left; x increases to the right and y increases upward.\nScene conventions: the red target and blue filled objects are movable; black shapes are fixed. The green goal container is fixed.\nAnswer all questions. Do not infer any future motion.\n\nBalance_8:red_shape: What is the shape of the red target?\n  A. container\n  B. circle\n  C. irregular polygon\n  D. rectangle\nBalance_8:goal_shape: Which description best matches the green goal?\n  A. solid rectangle\n  B. solid circle\n  C. open container\n  D. solid triangle\nBalance_8:blue_count: How many blue objects are visible?\n  A. 0\n  B. 2\n  C. 3\n  D. 1\nBalance_8:colored_count: How many colored objects are visible in total, counting red, green, and blue but not black?\n  A. 6\n  B. 1\n  C. 2\n  D. 4\n  E. 3\n  F. 5\nBalance_8:movable_count: Using the supplied movability information, how many visible objects are movable?\n  A. 1\n  B. 3\n  C. 4\n  D. 5\n  E. 6\n  F. 2\nBalance_8:horizontal_relation: Where is the red target ball's center horizontally relative to the green goal container's center?\n  A. left\n  B. right\n  C. approximately aligned\nBalance_8:vertical_relation: Where is the red target ball's center vertically relative to the green goal container's center?\n  A. approximately aligned\n  B. above\n  C. below\nBalance_8:red_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the red target ball's center?\n  A. upper-left\n  B. upper-right\n  C. lower-left\n  D. lower-right\nBalance_8:goal_quadrant: Using x=300 and y=300 as dividing lines (0-299 is left/lower; 300-599 is right/upper), which 2-by-2 quadrant contains the green goal container's center?\n  A. upper-right\n  B. lower-right\n  C. lower-left\n  D. upper-left\nBalance_8:containment: Is the red target ball's center initially outside the green goal container?\n  A. yes\n  B. no\nBalance_8:movable_object_relation: Where is the center of the long horizontal blue rectangle horizontally relative to the red target ball's center?\n  A. left\n  B. approximately aligned\n  C. right",
+          "type": "text"
+        },
+        {
+          "image_url": {
+            "detail": "high",
+            "url": "data:image/png;base64,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TQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEIA0IQQgTQgBSBNCANKEEAAA4CbqK7IQhPSg3o3dAAAAAElFTkSuQmCC"
+          },
+          "type": "image_url"
+        }
+      ],
+      "role": "user"
+    }
+  ],
+  "model": "qwen/qwen3.6-plus",
+  "reasoning": {
+    "effort": "low",
+    "exclude": true
+  },
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 2026,
+  "temperature": 0.2
+}

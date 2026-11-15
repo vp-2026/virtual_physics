@@ -6,7 +6,7 @@ simulation supports flexible tool use and physical reasoning**, PNAS (2020).
 Upstream source: <https://github.com/k-r-allen/tool-games>.
 
 This repository includes locally modified Python simulator code in
-`simulator/runtime/pyGameWorld/` and the legacy copy in `scripts/pyGameWorld/`,
+`simulator/runtime/pyGameWorld/` and the legacy copy in `archive/pre_correction_2026-11-14/scripts/pyGameWorld/`,
 alongside project-specific runners, goal evaluation, and analysis code. The
 upstream attribution is retained; the repository copyright notice does not
 claim authorship of the original simulator.
