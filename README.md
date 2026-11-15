@@ -158,3 +158,13 @@ Individual-level human participant data are not publicly released because
 participant consent does not authorize public distribution. Aggregate human
 statistics are reported in the paper. Public reproducibility materials cover
 the model experiments, simulator, task definitions, prompts, and VQA controls.
+
+## Tested reproduction and provenance
+
+See [tested commands and populations](analysis/REPRODUCIBILITY.md),
+[asset provenance](analysis/ASSET_PROVENANCE.md), and
+[license status](LICENSE_STATUS.md). Historical and current-scene VQA are
+separate datasets; archived results are never overwritten by a rerun.
+
+The [current-scene VQA archive](vqa/current_scene_2026-11-14/README.md) includes
+all frozen conditions, format diagnostics, source hashes and reproducible results.

@@ -1,0 +1,94 @@
+{
+  "source_sha256": "78de23ae4cd96fce2823d1acc1d78b95e619dc3e87bfc96c7ef6a70656930a86",
+  "goal": "canonical_0116_Prevention_10_upward",
+  "coords": [
+    300,
+    400
+  ],
+  "goal_succeeded": false,
+  "prediction": {
+    "action": "drop",
+    "point": [
+      300,
+      400
+    ],
+    "coordinate_predictions": [
+      {
+        "id": "Ball",
+        "state": "in_scene",
+        "point": [
+          540,
+          75
+        ],
+        "orientation_deg": null
+      },
+      {
+        "id": "Blocker",
+        "state": "in_scene",
+        "point": [
+          60,
+          100
+        ],
+        "orientation_deg": 0
+      },
+      {
+        "id": "PLACED",
+        "state": "exited",
+        "exit_side": "top",
+        "point": null,
+        "orientation_deg": null
+      }
+    ],
+    "reasoning": "Place the orange ball in the open space directly above the red ball. The orange ball will accelerate upward and exit the scene. The red ball will accelerate downward, which will cause it to roll down the ramp to the right and into the green goal. The blue blocker will accelerate downward and fall to the bottom left area."
+  },
+  "prediction_endpoints": {
+    "schema_version": 1,
+    "source_trace_sha256": "4c552914a39f704d5f74605092593c46ec66cb99d9a17a4abdd35295bf587cd0",
+    "objects": {
+      "Ball": {
+        "id": "Ball",
+        "label": "red ball",
+        "role": "target",
+        "shape": "Ball",
+        "total_displacement_px": 0.0,
+        "final_x": 297.0,
+        "final_y": 315.0,
+        "final_angle_rad": 0.0
+      },
+      "Blocker": {
+        "id": "Blocker",
+        "label": "blue plank",
+        "role": "blue_plank",
+        "shape": "Poly",
+        "total_displacement_px": 121.626265546992,
+        "final_x": 90.11838243337455,
+        "final_y": 311.6911854088922,
+        "final_angle_rad": -0.6610425671073338
+      },
+      "PLACED": {
+        "id": "PLACED",
+        "label": "big orange ball (dropped tool)",
+        "role": "tool",
+        "shape": "Ball",
+        "total_displacement_px": 309.5484764561357,
+        "final_x": 563.0935682463108,
+        "final_y": 563.1012986574248,
+        "final_angle_rad": 7.336227814912033
+      }
+    }
+  },
+  "object_scores": [
+    {
+      "object_id": "Ball",
+      "pq": 0.0748551774125739
+    },
+    {
+      "object_id": "Blocker",
+      "pq": 0.36203799656321406
+    },
+    {
+      "object_id": "PLACED",
+      "pq": 0.0
+    }
+  ]
+}

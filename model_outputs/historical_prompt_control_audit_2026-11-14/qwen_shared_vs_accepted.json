@@ -1,0 +1,1989 @@
+{
+  "n": 132,
+  "shared_state_mean": 0.4669014670360821,
+  "accepted_branch_mean": 0.4611395981889581,
+  "pq_differences": 36,
+  "action_mismatches": 36,
+  "rows": [
+    {
+      "goal": "canonical_0001_BackUp_2_downward",
+      "shared_pq": 0.36275637081568096,
+      "accepted_branch_pq": 0.36275637081568096,
+      "executed_coords": [
+        200,
+        500
+      ],
+      "shared_prediction_action": [
+        200,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "ff4cfc7abf142cf3f49fbb4477fb717395345d9ba58f0884731c647931d938b9"
+    },
+    {
+      "goal": "canonical_0002_BackUp_2_upward",
+      "shared_pq": 0.48942797762739093,
+      "accepted_branch_pq": 0.48942797762739093,
+      "executed_coords": [
+        220,
+        280
+      ],
+      "shared_prediction_action": [
+        220,
+        280
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "d6af2aaceb1cb1fd40a31874237d8d892668d607508df411d99aca9211cae3f4"
+    },
+    {
+      "goal": "canonical_0003_BackUp_3_downward",
+      "shared_pq": 0.7149449450931586,
+      "accepted_branch_pq": 0.7149449450931586,
+      "executed_coords": [
+        200,
+        500
+      ],
+      "shared_prediction_action": [
+        200,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "292cc0d843d8952faf9a52ff496b3e5ac5fd8fda3ed24adf3255dea9a58c2220"
+    },
+    {
+      "goal": "canonical_0004_BackUp_3_upward",
+      "shared_pq": 0.3326205185414331,
+      "accepted_branch_pq": 0.3326205185414331,
+      "executed_coords": [
+        300,
+        200
+      ],
+      "shared_prediction_action": [
+        300,
+        200
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "0bbeb0951bc3d6b58798023a622de3c305595db68465cf97b9991f4ef0c98bd3"
+    },
+    {
+      "goal": "canonical_0005_BackUp_4_downward",
+      "shared_pq": 0.5406982325855058,
+      "accepted_branch_pq": 0.5406982325855058,
+      "executed_coords": [
+        180,
+        480
+      ],
+      "shared_prediction_action": [
+        180,
+        480
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "bea5ef947f97b9620a055bb1caf0f21511ed0241bf44f0dfb263cab9ee81b2e2"
+    },
+    {
+      "goal": "canonical_0006_BackUp_4_upward",
+      "shared_pq": 0.2610195942130468,
+      "accepted_branch_pq": 0.2610195942130468,
+      "executed_coords": [
+        220,
+        250
+      ],
+      "shared_prediction_action": [
+        220,
+        250
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "ca84429675cf0510bef99b08c9db28936789172c54fb1dcf9424c0e3edc10903"
+    },
+    {
+      "goal": "canonical_0007_BackUp_5_downward",
+      "shared_pq": 0.3796565952762107,
+      "accepted_branch_pq": 0.3796565952762107,
+      "executed_coords": [
+        180,
+        500
+      ],
+      "shared_prediction_action": [
+        180,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "e40f616f2370a301bb17ea7beae2b27bfb5e6616fe177612209f7cd8c543efe5"
+    },
+    {
+      "goal": "canonical_0008_BackUp_5_upward",
+      "shared_pq": 0.48256258605245134,
+      "accepted_branch_pq": 0.48256258605245134,
+      "executed_coords": [
+        180,
+        300
+      ],
+      "shared_prediction_action": [
+        180,
+        300
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "761b4b983920a6361d175c4944f2b76d2743d63c9e0cd93ba7629d4c601fa751"
+    },
+    {
+      "goal": "canonical_0009_BackUp_6_downward",
+      "shared_pq": 0.487086500067607,
+      "accepted_branch_pq": 0.487086500067607,
+      "executed_coords": [
+        280,
+        480
+      ],
+      "shared_prediction_action": [
+        280,
+        480
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "44dc037278fc4f9a4f9405aafa08b15d8414f6887e5f66d9ff67c6b8296e3a91"
+    },
+    {
+      "goal": "canonical_0010_BackUp_6_upward",
+      "shared_pq": 0.006872462899931911,
+      "accepted_branch_pq": 0.006872462899931911,
+      "executed_coords": [
+        320,
+        250
+      ],
+      "shared_prediction_action": [
+        320,
+        250
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "b5331b44a2a0d0def9c07f02266ff00d1c0ca2b4b74d68906488d7b5938ca491"
+    },
+    {
+      "goal": "canonical_0011_BackUp_7_downward",
+      "shared_pq": 0.09767982732528639,
+      "accepted_branch_pq": 0.09767982732528639,
+      "executed_coords": [
+        320,
+        450
+      ],
+      "shared_prediction_action": [
+        320,
+        450
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "c9d3cb22486aef4779db9be85974ec9c033484620f2bcf41007a79eb9197da32"
+    },
+    {
+      "goal": "canonical_0012_BackUp_7_upward",
+      "shared_pq": 0.1567199264915368,
+      "accepted_branch_pq": 0.1567199264915368,
+      "executed_coords": [
+        300,
+        250
+      ],
+      "shared_prediction_action": [
+        300,
+        250
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "6626ca4f173bb2282caf66c521288b9fce7cf1669ebef8c39478f558e9aa12e7"
+    },
+    {
+      "goal": "canonical_0013_BackUp_8_downward",
+      "shared_pq": 0.011147566625760948,
+      "accepted_branch_pq": 0.011147566625760948,
+      "executed_coords": [
+        250,
+        480
+      ],
+      "shared_prediction_action": [
+        250,
+        480
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "2b605c202698eb9e49de9cffaadf7e289c17146a6037385c7255459455c84b7c"
+    },
+    {
+      "goal": "canonical_0014_BackUp_8_upward",
+      "shared_pq": 0.00011881228743759676,
+      "accepted_branch_pq": 0.00011881228743759676,
+      "executed_coords": [
+        270,
+        200
+      ],
+      "shared_prediction_action": [
+        270,
+        200
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "0ba5036fd60520131f69124a1087b51f0a5207bd05c48b6e4d2d72dcf9e83b02"
+    },
+    {
+      "goal": "canonical_0015_BackUp_9_downward",
+      "shared_pq": 0.6642281761659499,
+      "accepted_branch_pq": 0.66422817616595,
+      "executed_coords": [
+        350,
+        400
+      ],
+      "shared_prediction_action": [
+        350,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "87a62389f00bcb138937461edd162d3df284a780c91014b91de8cbae66523ea3"
+    },
+    {
+      "goal": "canonical_0016_BackUp_9_upward",
+      "shared_pq": 0.6273061713255621,
+      "accepted_branch_pq": 0.6273061713255621,
+      "executed_coords": [
+        300,
+        200
+      ],
+      "shared_prediction_action": [
+        300,
+        200
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "14cf3668ae2e10aab17c1ccbc82592c5b2e7a0a2c8b2bd2b7cef39d4191289af"
+    },
+    {
+      "goal": "canonical_0017_BackUp_10_downward",
+      "shared_pq": 0.9488515259271587,
+      "accepted_branch_pq": 0.9488515259271587,
+      "executed_coords": [
+        250,
+        150
+      ],
+      "shared_prediction_action": [
+        250,
+        150
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "610595b542ec6fad13a5368ba7ac0e7ba398226f1b4300a59fc102a5d332ace9"
+    },
+    {
+      "goal": "canonical_0018_BackUp_10_upward",
+      "shared_pq": 0.6645058039568718,
+      "accepted_branch_pq": 0.6645058039568718,
+      "executed_coords": [
+        280,
+        100
+      ],
+      "shared_prediction_action": [
+        280,
+        100
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "2929cfed2c2cf6b93c1a696df5935d35ed15f48d998216738de97483be93c41c"
+    },
+    {
+      "goal": "canonical_0019_Balance_1_downward",
+      "shared_pq": 0.8095177814261912,
+      "accepted_branch_pq": 0.8095177814261912,
+      "executed_coords": [
+        200,
+        400
+      ],
+      "shared_prediction_action": [
+        200,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "19f1abf5c42f6808f6cc8d6463bb30fcc7c8fffcaa380a2a8ddd94bacf8b8ad0"
+    },
+    {
+      "goal": "canonical_0020_Balance_1_upward",
+      "shared_pq": 0.5227985219242742,
+      "accepted_branch_pq": 0.5227985219242742,
+      "executed_coords": [
+        400,
+        50
+      ],
+      "shared_prediction_action": [
+        400,
+        50
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "9c723c2fba1bc7c970b39e02202c2f2dd5655db2c36a2c7aad9405324d049d34"
+    },
+    {
+      "goal": "canonical_0021_Balance_2_downward",
+      "shared_pq": 0.8123926079567264,
+      "accepted_branch_pq": 0.8123926079567264,
+      "executed_coords": [
+        200,
+        300
+      ],
+      "shared_prediction_action": [
+        200,
+        300
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "027f810424be00eb57dda83042494f0ecd745a02e05cdb60c2400c3d87951791"
+    },
+    {
+      "goal": "canonical_0022_Balance_2_upward",
+      "shared_pq": 0.5678118203877996,
+      "accepted_branch_pq": 0.5678118203877996,
+      "executed_coords": [
+        450,
+        50
+      ],
+      "shared_prediction_action": [
+        450,
+        50
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "201d57a59315ec57a46a01742a05b390a955231eb149a85cac516362576dcad9"
+    },
+    {
+      "goal": "canonical_0023_Balance_3_downward",
+      "shared_pq": 0.627606551803215,
+      "accepted_branch_pq": 0.6276065518032149,
+      "executed_coords": [
+        380,
+        500
+      ],
+      "shared_prediction_action": [
+        380,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "6880489f917ab3818a6733cda720ba627c1b0c223076d30b3c6944d8a35cdcf4"
+    },
+    {
+      "goal": "canonical_0024_Balance_3_upward",
+      "shared_pq": 0.0660047168004071,
+      "accepted_branch_pq": 0.0660047168004071,
+      "executed_coords": [
+        420,
+        300
+      ],
+      "shared_prediction_action": [
+        420,
+        300
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "f3f0326700d8c7f65c01772d0ea93f9eebda172bfff15637f4aaa18465cc9f55"
+    },
+    {
+      "goal": "canonical_0025_Balance_4_downward",
+      "shared_pq": 0.5879622220538899,
+      "accepted_branch_pq": 0.5879622220538899,
+      "executed_coords": [
+        360,
+        500
+      ],
+      "shared_prediction_action": [
+        360,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "507e75250d9fc3e9607db77fbb129144fc4f3a5025393653e78905eb268a8403"
+    },
+    {
+      "goal": "canonical_0026_Balance_4_upward",
+      "shared_pq": 0.4828988750882279,
+      "accepted_branch_pq": 0.4828988750882279,
+      "executed_coords": [
+        200,
+        300
+      ],
+      "shared_prediction_action": [
+        200,
+        300
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "454a348b33c6e3d5658c601967707c4851f71b3f1e54b47606d325544f64ee6a"
+    },
+    {
+      "goal": "canonical_0027_Balance_5_downward",
+      "shared_pq": 0.42712951760649087,
+      "accepted_branch_pq": 0.42712951760649087,
+      "executed_coords": [
+        240,
+        400
+      ],
+      "shared_prediction_action": [
+        240,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "ca60d233af1deb51700acb5d873157cb103dac17e82048e99dee078bbf9caa33"
+    },
+    {
+      "goal": "canonical_0028_Balance_5_upward",
+      "shared_pq": 0.3649910757772186,
+      "accepted_branch_pq": 0.3649910757772186,
+      "executed_coords": [
+        400,
+        200
+      ],
+      "shared_prediction_action": [
+        400,
+        200
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "b0d25c3deefd9b13f94941bc5b74443daa91d273923542e620aef1704e4e3ea2"
+    },
+    {
+      "goal": "canonical_0029_Balance_7_downward",
+      "shared_pq": 0.06220598859131505,
+      "accepted_branch_pq": 0.06220598859131506,
+      "executed_coords": [
+        180,
+        500
+      ],
+      "shared_prediction_action": [
+        180,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "fb470735cb1123726fc8cad16fbf2bd3211f4921f21fb13599562babb267fe0f"
+    },
+    {
+      "goal": "canonical_0030_Balance_7_upward",
+      "shared_pq": 0.0708981192331612,
+      "accepted_branch_pq": 0.0708981192331612,
+      "executed_coords": [
+        420,
+        280
+      ],
+      "shared_prediction_action": [
+        420,
+        280
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "ab17822521c22b394a592072be70e6129add06c9d2ae8b706099644f7ea7db35"
+    },
+    {
+      "goal": "canonical_0031_Balance_8_downward",
+      "shared_pq": 0.33219731674050273,
+      "accepted_branch_pq": 0.42212359169795605,
+      "executed_coords": [
+        380,
+        500
+      ],
+      "shared_prediction_action": [
+        400,
+        500
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "756420e230e5840527a0519e11aae04d81ba76c3541e10b5a1eddd0bff8a3838"
+    },
+    {
+      "goal": "canonical_0032_Balance_8_upward",
+      "shared_pq": 0.25811071217510756,
+      "accepted_branch_pq": 0.25811071217510756,
+      "executed_coords": [
+        200,
+        150
+      ],
+      "shared_prediction_action": [
+        200,
+        150
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "cfe7eb1caf203bafbd9d63221f53ffc89e63b25287c2cd1fb12fc6073c86a1a9"
+    },
+    {
+      "goal": "canonical_0033_Balance_10_downward",
+      "shared_pq": 0.38453682292342833,
+      "accepted_branch_pq": 0.38453682292342833,
+      "executed_coords": [
+        380,
+        250
+      ],
+      "shared_prediction_action": [
+        380,
+        250
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "a73aed249f1d550f16ea1ccfb943e5572d9b2d94f450374b06cc2b6194d98fa0"
+    },
+    {
+      "goal": "canonical_0034_Balance_10_upward",
+      "shared_pq": 0.6745607249060424,
+      "accepted_branch_pq": 0.6745607249060424,
+      "executed_coords": [
+        400,
+        80
+      ],
+      "shared_prediction_action": [
+        400,
+        80
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "827dc3582d25943f9002558c63d9037fc3441423d7b7638aa5d266c8b1b01e3b"
+    },
+    {
+      "goal": "canonical_0035_BalanceUnder_2_downward",
+      "shared_pq": 0.5000146555339338,
+      "accepted_branch_pq": 0.5000146555339338,
+      "executed_coords": [
+        50,
+        400
+      ],
+      "shared_prediction_action": [
+        50,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "f3d42df01e3dfd79e675274a8373c2d9d188bde40f0d5b81d28cdd6b7db3d0d1"
+    },
+    {
+      "goal": "canonical_0036_BalanceUnder_2_upward",
+      "shared_pq": 0.5561436846119091,
+      "accepted_branch_pq": 0.5561436846119091,
+      "executed_coords": [
+        400,
+        200
+      ],
+      "shared_prediction_action": [
+        400,
+        200
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "c0d977a66143e0127b7c5db131bc1d17e98932025e2d21ac8859e82cec6adb15"
+    },
+    {
+      "goal": "canonical_0037_BalanceUnder_3_downward",
+      "shared_pq": 0.9586284604838378,
+      "accepted_branch_pq": 0.9586284604838378,
+      "executed_coords": [
+        40,
+        300
+      ],
+      "shared_prediction_action": [
+        40,
+        300
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "b8bde60fe1db09feb2d2b7920a42a02d17b5ea910d19582dc0a9cdd0794ab226"
+    },
+    {
+      "goal": "canonical_0038_BalanceUnder_3_upward",
+      "shared_pq": 0.3154452071531912,
+      "accepted_branch_pq": 0.25548683848570924,
+      "executed_coords": [
+        380,
+        150
+      ],
+      "shared_prediction_action": [
+        350,
+        150
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "276ad010c049435e05bb098c64a28774ca96222dc152f9374e1ea8b6a981793c"
+    },
+    {
+      "goal": "canonical_0039_BalanceUnder_5_downward",
+      "shared_pq": 0.407106681686041,
+      "accepted_branch_pq": 0.407106681686041,
+      "executed_coords": [
+        300,
+        400
+      ],
+      "shared_prediction_action": [
+        300,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "5b98721bf3f98a61f35f1921bbb43a1dad7d9cffe81ebccb24cbc17c49f1ee5a"
+    },
+    {
+      "goal": "canonical_0040_BalanceUnder_5_upward",
+      "shared_pq": 0.0,
+      "accepted_branch_pq": 0.0,
+      "executed_coords": [
+        180,
+        150
+      ],
+      "shared_prediction_action": [
+        180,
+        150
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "18bc31d4214640a24764240196d792ab9d2919846f2407a9b853a4139c26ffa6"
+    },
+    {
+      "goal": "canonical_0041_BalanceUnder_6_downward",
+      "shared_pq": 0.5958273462443718,
+      "accepted_branch_pq": 0.5958273462443718,
+      "executed_coords": [
+        330,
+        400
+      ],
+      "shared_prediction_action": [
+        330,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "a938d0f00804eda5d15a10621f881b98fc52e50e12950c9a4ce76cd993eee347"
+    },
+    {
+      "goal": "canonical_0042_BalanceUnder_6_upward",
+      "shared_pq": 0.314352350767537,
+      "accepted_branch_pq": 0.314352350767537,
+      "executed_coords": [
+        300,
+        180
+      ],
+      "shared_prediction_action": [
+        300,
+        180
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "231d3706425836205d89b70f2fb5402b199dd6c4e48ec84abdf93efb3f6c6df9"
+    },
+    {
+      "goal": "canonical_0043_BalanceUnder_7_downward",
+      "shared_pq": 0.4290657716122416,
+      "accepted_branch_pq": 0.4290657716122416,
+      "executed_coords": [
+        420,
+        480
+      ],
+      "shared_prediction_action": [
+        420,
+        480
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "92eef5857c02330511909861a680589826ddf7c3ab69e05b1eb521750fc48578"
+    },
+    {
+      "goal": "canonical_0044_BalanceUnder_7_upward",
+      "shared_pq": 0.34610111399010857,
+      "accepted_branch_pq": 0.34610111399010857,
+      "executed_coords": [
+        100,
+        212
+      ],
+      "shared_prediction_action": [
+        100,
+        212
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "c274c35e1560a35093c8a4ce7acd02bc17dcfccd9903a39bad18a9515ca41114"
+    },
+    {
+      "goal": "canonical_0045_BalanceUnder_8_downward",
+      "shared_pq": 0.4549021424894367,
+      "accepted_branch_pq": 0.4549021424894367,
+      "executed_coords": [
+        250,
+        450
+      ],
+      "shared_prediction_action": [
+        250,
+        450
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "f377ab6ee3b30bd35b06ed1b7d41fe2d38ba5a0fa7e54294382ae79688639033"
+    },
+    {
+      "goal": "canonical_0046_BalanceUnder_8_upward",
+      "shared_pq": 0.37177784338105274,
+      "accepted_branch_pq": 0.3717778433810527,
+      "executed_coords": [
+        150,
+        150
+      ],
+      "shared_prediction_action": [
+        150,
+        150
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "c58e2c568bcc73d08f7decc7748a73a61f936d3ec4b6519c7766ad7e5c950e1e"
+    },
+    {
+      "goal": "canonical_0047_BalanceUnder_10_downward",
+      "shared_pq": 0.5169482356985983,
+      "accepted_branch_pq": 0.5169482356985983,
+      "executed_coords": [
+        250,
+        450
+      ],
+      "shared_prediction_action": [
+        250,
+        450
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "3ffa7c928fe5f34cedfdc64d44ae1f7e44085ead299c2d3b0ba47ebeba0d1d1f"
+    },
+    {
+      "goal": "canonical_0048_BalanceUnder_10_upward",
+      "shared_pq": 0.3438921728336378,
+      "accepted_branch_pq": 0.3438921728336378,
+      "executed_coords": [
+        180,
+        180
+      ],
+      "shared_prediction_action": [
+        180,
+        180
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "dd99f0aec5839628b51481f1b99c4b55a13fffa8b89d2d67ca03e1618c0c9f2a"
+    },
+    {
+      "goal": "canonical_0049_Basic_1_downward",
+      "shared_pq": 0.8805128549185794,
+      "accepted_branch_pq": 0.8805128549185796,
+      "executed_coords": [
+        300,
+        300
+      ],
+      "shared_prediction_action": [
+        300,
+        300
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "3dc171be87cfa59f33f1678656c9a75fa9efd843f6485a4c9943aebee5bb99cb"
+    },
+    {
+      "goal": "canonical_0050_Basic_1_upward",
+      "shared_pq": 0.3015424987253418,
+      "accepted_branch_pq": 0.3015424987253418,
+      "executed_coords": [
+        40,
+        330
+      ],
+      "shared_prediction_action": [
+        40,
+        330
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "f8de7689cb3d0125e34fad8f0daeffb6a4f5c820cba4634710b11fda23976c60"
+    },
+    {
+      "goal": "canonical_0051_Basic_2_downward",
+      "shared_pq": 0.705150170872626,
+      "accepted_branch_pq": 0.6955127937874949,
+      "executed_coords": [
+        150,
+        250
+      ],
+      "shared_prediction_action": [
+        300,
+        200
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "5b35881ce49d509e604c3ef2a2ca748169e8a96032753fb8c238d0b64bb7cee7"
+    },
+    {
+      "goal": "canonical_0052_Basic_2_upward",
+      "shared_pq": 0.3318900346365273,
+      "accepted_branch_pq": 0.3318900346365273,
+      "executed_coords": [
+        40,
+        300
+      ],
+      "shared_prediction_action": [
+        40,
+        300
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "c1fd77d160062667a8e9c08cc8af415d6a0d809ad94c47241d117f27b5d75c94"
+    },
+    {
+      "goal": "canonical_0053_Basic_6_downward",
+      "shared_pq": 0.550742993790705,
+      "accepted_branch_pq": 0.550742993790705,
+      "executed_coords": [
+        200,
+        350
+      ],
+      "shared_prediction_action": [
+        200,
+        350
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "3fd4483c28321772d2b9a21a13691630db446e4336dc6abb8bb547d82a279b1d"
+    },
+    {
+      "goal": "canonical_0054_Basic_6_upward",
+      "shared_pq": 0.9911767755019047,
+      "accepted_branch_pq": 0.661189116423394,
+      "executed_coords": [
+        40,
+        480
+      ],
+      "shared_prediction_action": [
+        36,
+        450
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "bf825a72a57233a4bc2627f616e3035a405b1a9963ab692fdb970241918079f7"
+    },
+    {
+      "goal": "canonical_0055_Basic_7_downward",
+      "shared_pq": 0.7554241361864101,
+      "accepted_branch_pq": 0.7554241361864101,
+      "executed_coords": [
+        250,
+        500
+      ],
+      "shared_prediction_action": [
+        250,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "ddc3de41556f350594192f701d9efd168d396659424d4a7ead426bd57aa6462e"
+    },
+    {
+      "goal": "canonical_0056_Basic_7_upward",
+      "shared_pq": 0.6606749916274501,
+      "accepted_branch_pq": 0.6537253118077763,
+      "executed_coords": [
+        255,
+        400
+      ],
+      "shared_prediction_action": [
+        250,
+        220
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "8a57b6378fa1329246bae8b190d536b917abe39fef62db6534a9ef6f3a7dac85"
+    },
+    {
+      "goal": "canonical_0057_Basic_8_downward",
+      "shared_pq": 0.8190876392920874,
+      "accepted_branch_pq": 0.9709837198119372,
+      "executed_coords": [
+        230,
+        400
+      ],
+      "shared_prediction_action": [
+        150,
+        500
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "6e19a4878f3df73409ccf5f28ec9786925f15d9ccd19caf7198588298c930889"
+    },
+    {
+      "goal": "canonical_0058_Basic_8_upward",
+      "shared_pq": 0.6214703752630947,
+      "accepted_branch_pq": 0.6214703752630947,
+      "executed_coords": [
+        60,
+        450
+      ],
+      "shared_prediction_action": [
+        60,
+        450
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "2a93a0717c7b8e15c30f76f51e2da97b0feae76afaae3c7f4e1a1b43d48e1f18"
+    },
+    {
+      "goal": "canonical_0059_Basic_9_downward",
+      "shared_pq": 0.6432301896822178,
+      "accepted_branch_pq": 0.6465264350172882,
+      "executed_coords": [
+        120,
+        400
+      ],
+      "shared_prediction_action": [
+        100,
+        400
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "6f925ebbf95bfd1d2f1f9b7386be688538edab1e3b8b718e284c101465d3b665"
+    },
+    {
+      "goal": "canonical_0060_Basic_9_upward",
+      "shared_pq": 0.611028493382308,
+      "accepted_branch_pq": 0.611028493382308,
+      "executed_coords": [
+        500,
+        500
+      ],
+      "shared_prediction_action": [
+        500,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "4a540fb330538be69798e67b4ebfd5dda55b1e6361e8e9fbf21da0407a41ebcc"
+    },
+    {
+      "goal": "canonical_0061_Basic_10_downward",
+      "shared_pq": 0.8526667121118575,
+      "accepted_branch_pq": 0.8526667121118575,
+      "executed_coords": [
+        460,
+        150
+      ],
+      "shared_prediction_action": [
+        460,
+        150
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "eb1a44ec0b3c7719b350df3301d97936a304971991911eb1b0d39d16276e2d99"
+    },
+    {
+      "goal": "canonical_0062_Basic_10_upward",
+      "shared_pq": 0.43526858287106757,
+      "accepted_branch_pq": 0.43526858287106757,
+      "executed_coords": [
+        400,
+        200
+      ],
+      "shared_prediction_action": [
+        400,
+        200
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "889c14f52ec24ea4a7aab57bc6cb17ee27e768f11f4a0d6396801813cf05d251"
+    },
+    {
+      "goal": "canonical_0063_Falling_1_downward",
+      "shared_pq": 0.8015874670609722,
+      "accepted_branch_pq": 0.8015874670609723,
+      "executed_coords": [
+        380,
+        500
+      ],
+      "shared_prediction_action": [
+        380,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "fda04f8af8cf8873657d08567d7337e188cc24a03c4c431507d394a0133da728"
+    },
+    {
+      "goal": "canonical_0064_Falling_1_upward",
+      "shared_pq": 0.6508071315434125,
+      "accepted_branch_pq": 0.6247748137944829,
+      "executed_coords": [
+        240,
+        100
+      ],
+      "shared_prediction_action": [
+        300,
+        120
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "5c91f0f8ea7dd01cf7718414c92524c63bac3e7fb97e3ac570d7cebb19641da3"
+    },
+    {
+      "goal": "canonical_0065_Falling_2_downward",
+      "shared_pq": 0.8686376946873562,
+      "accepted_branch_pq": 0.8686376946873562,
+      "executed_coords": [
+        360,
+        500
+      ],
+      "shared_prediction_action": [
+        360,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "99095610ae9ac6900b731411ab8b4434c7e00b18ffdcd8783afc887a1a17ad1c"
+    },
+    {
+      "goal": "canonical_0066_Falling_2_upward",
+      "shared_pq": 0.23441744509050078,
+      "accepted_branch_pq": 0.6255382522934082,
+      "executed_coords": [
+        340,
+        140
+      ],
+      "shared_prediction_action": [
+        250,
+        100
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "4f15e515de4a77a40bda32e207786dcfdc1174d836455c61b8efdf872a6da269"
+    },
+    {
+      "goal": "canonical_0067_Falling_3_downward",
+      "shared_pq": 0.4819359686036096,
+      "accepted_branch_pq": 0.4819359686036096,
+      "executed_coords": [
+        260,
+        550
+      ],
+      "shared_prediction_action": [
+        260,
+        550
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "75f4aea399972455fe96ba94e4c37a0c398591b05ab3393f242d1d8429020a60"
+    },
+    {
+      "goal": "canonical_0068_Falling_3_upward",
+      "shared_pq": 0.24441500766775368,
+      "accepted_branch_pq": 0.47224251853995886,
+      "executed_coords": [
+        360,
+        350
+      ],
+      "shared_prediction_action": [
+        250,
+        330
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "2279143871d3ce36b1b7b0747b2247dc6151555359abe0d53a576cb6e7b16a71"
+    },
+    {
+      "goal": "canonical_0069_Falling_5_downward",
+      "shared_pq": 0.23668176488585088,
+      "accepted_branch_pq": 0.23668176488585088,
+      "executed_coords": [
+        200,
+        520
+      ],
+      "shared_prediction_action": [
+        200,
+        520
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "278177c92ff644b1ac53bd916ba322fef3c6a5fcec569001ebce42e2e832120d"
+    },
+    {
+      "goal": "canonical_0070_Falling_5_upward",
+      "shared_pq": 0.14243090119740245,
+      "accepted_branch_pq": 0.19452079222773774,
+      "executed_coords": [
+        250,
+        340
+      ],
+      "shared_prediction_action": [
+        220,
+        200
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "013e6bcb1bc6de95d2b9f1c216b2c75f8d0f184098b10948e6e20505fe4fc71b"
+    },
+    {
+      "goal": "canonical_0071_Falling_6_downward",
+      "shared_pq": 0.11535375561870066,
+      "accepted_branch_pq": 0.09357356459487831,
+      "executed_coords": [
+        250,
+        550
+      ],
+      "shared_prediction_action": [
+        280,
+        500
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "e6a92aa73acd94549c765e62a8ff6534b99b8432ae4322ccfed28b529b7b51d4"
+    },
+    {
+      "goal": "canonical_0072_Falling_6_upward",
+      "shared_pq": 0.06654206897955882,
+      "accepted_branch_pq": 0.06654206897955882,
+      "executed_coords": [
+        250,
+        260
+      ],
+      "shared_prediction_action": [
+        250,
+        260
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "4045d479caa737ef60bd7aa72f13fd8032cdfaf7c659f568024caaa900847036"
+    },
+    {
+      "goal": "canonical_0073_Falling_7_downward",
+      "shared_pq": 0.8809431275928435,
+      "accepted_branch_pq": 0.8809431275928435,
+      "executed_coords": [
+        145,
+        400
+      ],
+      "shared_prediction_action": [
+        145,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "01b9995e8653624362e317631f5a0129c0ceba12d0d109d25e11db0aa9c99c0e"
+    },
+    {
+      "goal": "canonical_0074_Falling_7_upward",
+      "shared_pq": 0.48598006751936634,
+      "accepted_branch_pq": 0.6561907195600791,
+      "executed_coords": [
+        350,
+        100
+      ],
+      "shared_prediction_action": [
+        230,
+        80
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "a4dde89b67744c49c3a5d3705b7b3b659b101b81cc6d65b12b170e3e0299c965"
+    },
+    {
+      "goal": "canonical_0075_Falling_8_downward",
+      "shared_pq": 0.9552925371924643,
+      "accepted_branch_pq": 0.9552925371924644,
+      "executed_coords": [
+        300,
+        350
+      ],
+      "shared_prediction_action": [
+        300,
+        350
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "d97f636398edc6b10c3a72f44b1e3f00e8f8e7138e5ed15be8a010bb58d4b12c"
+    },
+    {
+      "goal": "canonical_0076_Falling_8_upward",
+      "shared_pq": 0.6578018966856967,
+      "accepted_branch_pq": 0.6578018966856967,
+      "executed_coords": [
+        210,
+        140
+      ],
+      "shared_prediction_action": [
+        210,
+        140
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "cb00d28a1d04d206a81e99156c80a62fde96c5d4e7611575e74b0a9a1308f0e3"
+    },
+    {
+      "goal": "canonical_0077_Falling_9_downward",
+      "shared_pq": 0.5496435167887939,
+      "accepted_branch_pq": 0.5496435167887938,
+      "executed_coords": [
+        250,
+        400
+      ],
+      "shared_prediction_action": [
+        250,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "e01d4a5fef9e5cf4bc36b921d93f897e1ef1e4b2d343099a285473a08c22895e"
+    },
+    {
+      "goal": "canonical_0078_Falling_9_upward",
+      "shared_pq": 0.48479882315878653,
+      "accepted_branch_pq": 0.48479882315878653,
+      "executed_coords": [
+        280,
+        120
+      ],
+      "shared_prediction_action": [
+        280,
+        120
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "7c7b5421d3fbd23400babcce1523ab47a3ed11816579ef59b17802ee942d5242"
+    },
+    {
+      "goal": "canonical_0079_Falling_10_downward",
+      "shared_pq": 0.40683865473695363,
+      "accepted_branch_pq": 0.33560119834425634,
+      "executed_coords": [
+        500,
+        550
+      ],
+      "shared_prediction_action": [
+        310,
+        550
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "265629f534b3232a047ed83d787187c373e91306720685b3a9baab633cc51719"
+    },
+    {
+      "goal": "canonical_0080_Falling_10_upward",
+      "shared_pq": 0.29793646386647094,
+      "accepted_branch_pq": 0.2932093682770828,
+      "executed_coords": [
+        420,
+        350
+      ],
+      "shared_prediction_action": [
+        340,
+        250
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "dd89beb1e767abf51b358a442d3e90c0e8aa74478352fb5852908b33abe13222"
+    },
+    {
+      "goal": "canonical_0081_FallingAlt_1_downward",
+      "shared_pq": 0.740903674473035,
+      "accepted_branch_pq": 0.740903674473035,
+      "executed_coords": [
+        300,
+        450
+      ],
+      "shared_prediction_action": [
+        300,
+        450
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "3112a61d437cea0cb91f789cef3dab619726d563d860c4de8a4dbf4bb2aad893"
+    },
+    {
+      "goal": "canonical_0082_FallingAlt_1_upward",
+      "shared_pq": 0.48717568909310366,
+      "accepted_branch_pq": 0.4871756890931037,
+      "executed_coords": [
+        480,
+        200
+      ],
+      "shared_prediction_action": [
+        480,
+        200
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "d8a34ca69c2f73d4e9c4333831cce88377426cddc15720aa6e5656ab8c12338e"
+    },
+    {
+      "goal": "canonical_0083_FallingAlt_2_downward",
+      "shared_pq": 0.5154279484320942,
+      "accepted_branch_pq": 0.5154279484320942,
+      "executed_coords": [
+        350,
+        500
+      ],
+      "shared_prediction_action": [
+        350,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "75f00a6b236234186d5cbfb6a2ac165f93e8129156afcb379d67ed1ad43492df"
+    },
+    {
+      "goal": "canonical_0084_FallingAlt_2_upward",
+      "shared_pq": 0.49142474362621913,
+      "accepted_branch_pq": 0.4923967104108482,
+      "executed_coords": [
+        330,
+        260
+      ],
+      "shared_prediction_action": [
+        350,
+        300
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "6da4aeac4f25b721c3d41fa538f13e6cf9dea5b7997d7131ef9af50225b8d0f8"
+    },
+    {
+      "goal": "canonical_0085_FallingAlt_3_downward",
+      "shared_pq": 0.25740958956271154,
+      "accepted_branch_pq": 0.25740958956271154,
+      "executed_coords": [
+        280,
+        550
+      ],
+      "shared_prediction_action": [
+        280,
+        550
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "efc92573fdacd2d49d7588926180f3d1dcf5f6ed0f4a7768f33aa4b2a5686899"
+    },
+    {
+      "goal": "canonical_0086_FallingAlt_3_upward",
+      "shared_pq": 0.2570812989874676,
+      "accepted_branch_pq": 0.2570812989874676,
+      "executed_coords": [
+        360,
+        280
+      ],
+      "shared_prediction_action": [
+        380,
+        100
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "f3d3d6556c37e1707d13211820740b3ac26b4109b1f4757f297b9515260aff94"
+    },
+    {
+      "goal": "canonical_0087_FallingAlt_4_downward",
+      "shared_pq": 0.517761338268058,
+      "accepted_branch_pq": 0.549694670807472,
+      "executed_coords": [
+        285,
+        500
+      ],
+      "shared_prediction_action": [
+        350,
+        450
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "7f3c87c92bbff1c5ab0ef66d2777440a398a279cb0eb91ee938d329ba9d9e07e"
+    },
+    {
+      "goal": "canonical_0088_FallingAlt_4_upward",
+      "shared_pq": 0.4609621746662661,
+      "accepted_branch_pq": 0.4609621746662661,
+      "executed_coords": [
+        450,
+        180
+      ],
+      "shared_prediction_action": [
+        450,
+        180
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "2fcffd983f77408e22f96a1d6131ae17e9ea0c7465bb7cee1e68d2a6c2bac651"
+    },
+    {
+      "goal": "canonical_0089_FallingAlt_5_downward",
+      "shared_pq": 0.7268204097360778,
+      "accepted_branch_pq": 0.7268204097360778,
+      "executed_coords": [
+        250,
+        500
+      ],
+      "shared_prediction_action": [
+        250,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "92310a7e43940b7b53dffdd7608f1f9012d849aecad25e19953bed0560fb51fc"
+    },
+    {
+      "goal": "canonical_0090_FallingAlt_5_upward",
+      "shared_pq": 0.5115111980378858,
+      "accepted_branch_pq": 0.5246197553451767,
+      "executed_coords": [
+        160,
+        180
+      ],
+      "shared_prediction_action": [
+        250,
+        200
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "2ba0837552bdd60e770ebdc20efdb5aa222b11acc540c363ff14cc565b4f157e"
+    },
+    {
+      "goal": "canonical_0091_FallingAlt_6_downward",
+      "shared_pq": 0.5578971128007044,
+      "accepted_branch_pq": 0.6835757780841155,
+      "executed_coords": [
+        370,
+        380
+      ],
+      "shared_prediction_action": [
+        150,
+        350
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "1d5df2d6621dc8390e10503cee4adcbc0c50169f391a570f68892051ba448f49"
+    },
+    {
+      "goal": "canonical_0092_FallingAlt_6_upward",
+      "shared_pq": 0.5138997493950341,
+      "accepted_branch_pq": 0.5017530014345462,
+      "executed_coords": [
+        350,
+        250
+      ],
+      "shared_prediction_action": [
+        280,
+        100
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "227191b195c00ad6c58eaef57f21a9518f62fb15fdfb8b938bd1d82424af8277"
+    },
+    {
+      "goal": "canonical_0093_FallingAlt_7_downward",
+      "shared_pq": 0.6338191046851488,
+      "accepted_branch_pq": 0.6338191046851489,
+      "executed_coords": [
+        350,
+        400
+      ],
+      "shared_prediction_action": [
+        350,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "9f5f812858d1ae020870fa24db91b6eb861b15c311eb3fa8efa3d9567313bcae"
+    },
+    {
+      "goal": "canonical_0094_FallingAlt_7_upward",
+      "shared_pq": 0.6341549260477997,
+      "accepted_branch_pq": 0.7104535858441883,
+      "executed_coords": [
+        350,
+        240
+      ],
+      "shared_prediction_action": [
+        440,
+        200
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "66210f2c0455e897dbe378460155da4e00cf776ffd7144e73c911aa1c5775bc6"
+    },
+    {
+      "goal": "canonical_0095_FallingAlt_8_downward",
+      "shared_pq": 0.7759371649925679,
+      "accepted_branch_pq": 0.7759371649925678,
+      "executed_coords": [
+        250,
+        350
+      ],
+      "shared_prediction_action": [
+        250,
+        350
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "857d620204bbc79562fa368db510ab1559630b959c93a9595497fad0ea4146cd"
+    },
+    {
+      "goal": "canonical_0096_FallingAlt_8_upward",
+      "shared_pq": 0.5240365590655736,
+      "accepted_branch_pq": 0.5240365590655736,
+      "executed_coords": [
+        110,
+        180
+      ],
+      "shared_prediction_action": [
+        110,
+        180
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "ca448f37981f071e385399c2c338f76021add2e353f6a37f4d53ccc542554671"
+    },
+    {
+      "goal": "canonical_0097_FallingAlt_9_downward",
+      "shared_pq": 0.5096413138336165,
+      "accepted_branch_pq": 0.5096413138336165,
+      "executed_coords": [
+        290,
+        460
+      ],
+      "shared_prediction_action": [
+        290,
+        460
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "8634088001e4a4a192d8c513f70cdf56413b477a7de4c0c0257c6c1e3104e401"
+    },
+    {
+      "goal": "canonical_0098_FallingAlt_9_upward",
+      "shared_pq": 0.49736569283591503,
+      "accepted_branch_pq": 0.49736569283591503,
+      "executed_coords": [
+        320,
+        250
+      ],
+      "shared_prediction_action": [
+        320,
+        250
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "18299b751ba0ae38e2ef2a46c3041900ffa1422bc10d73d0ab440fc7326f42d7"
+    },
+    {
+      "goal": "canonical_0099_FallingAlt_10_downward",
+      "shared_pq": 0.8382858181897805,
+      "accepted_branch_pq": 0.8382858181897805,
+      "executed_coords": [
+        320,
+        450
+      ],
+      "shared_prediction_action": [
+        320,
+        450
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "79435e7ac22a0cc856a7f57e71db7e600a8166669e729f9c5474145cfe3fc5a9"
+    },
+    {
+      "goal": "canonical_0100_FallingAlt_10_upward",
+      "shared_pq": 0.5124348618432032,
+      "accepted_branch_pq": 0.5124348618432033,
+      "executed_coords": [
+        300,
+        290
+      ],
+      "shared_prediction_action": [
+        300,
+        290
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "1ea8285a7b2acad8ea32986ce2ee023e5ce8fcf3c6c8a4af571ae5a370bfea23"
+    },
+    {
+      "goal": "canonical_0101_Prevention_1_downward",
+      "shared_pq": 0.2973609214932406,
+      "accepted_branch_pq": 0.320101812585276,
+      "executed_coords": [
+        90,
+        560
+      ],
+      "shared_prediction_action": [
+        560,
+        550
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "ac5b55844d88623433c4252672ef1c89b143c5c4f97e3f369b4278e53b6ebcc9"
+    },
+    {
+      "goal": "canonical_0102_Prevention_1_upward",
+      "shared_pq": 0.32820692376420924,
+      "accepted_branch_pq": 0.5358524984075429,
+      "executed_coords": [
+        450,
+        380
+      ],
+      "shared_prediction_action": [
+        100,
+        400
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "eaf548effbb07bbdae383caecde2d034585ac398ded636012236f7f8e9aba3b1"
+    },
+    {
+      "goal": "canonical_0103_Prevention_2_downward",
+      "shared_pq": 0.2915571432002972,
+      "accepted_branch_pq": 0.24428587280525105,
+      "executed_coords": [
+        120,
+        450
+      ],
+      "shared_prediction_action": [
+        150,
+        350
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "50aa9337c1aee12d6f5c470d07b677d8f8e7a746e9dbf116e0f508f859b8a8ce"
+    },
+    {
+      "goal": "canonical_0104_Prevention_2_upward",
+      "shared_pq": 0.010545712694502316,
+      "accepted_branch_pq": 0.010545712694502316,
+      "executed_coords": [
+        50,
+        350
+      ],
+      "shared_prediction_action": [
+        50,
+        350
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "a1052776abc36fca641cd13996b31d18621f205911acb2ce79181edbd28b0005"
+    },
+    {
+      "goal": "canonical_0105_Prevention_3_downward",
+      "shared_pq": 0.8241791864319192,
+      "accepted_branch_pq": 0.8241791864319192,
+      "executed_coords": [
+        150,
+        400
+      ],
+      "shared_prediction_action": [
+        150,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "c57139a961d3124a81cdce1343c2e3d6d52b5dbf043095a75953ad36b2cf9d1e"
+    },
+    {
+      "goal": "canonical_0106_Prevention_3_upward",
+      "shared_pq": 0.37883754715979,
+      "accepted_branch_pq": 0.37883754715979,
+      "executed_coords": [
+        50,
+        350
+      ],
+      "shared_prediction_action": [
+        50,
+        350
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "42c0979ce06eb01405c2c105a6ef9b654612f7ae13c8c76c4cf1c6d4dd4eb4b0"
+    },
+    {
+      "goal": "canonical_0107_Prevention_4_downward",
+      "shared_pq": 0.18377336746056103,
+      "accepted_branch_pq": 0.2706555343440609,
+      "executed_coords": [
+        140,
+        520
+      ],
+      "shared_prediction_action": [
+        130,
+        500
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "dfcf4ae51e14f330a54067d9c0d34820f13964ef6b82741d8d74dbdc9676deb8"
+    },
+    {
+      "goal": "canonical_0108_Prevention_4_upward",
+      "shared_pq": 0.00046623624066944295,
+      "accepted_branch_pq": 0.0003362893605991294,
+      "executed_coords": [
+        120,
+        360
+      ],
+      "shared_prediction_action": [
+        70,
+        402
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "5fd3377fab04e15b00f7cc21030f68b588b2599d164e47788609df3492798855"
+    },
+    {
+      "goal": "canonical_0109_Prevention_5_downward",
+      "shared_pq": 0.636656816196643,
+      "accepted_branch_pq": 0.4450619012221786,
+      "executed_coords": [
+        460,
+        500
+      ],
+      "shared_prediction_action": [
+        540,
+        480
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "4ac09430d821c91ea26ede998137e9dbdb8119dfc966bfbea36851524cfbd538"
+    },
+    {
+      "goal": "canonical_0110_Prevention_5_upward",
+      "shared_pq": 0.5280630553885939,
+      "accepted_branch_pq": 0.5280630553885939,
+      "executed_coords": [
+        480,
+        360
+      ],
+      "shared_prediction_action": [
+        480,
+        360
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "ed638215999cd17458ceba864578e6c9c265eb2b1a1bb94e1e1347801b6ec817"
+    },
+    {
+      "goal": "canonical_0111_Prevention_7_downward",
+      "shared_pq": 0.6156833853475657,
+      "accepted_branch_pq": 0.6156833853475656,
+      "executed_coords": [
+        200,
+        450
+      ],
+      "shared_prediction_action": [
+        200,
+        450
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "2d2b5d19006d9731ec6af8502c893ca91b0375e87e35d16732d5b86e7adc0883"
+    },
+    {
+      "goal": "canonical_0112_Prevention_7_upward",
+      "shared_pq": 0.24453328062323046,
+      "accepted_branch_pq": 0.011958016453879576,
+      "executed_coords": [
+        75,
+        340
+      ],
+      "shared_prediction_action": [
+        250,
+        280
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "729ae0e4d037b48e969599ede3a3d74632ef4695070d83ee7a75f5b54e1f3730"
+    },
+    {
+      "goal": "canonical_0113_Prevention_8_downward",
+      "shared_pq": 0.7112245126894857,
+      "accepted_branch_pq": 0.7112245126894857,
+      "executed_coords": [
+        380,
+        500
+      ],
+      "shared_prediction_action": [
+        380,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "68b6d6345aeb293842a88c66f2f229825c365423b1ec0eadca0fe81218d993d4"
+    },
+    {
+      "goal": "canonical_0114_Prevention_8_upward",
+      "shared_pq": 0.3661084080295098,
+      "accepted_branch_pq": 0.0714708486079556,
+      "executed_coords": [
+        440,
+        400
+      ],
+      "shared_prediction_action": [
+        440,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "b26553e1d94fe0627ec1285c9acb4127e94fd3ba119b557c9ef64ff53639e11a"
+    },
+    {
+      "goal": "canonical_0115_Prevention_10_downward",
+      "shared_pq": 0.7363829332622056,
+      "accepted_branch_pq": 0.4074453804322933,
+      "executed_coords": [
+        270,
+        500
+      ],
+      "shared_prediction_action": [
+        240,
+        450
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "881a68574b9c6da207b882358c91babfe7d13513483cda32733bc84b9a910776"
+    },
+    {
+      "goal": "canonical_0116_Prevention_10_upward",
+      "shared_pq": 0.1411102780077956,
+      "accepted_branch_pq": 0.023184838355349985,
+      "executed_coords": [
+        500,
+        500
+      ],
+      "shared_prediction_action": [
+        40,
+        270
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "3a7516bf92b9aaffa8d93a6f27f76d606a880d5853549f180a3682847a567a14"
+    },
+    {
+      "goal": "canonical_0117_Remove_1_downward",
+      "shared_pq": 0.8856954655908497,
+      "accepted_branch_pq": 0.8856954655908497,
+      "executed_coords": [
+        200,
+        500
+      ],
+      "shared_prediction_action": [
+        200,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "3d680c094b8d5457fd8c38a6d74e1151f8413e7a86a1085002462695f29fb139"
+    },
+    {
+      "goal": "canonical_0118_Remove_1_upward",
+      "shared_pq": 0.2824412824724597,
+      "accepted_branch_pq": 0.2824412824724597,
+      "executed_coords": [
+        200,
+        200
+      ],
+      "shared_prediction_action": [
+        200,
+        200
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "c7e6c25d117138f1a8f99ca58865dfe66c4580cb2956945abc4b8d43dd6244c0"
+    },
+    {
+      "goal": "canonical_0119_Remove_2_downward",
+      "shared_pq": 0.5137653952719069,
+      "accepted_branch_pq": 0.5137653952719069,
+      "executed_coords": [
+        450,
+        400
+      ],
+      "shared_prediction_action": [
+        450,
+        400
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "5d81fba1a5e2af726235d0f96a44dd3c1ecdadd12c755b5196e67a3fd5dc8818"
+    },
+    {
+      "goal": "canonical_0120_Remove_2_upward",
+      "shared_pq": 0.31806171533238015,
+      "accepted_branch_pq": 0.32390900957473706,
+      "executed_coords": [
+        40,
+        100
+      ],
+      "shared_prediction_action": [
+        240,
+        200
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "a3e6d8d06c88bbf48274372375b0f84563f4e6dd1ee381e4844c221e213604d6"
+    },
+    {
+      "goal": "canonical_0121_Remove_5_downward",
+      "shared_pq": 0.8139253345513898,
+      "accepted_branch_pq": 0.8139253345513898,
+      "executed_coords": [
+        260,
+        350
+      ],
+      "shared_prediction_action": [
+        260,
+        350
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "06b28cb1659d1e1a513db05cd4035fd3091749ee468d56e296c3d4e3a22d0be2"
+    },
+    {
+      "goal": "canonical_0122_Remove_5_upward",
+      "shared_pq": 0.5851899066392985,
+      "accepted_branch_pq": 0.25940970645373,
+      "executed_coords": [
+        320,
+        200
+      ],
+      "shared_prediction_action": [
+        150,
+        200
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "d400f17664181b27a8cd63abc79de88d08f32aea77ae185344f86cf1bb85fb5b"
+    },
+    {
+      "goal": "canonical_0123_Remove_6_downward",
+      "shared_pq": 0.3814465152546916,
+      "accepted_branch_pq": 0.3814465152546916,
+      "executed_coords": [
+        450,
+        200
+      ],
+      "shared_prediction_action": [
+        450,
+        200
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "6b36e036ccf5641a0b3ac50e42a25a1b2435a96b62b14eee250d4eb16acc5fc9"
+    },
+    {
+      "goal": "canonical_0124_Remove_6_upward",
+      "shared_pq": 0.04946900974904045,
+      "accepted_branch_pq": 0.04946900974904045,
+      "executed_coords": [
+        50,
+        360
+      ],
+      "shared_prediction_action": [
+        50,
+        360
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "8e82e00c4c43a71e66f2d9dfa0bab703a98e717d7e9e9db0f5fe49d1c6f20f47"
+    },
+    {
+      "goal": "canonical_0125_Remove_7_downward",
+      "shared_pq": 0.3794541776124854,
+      "accepted_branch_pq": 0.3794541776124854,
+      "executed_coords": [
+        320,
+        500
+      ],
+      "shared_prediction_action": [
+        320,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "91ab42b0eb1153e85e839200a9bcca1be15b66d4cd1c0b90097a8a272da31d80"
+    },
+    {
+      "goal": "canonical_0126_Remove_7_upward",
+      "shared_pq": 0.34425535562516035,
+      "accepted_branch_pq": 0.34425535562516035,
+      "executed_coords": [
+        250,
+        200
+      ],
+      "shared_prediction_action": [
+        250,
+        200
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "73f4c0c77d3e02451d63c82fa542bd78b2b9c36befa368f8d8dfb4713500c2ea"
+    },
+    {
+      "goal": "canonical_0127_Remove_8_downward",
+      "shared_pq": 0.40672716234851064,
+      "accepted_branch_pq": 0.4067271623485107,
+      "executed_coords": [
+        380,
+        380
+      ],
+      "shared_prediction_action": [
+        380,
+        380
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "837532794e09d8e72365e45dce24b50dad6e95595c320f02c9bba7e33310870c"
+    },
+    {
+      "goal": "canonical_0128_Remove_8_upward",
+      "shared_pq": 0.4234438123451942,
+      "accepted_branch_pq": 0.11119072805579922,
+      "executed_coords": [
+        250,
+        150
+      ],
+      "shared_prediction_action": [
+        300,
+        200
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "2f9f37e9c08d04e1c554809e6505d47c0f2e1540d08d876e11a86a33d419480d"
+    },
+    {
+      "goal": "canonical_0129_Remove_9_downward",
+      "shared_pq": 0.3744695982826513,
+      "accepted_branch_pq": 0.6691523964461504,
+      "executed_coords": [
+        150,
+        500
+      ],
+      "shared_prediction_action": [
+        360,
+        400
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "1c4aa0b4d250e5e7b0e16cc2d9db22ef0fe3a7784e8585bf22ade7277ef0e3be"
+    },
+    {
+      "goal": "canonical_0130_Remove_9_upward",
+      "shared_pq": 0.38422994779734143,
+      "accepted_branch_pq": 0.06506801744651548,
+      "executed_coords": [
+        300,
+        250
+      ],
+      "shared_prediction_action": [
+        340,
+        380
+      ],
+      "coordinate_mismatch": true,
+      "source_sha256": "2d8e3810baed75cf02412aaf6aba7f3cb397569468da1c69325fec1d090973ab"
+    },
+    {
+      "goal": "canonical_0131_Remove_10_downward",
+      "shared_pq": 0.030271988074929687,
+      "accepted_branch_pq": 0.030271988074929687,
+      "executed_coords": [
+        220,
+        500
+      ],
+      "shared_prediction_action": [
+        220,
+        500
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "f2119e40ff653b61d96bc10c15588225f4944595524a0f8153f985b49fb062c6"
+    },
+    {
+      "goal": "canonical_0132_Remove_10_upward",
+      "shared_pq": 0.08756352835551712,
+      "accepted_branch_pq": 0.08756352835551712,
+      "executed_coords": [
+        350,
+        340
+      ],
+      "shared_prediction_action": [
+        350,
+        340
+      ],
+      "coordinate_mismatch": false,
+      "source_sha256": "d492e53c968eb8191cb129a18193254ab0beef40cf871551a32bbeef7a6151e1"
+    }
+  ]
+}

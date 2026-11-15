@@ -2,7 +2,7 @@
 
 ## Static scene
 
-The model receives either the exact initial scene image or observable scene
+In the historical battery, the model receives its archived initial scene image or observable scene
 JSON. No action, motion, goal outcome, or hidden physical parameter is shown.
 Each layout has 11 authored questions covering shape, colored-object count,
 movability, red/green spatial relations, coarse location, containment, and an
@@ -61,3 +61,35 @@ are redacted from the released error record.
 - `payloads/`: exact system/user prompt material;
 - `results/raw_responses_seed2026.jsonl`: unedited response records;
 - `results/scored/`: question-level rows, summaries, and score report.
+
+## Historical regeneration and current-scene follow-up
+
+The historical static assets differ from the current release on 38/66 layout
+screenshots. The historical Qwen JSON result remains **565/677 = 83.5%**;
+93.5% is not supported by archived answers. See
+[asset-version details](../analysis/ASSET_PROVENANCE.md).
+
+```bash
+python vqa/scripts/generate_static_vqa.py --output outputs/historical_vqa
+python vqa/scripts/generate_current_scene_vqa.py --output outputs/current_vqa_battery
+# Free dry run; pricing.json is a frozen subset of https://openrouter.ai/api/v1/models
+python vqa/scripts/run_current_scene_vqa.py --battery outputs/current_vqa_battery --output outputs/current_vqa_run --pricing pricing.json
+# Add --execute only to authorize paid calls; API key is read from OPENROUTER_API_KEY.
+python vqa/scripts/score_current_scene_vqa.py --battery outputs/current_vqa_battery --responses outputs/current_vqa_run/responses.jsonl --output outputs/current_vqa_scored
+```
+
+Freeze hashes before inference. Current-scene scoring includes every planned
+eligible item in its denominator; missing/invalid answers cannot silently
+shrink it. The first returned answer is retained, including malformed answers;
+only transport or local-storage failures can be retried. The generator makes no model calls.
+The primary replication matches archived historical settings: medium reasoning,
+8192 output-token limit, seed2026; temperature0.2 for Gemini/Qwen, omitted for
+GPT-5 where unsupported. Raw responses, full requests, actual model IDs, usage,
+and image hashes are retained. Do not mix the superseded low/2048 pilot into
+final results.
+
+
+The separately frozen compatible-format condition uses JSON-object output, low
+reasoning and16384 tokens for all three models. It follows recorded Qwen schema
+and truncation failures; it does not replace primary or historical answers.
+See [current-scene frozen runs, results and tested commands](current_scene_2026-11-14/README.md).

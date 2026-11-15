@@ -1,0 +1,269 @@
+{
+  "gpt5": {
+    "A": {
+      "estimate": 0.03997397249377973,
+      "ci95": [
+        0.003192637021964502,
+        0.07673065911544236
+      ],
+      "n": 9351,
+      "n_tasks": 1641,
+      "layouts": 66,
+      "valid_draws": 2000,
+      "bootstrap_draws": 2000,
+      "fixed_effect": "goal",
+      "fixed_effect_levels": 1641,
+      "parameters": [
+        "S",
+        "attempt_2",
+        "attempt_3",
+        "attempt_4",
+        "attempt_5",
+        "attempt_6",
+        "attempt_7",
+        "attempt_8"
+      ],
+      "weighting": "equal episode",
+      "formula": "pq ~ success + categorical attempt + exact-goal FE",
+      "informative_recovered_goals": 383,
+      "interpretation": "Conditional within-goal association, not a causal effect."
+    },
+    "B": {
+      "estimate": 0.018117045635267465,
+      "ci95": [
+        -0.22753244054124488,
+        0.2592461267455887
+      ],
+      "n": 118,
+      "valid_draws": 2000,
+      "layouts": 65,
+      "estimand": "Partial Spearman: correlation of residual rank scores",
+      "controls": [
+        "upward"
+      ],
+      "layout_fixed_effect": true,
+      "informative_paired_layouts": 53,
+      "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval."
+    },
+    "B_richer": {
+      "estimate": -0.053496975273845435,
+      "ci95": [
+        -0.3016701639534209,
+        0.2022011496913308
+      ],
+      "n": 118,
+      "valid_draws": 2000,
+      "layouts": 65,
+      "estimand": "Partial Spearman: correlation of residual rank scores",
+      "controls": [
+        "upward",
+        "P_first",
+        "N_pre",
+        "exposure"
+      ],
+      "layout_fixed_effect": true,
+      "informative_paired_layouts": 53,
+      "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval."
+    },
+    "C": {
+      "estimate": -0.030128709224646874,
+      "ci95": [
+        -0.136389004482408,
+        0.0721377880556809
+      ],
+      "n": 118,
+      "valid_draws": 2000,
+      "layouts": 65,
+      "fixed_effect": "layout",
+      "fixed_effect_levels": 65,
+      "parameters": [
+        "S_first",
+        "early_pre",
+        "upward"
+      ],
+      "dropped_constant_columns": [],
+      "residual_df": 50,
+      "weighting": "equal observation",
+      "formula": "N_early ~ S_first + early_pre + upward + layout FE",
+      "interpretation": "Conditional association, not a causal effect."
+    }
+  },
+  "gemini31pro": {
+    "A": {
+      "estimate": 0.10020755369545062,
+      "ci95": [
+        0.0747841829416856,
+        0.1273978605731494
+      ],
+      "n": 8629,
+      "n_tasks": 1641,
+      "layouts": 66,
+      "valid_draws": 2000,
+      "bootstrap_draws": 2000,
+      "fixed_effect": "goal",
+      "fixed_effect_levels": 1641,
+      "parameters": [
+        "S",
+        "attempt_2",
+        "attempt_3",
+        "attempt_4",
+        "attempt_5",
+        "attempt_6",
+        "attempt_7",
+        "attempt_8"
+      ],
+      "weighting": "equal episode",
+      "formula": "pq ~ success + categorical attempt + exact-goal FE",
+      "informative_recovered_goals": 301,
+      "interpretation": "Conditional within-goal association, not a causal effect."
+    },
+    "B": {
+      "estimate": 0.15100334764436138,
+      "ci95": [
+        -0.15008230557767066,
+        0.4181192372018969
+      ],
+      "n": 118,
+      "valid_draws": 2000,
+      "layouts": 65,
+      "estimand": "Partial Spearman: correlation of residual rank scores",
+      "controls": [
+        "upward"
+      ],
+      "layout_fixed_effect": true,
+      "informative_paired_layouts": 53,
+      "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval."
+    },
+    "B_richer": {
+      "estimate": 0.037759999071759975,
+      "ci95": [
+        -0.23513562047761324,
+        0.32851431986044327
+      ],
+      "n": 118,
+      "valid_draws": 2000,
+      "layouts": 65,
+      "estimand": "Partial Spearman: correlation of residual rank scores",
+      "controls": [
+        "upward",
+        "P_first",
+        "N_pre",
+        "exposure"
+      ],
+      "layout_fixed_effect": true,
+      "informative_paired_layouts": 53,
+      "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval."
+    },
+    "C": {
+      "estimate": -0.12959946022418672,
+      "ci95": [
+        -0.29555338372355955,
+        0.04502139088822898
+      ],
+      "n": 118,
+      "valid_draws": 2000,
+      "layouts": 65,
+      "fixed_effect": "layout",
+      "fixed_effect_levels": 65,
+      "parameters": [
+        "S_first",
+        "early_pre",
+        "upward"
+      ],
+      "dropped_constant_columns": [],
+      "residual_df": 50,
+      "weighting": "equal observation",
+      "formula": "N_early ~ S_first + early_pre + upward + layout FE",
+      "interpretation": "Conditional association, not a causal effect."
+    }
+  },
+  "qwen36plus": {
+    "A": {
+      "estimate": 0.04673359264695612,
+      "ci95": [
+        0.01999699122492919,
+        0.07166634323516902
+      ],
+      "n": 9284,
+      "n_tasks": 1641,
+      "layouts": 66,
+      "valid_draws": 2000,
+      "bootstrap_draws": 2000,
+      "fixed_effect": "goal",
+      "fixed_effect_levels": 1641,
+      "parameters": [
+        "S",
+        "attempt_2",
+        "attempt_3",
+        "attempt_4",
+        "attempt_5",
+        "attempt_6",
+        "attempt_7",
+        "attempt_8"
+      ],
+      "weighting": "equal episode",
+      "formula": "pq ~ success + categorical attempt + exact-goal FE",
+      "informative_recovered_goals": 345,
+      "interpretation": "Conditional within-goal association, not a causal effect."
+    },
+    "B": {
+      "estimate": 0.1325026654248939,
+      "ci95": [
+        -0.17752916637827104,
+        0.4253188466289041
+      ],
+      "n": 118,
+      "valid_draws": 2000,
+      "layouts": 65,
+      "estimand": "Partial Spearman: correlation of residual rank scores",
+      "controls": [
+        "upward"
+      ],
+      "layout_fixed_effect": true,
+      "informative_paired_layouts": 53,
+      "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval."
+    },
+    "B_richer": {
+      "estimate": 0.06096089405860612,
+      "ci95": [
+        -0.21075525908076928,
+        0.326920428195555
+      ],
+      "n": 118,
+      "valid_draws": 2000,
+      "layouts": 65,
+      "estimand": "Partial Spearman: correlation of residual rank scores",
+      "controls": [
+        "upward",
+        "P_first",
+        "N_pre",
+        "exposure"
+      ],
+      "layout_fixed_effect": true,
+      "informative_paired_layouts": 53,
+      "interpretation": "Ranks and nuisance regressions are refitted in every whole-layout resample; pointwise exploratory interval."
+    },
+    "C": {
+      "estimate": -0.1090755118018141,
+      "ci95": [
+        -0.2955723358565919,
+        0.085716301256529
+      ],
+      "n": 118,
+      "valid_draws": 2000,
+      "layouts": 65,
+      "fixed_effect": "layout",
+      "fixed_effect_levels": 65,
+      "parameters": [
+        "S_first",
+        "early_pre",
+        "upward"
+      ],
+      "dropped_constant_columns": [],
+      "residual_df": 50,
+      "weighting": "equal observation",
+      "formula": "N_early ~ S_first + early_pre + upward + layout FE",
+      "interpretation": "Conditional association, not a causal effect."
+    }
+  }
+}

@@ -1,0 +1,685 @@
+{
+  "feedback_100k": {
+    "gpt5": {
+      "subsequent_solve": {
+        "estimate": 0.06362275449101797,
+        "ci95": [
+          0.03616116376369536,
+          0.09090909090909091
+        ],
+        "n": 1336,
+        "layouts": 66,
+        "draws": 100000,
+        "seed": 20261114
+      },
+      "next_chosen_pq": {
+        "estimate": 0.07261127046452168,
+        "ci95": [
+          0.04895364811181921,
+          0.10006754569199104
+        ],
+        "n": 1336,
+        "layouts": 66,
+        "draws": 100000,
+        "seed": 20261114
+      },
+      "early_novel_pq": {
+        "estimate": 0.17355144592160043,
+        "ci95": [
+          0.10827326356561402,
+          0.24209121170330705
+        ],
+        "n": 61,
+        "layouts": 47,
+        "draws": 100000,
+        "seed": 20261114
+      }
+    },
+    "gemini31pro": {
+      "subsequent_solve": {
+        "estimate": 0.039898132427843805,
+        "ci95": [
+          0.019345206806439988,
+          0.062305355859094164
+        ],
+        "n": 1178,
+        "layouts": 66,
+        "draws": 100000,
+        "seed": 20261114
+      },
+      "next_chosen_pq": {
+        "estimate": 0.010685510421512959,
+        "ci95": [
+          -0.0049929049659329285,
+          0.026714226076683056
+        ],
+        "n": 1178,
+        "layouts": 66,
+        "draws": 100000,
+        "seed": 20261114
+      },
+      "early_novel_pq": {
+        "estimate": 0.06701892535131385,
+        "ci95": [
+          -0.008809485631774226,
+          0.14476693605138286
+        ],
+        "n": 52,
+        "layouts": 40,
+        "draws": 100000,
+        "seed": 20261114
+      }
+    },
+    "qwen36plus": {
+      "subsequent_solve": {
+        "estimate": 0.01839080459770115,
+        "ci95": [
+          0.0,
+          0.03636363636363636
+        ],
+        "n": 1305,
+        "layouts": 66,
+        "draws": 100000,
+        "seed": 20261114
+      },
+      "next_chosen_pq": {
+        "estimate": 0.046980527020643426,
+        "ci95": [
+          0.02888418549394014,
+          0.06681917552876845
+        ],
+        "n": 1305,
+        "layouts": 66,
+        "draws": 100000,
+        "seed": 20261114
+      },
+      "early_novel_pq": {
+        "estimate": 0.09853281676736345,
+        "ci95": [
+          0.030651139282735076,
+          0.16867729161961018
+        ],
+        "n": 63,
+        "layouts": 44,
+        "draws": 100000,
+        "seed": 20261114
+      }
+    }
+  },
+  "sigma_sensitivity": {
+    "gpt5": {
+      "75": {
+        "figure4A": {
+          "estimate": 0.031116773928855045,
+          "ci95": [
+            -0.0038175264058429165,
+            0.06540706358541505
+          ],
+          "n": 9351,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 383,
+          "interpretation": "Conditional within-goal association, not a causal effect."
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.06313590583540413,
+          "ci95": [
+            0.043902463132688585,
+            0.0846585225630454
+          ],
+          "n": 1336,
+          "layouts": 66,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.1725426274489911,
+          "ci95": [
+            0.10585238971698942,
+            0.24260917173226867
+          ],
+          "n": 61,
+          "layouts": 47,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.10479601065743385,
+          "ci95": [
+            0.059722128920721165,
+            0.14928001209202507
+          ],
+          "n": 118,
+          "layouts": 65,
+          "draws": 10000,
+          "seed": 20261114
+        }
+      },
+      "100": {
+        "figure4A": {
+          "estimate": 0.03755804185421635,
+          "ci95": [
+            0.0002122620667016114,
+            0.07430464244276598
+          ],
+          "n": 9351,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 383,
+          "interpretation": "Conditional within-goal association, not a causal effect."
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.06930314313857927,
+          "ci95": [
+            0.047417411385953595,
+            0.09385951414014738
+          ],
+          "n": 1336,
+          "layouts": 66,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.1748845497524024,
+          "ci95": [
+            0.10732967440668575,
+            0.24593034834457264
+          ],
+          "n": 61,
+          "layouts": 47,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.10912507940069117,
+          "ci95": [
+            0.06378357528761397,
+            0.15423719793667706
+          ],
+          "n": 118,
+          "layouts": 65,
+          "draws": 10000,
+          "seed": 20261114
+        }
+      },
+      "150": {
+        "figure4A": {
+          "estimate": 0.03997397249377973,
+          "ci95": [
+            0.003192637021964502,
+            0.07673065911544236
+          ],
+          "n": 9351,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 383,
+          "interpretation": "Conditional within-goal association, not a causal effect."
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.07261127046452168,
+          "ci95": [
+            0.04859000849584547,
+            0.09987461322172128
+          ],
+          "n": 1336,
+          "layouts": 66,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.17355144592160043,
+          "ci95": [
+            0.10803660361090614,
+            0.24277368790587583
+          ],
+          "n": 61,
+          "layouts": 47,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.10985729454555812,
+          "ci95": [
+            0.06577606823225002,
+            0.15474789651900023
+          ],
+          "n": 118,
+          "layouts": 65,
+          "draws": 10000,
+          "seed": 20261114
+        }
+      }
+    },
+    "gemini31pro": {
+      "75": {
+        "figure4A": {
+          "estimate": 0.09713864452668262,
+          "ci95": [
+            0.06798821186075106,
+            0.1271230070861388
+          ],
+          "n": 8629,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 301,
+          "interpretation": "Conditional within-goal association, not a causal effect."
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.011101413162672465,
+          "ci95": [
+            -0.0042489091469016535,
+            0.02684262662064888
+          ],
+          "n": 1178,
+          "layouts": 66,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.07554619056030289,
+          "ci95": [
+            0.0038770102074285454,
+            0.15263165173414037
+          ],
+          "n": 52,
+          "layouts": 40,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.04470441694883959,
+          "ci95": [
+            -0.0013993425495211808,
+            0.09086999585307302
+          ],
+          "n": 118,
+          "layouts": 65,
+          "draws": 10000,
+          "seed": 20261114
+        }
+      },
+      "100": {
+        "figure4A": {
+          "estimate": 0.10608658618097878,
+          "ci95": [
+            0.07795775831341387,
+            0.13554293350969868
+          ],
+          "n": 8629,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 301,
+          "interpretation": "Conditional within-goal association, not a causal effect."
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.011333962537510652,
+          "ci95": [
+            -0.004331191276289287,
+            0.027514115285367517
+          ],
+          "n": 1178,
+          "layouts": 66,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.07198603158830125,
+          "ci95": [
+            -0.001027966642212123,
+            0.14941728360668
+          ],
+          "n": 52,
+          "layouts": 40,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.03878395968182532,
+          "ci95": [
+            -0.0066064797648459,
+            0.08457774824116003
+          ],
+          "n": 118,
+          "layouts": 65,
+          "draws": 10000,
+          "seed": 20261114
+        }
+      },
+      "150": {
+        "figure4A": {
+          "estimate": 0.10020755369545062,
+          "ci95": [
+            0.0747841829416856,
+            0.1273978605731494
+          ],
+          "n": 8629,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 301,
+          "interpretation": "Conditional within-goal association, not a causal effect."
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.010685510421512959,
+          "ci95": [
+            -0.00475521352706358,
+            0.02638158109725525
+          ],
+          "n": 1178,
+          "layouts": 66,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.06701892535131385,
+          "ci95": [
+            -0.008065062065422957,
+            0.1438846635327107
+          ],
+          "n": 52,
+          "layouts": 40,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.03431326762127016,
+          "ci95": [
+            -0.010503675256514966,
+            0.07986768246602302
+          ],
+          "n": 118,
+          "layouts": 65,
+          "draws": 10000,
+          "seed": 20261114
+        }
+      }
+    },
+    "qwen36plus": {
+      "75": {
+        "figure4A": {
+          "estimate": 0.04721326006016606,
+          "ci95": [
+            0.020771961151899106,
+            0.0729739989001079
+          ],
+          "n": 9284,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 345,
+          "interpretation": "Conditional within-goal association, not a causal effect."
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.043298272532054344,
+          "ci95": [
+            0.025380397232819672,
+            0.06219121038009659
+          ],
+          "n": 1305,
+          "layouts": 66,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.08331858443013883,
+          "ci95": [
+            0.021938574173818268,
+            0.145357295319553
+          ],
+          "n": 63,
+          "layouts": 44,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.08918429600117637,
+          "ci95": [
+            0.03682811395675397,
+            0.14147171666697925
+          ],
+          "n": 118,
+          "layouts": 65,
+          "draws": 10000,
+          "seed": 20261114
+        }
+      },
+      "100": {
+        "figure4A": {
+          "estimate": 0.05099145418037566,
+          "ci95": [
+            0.023510123370502206,
+            0.0772989529341469
+          ],
+          "n": 9284,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 345,
+          "interpretation": "Conditional within-goal association, not a causal effect."
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.04712303175896599,
+          "ci95": [
+            0.028423092227138878,
+            0.06722600823185099
+          ],
+          "n": 1305,
+          "layouts": 66,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.09467250874105926,
+          "ci95": [
+            0.028714960257510413,
+            0.16164045466238308
+          ],
+          "n": 63,
+          "layouts": 44,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.09417195068344889,
+          "ci95": [
+            0.04094603978894259,
+            0.14750878866108216
+          ],
+          "n": 118,
+          "layouts": 65,
+          "draws": 10000,
+          "seed": 20261114
+        }
+      },
+      "150": {
+        "figure4A": {
+          "estimate": 0.04673359264695612,
+          "ci95": [
+            0.01999699122492919,
+            0.07166634323516902
+          ],
+          "n": 9284,
+          "n_tasks": 1641,
+          "layouts": 66,
+          "valid_draws": 2000,
+          "bootstrap_draws": 2000,
+          "fixed_effect": "goal",
+          "fixed_effect_levels": 1641,
+          "parameters": [
+            "S",
+            "attempt_2",
+            "attempt_3",
+            "attempt_4",
+            "attempt_5",
+            "attempt_6",
+            "attempt_7",
+            "attempt_8"
+          ],
+          "weighting": "equal episode",
+          "formula": "pq ~ success + categorical attempt + exact-goal FE",
+          "informative_recovered_goals": 345,
+          "interpretation": "Conditional within-goal association, not a causal effect."
+        },
+        "next_chosen_after_failure": {
+          "estimate": 0.046980527020643426,
+          "ci95": [
+            0.02902582824342583,
+            0.06672786282589414
+          ],
+          "n": 1305,
+          "layouts": 66,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "early_novel_after_failure": {
+          "estimate": 0.09853281676736345,
+          "ci95": [
+            0.029652854929386543,
+            0.16800934430524564
+          ],
+          "n": 63,
+          "layouts": 44,
+          "draws": 10000,
+          "seed": 20261114
+        },
+        "terminal_novel_gain_beyond_retry": {
+          "estimate": 0.09787914688088489,
+          "ci95": [
+            0.04606937112381782,
+            0.1521781321649915
+          ],
+          "n": 118,
+          "layouts": 65,
+          "draws": 10000,
+          "seed": 20261114
+        }
+      }
+    }
+  },
+  "canonical_correspondence": {}
+}

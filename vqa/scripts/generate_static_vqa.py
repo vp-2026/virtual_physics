@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Regenerate the static VQA control from screenshots used by the task runner.
+"""Regenerate the historical static VQA battery from its hash-matched assets.
 
-The original VQA generator used a separate showcase image directory. This
-version takes the source image/world pairs already verified by the coordinate
-localization audit so every question is grounded in the exact task asset.
+These are historical assets, not necessarily the current benchmark scenes.
+Use generate_current_scene_vqa.py for a new current-scene evaluation.
 """
 
 from __future__ import annotations
@@ -30,8 +29,7 @@ from generate_vqa import (
 
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_COORDINATE_ROOT = ROOT / "coordinate_localization_v3_task_assets"
-DEFAULT_OUTPUT = ROOT / "static_vqa_v2_task_assets"
+DEFAULT_COORDINATE_ROOT = ROOT.parent / "coordinate_localization"
 CONDITIONS = ("image_only", "json_only")
 
 
@@ -51,8 +49,8 @@ def generate(coordinate_root: Path, output: Path) -> dict[str, Any]:
 
     for scene_index, source in enumerate(sources):
         layout_id = source["layout_id"]
-        image_path = coordinate_root / "images" / f"{layout_id}.png"
-        world_path = Path(source["source_world"])
+        image_path = coordinate_root / "assets" / "images" / f"{layout_id}.png"
+        world_path = ROOT.parent / "static_scene/assets/source_worlds" / f"{layout_id}.json"
         if not image_path.exists() or not world_path.exists():
             raise FileNotFoundError(f"Missing verified asset for {layout_id}")
         if sha256_file(image_path) != source["source_image_sha256"]:
@@ -150,7 +148,7 @@ def generate(coordinate_root: Path, output: Path) -> dict[str, Any]:
         "call_count": len(calls),
         "asset_source": str(coordinate_root.resolve()),
         "asset_provenance": (
-            "Exact initial screenshots and simulation worlds indexed by the task runner; "
+            "Historical initial screenshots and hash-matched simulation worlds; "
             "red/green world centers independently checked against screenshot color masks."
         ),
         "coordinate_convention": {
@@ -184,8 +182,10 @@ def main() -> None:
         type=Path,
         default=DEFAULT_COORDINATE_ROOT,
     )
-    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
+    if args.output.exists() and any(args.output.iterdir()):
+        raise ValueError("Use a new empty output directory; frozen files are never overwritten")
     print(
         json.dumps(
             generate(args.coordinate_root.resolve(), args.output.resolve()),

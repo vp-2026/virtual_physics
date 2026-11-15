@@ -35,3 +35,7 @@ Coordinate replay preserves each model’s original eight-action sequence. It
 rounds each axis mechanically, never searches for a valid neighboring point,
 never projects an invalid result into validity, and never selects the best
 perturbation after the fact.
+
+The final binary-success Figure 4 analysis is
+`analyze_figure4_correspondence.py`; the older continuous-AQ scripts above
+are distinct estimands. See [tested final-table commands](../../analysis/REPRODUCIBILITY.md).

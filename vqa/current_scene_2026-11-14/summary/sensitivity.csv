@@ -1,0 +1,14 @@
+phase,model,restriction,correct,eligible,accuracy,ci95_low,ci95_high,layouts
+primary_strict_schema,gemini,exclude_two_image_world_mismatches,624,651,0.9585253456221198,0.9432493544617531,0.9725190839694656,64
+primary_strict_schema,gemini,format_valid_scenes_only_selection_biased,643,671,0.9582712369597616,0.9431988041853513,0.9718100890207715,66
+primary_strict_schema,gpt,exclude_two_image_world_mismatches,610,651,0.9370199692780338,0.9180802919882668,0.9542700328544381,64
+primary_strict_schema,gpt,format_valid_scenes_only_selection_biased,628,671,0.9359165424739195,0.9172932330827067,0.9532163742690059,66
+primary_strict_schema,qwen,exclude_two_image_world_mismatches,0,651,0.0,0.0,0.0,64
+qwen_json_object_diagnostic,qwen,exclude_two_image_world_mismatches,343,651,0.5268817204301075,0.405570631654459,0.6460884310596137,64
+qwen_json_object_diagnostic,qwen,format_valid_scenes_only_selection_biased,343,352,0.9744318181818182,0.9568965517241379,0.9887640449438202,34
+all_model_compatible_condition,gemini,exclude_two_image_world_mismatches,625,651,0.9600614439324117,0.9432515337423313,0.9751937984496124,64
+all_model_compatible_condition,gemini,format_valid_scenes_only_selection_biased,637,661,0.9636913767019667,0.9480122324159022,0.9774436090225563,65
+all_model_compatible_condition,gpt,exclude_two_image_world_mismatches,610,651,0.9370199692780338,0.9162859721779759,0.9563199537327287,64
+all_model_compatible_condition,gpt,format_valid_scenes_only_selection_biased,629,671,0.9374068554396423,0.9170437405731523,0.9566517189835575,66
+all_model_compatible_condition,qwen,exclude_two_image_world_mismatches,611,651,0.9385560675883257,0.8905967038558846,0.9739263803680982,64
+all_model_compatible_condition,qwen,format_valid_scenes_only_selection_biased,630,651,0.967741935483871,0.9541284403669725,0.9800613496932515,64
