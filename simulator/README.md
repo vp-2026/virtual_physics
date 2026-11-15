@@ -5,6 +5,12 @@ tool placements. `goal_semantics/` contains rollout tracing, predicate
 evaluation, and the simulator sweep used to construct goal banks and solution
 densities.
 
+The bundled simulator is published under the repository [MIT License](../LICENSE)
+on the basis of the maintainer's stated permission and explicit MIT direction.
+Original Virtual Tools attribution is in [NOTICE.md](../NOTICE.md);
+[LICENSE_STATUS.md](../LICENSE_STATUS.md) distinguishes simulator code, upstream
+task assets, and dependencies with separate licenses.
+
 Important frozen conventions:
 
 - canvas: 600 × 600 pixels;

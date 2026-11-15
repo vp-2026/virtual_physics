@@ -152,6 +152,16 @@ The original one-environment example remains under `data/` and `examples/`.
 The exact benchmark simulator and semantics used by the expanded release are
 under `simulator/`.
 
+## License and attribution
+
+Project code and the bundled simulator are published under the
+[MIT License](LICENSE), at the maintainer's explicit direction following
+their confirmation of simulator-wide permission. See [NOTICE.md](NOTICE.md)
+for Virtual Tools attribution and third-party dependency notices, and
+[LICENSE_STATUS.md](LICENSE_STATUS.md) for the authorization record and the
+separate scope of upstream task assets. This notice does not relicense
+third-party dependencies or imply independently verified asset permissions.
+
 ## Human participant data
 
 Individual-level human participant data are not publicly released because
