@@ -1,4 +1,0 @@
-# Verified numerical audit environment; Python 3.14
-numpy==2.5.4
-scipy==1.18.1
-pillow==13.0.0

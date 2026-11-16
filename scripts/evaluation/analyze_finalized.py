@@ -14,13 +14,13 @@ def write(path,data):path.write_text(json.dumps(data,indent=2,allow_nan=False,de
 def analyze(repo,out):
  if out.exists()and any(out.iterdir()):raise ValueError('Use a new/empty output directory')
  out.mkdir(parents=True,exist_ok=True);D,manifest=read_units(repo,out)
- old=json.loads((repo/'archive/pre_correction_2026-11-14/analysis/figure4/task_populations.json').read_text())
+ old=json.loads((repo/'benchmark/evaluation_task_ids.json').read_text())
  broad=sorted(set.intersection(*(set(D[m])for m in MAIN)))
- main=[g for g in old['main1641']if g in broad and all(not D[m][g]['issues'] for m in MAIN)]
- removed_transfer={g:{m:transfer_issues(D[m][g])if g in D[m]else ['missing_unit']for m in MAIN} for g in old['canonical118']}
+ main=[g for g in old['main_task_ids']if g in broad and all(not D[m][g]['issues'] for m in MAIN)]
+ removed_transfer={g:{m:transfer_issues(D[m][g])if g in D[m]else ['missing_unit']for m in MAIN} for g in old['transfer_candidate_task_ids']}
  transfer=[g for g,reason in removed_transfer.items()if all(not x for x in reason.values())]
  removed_transfer={g:r for g,r in removed_transfer.items()if g not in transfer}
- pop={'main':main,'broad':broad,'matched_transfer':transfer,'canonical':sorted(g for g in broad if g.startswith('canonical_')),'removed_from_historical_main':[g for g in old['main1641']if g not in main],'removed_from_historical_transfer':removed_transfer,'robotics_main':sorted(D['robotics_er2']),'robotics_transfer':sorted(g for g,u in D['robotics_er2'].items()if not u['issues']and not transfer_issues(u))}
+ pop={'main':main,'broad':broad,'matched_transfer':transfer,'canonical':sorted(g for g in broad if g.startswith('canonical_')),'removed_from_historical_main':[g for g in old['main_task_ids']if g not in main],'removed_from_historical_transfer':removed_transfer,'robotics_main':sorted(D['robotics_er2']),'robotics_transfer':sorted(g for g,u in D['robotics_er2'].items()if not u['issues']and not transfer_issues(u))}
  result={};table=[];sensitivity_table=[];obs={'attempts':{},'episodes':{}}
  def add(m,p,metric,s):
   table.append({'model':m,'population':p,'metric':metric,'estimate':s['estimate'],'ci95_low':s['ci95'][0],'ci95_high':s['ci95'][1],'n':s['n'],'n_tasks':s.get('n_tasks',s['n']),'layouts':s.get('layouts'),'numerator':s.get('numerator'),'bootstrap_draws':s.get('bootstrap_draws',s.get('valid_draws')),'bootstrap_seed':s.get('bootstrap_seed')})

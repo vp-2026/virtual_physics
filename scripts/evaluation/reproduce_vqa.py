@@ -3,12 +3,18 @@
 import csv,hashlib,json,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
-LEGACY=ROOT/'archive/pre_correction_2026-11-14'
-sys.path.insert(0,str(LEGACY/'vqa/scripts'))
-from summarize_current_scene_vqa import aggregate
+import numpy as np
+
+def aggregate(rows):
+    labs=sorted({r['layout_id'] for r in rows})
+    num=np.array([sum(int(r['correct']) for r in rows if r['layout_id']==l) for l in labs])
+    den=np.array([sum(r['layout_id']==l for r in rows) for l in labs])
+    ix=np.random.default_rng(20261114).integers(len(labs),size=(10000,len(labs)))
+    ci=np.quantile(num[ix].sum(1)/den[ix].sum(1),[.025,.975])
+    return dict(correct=int(num.sum()),eligible=int(den.sum()),accuracy=float(num.sum()/den.sum()),ci95_low=float(ci[0]),ci95_high=float(ci[1]),layouts=len(labs))
 
 def reproduce(out):
- data=ROOT/'data/vqa';subprocess.run([sys.executable,str(LEGACY/'vqa/scripts/score_current_scene_vqa.py'),'--battery',str(data/'battery'),'--responses',str(data/'responses.jsonl'),'--output',str(out)],check=True)
+ data=ROOT/'data/vqa';subprocess.run([sys.executable,str(ROOT/'scripts/evaluation/score_current_scene_vqa.py'),'--battery',str(data/'battery'),'--responses',str(data/'responses.jsonl'),'--output',str(out)],check=True)
  report_path=out/'score_report.json';report=json.loads(report_path.read_text())
  for key in ['accuracy_summary','question_scores']:report[key]=Path(report[key]).name
  report_path.write_text(json.dumps(report,indent=2,sort_keys=True)+'\n')

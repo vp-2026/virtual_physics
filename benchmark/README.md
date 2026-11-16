@@ -4,6 +4,8 @@
 
 `asset_index.json` maps every layout-direction cell to its world, initial image, and tool configuration. Paths are relative to this directory. Layout assets are stored once in `assets/`; both directions share the same world and initial image. All 66 images match a native simulator rendering pixel-for-pixel.
 
-The corrected images for BackUp_8, Balance_8, and Falling_1 are the default. Task IDs, goals, worlds and tool dynamics are unchanged. Model episodes involving these layouts were recollected for the finalized analysis; historical records remain in `archive/`.
+The corrected images for BackUp_8, Balance_8, and Falling_1 are the default. Task IDs, goals, worlds and tool dynamics are unchanged. Model episodes involving these layouts were recollected for the finalized analysis.
+
+`evaluation_task_ids.json` fixes main-analysis membership and the candidate transfer tasks. Probe completeness and untried-action eligibility are checked when results are reproduced.
 
 Benchmark size and analysis sample size differ: completed common tasks, prediction-reconciled tasks, and eligible untried probes have distinct denominators. Use `results/populations.json` for the exact reported memberships.

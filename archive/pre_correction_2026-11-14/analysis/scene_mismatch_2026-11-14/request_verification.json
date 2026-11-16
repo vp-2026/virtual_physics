@@ -1,7 +1,0 @@
-{
-  "shard_manifest_checks_passed": true,
-  "matched_historical_world_and_image_hashes": true,
-  "json_initial_scenes_compared_to_world": 521,
-  "json_arm_image_requests": 0,
-  "affected_archived_units": 518
-}

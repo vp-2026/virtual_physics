@@ -1,8 +1,0 @@
-{
-  "passed": true,
-  "all_figure4_estimates_and_intervals_match_frozen_independent_audit": true,
-  "tolerance": 1e-10,
-  "main": 1641,
-  "broad": 1651,
-  "transfer": 118
-}

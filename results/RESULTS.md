@@ -59,4 +59,4 @@ Vector Figures 3 and 4 are in `figures/`. Every plotted estimate and interval is
 
 “We corrected inconsistent initial visual states in three layouts and reran their affected model episodes and fixed prediction probes. Reported model results combine these corrected observations with unchanged records for all other tasks.”
 
-Human participant-level data remain private. Human estimates and hypothetical human curves are not included in this model-only release. Historical controls and figures in the archive retain their original populations and must not be substituted for these finalized estimates.
+Human participant-level data remain private. Human estimates and hypothetical human curves are not included in this model-only release.

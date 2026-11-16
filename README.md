@@ -24,7 +24,7 @@ python -m pip install -r requirements-analysis.txt
 python scripts/reproduce.py --output outputs/reproduction
 ```
 
-This command checks historical-file and dataset integrity, verifies all 66 scenes against the simulator, re-scores archived responses, recomputes tables and bootstrap intervals, independently checks endpoint scores and Figure 4 estimators, and renders vector Figures 3 and 4. It makes **no model API calls**. Use a new output directory for each reproduction.
+This command checks dataset integrity, verifies all 66 scenes against the simulator, re-scores recorded responses, recomputes tables and bootstrap intervals, independently checks endpoint scores and Figure 4 estimators, and renders vector Figures 3 and 4. It makes **no model API calls**. Use a new output directory for each reproduction.
 
 For integrity checks alone:
 
@@ -34,8 +34,8 @@ python scripts/release/verify_release.py --geometry
 
 The output includes `summary.json`, `estimates.csv`, exact task IDs in `populations.json`, `tables/`, and `figures/plotted_values.json`. Collection scripts are in [`scripts/experiment/`](scripts/experiment/); the offline analysis requires no credentials.
 
-## Provenance and licensing
+## Data and licensing
 
-Three inconsistent initial screenshots were corrected, and affected model episodes and fixed probes were recollected. Unaffected observations remain unchanged. [`provenance/`](provenance/) records the replacement scope and protocol; [`archive/`](archive/) preserves the historical release and its analyses. Archived estimates are not the finalized results.
+Three inconsistent initial screenshots were corrected, and affected model episodes and fixed probes were recollected. Unaffected observations remain unchanged. The model-data manifest records source fingerprints and replacements.
 
 Project and simulator code use the [MIT License](LICENSE), with attribution in [NOTICE.md](NOTICE.md). See [LICENSE_STATUS.md](LICENSE_STATUS.md) for third-party and task-asset scope.

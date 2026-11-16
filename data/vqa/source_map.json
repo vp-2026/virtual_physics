@@ -5,9 +5,9 @@
     "layout_id": "BackUp_3",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BackUp_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BackUp_3_1.json",
     "raw_file_sha256": "4d220899fc9711269871742d89aeff1c66ad7385a38921dfc3a5bb0651e0afac",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BackUp_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BackUp_3_1.json",
     "request_file_sha256": "b015fb8068bb98c8dcd01d38b8057d31cd59a7d29fee34e1860f46645788f240"
   },
   {
@@ -16,9 +16,9 @@
     "layout_id": "BackUp_4",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BackUp_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BackUp_4_1.json",
     "raw_file_sha256": "d1f36a028a199d98789395d70848f396b7005517e28f31fd2217317a4c1daa6d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BackUp_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BackUp_4_1.json",
     "request_file_sha256": "5763cb1a05ce1d310a28ee4733664a9e2e425b9d40e1294a6bd57f81d50fdb9b"
   },
   {
@@ -27,9 +27,9 @@
     "layout_id": "BackUp_10",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BackUp_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BackUp_10_1.json",
     "raw_file_sha256": "6cfe1401bd0f0bf0e3b1f44823a38581ab07022a4b826468d463259a0a29b4d9",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BackUp_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BackUp_10_1.json",
     "request_file_sha256": "e1db3eb7c18123b2656e7995a6142a4950680860a5d398373dc1f42c05159f94"
   },
   {
@@ -38,9 +38,9 @@
     "layout_id": "BackUp_2",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BackUp_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BackUp_2_1.json",
     "raw_file_sha256": "c2d080217aa19edf4eda1f99ee9758ea8614ecf8f210471e3f8db7f8d7c741f3",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BackUp_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BackUp_2_1.json",
     "request_file_sha256": "b35660bdc324b8d8d111abad188e0b05f4e1932b6cace62f6f8f1dc6ef038f61"
   },
   {
@@ -49,9 +49,9 @@
     "layout_id": "BackUp_5",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BackUp_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BackUp_5_1.json",
     "raw_file_sha256": "241bf5ea39ae7c7ff3f0d6f3570c3f8905522d24440037f8b6d4eab089a2f3e0",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BackUp_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BackUp_5_1.json",
     "request_file_sha256": "d85297022fea11823ccca3cb08cfdb8274de241c5d362847724d644127e60b7a"
   },
   {
@@ -60,9 +60,9 @@
     "layout_id": "BackUp_10",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BackUp_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BackUp_10_1.json",
     "raw_file_sha256": "87fff3b6d42a4d6106a6e859beb2344e28a53565e970334e5fb7d7320323e12d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BackUp_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BackUp_10_1.json",
     "request_file_sha256": "ac6a873c1fdf3091dc462668d6e534b5c65a6a19f4b3955c4b68362776642064"
   },
   {
@@ -71,9 +71,9 @@
     "layout_id": "BackUp_2",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BackUp_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BackUp_2_1.json",
     "raw_file_sha256": "0466c31e7e0b4ffa7bdfe55f64d138e1287dee64286b0cd6203d84c34a923557",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BackUp_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BackUp_2_1.json",
     "request_file_sha256": "5957fb380aaff0934f07c40b8e3dcb865cb396fea59156a4cae9af2da8197f87"
   },
   {
@@ -82,9 +82,9 @@
     "layout_id": "BackUp_6",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BackUp_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BackUp_6_1.json",
     "raw_file_sha256": "4c53c5b415b04f670dfe008e1b52f5b2096ea28264542e6e4b5ee03d7cdfd1d6",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BackUp_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BackUp_6_1.json",
     "request_file_sha256": "79bc83fad3af0762ea695e11cfac507a7debd3436b52c4d72e93033e7c4b751f"
   },
   {
@@ -93,9 +93,9 @@
     "layout_id": "BackUp_5",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BackUp_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BackUp_5_1.json",
     "raw_file_sha256": "cfa6bf15f86bb51200db0b33899fe4c36248ac297665e296b32867727274ff67",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BackUp_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BackUp_5_1.json",
     "request_file_sha256": "9a00b8a81cded02e82cfd67066bccf33cb641dea23baaa8423743c63a90fa734"
   },
   {
@@ -104,9 +104,9 @@
     "layout_id": "BackUp_4",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BackUp_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BackUp_4_1.json",
     "raw_file_sha256": "8f3a0988741b077affbda9f9ccb1fad4f4c4dda32cb5ee415a0cc7efcb30bf9e",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BackUp_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BackUp_4_1.json",
     "request_file_sha256": "50cb223fe8b9879890fc41609a9ffc0fd17ad688ec5c485575dc1da14a487271"
   },
   {
@@ -115,9 +115,9 @@
     "layout_id": "BackUp_6",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BackUp_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BackUp_6_1.json",
     "raw_file_sha256": "7e92abff18fe9f49b676caba4e5b615badda5a5703ba0b882a08d267f0a0b05f",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BackUp_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BackUp_6_1.json",
     "request_file_sha256": "c4bf17521e512289221794bbce7ebbe015fdc9fddc42c98f8149d2fb08c505d3"
   },
   {
@@ -126,9 +126,9 @@
     "layout_id": "BackUp_3",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BackUp_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BackUp_3_1.json",
     "raw_file_sha256": "64a7f397fdef9b11c9fc4679bf00f9c8245293fd30b44f40941798574ba64015",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BackUp_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BackUp_3_1.json",
     "request_file_sha256": "eed211ca25187d9fe9b8042a02672bc2ac88040352e36b6a7d27d3b04f438950"
   },
   {
@@ -137,9 +137,9 @@
     "layout_id": "BackUp_7",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BackUp_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BackUp_7_1.json",
     "raw_file_sha256": "ec5f74a315ccfe3e60603cebcfc336368a97067b911b5a131e9f22aa8428440f",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BackUp_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BackUp_7_1.json",
     "request_file_sha256": "0afbee6da5de5d0e36457f53eec5d6086eb1245651ba8ab0eff23db9d85d0119"
   },
   {
@@ -148,9 +148,9 @@
     "layout_id": "BackUp_10",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BackUp_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BackUp_10_1.json",
     "raw_file_sha256": "ea9a9081dc13e2a83547f0fc243f05042f84c405c31ccabbb8d2a49d0677eebb",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BackUp_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BackUp_10_1.json",
     "request_file_sha256": "3a57011fdae53c468f61d83327e01efbc342ebdca49f4964006c76f79298edf2"
   },
   {
@@ -159,9 +159,9 @@
     "layout_id": "BackUp_7",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BackUp_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BackUp_7_1.json",
     "raw_file_sha256": "c788c4bbb94d092999f77c7d39840b77f738a57296fc4da8202b26e3f030a435",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BackUp_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BackUp_7_1.json",
     "request_file_sha256": "3e53e6b464738a9701578d4de130ea6773d9e48637884d1049853f3e043accb1"
   },
   {
@@ -170,9 +170,9 @@
     "layout_id": "BackUp_9",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BackUp_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BackUp_9_1.json",
     "raw_file_sha256": "e2b2ba4a99174db833a2472721a8de2bed4c90ca81e0b02bbdd8470a825a9693",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BackUp_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BackUp_9_1.json",
     "request_file_sha256": "4272e196649aeb0acbadaa2440e456c4275f3be4c2aa3e774d494b9a2018ea57"
   },
   {
@@ -181,9 +181,9 @@
     "layout_id": "BackUp_2",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BackUp_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BackUp_2_1.json",
     "raw_file_sha256": "c8b908cc6a5fcd3e0ba40608b0a8907f18d2e90136c0715af3922abd097fec5c",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BackUp_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BackUp_2_1.json",
     "request_file_sha256": "588733574f9f52fb498fc2ab24e19777bf92b46a7e56541e7766ee295c82d475"
   },
   {
@@ -192,9 +192,9 @@
     "layout_id": "BackUp_5",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BackUp_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BackUp_5_1.json",
     "raw_file_sha256": "6ad7a557d0a31e8e516e86c676217305d7afaba594fd951db8ff5fd3baf4b01e",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BackUp_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BackUp_5_1.json",
     "request_file_sha256": "3bf9a954ba055373dfdfddef167727362ad0fed5e2efd15bcaf53a0e472792a2"
   },
   {
@@ -203,9 +203,9 @@
     "layout_id": "BackUp_9",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BackUp_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BackUp_9_1.json",
     "raw_file_sha256": "0cc87f788f214290bdc400de7d7dd7fc9a9a6dfd3845c602cf09ae1fe5d9e107",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BackUp_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BackUp_9_1.json",
     "request_file_sha256": "8cc344fd991606d6d526b7c21e6898b766f801b1731ffa5490a3d1bddfc3afc9"
   },
   {
@@ -214,9 +214,9 @@
     "layout_id": "BalanceUnder_10",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BalanceUnder_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BalanceUnder_10_1.json",
     "raw_file_sha256": "5202dffd85bc605218acdb588684b18915f0933c6b0504f8440ed96a071669d7",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BalanceUnder_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BalanceUnder_10_1.json",
     "request_file_sha256": "1238af86199c2d6df00bc6c0f4ce2f3c5f09c2e3b720ddde1308bc97750e9e10"
   },
   {
@@ -225,9 +225,9 @@
     "layout_id": "BalanceUnder_2",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BalanceUnder_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BalanceUnder_2_1.json",
     "raw_file_sha256": "90e4134acddd58fa5c69bebf9a701246a54ca52251765966edd6e132fad20cdf",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BalanceUnder_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BalanceUnder_2_1.json",
     "request_file_sha256": "a6bea5cd4b743bc9a06ef0a6cde6d5f68bffd1d065544436e94f7e196b5fa4f7"
   },
   {
@@ -236,9 +236,9 @@
     "layout_id": "BalanceUnder_3",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BalanceUnder_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BalanceUnder_3_1.json",
     "raw_file_sha256": "0cda8b3f0c0c10389ad0e429764888563e09f17c48862bef267d5631faaa91c1",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BalanceUnder_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BalanceUnder_3_1.json",
     "request_file_sha256": "1b5a101293b8e5a919cb1c1c9ff256345a25648e673326b18c60c790d974211f"
   },
   {
@@ -247,9 +247,9 @@
     "layout_id": "BalanceUnder_10",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BalanceUnder_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BalanceUnder_10_1.json",
     "raw_file_sha256": "04a1e9980c90bb2011d3b4d0795cae9bfd74a0b7e00a356920b1e034718f88fc",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BalanceUnder_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BalanceUnder_10_1.json",
     "request_file_sha256": "9711f529c96cb3e2695530779b0940addef718106414260647378ecc3a7eeb96"
   },
   {
@@ -259,7 +259,7 @@
     "model": "qwen",
     "origin": "preserved_original",
     "error": "local_storage_interruption_before_saved_response",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BackUp_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BackUp_3_1.json",
     "request_file_sha256": "b5dde0b91e442c88d29566f6dea0edc49fdc67e1378c992aca08c32090705b64"
   },
   {
@@ -268,9 +268,9 @@
     "layout_id": "BackUp_4",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BackUp_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BackUp_4_1.json",
     "raw_file_sha256": "193ce42032ebc2ccfe18cc18c90f48337b06a64ed1691d90576f0daf5eeffb27",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BackUp_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BackUp_4_1.json",
     "request_file_sha256": "9764c512100d5d71c5f9a2c313485f749856495c786e437a0c4f452241d3f76b"
   },
   {
@@ -279,9 +279,9 @@
     "layout_id": "BackUp_6",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BackUp_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BackUp_6_1.json",
     "raw_file_sha256": "45612bb5f7ba95cfbc5d223ca3d1be0e29b572192ceec2b2e8ee79df472f302d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BackUp_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BackUp_6_1.json",
     "request_file_sha256": "87d495d431c5a77b7b2f5b81a89727a04bd7c5991a073867968bf979e25409af"
   },
   {
@@ -291,7 +291,7 @@
     "model": "qwen",
     "origin": "preserved_original",
     "error": "local_storage_interruption_before_saved_response",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BackUp_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BackUp_7_1.json",
     "request_file_sha256": "9937f6c56e2dcad725266446e368aaa5753037f748a373f722208415495bdd8e"
   },
   {
@@ -301,7 +301,7 @@
     "model": "qwen",
     "origin": "preserved_original",
     "error": "local_storage_interruption_before_saved_response",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BackUp_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BackUp_9_1.json",
     "request_file_sha256": "4747f9a34d8a8476a8d8ab904e7b21131857bd756a1edd26829a88df55c9516c"
   },
   {
@@ -310,9 +310,9 @@
     "layout_id": "BalanceUnder_10",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BalanceUnder_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BalanceUnder_10_1.json",
     "raw_file_sha256": "2a5dcd9783aae04f3be2b01f1104098d6ac49dcd1cb96a43693884a8c45ff1e4",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BalanceUnder_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BalanceUnder_10_1.json",
     "request_file_sha256": "387bb7b01795caf375b1b881223cc0e5cd9d16b967f1b11221d2ea0bfe61b1a6"
   },
   {
@@ -322,7 +322,7 @@
     "model": "gpt",
     "origin": "preserved_original",
     "error": "local_storage_interruption_before_saved_response",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BalanceUnder_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BalanceUnder_2_1.json",
     "request_file_sha256": "a6755e0222e014beabc9db9199df3fe87c5c06854841d7b33b1c7f5c2e0bf2d4"
   },
   {
@@ -331,9 +331,9 @@
     "layout_id": "BalanceUnder_2",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BalanceUnder_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BalanceUnder_2_1.json",
     "raw_file_sha256": "b3124b59f6f07119f431346b9834b6a234d6e0a5dd5bf102000b27a189551abf",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BalanceUnder_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BalanceUnder_2_1.json",
     "request_file_sha256": "bcdafe58fdadbe1c50039b8f27b6aac88dfedfdd3e8e1a7bc12297ac5817568b"
   },
   {
@@ -343,7 +343,7 @@
     "model": "gpt",
     "origin": "preserved_original",
     "error": "local_storage_interruption_before_saved_response",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BalanceUnder_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BalanceUnder_3_1.json",
     "request_file_sha256": "4ea9c7867c2ffec9f7a8163ea91b3da560af1a5e63ed721657f48a02aefd83df"
   },
   {
@@ -352,9 +352,9 @@
     "layout_id": "BalanceUnder_3",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BalanceUnder_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BalanceUnder_3_1.json",
     "raw_file_sha256": "c27d9cd54e201e520619cc136295c88a00fa9b6413ced85e77905c5d81bf32c7",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BalanceUnder_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BalanceUnder_3_1.json",
     "request_file_sha256": "30cbfc6e6dfb36ce46706d8b01ad0bcb6256830cdd720b48e936359ed407b8d0"
   },
   {
@@ -364,7 +364,7 @@
     "model": "gpt",
     "origin": "preserved_original",
     "error": "local_storage_interruption_before_saved_response",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BalanceUnder_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BalanceUnder_5_1.json",
     "request_file_sha256": "5f67681ba2e4a8a2f3c7f8a77a75e0799990cad27f2ddb6a67ed288a3d6392eb"
   },
   {
@@ -373,9 +373,9 @@
     "layout_id": "BalanceUnder_6",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BalanceUnder_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BalanceUnder_6_1.json",
     "raw_file_sha256": "76874d6bfc05fb63294bd9865e049aec5ca5959006102b07e077ea43ae5be580",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BalanceUnder_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BalanceUnder_6_1.json",
     "request_file_sha256": "596fc62fae6d8a84fae09d3362d252462b585920313161ca346c1d2cefab8054"
   },
   {
@@ -384,9 +384,9 @@
     "layout_id": "BalanceUnder_5",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BalanceUnder_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BalanceUnder_5_1.json",
     "raw_file_sha256": "e571f015a77bf6562b56bd859fc9ad71c04e21a73bc14289487a0146a9cde776",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BalanceUnder_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BalanceUnder_5_1.json",
     "request_file_sha256": "0643686285d9ac4ef018ecb9f8b2374926d996bad4cadba398e5edff2f778790"
   },
   {
@@ -395,9 +395,9 @@
     "layout_id": "BalanceUnder_6",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BalanceUnder_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BalanceUnder_6_1.json",
     "raw_file_sha256": "6c875fbbba2fd314bdbe598db33bebf9aede57b5f47a2d6d0a62bb57bb1ff672",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BalanceUnder_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BalanceUnder_6_1.json",
     "request_file_sha256": "63ecf3700b81e6f7c118c833ef511c64c33a17693610b5e0cb8d0568412c166d"
   },
   {
@@ -406,9 +406,9 @@
     "layout_id": "BalanceUnder_5",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BalanceUnder_5_2.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BalanceUnder_5_2.json",
     "raw_file_sha256": "e9ccb45d72eb997a67629b288299a8113d8c5ee235f5123cab24211c1539d4fb",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BalanceUnder_5_2.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BalanceUnder_5_2.json",
     "request_file_sha256": "5f67681ba2e4a8a2f3c7f8a77a75e0799990cad27f2ddb6a67ed288a3d6392eb"
   },
   {
@@ -417,9 +417,9 @@
     "layout_id": "BalanceUnder_3",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BalanceUnder_3_2.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BalanceUnder_3_2.json",
     "raw_file_sha256": "f13be43dd2bc72241946ef31453ceccd8a169a34a38e675bc113d99e67d55b06",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BalanceUnder_3_2.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BalanceUnder_3_2.json",
     "request_file_sha256": "4ea9c7867c2ffec9f7a8163ea91b3da560af1a5e63ed721657f48a02aefd83df"
   },
   {
@@ -428,9 +428,9 @@
     "layout_id": "BalanceUnder_2",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BalanceUnder_2_2.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BalanceUnder_2_2.json",
     "raw_file_sha256": "4039fee82f8adc02a6b9ed8f3ffe245fe7e455b2d820143241edc9f5c8731c74",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BalanceUnder_2_2.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BalanceUnder_2_2.json",
     "request_file_sha256": "a6755e0222e014beabc9db9199df3fe87c5c06854841d7b33b1c7f5c2e0bf2d4"
   },
   {
@@ -439,9 +439,9 @@
     "layout_id": "BalanceUnder_7",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BalanceUnder_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BalanceUnder_7_1.json",
     "raw_file_sha256": "30a730ec8d138576a7778d0eb8c9e7918b63539de935ebf7455fa21d62c0026f",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BalanceUnder_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BalanceUnder_7_1.json",
     "request_file_sha256": "c234e61c2896a083b8d21e3046975609bd8eec781e47a3e388eafbda644c4d08"
   },
   {
@@ -450,9 +450,9 @@
     "layout_id": "BalanceUnder_7",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BalanceUnder_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BalanceUnder_7_1.json",
     "raw_file_sha256": "53e5bafe92e73e32282dc450acc71e7fc65d5442beb70ac2132f25c60e526175",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BalanceUnder_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BalanceUnder_7_1.json",
     "request_file_sha256": "09c63de6cfa2fc74ec783cddb0bb25c78ccc5000202c5955d57f4c9397591a98"
   },
   {
@@ -461,9 +461,9 @@
     "layout_id": "BalanceUnder_8",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_BalanceUnder_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_BalanceUnder_8_1.json",
     "raw_file_sha256": "8fdd7d80d62505369bf2e48bdc0866fcd3a4968b9ee4738783ee315a6127e0c4",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_BalanceUnder_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_BalanceUnder_8_1.json",
     "request_file_sha256": "59cfe11bfcefc516291cf02b632a0cbc6cc5947a0858d3f72e365c8e52c53cf2"
   },
   {
@@ -472,9 +472,9 @@
     "layout_id": "BalanceUnder_8",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_BalanceUnder_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_BalanceUnder_8_1.json",
     "raw_file_sha256": "79c8230dcba61169e77c7419d8a66310f44e9be5e6c4ddb23932de07f5268233",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_BalanceUnder_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_BalanceUnder_8_1.json",
     "request_file_sha256": "a61cba9ff30f2a40cbda4436b8b536a65329adf6aa4b87fe24b2f8a703c5a46c"
   },
   {
@@ -483,9 +483,9 @@
     "layout_id": "Balance_1",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Balance_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Balance_1_1.json",
     "raw_file_sha256": "2985b30164d2cdb4121baffdf9d9901e72cf34e3c06f4fcd25e027f19734f69a",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Balance_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Balance_1_1.json",
     "request_file_sha256": "8a44fa805589073a54c81ec479a7657adabc0edc3ea8f4942eb213c835fcab3e"
   },
   {
@@ -494,9 +494,9 @@
     "layout_id": "Balance_1",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Balance_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Balance_1_1.json",
     "raw_file_sha256": "4305349c42c0e49ad1c8132ab5cf0908d2acfc5d834236086ad2e95df641544e",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Balance_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Balance_1_1.json",
     "request_file_sha256": "f3f889378f161f5784fad2f4f386b7ac75e1804474318b56d8c457e616ce61c9"
   },
   {
@@ -505,9 +505,9 @@
     "layout_id": "BackUp_9",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BackUp_9_2.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BackUp_9_2.json",
     "raw_file_sha256": "b9960a62762e4f80c2a62465187e9575965ad8f3169fe04cca4f29d30644f085",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BackUp_9_2.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BackUp_9_2.json",
     "request_file_sha256": "4747f9a34d8a8476a8d8ab904e7b21131857bd756a1edd26829a88df55c9516c"
   },
   {
@@ -516,9 +516,9 @@
     "layout_id": "Balance_10",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Balance_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Balance_10_1.json",
     "raw_file_sha256": "b627eac7bbd5707f9a6f7d7d3669cecb4830f269e2c8dc6c77e4324136e45899",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Balance_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Balance_10_1.json",
     "request_file_sha256": "785ab7031991e5989a0204c15e4f9f11bc927d4be7a8ee93a792f0b7525135fb"
   },
   {
@@ -527,9 +527,9 @@
     "layout_id": "Balance_10",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Balance_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Balance_10_1.json",
     "raw_file_sha256": "f6e30f0e95adbb40781f4d865bf8c0e23ae47abbd1faf92443d88c9dfe3f934f",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Balance_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Balance_10_1.json",
     "request_file_sha256": "026720808e4f980589485ff90cbbe13ce6056a337937394ea4a720bddaf67043"
   },
   {
@@ -538,9 +538,9 @@
     "layout_id": "Balance_2",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Balance_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Balance_2_1.json",
     "raw_file_sha256": "052491c64167da206d068ace6669d423d2e57ae79ffed76575b1d5b0843e5024",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Balance_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Balance_2_1.json",
     "request_file_sha256": "f639dbc36fd845e96138ae486f62b3dbc538879dbdfe471e521d8ab29a952872"
   },
   {
@@ -549,9 +549,9 @@
     "layout_id": "Balance_2",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Balance_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Balance_2_1.json",
     "raw_file_sha256": "cd47b441cbd748caa0cbc5bd83211b0f544423a5483d3bcc9b212be156c91038",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Balance_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Balance_2_1.json",
     "request_file_sha256": "beaa5e567600e257bfbfce5585f23c95eb89e0138c501bb65915dc75facca273"
   },
   {
@@ -560,9 +560,9 @@
     "layout_id": "Balance_3",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Balance_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Balance_3_1.json",
     "raw_file_sha256": "77b9b42c0bb6ad99b346ada15d0ab5b6541a0ea45ce714ae9af5a62ee2479955",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Balance_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Balance_3_1.json",
     "request_file_sha256": "abb60f08fc9d9667921ab86c8d84b54706f6825d6e378cad9da24da52b9b3a53"
   },
   {
@@ -571,9 +571,9 @@
     "layout_id": "Balance_3",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Balance_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Balance_3_1.json",
     "raw_file_sha256": "815bc8596a7ca984c8734f88c8aa02d37bafae45ba99ada64233b9f01b7c3032",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Balance_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Balance_3_1.json",
     "request_file_sha256": "89d567bfe18aa672bde382e2017089c923d462b36acecaf693ccceae4ee8762e"
   },
   {
@@ -582,9 +582,9 @@
     "layout_id": "Balance_4",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Balance_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Balance_4_1.json",
     "raw_file_sha256": "eee9f7eade0b0ffd103b495014e738f16e947930136ff02ad253cbfe23f28a70",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Balance_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Balance_4_1.json",
     "request_file_sha256": "eed81d22bf0da4f921984352da495ca8a6705b577d622b50739aa7767b2016df"
   },
   {
@@ -593,9 +593,9 @@
     "layout_id": "Balance_4",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Balance_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Balance_4_1.json",
     "raw_file_sha256": "8d1e077030a3f83ee7575e4ed8c76101aa02c82223ac1549826a2a49805ba27d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Balance_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Balance_4_1.json",
     "request_file_sha256": "4ba4dc7e336c79e876dc652988b74f1abda44e6771015c3438386574b6a633d8"
   },
   {
@@ -604,9 +604,9 @@
     "layout_id": "BalanceUnder_5",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BalanceUnder_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BalanceUnder_5_1.json",
     "raw_file_sha256": "216446d3eeb50d65ff004f3d67f281ad679047676b4bf45d3b0d2ffeb0114bb5",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BalanceUnder_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BalanceUnder_5_1.json",
     "request_file_sha256": "f12dc50bd6d706e781384e238a8795e2c496e43954d2d37198241041783ae409"
   },
   {
@@ -615,9 +615,9 @@
     "layout_id": "Balance_5",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Balance_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Balance_5_1.json",
     "raw_file_sha256": "87321299d4d11f9b29a35e794176a18b5b58d265b2a01b16af7f166739dca01c",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Balance_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Balance_5_1.json",
     "request_file_sha256": "ec72e29fe2e5b8d45b9e8a5bcb46a509d9878f07cef3f0ff359f97aa9ee1431f"
   },
   {
@@ -626,9 +626,9 @@
     "layout_id": "Balance_5",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Balance_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Balance_5_1.json",
     "raw_file_sha256": "6900ad393f9e0b9c8e3b0f5ad9139433d2324ad56bf9b65b63af6710a41b38f5",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Balance_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Balance_5_1.json",
     "request_file_sha256": "610a205c871cb48f864b374274a5f3f1fd66cad16826d782c01eec0501639954"
   },
   {
@@ -637,9 +637,9 @@
     "layout_id": "BalanceUnder_6",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BalanceUnder_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BalanceUnder_6_1.json",
     "raw_file_sha256": "cedae899e8ed64193f5bae0d7cc33559060d8725f1ecde56ff562a836ce3a485",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BalanceUnder_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BalanceUnder_6_1.json",
     "request_file_sha256": "ac3f90c7ac533ffe2c5a587c6e1be948e484d83ccc5698ada8582095be30d513"
   },
   {
@@ -648,9 +648,9 @@
     "layout_id": "Balance_10",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Balance_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Balance_10_1.json",
     "raw_file_sha256": "dd9100826b608d0108505dc7c7015353691882161c8280de2ea494753651ba98",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Balance_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Balance_10_1.json",
     "request_file_sha256": "6474ed8a3b793cc52ff078ade294d6010f9ef928dc03766c6da8f9cf48920b29"
   },
   {
@@ -659,9 +659,9 @@
     "layout_id": "Balance_7",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Balance_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Balance_7_1.json",
     "raw_file_sha256": "bc45953773a73be7822c41a53f0dc72540bbb7447bab1c40298c758fd5f3ca5a",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Balance_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Balance_7_1.json",
     "request_file_sha256": "b686c5607257770664ced51047d444dce0cfd364c3944fdd800f0474acfb084e"
   },
   {
@@ -670,9 +670,9 @@
     "layout_id": "Balance_7",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Balance_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Balance_7_1.json",
     "raw_file_sha256": "9fa4ee7ce1202db4e885150dceccfd0e2f1a343f2f551885087646329e1ff5a1",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Balance_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Balance_7_1.json",
     "request_file_sha256": "a7a2c52a0083fdecb601b13b3b06493e1e23f6f8496b00ef276770fca8c2eea7"
   },
   {
@@ -681,9 +681,9 @@
     "layout_id": "BackUp_3",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BackUp_3_2.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BackUp_3_2.json",
     "raw_file_sha256": "b0fcdf71ae2d7b5d8b5e4881e1d8285ece08391cbef7c2e64074837cc389a5db",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BackUp_3_2.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BackUp_3_2.json",
     "request_file_sha256": "b5dde0b91e442c88d29566f6dea0edc49fdc67e1378c992aca08c32090705b64"
   },
   {
@@ -692,9 +692,9 @@
     "layout_id": "Balance_2",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Balance_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Balance_2_1.json",
     "raw_file_sha256": "883ae9055d279fc9a619cebe463c627ddde7ff764d7490c18dea8b4ae31604ef",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Balance_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Balance_2_1.json",
     "request_file_sha256": "f2956dc63b316441d0065d86b978d7cc6a29726667e7245cd51a84c201809ae6"
   },
   {
@@ -703,9 +703,9 @@
     "layout_id": "Balance_5",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Balance_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Balance_5_1.json",
     "raw_file_sha256": "ead8947bf474faf0cbd1485be0923d2b930ea9f73d4b6953e836e7b86358d7f1",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Balance_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Balance_5_1.json",
     "request_file_sha256": "58ac1fd60bafdca443b7c629ca957be2b31900afa01b4decc75014b42253b020"
   },
   {
@@ -714,9 +714,9 @@
     "layout_id": "Basic_1",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Basic_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Basic_1_1.json",
     "raw_file_sha256": "9e701340ed28aed01a1d1b60c91dcafc734919779483a2a23541486ec7688ab6",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Basic_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Basic_1_1.json",
     "request_file_sha256": "b96baa3fe835f5c07cb19beb42efbb74c0d4ccb692a8c595bfb9abf94fa317c3"
   },
   {
@@ -725,9 +725,9 @@
     "layout_id": "Basic_1",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Basic_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Basic_1_1.json",
     "raw_file_sha256": "ea3a67a3360262351490e779c23369cab75a98ffb57866f249146bf83a07d8fe",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Basic_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Basic_1_1.json",
     "request_file_sha256": "79670408ae019a4e6f14b1a7abb0f98acc856fe302b36402b286bf2ebed268af"
   },
   {
@@ -736,9 +736,9 @@
     "layout_id": "Basic_10",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Basic_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Basic_10_1.json",
     "raw_file_sha256": "cc4431328c2851e646d0b1e7316ccdf750e688dedb0ccf50ae4411a16ca62f07",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Basic_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Basic_10_1.json",
     "request_file_sha256": "a019a239eb40a5cf5d4efc99d8b15b45b1424098f1cc4092b9ec5d292a3aac62"
   },
   {
@@ -747,9 +747,9 @@
     "layout_id": "Basic_10",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Basic_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Basic_10_1.json",
     "raw_file_sha256": "4f0c8c7fcfb9fda501f232b2a75d720509a0b2dcc0b87272cf064384a02f142c",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Basic_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Basic_10_1.json",
     "request_file_sha256": "9662ecc5dc8e7b50e0c848e884f7dc35f96d2b77a6b25a5542fbd49328830c62"
   },
   {
@@ -758,9 +758,9 @@
     "layout_id": "Balance_4",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Balance_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Balance_4_1.json",
     "raw_file_sha256": "7c32ac966654d3b4328394330aeb0171bc13a5a376deddace4b4064d22d59c94",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Balance_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Balance_4_1.json",
     "request_file_sha256": "0eb11ced7ecede0f6d40bbabd7af98b23db226412ef4adddbe0a04b56a495950"
   },
   {
@@ -769,9 +769,9 @@
     "layout_id": "Basic_2",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Basic_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Basic_2_1.json",
     "raw_file_sha256": "a13320f3a468cff47a5c96b2285f40af6ac4bd97b924952e62680c2845061df9",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Basic_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Basic_2_1.json",
     "request_file_sha256": "45607fb6856e6912de597891c694d55460f62fedc17a9e7b4f1e63456d69075e"
   },
   {
@@ -780,9 +780,9 @@
     "layout_id": "BackUp_7",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BackUp_7_2.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BackUp_7_2.json",
     "raw_file_sha256": "67e3aa3087caf82758aca76f66aad2f0c9bfef29d73939243cc3c26ee3f5a93d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BackUp_7_2.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BackUp_7_2.json",
     "request_file_sha256": "9937f6c56e2dcad725266446e368aaa5753037f748a373f722208415495bdd8e"
   },
   {
@@ -791,9 +791,9 @@
     "layout_id": "BalanceUnder_7",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BalanceUnder_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BalanceUnder_7_1.json",
     "raw_file_sha256": "57c1c269ed7d57375012186f933de5d5dc496e91a5bc405818f157c7d256c7e9",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BalanceUnder_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BalanceUnder_7_1.json",
     "request_file_sha256": "6ab5661ad4c700f2116b16e5ebc5d55bf95a7950c16cf7b3013ab02024dbdb6f"
   },
   {
@@ -802,9 +802,9 @@
     "layout_id": "Basic_2",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Basic_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Basic_2_1.json",
     "raw_file_sha256": "d07d7e0b41a961425af387a2a8f464a7c7c1907972810e8d53ba9a1f5ce88e10",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Basic_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Basic_2_1.json",
     "request_file_sha256": "de6087ec4dc71b14a6e84e57d7c91683793cf56b11673cc0f0a13c90751d3d98"
   },
   {
@@ -813,9 +813,9 @@
     "layout_id": "Basic_6",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Basic_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Basic_6_1.json",
     "raw_file_sha256": "44d330dfc80be47e5f9b83522d80c6c783690bd77af6f3e34c8adef7d05451c3",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Basic_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Basic_6_1.json",
     "request_file_sha256": "b3250255966bc682294166c1d45890bcbfe49957ffe079652ac75d9ff7bbd172"
   },
   {
@@ -824,9 +824,9 @@
     "layout_id": "Basic_6",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Basic_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Basic_6_1.json",
     "raw_file_sha256": "93dd633e9de4ba0f51c8670be7756b2c089648139efa14e92ac648f09180fda0",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Basic_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Basic_6_1.json",
     "request_file_sha256": "0e3ae916ba2ccd5c977186ba630c190bc43a581a5393c24298b5c9466b19e2a6"
   },
   {
@@ -835,9 +835,9 @@
     "layout_id": "Balance_1",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Balance_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Balance_1_1.json",
     "raw_file_sha256": "2fe00053b96560de5f9c08149a94b6a33c3248c455bf4c8a26c6bb1cb35e5591",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Balance_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Balance_1_1.json",
     "request_file_sha256": "518fca6d6210c81c86b26b5b835b6b1773acb43a225b67909513050632fec3a3"
   },
   {
@@ -846,9 +846,9 @@
     "layout_id": "Balance_3",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Balance_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Balance_3_1.json",
     "raw_file_sha256": "78971778d293688eac7cf49e907690f079340b1e6803767236e088764837e29a",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Balance_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Balance_3_1.json",
     "request_file_sha256": "e817d5b90dc4af7c5f8b9af55d7806c1b2f1f9d7d75104b41b822c0be544340a"
   },
   {
@@ -857,9 +857,9 @@
     "layout_id": "Basic_1",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Basic_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Basic_1_1.json",
     "raw_file_sha256": "111853a43061de485c6634063cc7cb916b5880ee2f0b52012557b5066d87e721",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Basic_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Basic_1_1.json",
     "request_file_sha256": "2ff30377997b49a62c6084961c00c9a0b57d205d1cae822dfcc42e65d235d60a"
   },
   {
@@ -868,9 +868,9 @@
     "layout_id": "Balance_7",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Balance_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Balance_7_1.json",
     "raw_file_sha256": "5cfa0e3dd788c77039327ef22f8211436ac847085601edb250891c012c133a56",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Balance_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Balance_7_1.json",
     "request_file_sha256": "a0339f56e234ec15b90795aff2cadbe48fa7a59cc4fda4b3b76a97e68e5273e9"
   },
   {
@@ -879,9 +879,9 @@
     "layout_id": "Basic_7",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Basic_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Basic_7_1.json",
     "raw_file_sha256": "2ac7311eb9ea276217a15b520f3214534ccea6bd007c204772c2369290f51011",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Basic_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Basic_7_1.json",
     "request_file_sha256": "1b4db28f8a68148d8ed6cfe219c65c9cab5b4b26a178670ca245342f78acdbfc"
   },
   {
@@ -890,9 +890,9 @@
     "layout_id": "Basic_8",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Basic_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Basic_8_1.json",
     "raw_file_sha256": "219091ad6a14ab80a098e4d518811f886dfb9bd4a8c3a82d9a4be99a39645766",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Basic_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Basic_8_1.json",
     "request_file_sha256": "1351f37e5f195b60ede31f1868e83677c010fe7b0e05db586551271e3cffbc6e"
   },
   {
@@ -901,9 +901,9 @@
     "layout_id": "Basic_9",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Basic_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Basic_9_1.json",
     "raw_file_sha256": "08a4e0faf98889dfc62fa5edb029a762dafbb4ab5840df96b7dfecd74f9512ba",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Basic_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Basic_9_1.json",
     "request_file_sha256": "eda65927be010aedec17415b09d9c098f8e2675cb4b8d0d8456cee04a8a695ce"
   },
   {
@@ -912,9 +912,9 @@
     "layout_id": "Basic_8",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Basic_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Basic_8_1.json",
     "raw_file_sha256": "4c4f0cff4d84b2e9427b97e1017029be074a5945b07a07d3038448ec83ca2bdf",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Basic_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Basic_8_1.json",
     "request_file_sha256": "c12c0813c4047275b887d119a21ec31b50f5cf6f3a12bbb86569d62156e457fc"
   },
   {
@@ -923,9 +923,9 @@
     "layout_id": "Basic_7",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Basic_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Basic_7_1.json",
     "raw_file_sha256": "17d243cc21a70b137e2758533b4fde0072390dd40c23826f700386c8bc4d1d5b",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Basic_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Basic_7_1.json",
     "request_file_sha256": "c154a73620bac0cdb4ba6b2cccbe0a6ebed69ca0740290dc8cdf9aea76d4d637"
   },
   {
@@ -934,9 +934,9 @@
     "layout_id": "FallingAlt_1",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_FallingAlt_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_FallingAlt_1_1.json",
     "raw_file_sha256": "5198acbdcce8413d2c720b5b8d2864093c445e04211c5f5bb58e5e41ff64c707",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_FallingAlt_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_FallingAlt_1_1.json",
     "request_file_sha256": "c41c1b44072789b4efeda649883db3db61992d69bb62889ea843e5669e1ad506"
   },
   {
@@ -945,9 +945,9 @@
     "layout_id": "Basic_9",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Basic_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Basic_9_1.json",
     "raw_file_sha256": "57854dfc44fecbf91c4ea836a4bc76f8a6b42ff5204b797b18f5b77aa3523ea3",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Basic_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Basic_9_1.json",
     "request_file_sha256": "bfef4d4029a64700457a52a020ce4876315bb9593195f833dc022008639d9856"
   },
   {
@@ -956,9 +956,9 @@
     "layout_id": "FallingAlt_1",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_FallingAlt_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_FallingAlt_1_1.json",
     "raw_file_sha256": "680923c0b525c0f715d94e785e54ae7b6f888d8b889a7e16addb0fc532295c26",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_FallingAlt_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_FallingAlt_1_1.json",
     "request_file_sha256": "b03c79188848a7550efc022ab373ef3aa0820e3333e638277e0cc59ee5daa917"
   },
   {
@@ -967,9 +967,9 @@
     "layout_id": "FallingAlt_10",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_FallingAlt_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_FallingAlt_10_1.json",
     "raw_file_sha256": "17b985176fbd1bae7ddfb1fd9fe6657f4a168ce4f3024f73bdd455acb991ed1a",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_FallingAlt_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_FallingAlt_10_1.json",
     "request_file_sha256": "d74a533fa31134b329fa6d0705e0e9ba356a5d392707667312955255840171ad"
   },
   {
@@ -978,9 +978,9 @@
     "layout_id": "FallingAlt_10",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_FallingAlt_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_FallingAlt_10_1.json",
     "raw_file_sha256": "dcbac5a8b3f87203143b4bc9918e75bcaa3a70758f69a455936508112f25c734",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_FallingAlt_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_FallingAlt_10_1.json",
     "request_file_sha256": "76bd0e456e49cad229f9baec0b7cf3ad42001cee9c3bd9cb83e485a8906523aa"
   },
   {
@@ -989,9 +989,9 @@
     "layout_id": "FallingAlt_2",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_FallingAlt_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_FallingAlt_2_1.json",
     "raw_file_sha256": "b1bd63e1515f20eb957996ac34052c4112c196e6ecf8dfb65fb7504ee48f0ec1",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_FallingAlt_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_FallingAlt_2_1.json",
     "request_file_sha256": "8cad032b2df75f7b1c0e3e71b17ef3a1bb2c06b0cc6478d6eb18ad5c9b494938"
   },
   {
@@ -1000,9 +1000,9 @@
     "layout_id": "FallingAlt_2",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_FallingAlt_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_FallingAlt_2_1.json",
     "raw_file_sha256": "82286d16940f5ed540813e2ee6ee8418f70d4c42c4b64d05c0f472bd200d61ef",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_FallingAlt_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_FallingAlt_2_1.json",
     "request_file_sha256": "80dfe3ed2fd5d5f975fa99c96f30eca43ef849ce6322c2d3ffb370bf76eda7f9"
   },
   {
@@ -1011,9 +1011,9 @@
     "layout_id": "BalanceUnder_8",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_BalanceUnder_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_BalanceUnder_8_1.json",
     "raw_file_sha256": "802c4af8c902f43d1495443aae7e4c7c590405f72d2046c94022831bdeb632b5",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_BalanceUnder_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_BalanceUnder_8_1.json",
     "request_file_sha256": "8b2e872277f2eafc8e1c3da300d4c45d009924168d49321a93fa309a8716bfe8"
   },
   {
@@ -1022,9 +1022,9 @@
     "layout_id": "FallingAlt_3",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_FallingAlt_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_FallingAlt_3_1.json",
     "raw_file_sha256": "54810ac01b7d53ffe88cfb764f3f0ac0db983f93d866b570a32b7e8691c272eb",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_FallingAlt_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_FallingAlt_3_1.json",
     "request_file_sha256": "af1e795449a058a3fa2595e7d4f9bbae42e79e1d927f3b872c541faec4c1adf3"
   },
   {
@@ -1033,9 +1033,9 @@
     "layout_id": "FallingAlt_3",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_FallingAlt_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_FallingAlt_3_1.json",
     "raw_file_sha256": "ece4978e104b0f56be30a00e9fcb32d6bf2345862423973a3a2aeb595614ae66",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_FallingAlt_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_FallingAlt_3_1.json",
     "request_file_sha256": "b2cb33bc4b147949a6c6f411cd2a5cfbee1185aca73ae31a895dfb30ae5db045"
   },
   {
@@ -1044,9 +1044,9 @@
     "layout_id": "Basic_2",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Basic_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Basic_2_1.json",
     "raw_file_sha256": "cba7ea7823355eb4039fa20348040d079e4ea41c8bbf9c992097f25fc6ae5d03",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Basic_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Basic_2_1.json",
     "request_file_sha256": "8f0f74c0f2da65894d31951de775994689885a196a882f9be7e758ca0f9375f4"
   },
   {
@@ -1055,9 +1055,9 @@
     "layout_id": "FallingAlt_4",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_FallingAlt_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_FallingAlt_4_1.json",
     "raw_file_sha256": "39f0265922bc73299a88a6544304e72374b97a12521a6dacdcf8f2652e1f20d0",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_FallingAlt_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_FallingAlt_4_1.json",
     "request_file_sha256": "5a6eb1dfeb49a3093bed3efa713f8317b3def7aa4e8214b767bf0e81b267f513"
   },
   {
@@ -1066,9 +1066,9 @@
     "layout_id": "FallingAlt_4",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_FallingAlt_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_FallingAlt_4_1.json",
     "raw_file_sha256": "9381f189c8bdf1f71a7c5ebe6f4eb1fdd91e7910726a4639f8fcbf7231b90017",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_FallingAlt_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_FallingAlt_4_1.json",
     "request_file_sha256": "365ff48a0f5cbd039ef3d0fd85c481d8574284c0bd0e2bae03b1adc118e454d8"
   },
   {
@@ -1077,9 +1077,9 @@
     "layout_id": "Basic_10",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Basic_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Basic_10_1.json",
     "raw_file_sha256": "4458bde3a684a32ce99c33a363242bcc913ac9e67b091f2267b505375ec5583b",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Basic_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Basic_10_1.json",
     "request_file_sha256": "3617ba9427af7249387292185584f11a845336f41555f572e62c795d14370e51"
   },
   {
@@ -1088,9 +1088,9 @@
     "layout_id": "FallingAlt_5",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_FallingAlt_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_FallingAlt_5_1.json",
     "raw_file_sha256": "a7b23b297d1c426c042ac4decf2e517b6aa3dd90919003eb5b3215c9459075bd",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_FallingAlt_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_FallingAlt_5_1.json",
     "request_file_sha256": "5db107e6f1563e19ea9fc8dc7fc960c10defaef671f244f6ef45fdbf1aa94ca6"
   },
   {
@@ -1099,9 +1099,9 @@
     "layout_id": "FallingAlt_5",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_FallingAlt_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_FallingAlt_5_1.json",
     "raw_file_sha256": "af4d0fdd4dc029a9fccfde366813b6ef8dcee113393b4fb92a992388f7d2faf5",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_FallingAlt_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_FallingAlt_5_1.json",
     "request_file_sha256": "be2735f8d2caac0871edb95fe735e6f9e57c1334d0fc7b31d73376207e84130e"
   },
   {
@@ -1110,9 +1110,9 @@
     "layout_id": "FallingAlt_6",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_FallingAlt_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_FallingAlt_6_1.json",
     "raw_file_sha256": "5c2e7e010693f84e8686548aaf0888b1e0cc7532fd3c830c57c4a1dd1be28b6d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_FallingAlt_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_FallingAlt_6_1.json",
     "request_file_sha256": "a13d31672bfc362d6bf036b0f04decfdc39e2fd769a07ddfdd8c3afbefc5ef21"
   },
   {
@@ -1121,9 +1121,9 @@
     "layout_id": "FallingAlt_6",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_FallingAlt_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_FallingAlt_6_1.json",
     "raw_file_sha256": "55be1431217d23adc82dfc7524f06c872a8ebe577ff6293c12c1e800ed5b0fad",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_FallingAlt_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_FallingAlt_6_1.json",
     "request_file_sha256": "5655e648f7f37f539ff717e2bca55c06332e83c4ef3231219bf0c30571d7477a"
   },
   {
@@ -1132,9 +1132,9 @@
     "layout_id": "FallingAlt_10",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_FallingAlt_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_FallingAlt_10_1.json",
     "raw_file_sha256": "ae9f5a3efeb23495aed264bc398c9d20cbd8f3569431071a8c659eea9b4953be",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_FallingAlt_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_FallingAlt_10_1.json",
     "request_file_sha256": "d03e9a7d68b3818594e402c109290d2694b1322061ded2a75d583bf064c04407"
   },
   {
@@ -1143,9 +1143,9 @@
     "layout_id": "FallingAlt_7",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_FallingAlt_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_FallingAlt_7_1.json",
     "raw_file_sha256": "6ef064046c66b76639162c2bcfd936b522e26a071fbf001854918f9fc1cedf8e",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_FallingAlt_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_FallingAlt_7_1.json",
     "request_file_sha256": "f3161a9af6f6907980931677f5fbb61ef69abdbd7e9d9062d06cccda23eb765c"
   },
   {
@@ -1154,9 +1154,9 @@
     "layout_id": "FallingAlt_7",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_FallingAlt_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_FallingAlt_7_1.json",
     "raw_file_sha256": "49bf3ed9e26ab571295195e125424f0cf70d4b8c6a05ad05c3ccf67623b9de06",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_FallingAlt_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_FallingAlt_7_1.json",
     "request_file_sha256": "44557b58ca743e375597f5366ede0fa483f047c49569e72fc28e4f305d046b2a"
   },
   {
@@ -1165,9 +1165,9 @@
     "layout_id": "Basic_8",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Basic_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Basic_8_1.json",
     "raw_file_sha256": "8e408b6b24183d4659614d4effc8377c5f40c9219621e40489f23b8d5111bc28",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Basic_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Basic_8_1.json",
     "request_file_sha256": "df03e2db8e3490c0dc8d2461f91d63c27d0375aaf2d7e14414d469081478b327"
   },
   {
@@ -1176,9 +1176,9 @@
     "layout_id": "FallingAlt_3",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_FallingAlt_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_FallingAlt_3_1.json",
     "raw_file_sha256": "ff4b05fb94784d110e266a5f6cb8e14fafee554303943fdf6b2a209fb726ba0c",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_FallingAlt_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_FallingAlt_3_1.json",
     "request_file_sha256": "d55e08c4bd63b268ee98b280ffa51e8870db9f18e531cd50eeaed549ce832089"
   },
   {
@@ -1187,9 +1187,9 @@
     "layout_id": "FallingAlt_8",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_FallingAlt_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_FallingAlt_8_1.json",
     "raw_file_sha256": "72bd8d6004ef2d289b4eab111f7e7fe215b5cc4e46677d84879ba16b4d3ffc14",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_FallingAlt_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_FallingAlt_8_1.json",
     "request_file_sha256": "b6d6b0d2853e15cb7c40685d37c1d154290f9e82380d7bcc40030f95927bc52d"
   },
   {
@@ -1198,9 +1198,9 @@
     "layout_id": "FallingAlt_8",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_FallingAlt_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_FallingAlt_8_1.json",
     "raw_file_sha256": "1525a82a194c6a5db90835e527f2c9fac0717f422c68822f9c39497d7774386d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_FallingAlt_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_FallingAlt_8_1.json",
     "request_file_sha256": "c419cc48eb99d8d6e83d572d7a4a72faf49dacbd4ade41f885a80f206f386567"
   },
   {
@@ -1209,9 +1209,9 @@
     "layout_id": "FallingAlt_9",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_FallingAlt_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_FallingAlt_9_1.json",
     "raw_file_sha256": "3796f012ec0bf25708cbccba83727a97d117e6757e9f92b74e8a82d597ab9ad0",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_FallingAlt_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_FallingAlt_9_1.json",
     "request_file_sha256": "8f4543c874d58e7ed7bf25fad928a91bcd69be5a12c1b0e9f4f3ba81c683d9e4"
   },
   {
@@ -1220,9 +1220,9 @@
     "layout_id": "FallingAlt_9",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_FallingAlt_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_FallingAlt_9_1.json",
     "raw_file_sha256": "e92439832343986bb39b4a7a173bbf6e12e51439d5a292d75131b7e083839712",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_FallingAlt_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_FallingAlt_9_1.json",
     "request_file_sha256": "bac82c27debd2ec5260fc49f14689618891098e8851654a8d4ebe9626f7f8fea"
   },
   {
@@ -1231,9 +1231,9 @@
     "layout_id": "FallingAlt_2",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_FallingAlt_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_FallingAlt_2_1.json",
     "raw_file_sha256": "9e5a6cf8ad4b5fb5f4a60fd05317a7655272acfe846d940051736ad16e6e3643",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_FallingAlt_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_FallingAlt_2_1.json",
     "request_file_sha256": "ec19c0cd3ba3970fb0d2a35742d6d60670011ed4cf8ca1db4e76365edad2d3ff"
   },
   {
@@ -1242,9 +1242,9 @@
     "layout_id": "FallingAlt_4",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_FallingAlt_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_FallingAlt_4_1.json",
     "raw_file_sha256": "c0f7d4ad81c6c9a069b263dc90c7552e47f12595ad3cbb483af742dc7bb9ba58",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_FallingAlt_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_FallingAlt_4_1.json",
     "request_file_sha256": "43014cf18e317c3a9f7c70fa6ccbc175987ce9f6846d7d3acc005808c294ab27"
   },
   {
@@ -1253,9 +1253,9 @@
     "layout_id": "Falling_10",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Falling_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Falling_10_1.json",
     "raw_file_sha256": "fd54848b43f3252096acda371428f0fb509580f9e87e0208893f3e0e69822ca0",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Falling_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Falling_10_1.json",
     "request_file_sha256": "8c4119715cb0ce7940bb46481a0e6182a7422403b1ca06d3dfc34a0f35fa3ff5"
   },
   {
@@ -1264,9 +1264,9 @@
     "layout_id": "Falling_10",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Falling_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Falling_10_1.json",
     "raw_file_sha256": "5840adc6f2fc07cf4adc5a3e3dd353067e6022e7d063d4935f86a6a16cade3d4",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Falling_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Falling_10_1.json",
     "request_file_sha256": "c291d2787abf1af5ab186ba20dfabe624470fee0c5ab6c27d8f314e8c09b9fcd"
   },
   {
@@ -1275,9 +1275,9 @@
     "layout_id": "Falling_2",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Falling_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Falling_2_1.json",
     "raw_file_sha256": "bcdcd51426ef862621094bc87700b862558c43b97118a02b2fcf6723f3a28601",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Falling_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Falling_2_1.json",
     "request_file_sha256": "122be15b520c7423bbda00b82152950cb885393eca61ebded10fc68741c29605"
   },
   {
@@ -1286,9 +1286,9 @@
     "layout_id": "Falling_2",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Falling_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Falling_2_1.json",
     "raw_file_sha256": "78ec9f3a7c7741051e3f9618fdbf4342444456776181c964e28896d452083c58",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Falling_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Falling_2_1.json",
     "request_file_sha256": "efa2c3cf5debe586bd75c69412006e09bae1e4d7f4eef604062ac6724c66d363"
   },
   {
@@ -1297,9 +1297,9 @@
     "layout_id": "Basic_9",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Basic_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Basic_9_1.json",
     "raw_file_sha256": "11ed0607e5da0ba48fcde70d484a4860c82edf3be4fb89102256390bc82a0ad4",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Basic_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Basic_9_1.json",
     "request_file_sha256": "d18b9bd20fad5b511e135f2e04d36c3544c99696af5f37cbe337c887daea9b5d"
   },
   {
@@ -1308,9 +1308,9 @@
     "layout_id": "Basic_6",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Basic_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Basic_6_1.json",
     "raw_file_sha256": "afe6fb057678b8c7712271e21b68e32c71e6ee3b266cab8ec3611fe543ac110d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Basic_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Basic_6_1.json",
     "request_file_sha256": "d4fc8f3e40553c2c8b594510486f6d0c0e005e961c2016d7cec3dd365d612c87"
   },
   {
@@ -1319,9 +1319,9 @@
     "layout_id": "Falling_3",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Falling_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Falling_3_1.json",
     "raw_file_sha256": "f66084b135e44a011a795f44b9fe8b56cb9fe624e1059db47d8d29bcefbb6f8b",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Falling_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Falling_3_1.json",
     "request_file_sha256": "52dc7340622863fb19d85a377794a623ddd3e48bf0545129e17703b4f8189775"
   },
   {
@@ -1330,9 +1330,9 @@
     "layout_id": "Falling_3",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Falling_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Falling_3_1.json",
     "raw_file_sha256": "3f11748ad5bf6f1eec168c86b7838f6fafedffda5a9af5a6dfed8adf9bb57310",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Falling_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Falling_3_1.json",
     "request_file_sha256": "d430446f58ad9f6f6d0fcc95e1063488174d77adb1260ead518c2fb3bebe8d82"
   },
   {
@@ -1341,9 +1341,9 @@
     "layout_id": "Falling_5",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Falling_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Falling_5_1.json",
     "raw_file_sha256": "d812c6e8c26d8a71b13d44ebf3a30cc4b59ea66082a6b604526aeb6d6058ca1c",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Falling_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Falling_5_1.json",
     "request_file_sha256": "f527a5be24a7807c492fb6f7cc408ed0baef0a039c6cfcb3f6a8459646205d7a"
   },
   {
@@ -1352,9 +1352,9 @@
     "layout_id": "Basic_7",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Basic_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Basic_7_1.json",
     "raw_file_sha256": "65bee61890b4399801cdeb53741e8fea7b1c77da398d5d5d1d90633afe713de9",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Basic_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Basic_7_1.json",
     "request_file_sha256": "9c17437e76f10a3c9cf15f4b3de8aea312604563fdf4b6f5525a79e84df8b3b6"
   },
   {
@@ -1363,9 +1363,9 @@
     "layout_id": "Falling_5",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Falling_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Falling_5_1.json",
     "raw_file_sha256": "12e597de5bb826efb75e01c6e47e73182781bdb474106ce7302e31cf52d3cdc0",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Falling_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Falling_5_1.json",
     "request_file_sha256": "5829ae69ecd25ebb5ab0d4943c14e8c689a8d012ffcc8b752a77c3cc08901ddc"
   },
   {
@@ -1374,9 +1374,9 @@
     "layout_id": "FallingAlt_6",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_FallingAlt_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_FallingAlt_6_1.json",
     "raw_file_sha256": "721ad68e104e43a1c9d7411217eb8081f1db49d7770efd19b224e1c65069d3be",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_FallingAlt_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_FallingAlt_6_1.json",
     "request_file_sha256": "24a2167b39ba0c13816a06581f38de474082cce2d3153a0a92a44af85070938f"
   },
   {
@@ -1385,9 +1385,9 @@
     "layout_id": "Falling_6",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Falling_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Falling_6_1.json",
     "raw_file_sha256": "6a857df3a955296d14822fb3ec6c2257a20445cd7cccd26978cdaf1e2c3a8fe0",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Falling_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Falling_6_1.json",
     "request_file_sha256": "52290597b6086c56d7ced12009bb5e563ffa9a51531650b2e10996b164676e09"
   },
   {
@@ -1396,9 +1396,9 @@
     "layout_id": "Falling_6",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Falling_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Falling_6_1.json",
     "raw_file_sha256": "06c7852ee7dc0de26651575c56c56a252769249d01bd45968fb00c72846601ca",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Falling_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Falling_6_1.json",
     "request_file_sha256": "a1cb35720f9155a9d439510ca96278a18a2d97218fa8e808ce86618310dae129"
   },
   {
@@ -1407,9 +1407,9 @@
     "layout_id": "Falling_7",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Falling_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Falling_7_1.json",
     "raw_file_sha256": "cba5a5870659e8e4527c1a7df35c52c5ba858f4b93fff696281869d79a675bf8",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Falling_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Falling_7_1.json",
     "request_file_sha256": "3c6a3e31a0e6278d7877ee75a11ae96fd75399ac0044e4cf711983656c3df833"
   },
   {
@@ -1418,9 +1418,9 @@
     "layout_id": "Falling_7",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Falling_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Falling_7_1.json",
     "raw_file_sha256": "f6611d6c0f4395af5b6c9d11231fd014bfc67bad4d16c88dce2c35ffef7b5fd5",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Falling_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Falling_7_1.json",
     "request_file_sha256": "cacb9dd2ae708f5c36ccc98f28b401ccb563396c015533af3dd767cf3027f9e4"
   },
   {
@@ -1429,9 +1429,9 @@
     "layout_id": "FallingAlt_7",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_FallingAlt_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_FallingAlt_7_1.json",
     "raw_file_sha256": "1b83603b15a9e4f8685fa4b952bd84a68817a92b29574df888ca0df4578e6890",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_FallingAlt_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_FallingAlt_7_1.json",
     "request_file_sha256": "a32c3bdbf709d0f1a124a3547aa48f874a7f7179a707e09f005515ae9b700a3f"
   },
   {
@@ -1440,9 +1440,9 @@
     "layout_id": "Falling_10",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Falling_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Falling_10_1.json",
     "raw_file_sha256": "71b2581ac65b37190da5b1b10dd222fcefe58fe7e97d9e2b5720bdcdf8723498",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Falling_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Falling_10_1.json",
     "request_file_sha256": "4fbe1d20b678bbde376b5b141bdb9b839946dddc17801bb6767c04b2abfdfd84"
   },
   {
@@ -1451,9 +1451,9 @@
     "layout_id": "Falling_8",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Falling_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Falling_8_1.json",
     "raw_file_sha256": "464a532a7368f7baaa9b9237260670b1f7cea3811851a9216a98cb4aaeb7c42f",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Falling_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Falling_8_1.json",
     "request_file_sha256": "72c23f461040df4fc1d4a961fb53de2ebeaa04603c9e188561701fd831ece714"
   },
   {
@@ -1462,9 +1462,9 @@
     "layout_id": "FallingAlt_1",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_FallingAlt_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_FallingAlt_1_1.json",
     "raw_file_sha256": "94b2f7b1b4c07be48c61a2dd6bda15f7e5d30a019b2548600a013252d968081b",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_FallingAlt_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_FallingAlt_1_1.json",
     "request_file_sha256": "4c9c4ad4e96d820c93726bee4004d48da64282bd92a7c0fc49083f3ee615d1b4"
   },
   {
@@ -1473,9 +1473,9 @@
     "layout_id": "Falling_8",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Falling_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Falling_8_1.json",
     "raw_file_sha256": "c83f36a5e95c79093aaebae861fb212e7b8b610a73dd295db48b5463b9482ba9",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Falling_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Falling_8_1.json",
     "request_file_sha256": "90f025651e3ee6d7613f9cbb64629b264661e1da6a2d9891b67696bd0a3b1995"
   },
   {
@@ -1484,9 +1484,9 @@
     "layout_id": "Falling_9",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Falling_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Falling_9_1.json",
     "raw_file_sha256": "cdbbb0f9bb2b5ae17eb62f51d295c70d70bca5d7b13d3f9a249428036bc120db",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Falling_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Falling_9_1.json",
     "request_file_sha256": "847b52872b69f5fd0733c0afbb60e12188e1f8fdac351aba4cf0cc310bedd50b"
   },
   {
@@ -1495,9 +1495,9 @@
     "layout_id": "Falling_9",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Falling_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Falling_9_1.json",
     "raw_file_sha256": "caa5cc00c2337d339d1d5eeac788e60409938beee6847c3975773e4657f5bc0c",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Falling_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Falling_9_1.json",
     "request_file_sha256": "0777bb413f6e02b514505ab85d287bfc698c94dc3ae799c92ce3686df04259ff"
   },
   {
@@ -1506,9 +1506,9 @@
     "layout_id": "Prevention_1",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Prevention_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Prevention_1_1.json",
     "raw_file_sha256": "8775a51590d28d955fd4bb7156c7c9e5660f5a13d7c467246a35944d7596114a",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Prevention_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Prevention_1_1.json",
     "request_file_sha256": "11f0677447614bc25f44de94a5e0d9c39c6bed1e98904b73f062dd778cc62f99"
   },
   {
@@ -1517,9 +1517,9 @@
     "layout_id": "Prevention_1",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Prevention_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Prevention_1_1.json",
     "raw_file_sha256": "f426adb17c1f8a8e2850ebb45a5b8965e1d0cb682ec55030be458c71fda13f7d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Prevention_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Prevention_1_1.json",
     "request_file_sha256": "0b333e50ba7beb61b5ba24b2e26c0a3b448b2f04d1bf5c9c9e764ffd9dbb7ce5"
   },
   {
@@ -1528,9 +1528,9 @@
     "layout_id": "Falling_7",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Falling_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Falling_7_1.json",
     "raw_file_sha256": "2eaa7992463124c0e099a2460549e6725bc3d9d611c05139bea9b7cb7928833e",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Falling_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Falling_7_1.json",
     "request_file_sha256": "05bc2953d7aea2dfc9ce3a5ba22350da709ab9d233cc5dd5fd855458492af92c"
   },
   {
@@ -1539,9 +1539,9 @@
     "layout_id": "Prevention_10",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Prevention_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Prevention_10_1.json",
     "raw_file_sha256": "3558183f5a9f4044343b9883d74f869f67970cec144a82c3c3a7554553292489",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Prevention_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Prevention_10_1.json",
     "request_file_sha256": "17d281bc6473bd0245d93239305b7d71cf38c6619d320fb80017860fc2856c45"
   },
   {
@@ -1550,9 +1550,9 @@
     "layout_id": "Prevention_10",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Prevention_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Prevention_10_1.json",
     "raw_file_sha256": "b52f104fa3c1c55f39765a2afa1e6ab694711597f14011d27d1541255ec139f0",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Prevention_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Prevention_10_1.json",
     "request_file_sha256": "5e4bdb0cb84dc7858a0b4d43fc416d6d144703e79ec27d481804cdf9a75ef292"
   },
   {
@@ -1561,9 +1561,9 @@
     "layout_id": "FallingAlt_5",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_FallingAlt_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_FallingAlt_5_1.json",
     "raw_file_sha256": "30bf224705d2542a9f74316779aae1117756dba36edb27af23a1937d39ee7b81",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_FallingAlt_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_FallingAlt_5_1.json",
     "request_file_sha256": "32d762b3345c73e7af28c9366dbab153ecfc42c0eb21a19045b65458cd255333"
   },
   {
@@ -1572,9 +1572,9 @@
     "layout_id": "FallingAlt_9",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_FallingAlt_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_FallingAlt_9_1.json",
     "raw_file_sha256": "516046258e8f479b46bfdb7c3185bf6680159e742ecceb9ac79f0a90f4b01a22",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_FallingAlt_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_FallingAlt_9_1.json",
     "request_file_sha256": "a31b267836627ee58b3483e4f7a6ca49177e62ac6675be7badc5f75d7ac8b12d"
   },
   {
@@ -1583,9 +1583,9 @@
     "layout_id": "Prevention_2",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Prevention_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Prevention_2_1.json",
     "raw_file_sha256": "53ee04d3134b6aef8b5deac20b4d77d9595f902eb9b0ebc51e64afc267ca7a42",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Prevention_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Prevention_2_1.json",
     "request_file_sha256": "026d0737e079fb72814fd11ad4ff5c8d733bf98d96876caaecf236522ee6189e"
   },
   {
@@ -1594,9 +1594,9 @@
     "layout_id": "Falling_6",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Falling_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Falling_6_1.json",
     "raw_file_sha256": "9252284b53218a2b3f655d39e3c63cad97146235d4ff6e365912411c879819bf",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Falling_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Falling_6_1.json",
     "request_file_sha256": "a137eb723ac50601d26e8f99ebd5eb639aa51927a01d6997c81bbce63bd6489d"
   },
   {
@@ -1605,9 +1605,9 @@
     "layout_id": "Prevention_2",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Prevention_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Prevention_2_1.json",
     "raw_file_sha256": "c869652c81bcbbff30e9b48eac624b04f4d85278898f5b90ef78967fc3003f8f",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Prevention_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Prevention_2_1.json",
     "request_file_sha256": "d4153cacbe01549eb1df5d7fdbab9283d8ad1ae1019cd263135e251ed7c069c5"
   },
   {
@@ -1616,9 +1616,9 @@
     "layout_id": "Prevention_3",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Prevention_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Prevention_3_1.json",
     "raw_file_sha256": "f25f2ec43e8496e0423965ede4c0e0847c1a859d220220dc6a47df98db15141a",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Prevention_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Prevention_3_1.json",
     "request_file_sha256": "54248995f87512b62701ab18686023468e7904bec0c2a5a407e213412638b00f"
   },
   {
@@ -1627,9 +1627,9 @@
     "layout_id": "Falling_8",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Falling_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Falling_8_1.json",
     "raw_file_sha256": "03b89067d4e665b432eb94592c8db85b1d62e00688af2019729fd1108f41d655",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Falling_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Falling_8_1.json",
     "request_file_sha256": "7245b30c5aa8745fa05ce460133e7ab8f2e3130eb00b1306f3b41d29714291d4"
   },
   {
@@ -1638,9 +1638,9 @@
     "layout_id": "Prevention_3",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Prevention_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Prevention_3_1.json",
     "raw_file_sha256": "1239330328b6d93c14aa0e3144dce19ea69b59ed508890c9e4a99b426244f912",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Prevention_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Prevention_3_1.json",
     "request_file_sha256": "4db36e295c9ef2712bd923e39ec17e47d0e60d166f52547528adfc726032be7d"
   },
   {
@@ -1649,9 +1649,9 @@
     "layout_id": "Falling_2",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Falling_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Falling_2_1.json",
     "raw_file_sha256": "2857ef664440afd8ee61d30c1dafec160aa52713c9f9b8563fb465456dfd3af3",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Falling_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Falling_2_1.json",
     "request_file_sha256": "24ead049840e40d42c9c0cfac3eac31828241a197b1aa358c5cbd7478f331352"
   },
   {
@@ -1660,9 +1660,9 @@
     "layout_id": "Prevention_4",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Prevention_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Prevention_4_1.json",
     "raw_file_sha256": "5d9cb171c8612a6bc0548254dbeeffdeb5b595c82c31dfbf274ad99533a620f4",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Prevention_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Prevention_4_1.json",
     "request_file_sha256": "e9f9d11f3184f2b4d6558947b9f95b6bd21181b209111595b241e23520c8c38b"
   },
   {
@@ -1671,9 +1671,9 @@
     "layout_id": "Prevention_4",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Prevention_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Prevention_4_1.json",
     "raw_file_sha256": "c3aec3039f611d5413f2040243b552637297e2104cbde73afd00f732bc979a1a",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Prevention_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Prevention_4_1.json",
     "request_file_sha256": "cd2d33345ace23a4bf909cd0a110440a650403522597f19ec9dbb81cdbfad467"
   },
   {
@@ -1682,9 +1682,9 @@
     "layout_id": "Prevention_5",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Prevention_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Prevention_5_1.json",
     "raw_file_sha256": "7b5ddf5c2b6300e5dea1115e5ace59fd998f3139f95c9e3be6837ac6b71a8d71",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Prevention_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Prevention_5_1.json",
     "request_file_sha256": "56049e96b0d6ef9d1fa01ec1d61cbf4b975b8fc3b1f6eaf330ec78bc9075a2b2"
   },
   {
@@ -1693,9 +1693,9 @@
     "layout_id": "Prevention_5",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Prevention_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Prevention_5_1.json",
     "raw_file_sha256": "201aa8576fa12691395aa5bb44a2a631d97f7e912c725e72bbf74fedfe01ebb6",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Prevention_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Prevention_5_1.json",
     "request_file_sha256": "4db98e01d95cb5641a310666686e0caacf96a3812bdfbc88a4d6dd5b1625a5b6"
   },
   {
@@ -1704,9 +1704,9 @@
     "layout_id": "Prevention_7",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Prevention_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Prevention_7_1.json",
     "raw_file_sha256": "49f3e1ad3976656c45f8da74b34c317df31f1770eb6c4b53129a464aa6630945",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Prevention_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Prevention_7_1.json",
     "request_file_sha256": "f8661f19988ea0a0107d489bdfe2f0e786f3c2a4208b2a207b800f95807d6cb9"
   },
   {
@@ -1715,9 +1715,9 @@
     "layout_id": "Prevention_7",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Prevention_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Prevention_7_1.json",
     "raw_file_sha256": "ef2ee0d043ba401425e6e2674cf72e06ef457cc0dc94888ef5e461b06cc364e9",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Prevention_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Prevention_7_1.json",
     "request_file_sha256": "5a663b37896874bf6f6a1855dc544f36851bd35738d1b7686bc82b60f0564d3a"
   },
   {
@@ -1726,9 +1726,9 @@
     "layout_id": "FallingAlt_8",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_FallingAlt_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_FallingAlt_8_1.json",
     "raw_file_sha256": "164cfe1523c11f0d54a29022fdd993233e01b7ec05a218245c28bcbfda647b2c",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_FallingAlt_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_FallingAlt_8_1.json",
     "request_file_sha256": "4a4aa5e4b62056801b879285e312d84bb0c09cfc341bf0224b6bfa0eddf957f7"
   },
   {
@@ -1737,9 +1737,9 @@
     "layout_id": "Prevention_8",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Prevention_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Prevention_8_1.json",
     "raw_file_sha256": "288f661965ff16d694ae7599c11f557cd1e69242f6a5fea0221fd4fcc23cf4f8",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Prevention_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Prevention_8_1.json",
     "request_file_sha256": "df7c429d8815296e6e971fbae893b51cfbadd91a7af948b8d4f810df3e74caa7"
   },
   {
@@ -1748,9 +1748,9 @@
     "layout_id": "Prevention_8",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Prevention_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Prevention_8_1.json",
     "raw_file_sha256": "e95c012afd0ef49831fb6ad5ada94e10ab792631f79205ee9f2eed2570e9ff69",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Prevention_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Prevention_8_1.json",
     "request_file_sha256": "a41523a44e56a2638a4d20df00574ac0fde3d9de8ca9fd6a261333a2d4c63370"
   },
   {
@@ -1759,9 +1759,9 @@
     "layout_id": "Remove_1",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Remove_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Remove_1_1.json",
     "raw_file_sha256": "e2d202e0224c7bdeeb5c533b5de41027d8b03a730ee7721c9337a1e464089c2d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Remove_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Remove_1_1.json",
     "request_file_sha256": "551e2e125b63de54adc2f6a0960381c44e835de71e5f5939d2a8e2105822191c"
   },
   {
@@ -1770,9 +1770,9 @@
     "layout_id": "Remove_1",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Remove_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Remove_1_1.json",
     "raw_file_sha256": "e5f6e0decaff2ef6cd5a4a05906c89eb3b5d38bdd6078b6f02919ca6926cb3ba",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Remove_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Remove_1_1.json",
     "request_file_sha256": "3a6b11fb1cd9fd8fcd583da227081fa1460376e75f3bbc93410277fcbfacf50a"
   },
   {
@@ -1781,9 +1781,9 @@
     "layout_id": "Prevention_3",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Prevention_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Prevention_3_1.json",
     "raw_file_sha256": "8c5bfda665957d25052cce161993bd06ba1743be3367278c6b8fbf0748cde23c",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Prevention_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Prevention_3_1.json",
     "request_file_sha256": "9cef348dd12405d2baa19ad4c7dbadc724351d980e9e572eabe32a085a21f646"
   },
   {
@@ -1792,9 +1792,9 @@
     "layout_id": "Falling_3",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Falling_3_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Falling_3_1.json",
     "raw_file_sha256": "8e1e53f04e0e11b33bc2cf571a45efa5b3d40f00c41b2ded0b59fcf279e75b85",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Falling_3_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Falling_3_1.json",
     "request_file_sha256": "3bcb5d16aab8a49d4a37fb8016f283412948665d8b03b19bb771587603c30e52"
   },
   {
@@ -1803,9 +1803,9 @@
     "layout_id": "Remove_10",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Remove_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Remove_10_1.json",
     "raw_file_sha256": "8431925399faf0239c5ca54e7ed0bec7746c0488bf5e9237039bdcf890f99ccd",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Remove_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Remove_10_1.json",
     "request_file_sha256": "5d0c0ae60572ef4d55bb8ce46164647925199f804a7299799e65909dd1e2dee7"
   },
   {
@@ -1814,9 +1814,9 @@
     "layout_id": "Remove_10",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Remove_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Remove_10_1.json",
     "raw_file_sha256": "834aefcd02df77356bbd325bd4deff32d4bc05bd808d5c9b7545384378e853d7",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Remove_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Remove_10_1.json",
     "request_file_sha256": "bc55ed2ca2497341eaff05c0ba90f09a5cd8c0cbacc4f21e23ac77a63607dd87"
   },
   {
@@ -1825,9 +1825,9 @@
     "layout_id": "Remove_2",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Remove_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Remove_2_1.json",
     "raw_file_sha256": "6602a807a8e8b49f99ef3e5371dc484a39097831bfd4735798e293d430d4de69",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Remove_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Remove_2_1.json",
     "request_file_sha256": "1afb9b29be011219162782ae90169383ad886f7da5f57ac48ebf3fc13bd87f09"
   },
   {
@@ -1836,9 +1836,9 @@
     "layout_id": "Remove_1",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Remove_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Remove_1_1.json",
     "raw_file_sha256": "fd5c02fc10448d875bce5f79bc488f0bd5a0a0cde97f260b8914606caee2d2c2",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Remove_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Remove_1_1.json",
     "request_file_sha256": "5d4ebc31735d2e2348c3f2320b5cc013f34b14b43bc9d7fd23d28002a3ba5ea8"
   },
   {
@@ -1847,9 +1847,9 @@
     "layout_id": "Remove_2",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Remove_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Remove_2_1.json",
     "raw_file_sha256": "8bcd83a5861ed45cea8516a2540cd0b1ff5fc638fd760d2d459796c2c881e4f3",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Remove_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Remove_2_1.json",
     "request_file_sha256": "52f7224805ceed9045d373852e0b81976c91d31391f49be6b2400d13a868d1ec"
   },
   {
@@ -1858,9 +1858,9 @@
     "layout_id": "Remove_5",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Remove_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Remove_5_1.json",
     "raw_file_sha256": "c38ab6b9ae1412b4d15c5c8b59eea9054f2414b92c01ba52d56347b69f92aed4",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Remove_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Remove_5_1.json",
     "request_file_sha256": "54769fe7a832550c43fb72eb551befd5f35042dbdc4e54fe9881ccf1ab850c67"
   },
   {
@@ -1869,9 +1869,9 @@
     "layout_id": "Remove_5",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Remove_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Remove_5_1.json",
     "raw_file_sha256": "faec66f5d71e3c7c5b97b0b2f6943f7aacc9366e8efccea75c8665264f67e864",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Remove_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Remove_5_1.json",
     "request_file_sha256": "a6120f8ccce188ee769a31509d8e0dd41f083d8d2189b864376d72025c012a19"
   },
   {
@@ -1880,9 +1880,9 @@
     "layout_id": "Falling_5",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Falling_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Falling_5_1.json",
     "raw_file_sha256": "19580963cb114377a71246b0d2835f8a90d385a881a10839ff7164d7a9ea05ed",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Falling_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Falling_5_1.json",
     "request_file_sha256": "725c9d145b06cf3203272b89aa442e91fdc380a3cb67efc7b7b4225075df4e62"
   },
   {
@@ -1891,9 +1891,9 @@
     "layout_id": "Prevention_4",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Prevention_4_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Prevention_4_1.json",
     "raw_file_sha256": "a32f56216f5182435f824c3b3961dc5d3aa194680f523d3b3cb7bd03c5678933",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Prevention_4_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Prevention_4_1.json",
     "request_file_sha256": "7ebf71003183c61f73ba173c5d73e22235ccc26e6a833e4f537ea16bf0519b85"
   },
   {
@@ -1902,9 +1902,9 @@
     "layout_id": "Remove_6",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Remove_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Remove_6_1.json",
     "raw_file_sha256": "ac3e71c9c6be4c771fef62dccd57d490143aac9a26b47b57b7bc2f25f2c26334",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Remove_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Remove_6_1.json",
     "request_file_sha256": "bfdd605664094ebd4b25eeae037575c07f85c36666e509f94104e364145e298d"
   },
   {
@@ -1913,9 +1913,9 @@
     "layout_id": "Remove_6",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Remove_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Remove_6_1.json",
     "raw_file_sha256": "96bb80bd04bd13894213b0ac12e54b3330334039a089fd463f243ca1b286c14f",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Remove_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Remove_6_1.json",
     "request_file_sha256": "c4aeeaa0acedcd172070ad2113a9a67396dad06373a1392cb386af1099898d06"
   },
   {
@@ -1924,9 +1924,9 @@
     "layout_id": "Prevention_1",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Prevention_1_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Prevention_1_1.json",
     "raw_file_sha256": "c969a4d316228f1881f1a3ae843c83f9a42274457e3041eb4400c06a5e385cbc",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Prevention_1_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Prevention_1_1.json",
     "request_file_sha256": "47b3fdc28f97d8de51bd9625919e135e216e281c30cf6f9361a5878c90c0f79d"
   },
   {
@@ -1935,9 +1935,9 @@
     "layout_id": "Falling_9",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Falling_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Falling_9_1.json",
     "raw_file_sha256": "8cfde7ff2557697fe4a751749bc267f8ec72e5357dcc904122d8c41e1f32074f",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Falling_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Falling_9_1.json",
     "request_file_sha256": "48c72659568cf44a62fc75e140ac4927b0e7e0d76e900fd7d23483b0fe6919a2"
   },
   {
@@ -1946,9 +1946,9 @@
     "layout_id": "Remove_7",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Remove_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Remove_7_1.json",
     "raw_file_sha256": "1fb7797cd72b6065ba3f0cecf5b1e2349ae4fa6acf3a03ad0f88b380a9907ae4",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Remove_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Remove_7_1.json",
     "request_file_sha256": "d231c9f113ccdf0c0c001e9123571f3deba3fe475ab1ba81d466c18d2296b7a4"
   },
   {
@@ -1957,9 +1957,9 @@
     "layout_id": "Prevention_8",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Prevention_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Prevention_8_1.json",
     "raw_file_sha256": "f473b7db076194508e4b4d774df6477d0476d71dc3a8f5053446ac87edd8ed25",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Prevention_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Prevention_8_1.json",
     "request_file_sha256": "b721ecfd6d7c66ab70a0281898a6ef4aaf1e28c1c0e2efd84449099285ee9b2e"
   },
   {
@@ -1968,9 +1968,9 @@
     "layout_id": "Remove_8",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Remove_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Remove_8_1.json",
     "raw_file_sha256": "05570282be5501651f1328c540174db68b440bd609f39682f9e61ec2df8d5bc6",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Remove_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Remove_8_1.json",
     "request_file_sha256": "0b6d78dd3f50bf695cf418f55ef766853cfc5102e1b1d3b8af5fcc95d628f4ae"
   },
   {
@@ -1979,9 +1979,9 @@
     "layout_id": "Remove_7",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Remove_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Remove_7_1.json",
     "raw_file_sha256": "3f2fa11e750c6d51c8ad73956bc2e284260771098667e072beeefb844ec14fec",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Remove_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Remove_7_1.json",
     "request_file_sha256": "7a876c438cd7782761561e12ce4b031474356271e01b7396196c74e1e71da38b"
   },
   {
@@ -1990,9 +1990,9 @@
     "layout_id": "Remove_8",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Remove_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Remove_8_1.json",
     "raw_file_sha256": "33ca7d61a2830ae1f4a5f87ee25fdc5663a7f8be5d7f83dd7098097e8507bf9d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Remove_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Remove_8_1.json",
     "request_file_sha256": "103c342d4e60b5a07dec7197f096fb604e7c55f1ee6c9b67ec532d0d3a3249c2"
   },
   {
@@ -2001,9 +2001,9 @@
     "layout_id": "Remove_9",
     "model": "gpt",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gpt_Remove_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gpt_Remove_9_1.json",
     "raw_file_sha256": "bcf31b4c3027258cdd4d53f6ff505d288ff2e2194ce8961cef368c4795269a06",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gpt_Remove_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gpt_Remove_9_1.json",
     "request_file_sha256": "71eaa3b92826ace6135fc737f98eb133a3b98a9f5ec41689eecd11e18dc3036e"
   },
   {
@@ -2012,9 +2012,9 @@
     "layout_id": "Remove_9",
     "model": "gemini",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/gemini_Remove_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/gemini_Remove_9_1.json",
     "raw_file_sha256": "5ee4a53b7e350a54a14797ff12c500f2f30f01e1247e808c8a9a63c3072e27a2",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/gemini_Remove_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/gemini_Remove_9_1.json",
     "request_file_sha256": "619a4e48ff1993970846747e3841368e00b5442f9b2f9c1f3ae8f9f30a2c439a"
   },
   {
@@ -2023,9 +2023,9 @@
     "layout_id": "Remove_6",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Remove_6_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Remove_6_1.json",
     "raw_file_sha256": "b66c0dface60a3a75b83fe35639c23fa1f90ff836931204dbb770ab73a12a46b",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Remove_6_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Remove_6_1.json",
     "request_file_sha256": "d2820886d11ed351db4e8f24e91e686f4f4c5941bafbe7f2a2021b67e107ec58"
   },
   {
@@ -2034,9 +2034,9 @@
     "layout_id": "Remove_10",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Remove_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Remove_10_1.json",
     "raw_file_sha256": "19314bfca6486946463100a3ea79dd516a55c98db242d15f543ffbf1ea20c970",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Remove_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Remove_10_1.json",
     "request_file_sha256": "d8026947f4368f67e957ea3a68bf4ea904304d80e2aa97aa436a68f0ee6e68c1"
   },
   {
@@ -2045,9 +2045,9 @@
     "layout_id": "Prevention_5",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Prevention_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Prevention_5_1.json",
     "raw_file_sha256": "a7a0dc7fc1f8f360802b9f6b8abae5786224a1b32a397c9f98fd25211bd22c34",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Prevention_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Prevention_5_1.json",
     "request_file_sha256": "a02b1efac247ff7c64fe337fc70f1598a3ed0cc40566fca952bb088273918dfe"
   },
   {
@@ -2056,9 +2056,9 @@
     "layout_id": "Prevention_2",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Prevention_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Prevention_2_1.json",
     "raw_file_sha256": "eee687c7fcb6137eb1eb312a16cae24d7bd3fcb8952c71c55ab0253989942abd",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Prevention_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Prevention_2_1.json",
     "request_file_sha256": "22c06a0d6f97c345bd1038ca88b83dc23a7172ff7e4050165b5f5154527875d1"
   },
   {
@@ -2067,9 +2067,9 @@
     "layout_id": "Remove_5",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Remove_5_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Remove_5_1.json",
     "raw_file_sha256": "2654b8fa5bdd81c24fcffa490b88855fff5a67b2732f2653791bc94b07d7c661",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Remove_5_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Remove_5_1.json",
     "request_file_sha256": "1311a3455521be371d2ecb1fb9022546e9a6c84fe6fa9d945f1c7a6e761d986c"
   },
   {
@@ -2078,9 +2078,9 @@
     "layout_id": "Prevention_7",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Prevention_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Prevention_7_1.json",
     "raw_file_sha256": "6b11818dcfa5d00d029a54790607bbd005ffc756be09ff7c00e1a4fd275f7b8c",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Prevention_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Prevention_7_1.json",
     "request_file_sha256": "db41e6a781199eac7e7a883fb8c0a9fa3cd82d10aeed1cc1187a18a326303342"
   },
   {
@@ -2089,9 +2089,9 @@
     "layout_id": "Remove_2",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Remove_2_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Remove_2_1.json",
     "raw_file_sha256": "df3cf69d130e60a69f337ce9a8b0f9cbefff500396c2dc118d4ca0a25a3aa9f6",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Remove_2_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Remove_2_1.json",
     "request_file_sha256": "28cebdb680e9430fea9247f85a6d2b05967cebd34a6ec953d7be81a8cb4454e7"
   },
   {
@@ -2100,9 +2100,9 @@
     "layout_id": "Prevention_10",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Prevention_10_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Prevention_10_1.json",
     "raw_file_sha256": "128b3fd27f80bd6501047d61d2996d5caded7a5113ce938bbfc0deb5e0379190",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Prevention_10_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Prevention_10_1.json",
     "request_file_sha256": "d84f74a70d72da1faead530c74b0875582605f8973d77b8b96bf8dc3499f56a5"
   },
   {
@@ -2111,9 +2111,9 @@
     "layout_id": "Remove_7",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Remove_7_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Remove_7_1.json",
     "raw_file_sha256": "e8343828aab431b8f0d4e5ca5eba7bb8ea81dd17f3141268b9bba8895baed44d",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Remove_7_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Remove_7_1.json",
     "request_file_sha256": "47c76bdfc47b93fc58166e8bffd49590cff051be51c51c18f66d0a60f3b5e76a"
   },
   {
@@ -2122,9 +2122,9 @@
     "layout_id": "Remove_9",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Remove_9_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Remove_9_1.json",
     "raw_file_sha256": "e9bbbbab51683bdd6df7ac2d1460f959740703691e947e1b2fcd60359f106bdb",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Remove_9_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Remove_9_1.json",
     "request_file_sha256": "aa5f3501aa582b2df8ff4aebd41de96a22754a118ac2923dbb961b3859093bce"
   },
   {
@@ -2133,9 +2133,9 @@
     "layout_id": "Remove_8",
     "model": "qwen",
     "origin": "preserved_original",
-    "raw_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/raw/qwen_Remove_8_1.json",
+    "raw_file": "data/vqa/recorded_calls.zip::compatible/run/raw/qwen_Remove_8_1.json",
     "raw_file_sha256": "eef2fe99e61f3d18bae5e967dda3003aa9d95a988b13eaab19f1f0945a5a9e10",
-    "request_file": "archive/pre_correction_2026-11-14/vqa/current_scene_2026-11-14/frozen_runs.zip::compatible/run/requests/qwen_Remove_8_1.json",
+    "request_file": "data/vqa/recorded_calls.zip::compatible/run/requests/qwen_Remove_8_1.json",
     "request_file_sha256": "65b72c4440722506fe77d393922759d1d8e3d15e35fe8d1cf1b44a364856dfa6"
   },
   {

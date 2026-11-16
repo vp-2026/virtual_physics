@@ -1,9 +1,0 @@
-{
-  "bootstrap_draws": 10000,
-  "bootstrap_seed": 20261114,
-  "cluster": "visual layout",
-  "interval": "percentile",
-  "missing": "incorrect in fixed eligible denominator",
-  "diagnostic": "Separate post-primary condition; no substitution",
-  "caveat": "Format-valid-only accuracy is selected and cannot estimate all-scene perception. Historical/current keys and provider versions differ; not a controlled asset effect."
-}

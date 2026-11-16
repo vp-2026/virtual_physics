@@ -104,8 +104,8 @@ def verify(repo,results):
      for row in r.get('score_rows',[]):close(quality(pred.get(row['object_id'],{}),truth[row['object_id']]),row['prediction_quality_sigma150'],'raw novel prediction');checked_probes+=1
      if r.get('score_rows'):u['probe_scores'][item['source']]=float(np.mean([quality(pred.get(row['object_id'],{}),truth[row['object_id']])for row in r['score_rows']]))
     units[model][gid]=u
- historical=json.loads((repo/'archive/pre_correction_2026-11-14/analysis/figure4/task_populations.json').read_text())
- expected_transfer=sorted(g for g in historical['canonical118']if all(g in units[m]and units[m][g]['transfer_eligible']for m in models[:3]))
+ historical=json.loads((repo/'benchmark/evaluation_task_ids.json').read_text())
+ expected_transfer=sorted(g for g in historical['transfer_candidate_task_ids']if all(g in units[m]and units[m][g]['transfer_eligible']for m in models[:3]))
  assert expected_transfer==sorted(P['matched_transfer']),'Independent matched-probe eligibility mismatch'
  assert sorted(g for g,u in units['robotics_er2'].items()if u['transfer_eligible'])==sorted(P['robotics_transfer'])
  for m in models:

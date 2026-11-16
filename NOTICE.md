@@ -6,16 +6,15 @@ simulation supports flexible tool use and physical reasoning**, PNAS (2020).
 Upstream source: <https://github.com/k-r-allen/tool-games>.
 
 This repository includes locally modified Python simulator code in
-`simulator/runtime/pyGameWorld/` and the legacy copy in `archive/pre_correction_2026-11-14/scripts/pyGameWorld/`,
+`simulator/runtime/pyGameWorld/`,
 alongside project-specific runners, goal evaluation, and analysis code. The
 upstream attribution is retained; the repository copyright notice does not
 claim authorship of the original simulator.
 
 The maintainer authorized MIT publication of the simulator on November 14,
 2026, after stating that simulator-wide permission had been obtained. See
-[LICENSE](LICENSE) and [LICENSE_STATUS.md](LICENSE_STATUS.md) for the scope and
-the distinction between this maintainer authorization and independently
-archived upstream evidence.
+[LICENSE](LICENSE) and [LICENSE_STATUS.md](LICENSE_STATUS.md) for the scope of
+the maintainer authorization and the remaining task-asset limitation.
 
 Third-party dependencies keep their own licenses. In particular:
 

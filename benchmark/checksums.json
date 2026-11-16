@@ -264,5 +264,6 @@
   "assets/Remove_9/tool_downward.json": "bac5b128eba880fe14eb7c3ce7587ae8c5d21750ef4d7a2574b0b029c10899ef",
   "assets/Remove_9/tool_upward.json": "bd8a0ac264867b206800ff03e1af660fba84dfba567654d1fcc039a577e88f33",
   "assets/Remove_9/world.json": "b2b6a0bd6987d8bd79b41efb2d41a4e8707246914fd097d4a87e3b28f0c91e85",
-  "tasks.json": "b0fd63139d39a7e6073fedf19ba9d57c0af10a055adb3eab09d11bd41f938f29"
+  "tasks.json": "b0fd63139d39a7e6073fedf19ba9d57c0af10a055adb3eab09d11bd41f938f29",
+  "evaluation_task_ids.json": "812d154e45dd54718f4d00f8889181b1ec6bd197557dab1626f11c96e7f04a53"
 }

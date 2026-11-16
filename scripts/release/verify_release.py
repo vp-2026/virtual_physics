@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate benchmark, immutable history, finalized records and release checksums."""
+"""Validate benchmark assets, finalized model records and release checksums."""
 import argparse,gzip,hashlib,json,subprocess,sys,zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
@@ -7,11 +7,6 @@ BAD={'BackUp_8','Balance_8','Falling_1'}
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def canonical(r):return hashlib.sha256(json.dumps(r,sort_keys=True,separators=(',',':')).encode()).hexdigest()
 def verify(root=ROOT,geometry=False):
- archive=json.loads((root/'archive/preserved_files.json').read_text());a=root/'archive'/archive['root']
- for p,h in archive['sha256'].items():assert sha(a/p)==h,('historical file changed',p)
- collection_sources=root/'provenance/collection_source'
- source_manifest=json.loads((collection_sources/'source_manifest.json').read_text())
- for entry in source_manifest:assert sha(collection_sources/entry['file'])==entry['published_source_sha256'],('collection source changed',entry['file'])
  b=root/'benchmark';sums=json.loads((b/'checksums.json').read_text())
  for p,h in sums.items():assert sha(b/p)==h,p
  tasks=json.loads((b/'tasks.json').read_text())['goals'];idx=json.loads((b/'asset_index.json').read_text())['puzzles']
@@ -38,7 +33,7 @@ def verify(root=ROOT,geometry=False):
  assert len(returned)==198 and corrected==9
  if geometry:subprocess.run([sys.executable,str(root/'scripts/release/verify_scene_geometry.py')],check=True)
  d=root/'data/finalized';manifest=json.loads((d/'manifest.json').read_text());lineage={(x['model'],x['goal']):x for x in manifest['lineage']};seen=set();changed={};counts={};probe_errors=set()
- sys.path.insert(0,str(a/'scripts/release'));from validate_documented_snapshot import terminal,scan
+ from validate_records import terminal,scan
  expected_ids={'gpt5':'openai/gpt-5','gemini31pro':'google/gemini-3.1-pro-preview','qwen36plus':'qwen/qwen3.6-plus','robotics_er2':'gemini-robotics-er-2-preview'}
  for shard in manifest['shards']:
   p=d/shard['path'];assert sha(p)==shard['sha256'];n=0;m=shard['model']
@@ -56,7 +51,7 @@ def verify(root=ROOT,geometry=False):
   assert n==shard['records']
  assert seen==set(lineage)
  assert probe_errors=={(p['model'],p['goal'],p['query'])for p in manifest.get('missing_probes',[])}
- report={'passed':True,'historical_files_unchanged':len(archive['sha256']),'collection_source_snapshots_verified':len(source_manifest),'benchmark_goals':len(tasks),'layout_direction_cells':len(idx),'vqa_returned_responses':len(returned),'vqa_corrected_calls':corrected,'completed_model_units':counts,'corrected_units':changed,'missing_replacements':manifest['missing_replacements'],'missing_probes':manifest.get('missing_probes',[])}
+ report={'passed':True,'benchmark_goals':len(tasks),'layout_direction_cells':len(idx),'vqa_returned_responses':len(returned),'vqa_corrected_calls':corrected,'completed_model_units':counts,'corrected_units':changed,'missing_replacements':manifest['missing_replacements'],'missing_probes':manifest.get('missing_probes',[])}
  print(json.dumps(report,indent=2));return report
 if __name__=='__main__':
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--geometry',action='store_true');a=p.parse_args();verify(geometry=a.geometry)

@@ -1,8 +1,8 @@
-"""Read and score the authoritative archive; no model calls or human data."""
+"""Read and score the finalized model records; no model calls or human data."""
 import gzip,hashlib,json
 from pathlib import Path
 import numpy as np
-from figure4_archive import archived_attempt,side_scores
+from record_scoring import recorded_attempt,side_scores
 import analyze_action_predictions as scorer
 MODELS=('gpt5','gemini31pro','qwen36plus','robotics_er2')
 def read_units(repo,output):
@@ -18,7 +18,7 @@ def read_units(repo,output):
      attempts=[]
      for n,coords in enumerate(b['coords'],1):
       try:
-       a=archived_attempt(record,c,n,coords);scores=scorer.score_attempt(summary=s,unit_dir=output,condition=c,attempt=a);assert scores
+       a=recorded_attempt(record,c,n,coords);scores=scorer.score_attempt(summary=s,unit_dir=output,condition=c,attempt=a);assert scores
        attempts.append(dict(attempt=n,coords=coords,S=int(a['goal_succeeded']),**{f'pq{q}':float(np.mean([v[f'prediction_quality_sigma{q}']for v in scores]))for q in (75,100,150)}))
       except (AssertionError,KeyError)as e:u['issues'].append({'condition':c,'attempt':n,'error':type(e).__name__})
      u['arms'][c]={'solved':int(b['solved_by_budget']),'attempts':attempts,'count':b['attempt_count']}
