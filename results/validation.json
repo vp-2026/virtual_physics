@@ -1,7 +1,5 @@
 {
   "passed": true,
-  "historical_files_unchanged": 1706,
-  "collection_source_snapshots_verified": 10,
   "benchmark_goals": 1692,
   "layout_direction_cells": 132,
   "vqa_returned_responses": 198,
