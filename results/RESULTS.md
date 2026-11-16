@@ -60,3 +60,11 @@ Vector Figures 3 and 4 are in `figures/`. Every plotted estimate and interval is
 “We corrected inconsistent initial visual states in three layouts and reran their affected model episodes and fixed prediction probes. Reported model results combine these corrected observations with unchanged records for all other tasks.”
 
 Human participant-level data remain private. Human estimates and hypothetical human curves are not included in this model-only release.
+
+## Reference baselines
+
+On the 1,509 main-analysis tasks with compatible saved densities, uniform random placement succeeds within eight attempts with expected probability **16.59 [14.23, 19.07]%**. On these same tasks, full-feedback success is GPT-5 39.10 [35.71, 42.42]%, Gemini 3.1 Pro 43.47 [40.18, 46.79]%, Qwen 3.6 Plus 38.90 [35.62, 42.11]%. The older canonical three-second density proxy is not substituted for the current two-second task.
+
+All four models exceed no-motion PQ on their successful chosen actions. At terminal novel probes, the paired advantage is clearly positive for Qwen; the other three intervals span zero. The reference predicts that each dynamic object stays at its initial center and the tool stays at the supplied placement, using identical scored objects and checkpoints.
+
+Full estimates, task populations, matched contrasts, limitations and LaTeX tables are in [`baselines/README.md`](baselines/README.md). Prediction results concern terminal object states and spatial endpoints; movement/collision goal diagnostics are not separately scored prospective event predictions.

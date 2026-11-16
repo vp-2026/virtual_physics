@@ -1,0 +1,2279 @@
+{
+  "random_search": {
+    "all_density_tasks": {
+      "p1": {
+        "estimate": 0.028546288014773095,
+        "ci95": [
+          0.023589115572552093,
+          0.03387672477273344
+        ],
+        "n": 1560,
+        "tasks": 1560,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261115
+      },
+      "p8": {
+        "estimate": 0.1632755162999909,
+        "ci95": [
+          0.1398479582429972,
+          0.18799401100582788
+        ],
+        "n": 1560,
+        "tasks": 1560,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261115
+      },
+      "p8_distinct": {
+        "estimate": 0.1633576039406202,
+        "ci95": [
+          0.13992380620889786,
+          0.18808384839562217
+        ],
+        "n": 1560,
+        "tasks": 1560,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261115
+      },
+      "curves": [
+        {
+          "estimate": 0.028546288014773095,
+          "ci95": [
+            0.023589115572552093,
+            0.03387672477273344
+          ],
+          "n": 1560,
+          "tasks": 1560,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.053933701493421395,
+          "ci95": [
+            0.04484210317950369,
+            0.06367928635603637
+          ],
+          "n": 1560,
+          "tasks": 1560,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.07668963042715661,
+          "ci95": [
+            0.0641086341477557,
+            0.09017481539267318
+          ],
+          "n": 1560,
+          "tasks": 1560,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.09723697517273022,
+          "ci95": [
+            0.08174556852739244,
+            0.11378991755750523
+          ],
+          "n": 1560,
+          "tasks": 1560,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.11591683701958427,
+          "ci95": [
+            0.09797569886160554,
+            0.13508106333079137
+          ],
+          "n": 1560,
+          "tasks": 1560,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.13300598562166624,
+          "ci95": [
+            0.11301449329514006,
+            0.15435030559265212
+          ],
+          "n": 1560,
+          "tasks": 1560,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.1487303557569405,
+          "ci95": [
+            0.1268839127794167,
+            0.1719141717016245
+          ],
+          "n": 1560,
+          "tasks": 1560,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.1632755162999909,
+          "ci95": [
+            0.1398479582429972,
+            0.18799401100582788
+          ],
+          "n": 1560,
+          "tasks": 1560,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        }
+      ]
+    },
+    "main_density_tasks": {
+      "p1": {
+        "estimate": 0.029056898709030967,
+        "ci95": [
+          0.02403510007657271,
+          0.034477870855027896
+        ],
+        "n": 1509,
+        "tasks": 1509,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261115
+      },
+      "p8": {
+        "estimate": 0.16589962444480594,
+        "ci95": [
+          0.1422941858454928,
+          0.1906709781093451
+        ],
+        "n": 1509,
+        "tasks": 1509,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261115
+      },
+      "p8_distinct": {
+        "estimate": 0.16598255506093929,
+        "ci95": [
+          0.14236601239023827,
+          0.19075855784150458
+        ],
+        "n": 1509,
+        "tasks": 1509,
+        "layouts": 66,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 20261115
+      },
+      "curves": [
+        {
+          "estimate": 0.029056898709030967,
+          "ci95": [
+            0.02403510007657271,
+            0.034477870855027896
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.05488164438977022,
+          "ci95": [
+            0.04569051180164082,
+            0.06479560819502225
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.07801522202284601,
+          "ci95": [
+            0.06530613249123597,
+            0.09165568602390031
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.09889121771100422,
+          "ci95": [
+            0.08323403701644677,
+            0.11562987297146632
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.117859179872739,
+          "ci95": [
+            0.09962305682733318,
+            0.13718878312635002
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.13520259601206194,
+          "ci95": [
+            0.11487898686155533,
+            0.15662354642687276
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.15115277741067487,
+          "ci95": [
+            0.1290670370607696,
+            0.17443550438152847
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        {
+          "estimate": 0.16589962444480594,
+          "ci95": [
+            0.1422941858454928,
+            0.1906709781093451
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        }
+      ]
+    },
+    "main_all_tasks_bounds": {
+      "n": 1641,
+      "known_density_tasks": 1509,
+      "unknown_current_density_tasks": 132,
+      "lower": 0.15255486489165887,
+      "upper": 0.23299362174723473,
+      "interpretation": "Bounds, not confidence intervals: allow canonical two-second random-search success to range from zero to one."
+    },
+    "model_comparison": {
+      "gpt5": {
+        "full": {
+          "estimate": 0.390987408880053,
+          "ci95": [
+            0.35714285714285715,
+            0.4242232885853352
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115,
+          "numerator": 590
+        },
+        "neither": {
+          "estimate": 0.3412856196156395,
+          "ci95": [
+            0.306080724129037,
+            0.3774443999851113
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115,
+          "numerator": 515
+        },
+        "full_minus_random": {
+          "estimate": 0.22508778443524702,
+          "ci95": [
+            0.1926289895810408,
+            0.2576634355684248
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        "neither_minus_random": {
+          "estimate": 0.1753859951708335,
+          "ci95": [
+            0.13989925719370191,
+            0.21129584419305725
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        "full_curve": [
+          {
+            "estimate": 0.16500994035785288,
+            "ci95": [
+              0.13483107026571198,
+              0.19689239827771055
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.24652087475149106,
+            "ci95": [
+              0.2139622825874536,
+              0.27981691389719393
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.29489728296885354,
+            "ci95": [
+              0.2609926752703174,
+              0.3295107581293867
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3260437375745527,
+            "ci95": [
+              0.29153588879189724,
+              0.3601955945526003
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.34791252485089463,
+            "ci95": [
+              0.31312207825203253,
+              0.3817124525573829
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.36381709741550694,
+            "ci95": [
+              0.32910589591567857,
+              0.39824208459664995
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3790589794565938,
+            "ci95": [
+              0.3445627763912023,
+              0.41306735527784066
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.390987408880053,
+            "ci95": [
+              0.35714285714285715,
+              0.4242232885853352
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          }
+        ],
+        "neither_curve": [
+          {
+            "estimate": 0.16500994035785288,
+            "ci95": [
+              0.13483107026571198,
+              0.19689239827771055
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.22465208747514911,
+            "ci95": [
+              0.19126375551711797,
+              0.25895531218148604
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.25646123260437376,
+            "ci95": [
+              0.22302569387452764,
+              0.2906436289686153
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.2783300198807157,
+            "ci95": [
+              0.2436684701548485,
+              0.31354167528705906
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.292909211398277,
+            "ci95": [
+              0.2583543680817951,
+              0.32842297891031513
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3121272365805169,
+            "ci95": [
+              0.2773292449955699,
+              0.34847565574852446
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3273691186216037,
+            "ci95": [
+              0.2927413306773715,
+              0.36312518407830907
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3412856196156395,
+            "ci95": [
+              0.306080724129037,
+              0.3774443999851113
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          }
+        ]
+      },
+      "gemini31pro": {
+        "full": {
+          "estimate": 0.4347249834327369,
+          "ci95": [
+            0.40175534941869206,
+            0.4678621218159683
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115,
+          "numerator": 656
+        },
+        "neither": {
+          "estimate": 0.40755467196819084,
+          "ci95": [
+            0.3760215229477735,
+            0.4381762948524822
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115,
+          "numerator": 615
+        },
+        "full_minus_random": {
+          "estimate": 0.2688253589879309,
+          "ci95": [
+            0.23594113516317386,
+            0.30400670846203165
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        "neither_minus_random": {
+          "estimate": 0.24165504752338487,
+          "ci95": [
+            0.21072582830718498,
+            0.2730606087987656
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        "full_curve": [
+          {
+            "estimate": 0.2597746852220013,
+            "ci95": [
+              0.23204067516861404,
+              0.28892835997631733
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.31875414181577205,
+            "ci95": [
+              0.28953064786602767,
+              0.34867726119713777
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3518886679920477,
+            "ci95": [
+              0.3205026975455289,
+              0.38400532252144026
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3810470510271703,
+            "ci95": [
+              0.3475492977053443,
+              0.41516897186884333
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3949635520212061,
+            "ci95": [
+              0.3625,
+              0.4286681902904237
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.41020543406229293,
+            "ci95": [
+              0.37540212090757913,
+              0.44552220422431177
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.4201457919151756,
+            "ci95": [
+              0.38668266973241333,
+              0.4542578700236458
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.4347249834327369,
+            "ci95": [
+              0.40175534941869206,
+              0.4678621218159683
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          }
+        ],
+        "neither_curve": [
+          {
+            "estimate": 0.2597746852220013,
+            "ci95": [
+              0.23204067516861404,
+              0.28892835997631733
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3108018555334659,
+            "ci95": [
+              0.2821083108662525,
+              0.33989081000835764
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3373094764744864,
+            "ci95": [
+              0.307277164177594,
+              0.36801153193180175
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3605036447978794,
+            "ci95": [
+              0.3318315764744336,
+              0.3895493533603289
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3757455268389662,
+            "ci95": [
+              0.34609441429783105,
+              0.40595439581524045
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.38966202783300197,
+            "ci95": [
+              0.35882986948735873,
+              0.4200133070329013
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3976143141153082,
+            "ci95": [
+              0.36661225098313466,
+              0.4281772069281987
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.40755467196819084,
+            "ci95": [
+              0.3760215229477735,
+              0.4381762948524822
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          }
+        ]
+      },
+      "qwen36plus": {
+        "full": {
+          "estimate": 0.3889993373094765,
+          "ci95": [
+            0.3562470027105922,
+            0.4211220664928292
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115,
+          "numerator": 587
+        },
+        "neither": {
+          "estimate": 0.37309476474486414,
+          "ci95": [
+            0.3423714617255299,
+            0.4030914354942004
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115,
+          "numerator": 563
+        },
+        "full_minus_random": {
+          "estimate": 0.22309971286467048,
+          "ci95": [
+            0.18755181543976282,
+            0.2587104513853039
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        "neither_minus_random": {
+          "estimate": 0.20719514030005817,
+          "ci95": [
+            0.17463612902390108,
+            0.2404440315194755
+          ],
+          "n": 1509,
+          "tasks": 1509,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261115
+        },
+        "full_curve": [
+          {
+            "estimate": 0.18091451292246521,
+            "ci95": [
+              0.15249132751591446,
+              0.21122730505354753
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.2577866136514248,
+            "ci95": [
+              0.2228299580486548,
+              0.2932587755671185
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.2988734261100066,
+            "ci95": [
+              0.2645382174749476,
+              0.333110912911204
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3260437375745527,
+            "ci95": [
+              0.29196422943720735,
+              0.35985408000418595
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3452617627567926,
+            "ci95": [
+              0.31182693487059976,
+              0.3774849656263996
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3658051689860835,
+            "ci95": [
+              0.3331201476320023,
+              0.3974819281606539
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3790589794565938,
+            "ci95": [
+              0.34655842073086723,
+              0.4107684315448356
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3889993373094765,
+            "ci95": [
+              0.3562470027105922,
+              0.4211220664928292
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          }
+        ],
+        "neither_curve": [
+          {
+            "estimate": 0.18091451292246521,
+            "ci95": [
+              0.15249132751591446,
+              0.21122730505354753
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.24453280318091453,
+            "ci95": [
+              0.21448056820805608,
+              0.2741705870291594
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.2783300198807157,
+            "ci95": [
+              0.24858685830117716,
+              0.3082244244755501
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.3081510934393638,
+            "ci95": [
+              0.27701768307268076,
+              0.3388054957697351
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.32803180914512925,
+            "ci95": [
+              0.2957249046558475,
+              0.35955141924243045
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.33929754804506296,
+            "ci95": [
+              0.3067648624337083,
+              0.37110483205643646
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.35719019218025183,
+            "ci95": [
+              0.3268843499833222,
+              0.38757938491484256
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          },
+          {
+            "estimate": 0.37309476474486414,
+            "ci95": [
+              0.3423714617255299,
+              0.4030914354942004
+            ],
+            "n": 1509,
+            "tasks": 1509,
+            "layouts": 66,
+            "bootstrap_draws": 10000,
+            "bootstrap_seed": 20261115
+          }
+        ]
+      }
+    }
+  },
+  "no_motion": {
+    "gpt5": {
+      "chosen_initial": {
+        "model": {
+          "estimate": 0.46183065763030223,
+          "ci95": [
+            0.4256162889371398,
+            0.4974010029886116
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.3754593371966431,
+          "ci95": [
+            0.32649939039134657,
+            0.4246678989008479
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": 0.08637132043365921,
+          "ci95": [
+            0.048330086494124236,
+            0.12286971799859184
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "chosen_final": {
+        "model": {
+          "estimate": 0.5245789456392407,
+          "ci95": [
+            0.49863811309246225,
+            0.5511368166122108
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.366475448007347,
+          "ci95": [
+            0.3226227699251695,
+            0.41013370253552944
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": 0.15810349763189366,
+          "ci95": [
+            0.12189799232687751,
+            0.19582540518922506
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "chosen_success": {
+        "model": {
+          "estimate": 0.5002613659719568,
+          "ci95": [
+            0.4578083312184904,
+            0.5409640522132834
+          ],
+          "n": 686,
+          "tasks": 686,
+          "layouts": 65,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.3123963353993103,
+          "ci95": [
+            0.2694607885374636,
+            0.3548138436141971
+          ],
+          "n": 686,
+          "tasks": 686,
+          "layouts": 65,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.18786503057264664,
+          "ci95": [
+            0.15993041985396853,
+            0.21419687896684053
+          ],
+          "n": 686,
+          "tasks": 686,
+          "layouts": 65,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "chosen_failure": {
+        "model": {
+          "estimate": 0.5084438261703873,
+          "ci95": [
+            0.4810271059105594,
+            0.5360498040264052
+          ],
+          "n": 8664,
+          "tasks": 1332,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.3877467210794971,
+          "ci95": [
+            0.3362320551646316,
+            0.4372145352722201
+          ],
+          "n": 8664,
+          "tasks": 1332,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.12069710509089022,
+          "ci95": [
+            0.07524640849336736,
+            0.16548688593970368
+          ],
+          "n": 8664,
+          "tasks": 1332,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "novel_pre": {
+        "model": {
+          "estimate": 0.47821765030523167,
+          "ci95": [
+            0.41979009606008905,
+            0.5337140820435856
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.5710302099932081,
+          "ci95": [
+            0.5102037956309127,
+            0.6307984571882309
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": -0.09281255968797647,
+          "ci95": [
+            -0.1576190663879681,
+            -0.026175423028682712
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "novel_post": {
+        "model": {
+          "estimate": 0.5944653763224409,
+          "ci95": [
+            0.538408266374722,
+            0.6487205585019034
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.5710302099932081,
+          "ci95": [
+            0.5102037956309127,
+            0.6307984571882309
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": 0.023435166329232884,
+          "ci95": [
+            -0.039402174807892584,
+            0.0895031230828798
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "early_novel_first_success": {
+        "model": {
+          "estimate": 0.6267221148926593,
+          "ci95": [
+            0.5496296985463199,
+            0.6950289776586889
+          ],
+          "n": 56,
+          "tasks": 56,
+          "layouts": 40,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.5330895027767618,
+          "ci95": [
+            0.4673616777025005,
+            0.5991993702770567
+          ],
+          "n": 56,
+          "tasks": 56,
+          "layouts": 40,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.0936326121158975,
+          "ci95": [
+            0.004615459471285078,
+            0.17566233341440415
+          ],
+          "n": 56,
+          "tasks": 56,
+          "layouts": 40,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "early_novel_first_failure": {
+        "model": {
+          "estimate": 0.6275225880237547,
+          "ci95": [
+            0.5631699225446535,
+            0.6926995138862325
+          ],
+          "n": 60,
+          "tasks": 60,
+          "layouts": 47,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.6052126882797566,
+          "ci95": [
+            0.5276596598382093,
+            0.6758252266771131
+          ],
+          "n": 60,
+          "tasks": 60,
+          "layouts": 47,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.022309899743998173,
+          "ci95": [
+            -0.05949111027078425,
+            0.11435090703080175
+          ],
+          "n": 60,
+          "tasks": 60,
+          "layouts": 47,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      }
+    },
+    "gemini31pro": {
+      "chosen_initial": {
+        "model": {
+          "estimate": 0.4354999304685909,
+          "ci95": [
+            0.38949845091207674,
+            0.47926431941532593
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.35191854396262906,
+          "ci95": [
+            0.3072687289861252,
+            0.39879734144372825
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": 0.08358138650596177,
+          "ci95": [
+            0.0346186773527441,
+            0.1287548896246282
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "chosen_final": {
+        "model": {
+          "estimate": 0.45344622813408114,
+          "ci95": [
+            0.41015503701784256,
+            0.4960891769401935
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.36789153934901925,
+          "ci95": [
+            0.323302642593388,
+            0.4129072669973104
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": 0.0855546887850619,
+          "ci95": [
+            0.04142774695732034,
+            0.12844018793853787
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "chosen_success": {
+        "model": {
+          "estimate": 0.449066486098046,
+          "ci95": [
+            0.39521876805623585,
+            0.5047250899480097
+          ],
+          "n": 763,
+          "tasks": 763,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.3280849163008447,
+          "ci95": [
+            0.2839196771446097,
+            0.37257312945061616
+          ],
+          "n": 763,
+          "tasks": 763,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.12098156979720125,
+          "ci95": [
+            0.0754748832715731,
+            0.164615135323997
+          ],
+          "n": 763,
+          "tasks": 763,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "chosen_failure": {
+        "model": {
+          "estimate": 0.43739086466528565,
+          "ci95": [
+            0.39559262476784507,
+            0.4796458152010122
+          ],
+          "n": 7860,
+          "tasks": 1177,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.3809985101192029,
+          "ci95": [
+            0.333672897388704,
+            0.42840871051026835
+          ],
+          "n": 7860,
+          "tasks": 1177,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.05639235454608264,
+          "ci95": [
+            -0.0012135768959808558,
+            0.10855535883264263
+          ],
+          "n": 7860,
+          "tasks": 1177,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "novel_pre": {
+        "model": {
+          "estimate": 0.4515733286163531,
+          "ci95": [
+            0.3843464978973264,
+            0.5180083697210063
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.56204546464582,
+          "ci95": [
+            0.49967596147696824,
+            0.6233496751686192
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": -0.11047213602946698,
+          "ci95": [
+            -0.19627688602004756,
+            -0.02783354721698819
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "novel_post": {
+        "model": {
+          "estimate": 0.4965987623929278,
+          "ci95": [
+            0.4330843195154272,
+            0.5564664673141595
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.56204546464582,
+          "ci95": [
+            0.49967596147696824,
+            0.6233496751686192
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": -0.06544670225289229,
+          "ci95": [
+            -0.1536782112215213,
+            0.020959221579918322
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "early_novel_first_success": {
+        "model": {
+          "estimate": 0.4714115035459696,
+          "ci95": [
+            0.39256469452461923,
+            0.5453151371613417
+          ],
+          "n": 64,
+          "tasks": 64,
+          "layouts": 44,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.5357857431933686,
+          "ci95": [
+            0.4687680812924218,
+            0.603519298650318
+          ],
+          "n": 64,
+          "tasks": 64,
+          "layouts": 44,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": -0.064374239647399,
+          "ci95": [
+            -0.1644973808472852,
+            0.03688876732575208
+          ],
+          "n": 64,
+          "tasks": 64,
+          "layouts": 44,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "early_novel_first_failure": {
+        "model": {
+          "estimate": 0.5100018336596966,
+          "ci95": [
+            0.4222847697836703,
+            0.5918232540623287
+          ],
+          "n": 52,
+          "tasks": 52,
+          "layouts": 41,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.6210619584726593,
+          "ci95": [
+            0.5436649731823633,
+            0.6960000370297776
+          ],
+          "n": 52,
+          "tasks": 52,
+          "layouts": 41,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": -0.11106012481296265,
+          "ci95": [
+            -0.21971197279744592,
+            -0.007250816068453624
+          ],
+          "n": 52,
+          "tasks": 52,
+          "layouts": 41,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      }
+    },
+    "qwen36plus": {
+      "chosen_initial": {
+        "model": {
+          "estimate": 0.43500621243016746,
+          "ci95": [
+            0.3990167026911151,
+            0.4703826504371588
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.3833385873562914,
+          "ci95": [
+            0.3336013704731392,
+            0.43296056692614465
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": 0.05166762507387598,
+          "ci95": [
+            0.023473519402223513,
+            0.07875740198715422
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "chosen_final": {
+        "model": {
+          "estimate": 0.4873789778714198,
+          "ci95": [
+            0.4581927798413293,
+            0.5171682641370196
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.3477780525790369,
+          "ci95": [
+            0.3053827310201541,
+            0.3895114387423384
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": 0.13960092529238285,
+          "ci95": [
+            0.11148506033212255,
+            0.1682648485727144
+          ],
+          "n": 1641,
+          "tasks": 1641,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "chosen_success": {
+        "model": {
+          "estimate": 0.45422778850672674,
+          "ci95": [
+            0.41257609967600306,
+            0.4954307612038764
+          ],
+          "n": 683,
+          "tasks": 683,
+          "layouts": 65,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.3160058998929052,
+          "ci95": [
+            0.2724963252964388,
+            0.36029400382074833
+          ],
+          "n": 683,
+          "tasks": 683,
+          "layouts": 65,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.1382218886138215,
+          "ci95": [
+            0.11809455536857505,
+            0.16054349544209504
+          ],
+          "n": 683,
+          "tasks": 683,
+          "layouts": 65,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "chosen_failure": {
+        "model": {
+          "estimate": 0.48114450081651094,
+          "ci95": [
+            0.4531672958944817,
+            0.5107213537842032
+          ],
+          "n": 8598,
+          "tasks": 1308,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.3793358668281296,
+          "ci95": [
+            0.33098838421061627,
+            0.4271443040434271
+          ],
+          "n": 8598,
+          "tasks": 1308,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.10180863398838134,
+          "ci95": [
+            0.06186588533421392,
+            0.13839209269804945
+          ],
+          "n": 8598,
+          "tasks": 1308,
+          "layouts": 66,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "novel_pre": {
+        "model": {
+          "estimate": 0.5455294225419902,
+          "ci95": [
+            0.4919523098174987,
+            0.5975392533881769
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.5466171393689433,
+          "ci95": [
+            0.486913332283589,
+            0.6071259903768639
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": -0.0010877168269531,
+          "ci95": [
+            -0.06891377813584396,
+            0.06683926565205897
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "novel_post": {
+        "model": {
+          "estimate": 0.6176842128605715,
+          "ci95": [
+            0.565526118073582,
+            0.6678714836782008
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.5466171393689433,
+          "ci95": [
+            0.486913332283589,
+            0.6071259903768639
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": 0.07106707349162823,
+          "ci95": [
+            0.015902657950387415,
+            0.12635106976949687
+          ],
+          "n": 116,
+          "tasks": 116,
+          "layouts": 65,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "early_novel_first_success": {
+        "model": {
+          "estimate": 0.583312380992622,
+          "ci95": [
+            0.5092593111898968,
+            0.6556285894136608
+          ],
+          "n": 53,
+          "tasks": 53,
+          "layouts": 37,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.49531099091486724,
+          "ci95": [
+            0.4269897994317922,
+            0.5684697150864984
+          ],
+          "n": 53,
+          "tasks": 53,
+          "layouts": 37,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.08800139007775457,
+          "ci95": [
+            0.0007060349801026292,
+            0.16549614128390266
+          ],
+          "n": 53,
+          "tasks": 53,
+          "layouts": 37,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "early_novel_first_failure": {
+        "model": {
+          "estimate": 0.6526165653065786,
+          "ci95": [
+            0.581064148109712,
+            0.7178677663788579
+          ],
+          "n": 63,
+          "tasks": 63,
+          "layouts": 44,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.6029576136877445,
+          "ci95": [
+            0.5292116647404698,
+            0.6711003417920509
+          ],
+          "n": 63,
+          "tasks": 63,
+          "layouts": 44,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.04965895161883402,
+          "ci95": [
+            -0.020861940576119817,
+            0.11930111471693908
+          ],
+          "n": 63,
+          "tasks": 63,
+          "layouts": 44,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      }
+    },
+    "robotics_er2": {
+      "chosen_initial": {
+        "model": {
+          "estimate": 0.5126015694693679,
+          "ci95": [
+            0.4669459081332977,
+            0.5572631416428512
+          ],
+          "n": 132,
+          "tasks": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.342150571869485,
+          "ci95": [
+            0.29189724787569515,
+            0.39215387091408044
+          ],
+          "n": 132,
+          "tasks": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": 0.17045099759988283,
+          "ci95": [
+            0.10616704702653164,
+            0.23197691913858062
+          ],
+          "n": 132,
+          "tasks": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "chosen_final": {
+        "model": {
+          "estimate": 0.5574599794485477,
+          "ci95": [
+            0.5152511531507765,
+            0.5981349340374337
+          ],
+          "n": 132,
+          "tasks": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.3193257148992486,
+          "ci95": [
+            0.2740622781476042,
+            0.3660065401952861
+          ],
+          "n": 132,
+          "tasks": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": 0.23813426454929915,
+          "ci95": [
+            0.18513081165367137,
+            0.2910430746029499
+          ],
+          "n": 132,
+          "tasks": 132,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "chosen_success": {
+        "model": {
+          "estimate": 0.5845349039992809,
+          "ci95": [
+            0.5293840337362772,
+            0.6376196217863221
+          ],
+          "n": 100,
+          "tasks": 100,
+          "layouts": 61,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.27215726711792293,
+          "ci95": [
+            0.22040025052038928,
+            0.3250263389053473
+          ],
+          "n": 100,
+          "tasks": 100,
+          "layouts": 61,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.31237763688135795,
+          "ci95": [
+            0.26138153229550776,
+            0.36588517903715523
+          ],
+          "n": 100,
+          "tasks": 100,
+          "layouts": 61,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "chosen_failure": {
+        "model": {
+          "estimate": 0.4483442374771353,
+          "ci95": [
+            0.39163812721715635,
+            0.5036942331766969
+          ],
+          "n": 355,
+          "tasks": 69,
+          "layouts": 46,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.4125852043324143,
+          "ci95": [
+            0.34400634191913265,
+            0.47695090626401093
+          ],
+          "n": 355,
+          "tasks": 69,
+          "layouts": 46,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.03575903314472107,
+          "ci95": [
+            -0.05703491698857118,
+            0.12841197273637184
+          ],
+          "n": 355,
+          "tasks": 69,
+          "layouts": 46,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "novel_pre": {
+        "model": {
+          "estimate": 0.5488254559752543,
+          "ci95": [
+            0.4896224453902092,
+            0.6045568829970923
+          ],
+          "n": 127,
+          "tasks": 127,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.5588188670523813,
+          "ci95": [
+            0.4979844673075337,
+            0.6187541949014719
+          ],
+          "n": 127,
+          "tasks": 127,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": -0.009993411077126984,
+          "ci95": [
+            -0.09075574654863049,
+            0.06724023874164174
+          ],
+          "n": 127,
+          "tasks": 127,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "novel_post": {
+        "model": {
+          "estimate": 0.5822840334966003,
+          "ci95": [
+            0.5289322673427824,
+            0.6329137525591451
+          ],
+          "n": 127,
+          "tasks": 127,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "no_motion": {
+          "estimate": 0.5588188670523813,
+          "ci95": [
+            0.4979844673075337,
+            0.6187541949014719
+          ],
+          "n": 127,
+          "tasks": 127,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        },
+        "difference": {
+          "estimate": 0.02346516644421885,
+          "ci95": [
+            -0.04896737568222508,
+            0.09637843791610282
+          ],
+          "n": 127,
+          "tasks": 127,
+          "layouts": 66,
+          "bootstrap_draws": 10000,
+          "bootstrap_seed": 20261114
+        }
+      },
+      "early_novel_first_success": {
+        "model": {
+          "estimate": 0.5688967212764019,
+          "ci95": [
+            0.4868366891385951,
+            0.6429659331628776
+          ],
+          "n": 61,
+          "tasks": 61,
+          "layouts": 43,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.5157249642864128,
+          "ci95": [
+            0.44727636020517936,
+            0.5901602656648064
+          ],
+          "n": 61,
+          "tasks": 61,
+          "layouts": 43,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": 0.05317175698998904,
+          "ci95": [
+            -0.06496553912896483,
+            0.15604852589468485
+          ],
+          "n": 61,
+          "tasks": 61,
+          "layouts": 43,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      },
+      "early_novel_first_failure": {
+        "model": {
+          "estimate": 0.5957890052032818,
+          "ci95": [
+            0.5255650123820717,
+            0.6613447407658471
+          ],
+          "n": 66,
+          "tasks": 66,
+          "layouts": 44,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "no_motion": {
+          "estimate": 0.6027905238205777,
+          "ci95": [
+            0.5311934246508236,
+            0.6683853183847362
+          ],
+          "n": 66,
+          "tasks": 66,
+          "layouts": 44,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        },
+        "difference": {
+          "estimate": -0.007001518617295933,
+          "ci95": [
+            -0.09466566097657085,
+            0.07925698880212055
+          ],
+          "n": 66,
+          "tasks": 66,
+          "layouts": 44,
+          "bootstrap_draws": 2000,
+          "bootstrap_seed": 6112701
+        }
+      }
+    }
+  },
+  "methods": {
+    "random_search": "Average 1-(1-p_g)^8 across tasks, with p_g equal to successful/valid saved-grid placements. Each trial resets the same world. This is uniform grid search, not retry-only LMM behavior.",
+    "random_distinct": "Sensitivity for eight distinct valid grid placements: 1-product_{j=0..7}(1-K_g/(N_g-j)).",
+    "random_scope": "1560 noncanonical goals have compatible saved densities; 1509 are in the primary 1641-task set. Canonical132 has a saved three-second solution proxy, not a matched two-second density, and is excluded from the point baseline.",
+    "random_uncertainty": "Intervals resample whole layouts, conditional on fixed saved-grid densities. They do not estimate discretization error or success-density uncertainty over continuous placements.",
+    "no_motion": "Predict each scored dynamic object stays at its simulator initial center; predict PLACED stays at the supplied chosen/probe placement. Predict no exits. Static objects are excluded exactly as in model PQ. Uses exact scene geometry, without perceptual localization error.",
+    "PQ": "Average exp(-squared_endpoint_error/(2*150^2)) over the same objects as the model score. Actual exits score zero for no-motion. Invalid/missing model forecasts retain the original zero credit.",
+    "pairing": "Compare each model with no-motion on that model\u2019s exact actions, probe placements, objects, checkpoints and task population. Differences are paired, not differences between independently sampled averages.",
+    "intervals": "Pointwise whole-layout percentile bootstrap; retain all goals, directions and attempts. Conditional chosen groups use inverse episode-length weights matching Figure 4A. Other groups weight episodes equally.",
+    "causal_scope": "Beating random search indicates useful action selection relative to this reference; it does not isolate feedback learning. Full-feedback versus retry remains the matched feedback-use comparison.",
+    "qualitative_prediction": "The response schema requests terminal object states, endpoints, exit sides and optional orientation. Collision and movement events define goals/diagnostics; no separately scored prospective collision/movement prediction is part of these results."
+  },
+  "verification": {
+    "chosen_attempts_independently_rescored": 27709,
+    "saved_density_count_ratios_checked": 1560,
+    "published_model_means_and_intervals_reproduced": true,
+    "fixed_terminal_probe_baseline_identical_pre_post": true
+  },
+  "inputs_sha256": {
+    "benchmark/tasks.json": "b0fd63139d39a7e6073fedf19ba9d57c0af10a055adb3eab09d11bd41f938f29",
+    "benchmark/asset_index.json": "b265da7e2a35f2667c8b4f385ab5e4916b43e557ed27e71c05a6e14597e3c02c",
+    "data/finalized/manifest.json": "1b0f0432a751cc838af47dfe6d7cba48f17cdfe31fb599f8b7ed5d54c6f02503"
+  }
+}

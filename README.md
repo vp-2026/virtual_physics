@@ -13,6 +13,8 @@ On the finalized 1,641-task main population, full-feedback solve rates are 41.80
 
 Action success is binary. Prediction quality gives graded spatial credit to object-endpoint predictions; it is not percentage accuracy. Feedback benefits are compared against retry controls, and correspondence analyses account for task difficulty and feedback exposure. See the results reference for model-specific estimates and uncertainty.
 
+The [reference baselines](results/baselines/README.md) compare success with uniform random placement and prediction quality with a no-motion forecast. See the [prompt protocol](prompts/README.md), [worked two-attempt example](docs/worked_interaction_example.md), and [evaluation populations](docs/evaluation_populations.md) for concrete definitions.
+
 ## Reproduce offline
 
 Python 3.12 is the validated runtime. From this repository:
@@ -24,7 +26,7 @@ python -m pip install -r requirements-analysis.txt
 python scripts/reproduce.py --output outputs/reproduction
 ```
 
-This command checks dataset integrity, verifies all 66 scenes against the simulator, re-scores recorded responses, recomputes tables and bootstrap intervals, independently checks endpoint scores and Figure 4 estimators, and renders vector Figures 3 and 4. It makes **no model API calls**. Use a new output directory for each reproduction.
+This command checks dataset integrity, verifies all 66 scenes against the simulator, re-scores recorded responses, recomputes tables and bootstrap intervals, independently checks endpoint scores and Figure 4 estimators, calculates random-placement and no-motion baselines, and renders vector Figures 3 and 4. It makes **no model API calls**. Use a new output directory for each reproduction.
 
 For integrity checks alone:
 
@@ -32,7 +34,7 @@ For integrity checks alone:
 python scripts/release/verify_release.py --geometry
 ```
 
-The output includes `summary.json`, `estimates.csv`, exact task IDs in `populations.json`, `tables/`, and `figures/plotted_values.json`. Collection scripts are in [`scripts/experiment/`](scripts/experiment/); the offline analysis requires no credentials.
+The output includes `summary.json`, `estimates.csv`, exact task IDs in `populations.json`, `tables/`, `baselines/`, and `figures/plotted_values.json`. Collection scripts are in [`scripts/experiment/`](scripts/experiment/); the offline analysis requires no credentials.
 
 ## Data and licensing
 
