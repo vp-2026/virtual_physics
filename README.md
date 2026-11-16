@@ -2,7 +2,9 @@
 
 [Paper — NeurIPS 2026](https://neurips.cc/virtual/2026/loc/atlanta/poster/139556)
 
-A benchmark of action selection, outcome prediction, and prediction for new actions: **1,692 tasks across 66 layouts with upward and downward tools**.
+A joint evaluation framework for **action, prediction, and transfer** in multimodal models. We test whether models can improve their actions through feedback, predict the consequences of their chosen actions, and use that experience to reason about new, untried actions. Evaluating these capacities together reveals whether successful action is accompanied by accurate prediction and transfer.
+
+The accompanying virtual physics tasks provide the setting for this evaluation: **1,692 tasks across 66 layouts with upward and downward tools**.
 
 ## Data
 
