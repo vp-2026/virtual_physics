@@ -649,7 +649,7 @@ def run_headless_episode(
     if record_video:
         if imageio is None:
             raise ModuleNotFoundError(
-                "imageio is required for record_video=True. Install dependencies from requirements.txt."
+                "imageio is required for record_video=True. Install dependencies from scripts/requirements.txt."
             )
         os.makedirs(video_dir, exist_ok=True)
         base = video_basename or (world_dict.get("_source_name") or "episode")

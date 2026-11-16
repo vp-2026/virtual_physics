@@ -1,4 +1,6 @@
-# Virtual Physics
+# Acting Without Knowing: Multimodal Models Do Not Yet Understand the Consequences of Their Actions
+
+[Paper — NeurIPS 2026](https://neurips.cc/virtual/2026/loc/atlanta/poster/139556)
 
 A benchmark of action selection, outcome prediction, and prediction for new actions: **1,692 tasks across 66 layouts with upward and downward tools**.
 
@@ -41,4 +43,4 @@ The feedback runner selects conditions through `--conditions`:
 
 Prompt framing is selected with `--prompt-variant full` or `--prompt-variant compact`. Exact model settings are stored with the model records.
 
-Offline scoring and reproduction: [`scripts/README.md`](scripts/README.md). Licensing and attribution: [`LICENSE`](LICENSE), [`NOTICE.md`](NOTICE.md), [`LICENSE_STATUS.md`](LICENSE_STATUS.md).
+Offline scoring and reproduction: [`scripts/README.md`](scripts/README.md). Licensing and attribution: [`LICENSE`](LICENSE), [`docs/licensing.md`](docs/licensing.md).

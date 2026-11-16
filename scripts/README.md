@@ -7,7 +7,7 @@ From the repository root, using Python 3.12:
 ```bash
 python3.12 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements-analysis.txt
+python -m pip install -r scripts/requirements.txt
 python scripts/reproduce.py --output outputs/reproduction
 ```
 
@@ -28,4 +28,4 @@ python scripts/experiment/transfer_sidecar_runner.py --help
 
 [`experiment/forked_feedback_runner.py`](experiment/forked_feedback_runner.py) implements action selection, chosen-action prediction, and feedback controls. [`experiment/transfer_sidecar_runner.py`](experiment/transfer_sidecar_runner.py) implements the isolated early and terminal novel-action probes. Both use [`experiment/goal_probe_runner.py`](experiment/goal_probe_runner.py).
 
-Collection dependencies are listed in [`requirements.txt`](../requirements.txt). Exact collected model settings are retained in the corresponding model records.
+Collection dependencies are listed in [`requirements-experiments.txt`](requirements-experiments.txt); install them from the repository root with `python -m pip install -r scripts/requirements-experiments.txt`. Exact collected model settings are retained in the corresponding model records.

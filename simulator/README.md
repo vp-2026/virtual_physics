@@ -7,9 +7,8 @@ densities.
 
 The bundled simulator is published under the repository [MIT License](../LICENSE)
 on the basis of the maintainer's stated permission and explicit MIT direction.
-Original Virtual Tools attribution is in [NOTICE.md](../NOTICE.md);
-[LICENSE_STATUS.md](../LICENSE_STATUS.md) distinguishes simulator code, upstream
-task assets, and dependencies with separate licenses.
+Original Virtual Tools attribution and the scope for simulator code, upstream
+task assets, and dependencies are in [licensing.md](../docs/licensing.md).
 
 Important frozen conventions:
 
