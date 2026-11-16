@@ -3,6 +3,14 @@
 __pycache__/
 *.py[cod]
 outputs/
+results/
+analysis/
+analyses/
+audit/
+audits/
+archive/
+archives/
+provenance/
 participant_onetool/
 .Rhistory
 *.Rhistory

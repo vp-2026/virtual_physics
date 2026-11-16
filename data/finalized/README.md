@@ -1,13 +1,28 @@
-# Finalized model observations
+# Model outputs
 
-`manifest.json` identifies the authoritative shards, SHA-256 checksums, completed units, missing replacements, and record-level replacement lineage. Read each `*.jsonl.gz` shard with Python's `gzip.open(path, "rt")`; each line is one model-task episode across its feedback conditions.
+| Model | Files |
+|---|---|
+| GPT-5 | [`gpt5/`](gpt5/) |
+| Gemini 3.1 Pro | [`gemini31pro/`](gemini31pro/) |
+| Qwen 3.6 Plus | [`qwen36plus/`](qwen36plus/) |
+| Gemini Robotics-ER 2 | [`robotics_er2/`](robotics_er2/) |
 
-- `summary`: model, seed, task definition, branch success and valid-attempt counts.
-- `attempt_records`: executed placements, goal outcomes and simulated object endpoints.
-- `provider_calls`: prompts, image hashes, raw responses and normalized response payloads.
-- `sidecar_records`: fixed early/terminal novel interventions, predictions and scoring truth.
-- `collection_provenance` on replacements: correction date and original-record fingerprint.
+[`manifest.json`](manifest.json) indexes the compressed JSONL shards and their checksums. Each line is one model–task episode containing:
 
-Only BackUp_8, Balance_8 and Falling_1 are replaced. Unaffected observations retain their original fingerprints. Interrupted responses and recovery calls are retained rather than converted into failures.
+- `summary`: model, seed, task, and outcomes for each feedback condition.
+- `attempt_records`: tool placements, action success, and simulated object endpoints.
+- `provider_calls`: rendered prompts, image hashes, raw responses, and parsed predictions.
+- `sidecar_records`: novel-action probes, predictions, and simulator truth.
 
-Completed model-unit counts are not interchangeable with analysis sample sizes. Use `results/populations.json` for the exact main, broad-control and matched-probe memberships, and `results/method.json` for estimators. Coordinates use the original 600-pixel Cartesian scene convention. Human participant-level records are not included.
+Read a shard from the repository root:
+
+```python
+import gzip
+import json
+
+with gzip.open("data/finalized/gpt5/units-0000.jsonl.gz", "rt") as stream:
+    episode = json.loads(next(stream))
+print(episode["summary"]["goal"]["balanced_goal_id"])
+```
+
+Task IDs correspond to [`benchmark/tasks.json`](../../benchmark/tasks.json). Coordinates use the 600-pixel Cartesian scene convention described in [`simulator/README.md`](../../simulator/README.md).

@@ -1,8 +1,0 @@
-{
-  "budget_usd": 2.0,
-  "reported_cost_usd": 0.104153525,
-  "requests": 9,
-  "reservation_assumptions": "10,000 input + 16384 output tokens per pending request at recorded prices; settle known actual cost, retain reservation for unknown charges.",
-  "reserved_upper_estimate_usd": 0.104153525,
-  "usage_missing_requests": 0
-}

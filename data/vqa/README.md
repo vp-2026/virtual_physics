@@ -1,7 +1,8 @@
-# Current-scene static VQA
+# Static scene-reading control
 
-`responses.jsonl` retains 198 returned responses (66 layouts per model) and six historical storage-interruption events. Nine returned responses use corrected scene inputs; the other 189 are unchanged. The frozen scorer selects the first returned, non-error response per call, retaining malformed responses rather than choosing a better answer.
+- [`battery/`](battery/) contains scene images, questions, answer keys, prompt payloads, and protocol settings.
+- [`responses.jsonl`](responses.jsonl) contains the response log for GPT-5, Gemini 3.1 Pro, and Qwen 3.6 Plus.
+- [`source_map.json`](source_map.json) maps responses to their exact request and response files in [`recorded_calls.zip`](recorded_calls.zip) and [`corrected_calls/`](corrected_calls/).
+- [`scripts/evaluation/reproduce_vqa.py`](../../scripts/evaluation/reproduce_vqa.py) re-scores these records offline.
 
-`battery/` contains frozen questions, eligibility rules and corrected answer keys. `source_map.json` resolves retained raw requests and responses, including the unchanged calls in `recorded_calls.zip`. `corrected_calls/` preserves the nine new requests and responses. No other layout was recollected.
-
-Invalid or missing answers receive no credit. The original quadrant-boundary rule yields 670 eligible items per model after the scene corrections. Run `python scripts/reproduce.py` from the repository root to reproduce scores and layout-bootstrap intervals without inference. The primary results reference is `results/RESULTS.md`.
+See [`scripts/README.md`](../../scripts/README.md) for the reproduction command.

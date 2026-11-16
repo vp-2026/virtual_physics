@@ -265,7 +265,7 @@ def write_report(out,report):
               '- `no_motion.csv`: initial/final chosen, successful/failed chosen, pre/post novel and one-rollout novel comparisons.',
               '- `random_search.tex` and `no_motion.tex`: standalone `booktabs` table fragments.',
               '', 'From the repository root:', '', '```bash',
-              'python scripts/evaluation/baselines.py --results results --output outputs/baselines', '```',
+              'python scripts/evaluation/baselines.py --results outputs/reproduction --output outputs/baselines', '```',
               '', 'The main `python scripts/reproduce.py --output outputs/reproduction` command also regenerates these references.', '']
     (out/'README.md').write_text('\n'.join(lines))
     random_tex=['\\begin{tabular}{lrr}','\\toprule','Method & Full feedback (\\%) & Retry only (\\%) \\\\','\\midrule',f"Uniform random & {ci(base,True)} & {ci(base,True)} \\\\"]
@@ -282,5 +282,5 @@ def write_report(out,report):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repo-root',type=Path,default=ROOT)
-    p.add_argument('--results',type=Path,default=ROOT/'results');p.add_argument('--output',type=Path,required=True)
+    p.add_argument('--results',type=Path,default=ROOT/'outputs/reproduction');p.add_argument('--output',type=Path,required=True)
     a=p.parse_args();analyze_baselines(a.repo_root.resolve(),a.results.resolve(),a.output.resolve())
